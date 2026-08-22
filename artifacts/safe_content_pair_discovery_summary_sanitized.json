@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-08-22T19:44:22.119448+00:00",
+  "input_source_files": 147,
+  "files_attempted": 147,
+  "files_read_ok": 147,
+  "sheet_or_record_groups_read_ok": 216,
+  "pair_candidate_rows": 838,
+  "distinct_files_with_pairs": 113,
+  "distinct_pair_hashes": 838,
+  "cooccurring_row_total": 1229928,
+  "pair_rows_by_target_hint": {
+    "Cause;Activity;Activity Type": 36,
+    "unknown": 802
+  },
+  "pair_rows_by_data_family": {
+    "structured": 300,
+    "tabular": 538
+  },
+  "error_count": 0,
+  "settings": {
+    "method_scope": "safe_content_text_code_pair_discovery_for_tabular_and_structured_source_data",
+    "documents_and_pdfs_attempted": false,
+    "row_level_validation_performed": false,
+    "can_support_measurement_without_validation": false,
+    "raw_values_emitted_in_versionable_outputs": false
+  },
+  "outputs": {
+    "internal_pair_discovery_csv": "reports/internal/safe_content_pair_discovery.csv",
+    "sanitized_pair_discovery_csv": "reports/safe_content_pair_discovery_sanitized.csv",
+    "internal_error_csv": "reports/internal/safe_content_pair_discovery_errors.csv"
+  },
+  "raw_operational_values_emitted": false
+}
