@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and restricted internal outputs
+*.zip
+*.tar
+*.tar.gz
+*.7z
+data/raw/*
+data/external/*
+data/interim/*
+data/processed/*
+logs/*
+reports/internal/*
+artifacts/internal/*
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/external/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/reference/.gitkeep
+!logs/.gitkeep
+!reports/internal/.gitkeep
+!artifacts/internal/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local/private safety configuration
+config/*.local.*
+config/restricted_terms.local.txt

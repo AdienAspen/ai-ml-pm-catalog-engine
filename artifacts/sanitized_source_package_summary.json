@@ -1,0 +1,8 @@
+{
+  "package_count": 4,
+  "total_size_mb_rounded": 69.23,
+  "raw_data_committed": false,
+  "sensitive_source_names_committed": false,
+  "internal_manifest_location": "reports/internal/raw_source_package_manifest.csv",
+  "note": "Versioned package identifiers are sanitized. Restricted internal manifests remain local and ignored by Git."
+}

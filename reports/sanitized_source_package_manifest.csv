@@ -1,0 +1,5 @@
+package_id,package_role,size_mb_rounded,raw_data_committed,contains_sensitive_source_names
+package_001,baseline_source_package,34.37,false,true
+package_002,pdf_source_family_package,31.12,false,true
+package_003,spreadsheet_source_family_package,3.44,false,true
+package_004,planning_reference_package,0.29,false,true

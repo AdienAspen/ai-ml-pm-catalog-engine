@@ -1,0 +1,27 @@
+{
+  "project": "Asset ML Feasibility",
+  "stint": "STINT_0_controlled_migration_reconstruction",
+  "validation_chain": [
+    "signal_exists",
+    "runtime_usable",
+    "valid_label_or_mapping",
+    "measurable_target",
+    "feasible_method"
+  ],
+  "targets": [
+    {"target": "Symptom", "catalog": "S"},
+    {"target": "Object Part", "catalog": "B"},
+    {"target": "Damage", "catalog": "C"},
+    {"target": "Cause", "catalog": "5"},
+    {"target": "Activity", "catalog": "A"},
+    {"target": "Functional-location leaf segment", "catalog": null},
+    {"target": "Activity Type", "catalog": "equipment_or_material_activity_code"}
+  ],
+  "governance": {
+    "commit_raw_source_data": false,
+    "external_reports_allow_raw_operational_values": false,
+    "model_training_allowed_in_this_stage": false,
+    "accuracy_estimates_allowed_in_this_stage": false,
+    "final_feasibility_conclusions_allowed_in_this_stage": false
+  }
+}
