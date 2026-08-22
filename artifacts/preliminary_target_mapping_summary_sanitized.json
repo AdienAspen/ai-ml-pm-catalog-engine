@@ -1,0 +1,67 @@
+{
+  "created_at_utc": "2026-08-22T19:23:22.612910+00:00",
+  "input_schema_columns": 1914,
+  "input_structural_rows": 288,
+  "input_overlap_rows": 2,
+  "input_catalog_terms": 13986,
+  "source_schema_columns_evaluated": 420,
+  "source_sheets_evaluated": 215,
+  "preliminary_mapping_rows": 9,
+  "measurement_ready_rows": 0,
+  "pair_discovery_ready_rows": 9,
+  "target_mapping_rows_by_target": {
+    "Symptom": 0,
+    "Object Part": 0,
+    "Damage": 0,
+    "Cause": 3,
+    "Activity": 3,
+    "FLOC leaf segment": 0,
+    "Activity Type": 3
+  },
+  "distinct_sheets_by_target": {
+    "Symptom": 0,
+    "Object Part": 0,
+    "Damage": 0,
+    "Cause": 1,
+    "Activity": 1,
+    "FLOC leaf segment": 0,
+    "Activity Type": 1
+  },
+  "distinct_columns_by_target": {
+    "Symptom": 0,
+    "Object Part": 0,
+    "Damage": 0,
+    "Cause": 1,
+    "Activity": 2,
+    "FLOC leaf segment": 0,
+    "Activity Type": 1
+  },
+  "mapping_signal_type_counts": {
+    "catalog_or_anchor_overlap": 2,
+    "target_header_anchor": 4,
+    "text_code_sheet_context": 3
+  },
+  "vocabulary_status_counts": {
+    "loaded": 6,
+    "pending_ge_mat_controlled_source": 3
+  },
+  "targets_without_loaded_vocabulary": [
+    "FLOC leaf segment",
+    "Activity Type"
+  ],
+  "settings": {
+    "method_scope": "preliminary_catalog_target_mapping_from_schema_profile_and_vocabulary_overlap",
+    "content_values_scanned": false,
+    "row_level_pair_validation_performed": false,
+    "not_ground_truth": true,
+    "not_model_threshold": true,
+    "not_endpoint_classify_threshold": true
+  },
+  "outputs": {
+    "internal_target_mapping_csv": "reports/internal/preliminary_target_mapping.csv",
+    "sanitized_target_mapping_csv": "reports/preliminary_target_mapping_sanitized.csv",
+    "internal_summary_json": "artifacts/internal/preliminary_target_mapping_summary.json",
+    "sanitized_summary_json": "artifacts/preliminary_target_mapping_summary_sanitized.json"
+  },
+  "raw_operational_values_emitted": false
+}
