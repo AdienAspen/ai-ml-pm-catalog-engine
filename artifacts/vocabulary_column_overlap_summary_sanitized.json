@@ -1,0 +1,64 @@
+{
+  "created_at_utc": "2026-08-22T19:16:05.852370+00:00",
+  "input_schema_columns": 1914,
+  "input_catalog_terms": 13986,
+  "schema_candidate_columns_evaluated": 41,
+  "overlap_rows": 2,
+  "distinct_columns_with_any_overlap": 2,
+  "settings": {
+    "discovery_threshold": 0.1,
+    "high_specificity_threshold": 0.2,
+    "generic_terms_excluded": true,
+    "target_header_anchors_enabled": true,
+    "method_scope": "metadata_header_level_vocabulary_overlap_only",
+    "not_model_threshold": true,
+    "not_endpoint_classify_threshold": true
+  },
+  "match_rows_by_target_at_0_10": {
+    "Symptom": 0,
+    "Object Part": 0,
+    "Damage": 0,
+    "Cause": 1,
+    "Activity": 0,
+    "FLOC leaf segment": 0,
+    "Activity Type": 1
+  },
+  "distinct_columns_by_target_at_0_10": {
+    "Symptom": 0,
+    "Object Part": 0,
+    "Damage": 0,
+    "Cause": 1,
+    "Activity": 0,
+    "FLOC leaf segment": 0,
+    "Activity Type": 1
+  },
+  "match_rows_by_target_at_0_20": {
+    "Symptom": 0,
+    "Object Part": 0,
+    "Damage": 0,
+    "Cause": 1,
+    "Activity": 0,
+    "FLOC leaf segment": 0,
+    "Activity Type": 1
+  },
+  "distinct_columns_by_target_at_0_20": {
+    "Symptom": 0,
+    "Object Part": 0,
+    "Damage": 0,
+    "Cause": 1,
+    "Activity": 0,
+    "FLOC leaf segment": 0,
+    "Activity Type": 1
+  },
+  "targets_without_loaded_vocabulary": [
+    "FLOC leaf segment",
+    "Activity Type"
+  ],
+  "outputs": {
+    "internal_overlap_csv": "reports/internal/vocabulary_column_overlap.csv",
+    "sanitized_overlap_csv": "reports/vocabulary_column_overlap_sanitized.csv",
+    "internal_summary_json": "artifacts/internal/vocabulary_column_overlap_summary.json",
+    "sanitized_summary_json": "artifacts/vocabulary_column_overlap_summary_sanitized.json"
+  },
+  "raw_operational_values_emitted": false
+}

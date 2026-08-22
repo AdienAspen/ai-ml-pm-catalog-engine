@@ -1,0 +1,3 @@
+target,path_hash,sheet_hash,column_hash,likely_role,data_family,runtime_likelihood,candidate_bucket,matched_token_count,matched_anchor_token_count,column_token_count,overlap_rate,passes_discovery_threshold_0_10,passes_high_specificity_threshold_0_20,raw_operational_values_emitted
+Cause,780331fff1c22a5c,b7baea13a0ac8eb1,972a36969a47caa3,source_data,tabular,potential_runtime_or_source_signal,candidate_text,1,1,1,1.0,True,True,False
+Activity Type,780331fff1c22a5c,b7baea13a0ac8eb1,71734d68f775c65a,source_data,tabular,potential_runtime_or_source_signal,candidate_text,1,1,1,1.0,True,True,False
