@@ -1,0 +1,62 @@
+{
+  "created_at_utc": "2026-08-22T18:01:20.865433+00:00",
+  "raw_operational_values_emitted": false,
+  "archive_count": 4,
+  "extracted_package_count": 4,
+  "file_count": 575,
+  "internal_inventory_path": "reports/internal/source_file_inventory.csv",
+  "sanitized_inventory_path": "reports/source_file_inventory_sanitized.csv",
+  "extraction_summary": [
+    {
+      "package_id": "package_001_37cac7fe",
+      "archive_hash": "37cac7fe5e8c0c29",
+      "archive_size_bytes": 36039465,
+      "extracted_file_count": 130
+    },
+    {
+      "package_id": "package_002_528c67c0",
+      "archive_hash": "528c67c0c12fd109",
+      "archive_size_bytes": 32634326,
+      "extracted_file_count": 392
+    },
+    {
+      "package_id": "package_003_19512420",
+      "archive_hash": "19512420a89890b0",
+      "archive_size_bytes": 3608568,
+      "extracted_file_count": 37
+    },
+    {
+      "package_id": "package_004_bf45b793",
+      "archive_hash": "bf45b7931b5a2f47",
+      "archive_size_bytes": 308387,
+      "extracted_file_count": 16
+    }
+  ],
+  "counts_by_family": {
+    "document": 412,
+    "other": 6,
+    "structured": 14,
+    "tabular": 143
+  },
+  "counts_by_role": {
+    "mapping_doc": 8,
+    "reference_data": 11,
+    "source_data": 540,
+    "unknown": 16
+  },
+  "counts_by_extension": {
+    ".csv": 1,
+    ".docx": 3,
+    ".html": 1,
+    ".json": 7,
+    ".md": 13,
+    ".msg": 1,
+    ".pdf": 394,
+    ".png": 1,
+    ".pptx": 1,
+    ".xlsm": 1,
+    ".xlsx": 142,
+    ".xml": 7,
+    "[no_extension]": 3
+  }
+}
