@@ -1,0 +1,9 @@
+target,classified_pair_rows,row_level_pair_count,distinct_files,measurement_ready_pair_rows,real_observed_label_rows,validated_mapping_rows,reference_catalog_rows,agent_inference_rows,unknown_evidence_rows,interpretation,raw_operational_values_emitted
+Symptom,0,0,0,0,0,0,0,0,0,no_symptom_pair_opportunity_attributed_in_this_pass,False
+Object Part,0,0,0,0,0,0,0,0,0,no_pair_opportunity_attributed_in_this_pass,False
+Damage,0,0,0,0,0,0,0,0,0,no_pair_opportunity_attributed_in_this_pass,False
+Cause,36,379593,1,0,0,0,0,36,0,candidate_pairs_are_inferred_not_measurement_ready,False
+Activity,36,379593,1,0,0,0,0,36,0,candidate_pairs_are_inferred_not_measurement_ready,False
+FLOC leaf segment,0,0,0,0,0,0,0,0,0,no_pair_opportunity_attributed_in_this_pass,False
+Activity Type,36,379593,1,0,0,0,0,36,0,activity_type_candidates_blocked_until_controlled_ge_mat_source_confirmed,False
+unknown,802,850335,112,0,0,0,0,0,802,unattributed_pair_opportunities_require_semantic_reconciliation,False

@@ -1,0 +1,41 @@
+{
+  "created_at_utc": "2026-08-22T19:56:27.590538+00:00",
+  "input_pair_opportunities": 838,
+  "classified_pair_rows": 910,
+  "measurement_ready_pair_rows": 0,
+  "evidence_type_counts": {
+    "real_observed_label": 0,
+    "validated_mapping": 0,
+    "illustrative_example": 0,
+    "reference_catalog": 0,
+    "agent_inference": 108,
+    "unknown": 802
+  },
+  "target_classification_counts": {
+    "Symptom": 0,
+    "Object Part": 0,
+    "Damage": 0,
+    "Cause": 36,
+    "Activity": 36,
+    "FLOC leaf segment": 0,
+    "Activity Type": 36,
+    "unknown": 802
+  },
+  "settings": {
+    "method_scope": "safe_pair_opportunity_evidence_classification",
+    "classification_is_conservative": true,
+    "only_measurement_ready_types": [
+      "real_observed_label",
+      "validated_mapping"
+    ],
+    "metadata_inference_is_not_ground_truth": true,
+    "row_level_validation_performed": false,
+    "runtime_validation_performed": false,
+    "raw_values_emitted_in_versionable_outputs": false
+  },
+  "outputs": {
+    "pair_evidence_classification_csv": "reports/pair_evidence_classification_sanitized.csv",
+    "target_pair_review_csv": "reports/target_pair_review_sanitized.csv"
+  },
+  "raw_operational_values_emitted": false
+}
