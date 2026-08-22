@@ -1,0 +1,36 @@
+{
+  "created_at_utc": "2026-08-22T18:42:27.899749+00:00",
+  "input_structural_scan": "reports/internal/basic_structural_scan.csv",
+  "tabular_sheet_rows_scanned": 274,
+  "schema_column_count": 1914,
+  "candidate_column_count": 164,
+  "candidate_bucket_counts": {
+    "other": 1767,
+    "candidate_site": 10,
+    "candidate_text": 34,
+    "candidate_date": 29,
+    "candidate_id_or_code": 74
+  },
+  "runtime_likelihood_counts": {
+    "potential_runtime_or_source_signal": 1572,
+    "analysis_mapping_or_reference_only": 342
+  },
+  "likely_role_counts": {
+    "source_data": 1572,
+    "reference_data": 199,
+    "mapping_doc": 143
+  },
+  "null_rate_bucket_counts": {
+    "medium": 968,
+    "high": 636,
+    "low": 80,
+    "none": 197,
+    "unknown": 33
+  },
+  "catalog_signal_column_count": 32,
+  "raw_operational_values_emitted": false,
+  "outputs": {
+    "sanitized_schema_profile_path": "reports/schema_profile_sanitized.csv",
+    "sanitized_candidate_columns_path": "reports/candidate_schema_columns_sanitized.csv"
+  }
+}
