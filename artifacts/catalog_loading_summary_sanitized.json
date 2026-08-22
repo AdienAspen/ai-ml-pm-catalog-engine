@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-08-22T19:00:52.986700+00:00",
+  "reference_tabular_sources": 10,
+  "reference_type_counts": {
+    "operational_reference": 3,
+    "mapping_reference": 4,
+    "master_catalog": 1,
+    "field_matrix": 2
+  },
+  "catalog_term_count": 13986,
+  "catalog_terms_by_target": {
+    "Cause": 5161,
+    "Activity": 582,
+    "Object Part": 1401,
+    "Damage": 2510,
+    "Symptom": 4332
+  },
+  "catalog_loading_error_count": 0,
+  "outputs": {
+    "sanitized_sources_path": "reports/catalog_reference_sources_sanitized.csv",
+    "sanitized_terms_path": "reports/catalog_vocabulary_terms_sanitized.csv",
+    "internal_sources_path": "reports/internal/catalog_reference_sources.csv",
+    "internal_terms_path": "reports/internal/catalog_vocabulary_terms.csv",
+    "internal_errors_path": "reports/internal/catalog_loading_errors.csv"
+  },
+  "raw_operational_values_emitted": false
+}

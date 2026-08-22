@@ -1,0 +1,11 @@
+source_id,extension,likely_role,data_family,reference_type
+54a937c8ff4199e2,.xlsx,reference_data,tabular,operational_reference
+dce82de7efeb48c5,.xlsx,reference_data,tabular,operational_reference
+177fb6139b229f98,.xlsx,mapping_doc,tabular,mapping_reference
+7944759dc6b86b54,.xlsx,mapping_doc,tabular,mapping_reference
+a29fdffa703796bc,.xlsx,mapping_doc,tabular,mapping_reference
+abfef2624a7dd284,.xlsx,mapping_doc,tabular,mapping_reference
+d13369b10f25b7c3,.xlsx,reference_data,tabular,operational_reference
+397b708d4048cdda,.xlsx,reference_data,tabular,master_catalog
+05d8cabce084ae0b,.csv,reference_data,tabular,field_matrix
+a78eb690ee13b81a,.xlsx,reference_data,tabular,field_matrix
