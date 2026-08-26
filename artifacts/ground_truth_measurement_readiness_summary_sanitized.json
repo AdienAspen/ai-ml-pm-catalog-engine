@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-08-24T19:39:02.809843+00:00",
+  "artifact": "ground_truth_measurement_readiness",
+  "status": "ready_for_draft_report_section_partial_for_final",
+  "target_count": 7,
+  "measurement_ready_pair_rows": 0,
+  "unknown_opportunity_rows": 802,
+  "external_fault_code_signal_rows": 602,
+  "distinct_external_fault_code_count": 79,
+  "raw_operational_values_emitted": false,
+  "outputs": {
+    "markdown": "reports/ground_truth_measurement_readiness_sanitized.md",
+    "measurement_readiness_by_target_csv": "reports/measurement_readiness_by_target_sanitized.csv",
+    "evidence_type_measurement_summary_csv": "reports/evidence_type_measurement_summary_sanitized.csv",
+    "source_read_denominator_summary_csv": "reports/source_read_denominator_summary_sanitized.csv",
+    "unresolved_opportunity_summary_csv": "reports/unresolved_opportunity_summary_sanitized.csv"
+  }
+}

@@ -1,0 +1,4 @@
+source_block,files_listed,files_read_ok,files_failed,candidate_pairs_found,measurement_ready_pairs,zero_type
+inventoried_source_universe,575,,,,0,not_applicable_inventory_denominator
+safe_content_pair_discovery,147,147,0,838,0,candidate_pairs_found_not_measurement_ready
+pdf_assets_of_concern_parser,394,394,0,602,0,candidate_pairs_found_controlled_vocabulary_pending

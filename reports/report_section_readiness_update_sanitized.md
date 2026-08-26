@@ -1,0 +1,29 @@
+# Asset Maintenance Bridge ML Feasibility - Report Section Readiness Update
+
+## Scope
+
+Focused readiness review for report sections 6, 8, 9, 10, and appendices after regenerating the target-level evidence matrix.
+
+No raw operational values are emitted.
+
+## Readiness Table
+
+| section | updated_status | report_mode | basis | what_can_be_written_now | remaining_gap | primary_artifact |
+| --- | --- | --- | --- | --- | --- | --- |
+| 6. Target-Level Feasibility Assessment | partial | draft_evidence_readiness_assessment | Target-level matrix available for 7 targets; measurement-ready targets: 0. | Per-target signal, runtime status, mapping/label support, method direction, blockers, and SME inputs. | Cannot claim final feasibility, coverage, or confidence until runtime and validated labels/mappings are confirmed. | reports/target_level_evidence_matrix_sanitized.md |
+| 8. Feasibility Matrix & Recommended Technical Direction | partial | directional_matrix_only | Recommended method and blocker fields are now present in the target matrix. | A conservative technical direction matrix can be drafted with blocked/candidate/provisional statuses. | Final feasibility level and confidence remain unavailable because measurement denominator is still zero. | reports/target_level_evidence_matrix_sanitized.csv |
+| 9. Required Inputs, Owners & Decisions | ready_for_draft | actionable_inputs_by_target | Gap register contains 8 gaps, including 6 high-severity gaps. | Target-level owner/input asks can be derived from primary_blocker and needed_from_whom. | Named client owners should be filled by project leadership, not inferred by the analysis pipeline. | reports/cross_target_gap_register_sanitized.csv |
+| 10. Conclusions & Next Steps | ready_for_draft | checkpoint_conclusions_only | Sections 4, 5, 7, and the regenerated target matrix provide enough evidence for a checkpoint conclusion. | State what can proceed to validation, what remains blocked, and what additional evidence is needed. | Do not present final feasibility conclusions or model performance estimates. | reports/cross_target_findings_and_data_gaps_sanitized.md |
+| Appendix A. Source and Effective-Read Inventory | ready_for_draft | sanitized_inventory_appendix | Sanitized inventory and read-denominator artifacts exist. | Source universe, effective read coverage, parser/read status, and denominators. | Keep raw paths/names out of committee-facing/public artifacts. | reports/source_read_denominator_summary_sanitized.csv |
+| Appendix B. Ground-Truth Evidence Tables | partial | evidence_tables_no_denominator_claim | Measurement readiness and classified pair artifacts exist, but measurement-ready rows remain zero. | Evidence taxonomy counts, unresolved opportunities, and target readiness tables. | No validated denominator yet; unknown opportunities require semantic reconciliation. | reports/measurement_readiness_by_target_sanitized.csv |
+| Appendix C. Target Reconciliation Matrix | ready_for_draft | target_matrix_appendix | Regenerated target-level evidence matrix is available. | Full target-by-target reconciliation across signal, runtime, mapping/label support, and blockers. | Future SME/runtime validation may update statuses. | reports/target_level_evidence_matrix_sanitized.csv |
+| Appendix D. Prospection / Threshold / Stage-Loss Evidence | partial | method_history_summary | Local reconstruction has catalog loading, overlap, target mapping, and pair discovery artifacts. | Summarize controlled vocabulary, conservative overlap, and why thresholds are prospection-only. | Workbench-era threshold/stage-loss details may need archival narrative rather than regenerated exact notebooks. | reports/vocabulary_column_overlap_sanitized.csv |
+| Appendix E. Parser, PDF and Remaining Data-Quality Issues | ready_for_draft | parser_and_quality_appendix | PDF parser outputs, file profiles, and gap register exist. | PDF parser validation, external fault-code finding, and remaining parser/source quality gaps. | External fault-code vocabulary owner/crosswalk remains an SME dependency. | reports/pdf_assets_of_concern_fault_code_profile_sanitized.csv |
+
+## Interpretation
+
+- Section 6 can now be drafted as target-level evidence/readiness assessment, not final feasibility.
+- Section 8 can be drafted as directional technical guidance, not model-ready recommendation.
+- Sections 9 and 10 are ready for draft using blockers, owners, and next actions from the current evidence matrix.
+- Appendices are mostly ready for draft; Appendix D may need narrative carry-forward from the Workbench-era sensitivity/stage-loss work.
+- Final feasibility, coverage, and confidence remain gated by runtime validation and validated label/mapping evidence.

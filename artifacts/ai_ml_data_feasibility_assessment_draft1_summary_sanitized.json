@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-08-24T21:33:23.766160+00:00",
+  "artifact": "ai_ml_data_feasibility_assessment_draft1_sanitized",
+  "output_markdown": "reports/ai_ml_data_feasibility_assessment_draft1_sanitized.md",
+  "target_count": 7,
+  "measurement_ready_targets": 0,
+  "high_severity_gap_count": 6,
+  "section_status_counts": {
+    "ready_for_draft": 5,
+    "partial": 4
+  },
+  "report_mode": "draft_evidence_readiness_assessment",
+  "raw_operational_values_emitted": false
+}

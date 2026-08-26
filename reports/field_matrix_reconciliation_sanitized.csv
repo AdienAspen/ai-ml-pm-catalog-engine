@@ -1,0 +1,8 @@
+target,field_matrix_signal,current_reconciliation,interpretation
+Symptom,0 resolvable mappings in profiling evidence,aligned_near_zero,"Supports no-current-demonstrable-proof-of-life, subject to SME override."
+Object Part,long-tail/singleton mapping difficulty indicator,requires_record_level_validated_mapping,Reference coverage does not yet create measurement denominator.
+Damage,partial profiling/mapping coverage indicator,rates_exist_but_record_level_labels_not_confirmed,Needs label/mapping validation before coverage or confidence estimates.
+Cause,low profiling/mapping coverage indicator,rates_exist_but_record_level_labels_not_confirmed,Needs label/mapping validation before coverage or confidence estimates.
+Activity,no final measured derivability conclusion in this pass,candidate_signal_pending_validation,"Candidate evidence exists, but runtime and label/mapping validation are pending."
+FLOC leaf segment,glossary/supporting signal,supporting_signal_not_label,KKS can support/validate interpretation; it must not resolve or build hierarchy.
+Activity Type,controlled MAT source pending,blocked_pending_controlled_source,Cannot be measurement-ready until controlled source and mapping rules are confirmed.

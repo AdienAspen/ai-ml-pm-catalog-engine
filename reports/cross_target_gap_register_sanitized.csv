@@ -1,0 +1,9 @@
+gap_id,gap,type,targets,severity,owner_needed,decision_needed
+G01,No measurement-ready denominator,label_mapping_gap,all,high,SME / mapping owner,Confirm record-level labels or validated mappings.
+G02,Unknown text-code opportunities not split by target,semantic_reconciliation_gap,all,high,ML / SME / mapping owner,Classify unknown opportunities before promoting them.
+G03,External fault-code vocabulary not identified,controlled_vocabulary_gap,Damage/Cause/Activity/Object Part possible,high,SME / source owner / SAP mapping owner,Identify controlling vocabulary and SAP equivalence.
+G04,Runtime availability not validated,runtime_gap,all,high,runtime app owner,Confirm whether candidate fields exist at engine runtime.
+G05,Activity Type controlled source pending,controlled_source_gap,Activity Type,high,source owner / SME,Confirm MAT/activity-type controlled source and mapping rules.
+G06,FLOC support is not a label,target_specific_validation_gap,FLOC leaf segment,medium,SME / SAP functional owner,Confirm whether glossary/KKS support is sufficient and runtime-available.
+G07,Symptom proof-of-life not demonstrated,proof_of_life_gap,Symptom,high,SME / Field Matrix owner,Provide validated example or accept current no-proof-of-life status.
+G08,Remaining parser issues on tabular files,parser_gap,unknown,medium,ML engineering,Fix parser coverage or mark affected files out of scope.

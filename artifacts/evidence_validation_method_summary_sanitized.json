@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-08-24T19:17:48.027037+00:00",
+  "artifact": "evidence_validation_method",
+  "status": "ready_for_draft_report_section",
+  "validation_chain_steps": 5,
+  "evidence_type_count": 6,
+  "measurement_ready_evidence_types": [
+    "real_observed_label",
+    "validated_mapping"
+  ],
+  "current_report_use": "section_4_evidence_and_validation_method",
+  "raw_operational_values_emitted": false,
+  "outputs": {
+    "markdown": "reports/evidence_validation_method_sanitized.md",
+    "evidence_taxonomy_csv": "reports/evidence_taxonomy_sanitized.csv",
+    "validation_chain_csv": "reports/validation_chain_sanitized.csv",
+    "method_phases_csv": "reports/evidence_method_phases_sanitized.csv",
+    "supporting_artifacts_csv": "reports/evidence_method_supporting_artifacts_sanitized.csv"
+  }
+}

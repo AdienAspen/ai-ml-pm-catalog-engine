@@ -1,0 +1,4 @@
+scope,files_attempted,source_data,mapping_doc,reference_data,purpose
+basic_structural_scan,157,147,4,6,read/profile eligible structured or tabular files across roles
+safe_content_pair_discovery,147,147,0,0,discover text-code opportunities only in productive source_data
+excluded_from_pair_discovery,10,0,4,6,non-source roles intentionally excluded from source-data pair discovery

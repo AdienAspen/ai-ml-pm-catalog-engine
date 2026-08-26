@@ -1,0 +1,9 @@
+artifact,method_use,current_count
+source_file_inventory_sanitized.csv,"Defines source universe, roles, categories, and versionable sanitized scope.",575
+basic_structural_scan_summary_sanitized.json,Confirms structured/tabular read coverage for supported sources.,157
+schema_profile_summary_sanitized.json,"Profiles fields, candidate text/code signals, and safe column-level metadata.",not_available
+catalog_vocabulary_summary_sanitized.json,Loads controlled vocabulary for SAP catalog targets S/B/C/5/A.,not_available
+pair_evidence_classification_summary_sanitized.json,Classifies candidate text-code opportunities by evidence type.,910
+pdf_assets_of_concern_summary_sanitized.json,Documents verified PDF table extraction and file-read denominator.,394
+report_readiness_check_summary_sanitized.json,Maps current artifacts to the requested report table of contents.,15
+target_level_evidence_matrix_summary_sanitized.json,Draft dependency for target-level assessment; must be regenerated after sections 5 and 7 settle.,7

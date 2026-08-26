@@ -1,0 +1,7 @@
+evidence_type,definition,can_support_measurement,measurement_use
+real_observed_label,Record-level evidence where the correct target code is observed as data.,True,Can enter the measurement denominator after runtime availability is confirmed.
+validated_mapping,"A mapping confirmed by an SME, mapping owner, or governed project documentation.",True,Can enter the measurement denominator if it applies at record level.
+illustrative_example,"An example showing intended behavior, not proof of a record-level label.",False,Useful for interpretation only unless later validated.
+reference_catalog,"Catalog, code list, glossary, or controlled vocabulary.",False,"Useful for matching and normalization, not a ground-truth denominator."
+agent_inference,A pipeline-generated hypothesis inferred from metadata or structure.,False,Must never be used as a label.
+unknown,Unresolved text-code opportunity that has not been classified.,False,Preserve for semantic reconciliation; do not promote to a target yet.

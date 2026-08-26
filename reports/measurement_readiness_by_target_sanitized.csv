@@ -1,0 +1,8 @@
+target,candidate_pair_rows,row_level_pair_count,distinct_files,measurement_ready_pair_count,measurement_readiness_status,zero_type_or_denominator_status,next_required_action
+Symptom,0,0,0,0,no_current_measurement_denominator,no_current_demonstrable_proof_of_life,Keep under explicit proof-of-life review; do not infer from broad narrative text.
+Object Part,0,0,0,0,no_current_measurement_denominator,no_candidate_pair_found_after_successful_read_or_not_target_specific,Do not interpret as zero derivability; confirm source coverage and target-specific labels.
+Damage,0,0,0,0,no_current_measurement_denominator,no_candidate_pair_found_after_successful_read_or_not_target_specific,Do not interpret as zero derivability; confirm source coverage and target-specific labels.
+Cause,36,379593,1,0,candidate_signal_without_measurement_denominator,requires_label_or_mapping_validation,Validate whether candidate pairs are runtime-available record-level labels or validated mappings.
+Activity,36,379593,1,0,candidate_signal_without_measurement_denominator,requires_label_or_mapping_validation,Validate whether candidate pairs are runtime-available record-level labels or validated mappings.
+FLOC leaf segment,0,0,0,0,no_current_measurement_denominator,supporting_vocabulary_not_record_label,Validate whether the glossary and KKS support are sufficient for ML/NLP use.
+Activity Type,36,379593,1,0,no_current_measurement_denominator,pending_controlled_mat_source,Confirm the controlled source and mapping rules before treating this target as measurable.

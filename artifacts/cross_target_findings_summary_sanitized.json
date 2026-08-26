@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-08-24T19:58:58.501072+00:00",
+  "artifact": "cross_target_findings_and_data_gaps",
+  "status": "ready_for_draft_report_section_partial_for_final",
+  "finding_count": 9,
+  "gap_count": 8,
+  "target_count": 7,
+  "unknown_opportunity_rows": 802,
+  "external_fault_code_signal_rows": 602,
+  "distinct_external_fault_code_count": 79,
+  "measurement_ready_pair_rows": 0,
+  "parser_issue_on_tabular_files": 0,
+  "raw_operational_values_emitted": false,
+  "outputs": {
+    "markdown": "reports/cross_target_findings_and_data_gaps_sanitized.md",
+    "findings_csv": "reports/cross_target_findings_summary_sanitized.csv",
+    "gap_register_csv": "reports/cross_target_gap_register_sanitized.csv",
+    "field_matrix_csv": "reports/field_matrix_reconciliation_sanitized.csv"
+  }
+}

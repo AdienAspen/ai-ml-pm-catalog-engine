@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-08-26T14:37:23.755996+00:00",
+  "safe_content_pair_rows": 838,
+  "target_expanded_classification_rows": 910,
+  "multi_target_hint_rows": 36,
+  "target_expansion_delta": 72,
+  "expected_classified_rows": 910,
+  "target_expansion_reconciled": true,
+  "structural_files_attempted": 157,
+  "safe_content_pair_files_attempted": 147,
+  "safe_content_input_source_files": 147,
+  "structural_attempted_by_role": {
+    "mapping_doc": 4,
+    "reference_data": 6,
+    "source_data": 147
+  },
+  "current_parser_issue_on_tabular_files": 0,
+  "raw_operational_values_emitted": false
+}

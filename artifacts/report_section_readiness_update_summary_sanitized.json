@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-08-24T20:57:42.917435+00:00",
+  "artifact": "report_section_readiness_update",
+  "focused_section_count": 9,
+  "status_counts": {
+    "ready_for_draft": 5,
+    "partial": 4
+  },
+  "target_count": 7,
+  "measurement_ready_targets": 0,
+  "high_severity_gap_count": 6,
+  "raw_operational_values_emitted": false,
+  "outputs": {
+    "csv": "reports/report_section_readiness_update_sanitized.csv",
+    "markdown": "reports/report_section_readiness_update_sanitized.md",
+    "summary_json": "artifacts/report_section_readiness_update_summary_sanitized.json"
+  }
+}

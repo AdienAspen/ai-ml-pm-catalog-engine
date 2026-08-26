@@ -1,0 +1,6 @@
+step,question,evidence_needed
+signal_exists,Is there source evidence that plausibly carries target information?,"Safe schema/profile evidence, controlled-vocabulary overlap, row-level co-occurrence, or parser-derived structured evidence."
+runtime_usable,Will the signal be available when the production engine runs?,"Runtime app/source confirmation, canonical field matrix alignment, or source owner confirmation."
+valid_label_or_mapping,Can we prove what the correct target code was for a record?,Real observed label or validated mapping. Reference catalogs and agent inference are not enough.
+measurable_target,Is there a defensible denominator for coverage/confidence measurement?,Record-level label/mapping evidence tied to runtime-available input fields.
+feasible_method,Which method is justified by the evidence?,"Rules, classifier, NER, hybrid method, or unresolved status based on validated evidence."

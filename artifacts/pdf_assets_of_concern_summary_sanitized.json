@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-08-22T20:24:58.675311+00:00",
+  "parser_version": "pdf_assets_of_concern_v1",
+  "files_listed": 394,
+  "files_read_ok": 394,
+  "files_failed": 0,
+  "assets_of_concern_ok_files": 295,
+  "assets_of_concern_missing_files": 34,
+  "assets_of_concern_empty_section_files": 65,
+  "extraction_rows": 1581,
+  "fault_code_non_empty_rows": 602,
+  "distinct_fault_code_count": 79,
+  "validation": {
+    "validation_passed": true,
+    "validation_file_hash": "fdc20458ed388b0f",
+    "validation_path_hash": "9fb9ed9fc5a760ad",
+    "row_count": 3,
+    "non_empty_fault_code_rows": 1,
+    "invalid_fault_code_count": 0,
+    "raw_operational_values_emitted": false
+  },
+  "raw_operational_values_emitted_in_versioned_outputs": false,
+  "outputs": {
+    "sanitized_file_profile_csv": "reports/pdf_assets_of_concern_file_profile_sanitized.csv",
+    "sanitized_fault_profile_csv": "reports/pdf_assets_of_concern_fault_code_profile_sanitized.csv"
+  }
+}
