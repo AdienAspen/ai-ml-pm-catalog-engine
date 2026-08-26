@@ -22,7 +22,7 @@ Appendices A-E
 
 ## 1. Executive Summary
 
-This assessment reconstructs the AI/ML data feasibility evidence chain in a local, reproducible, sanitized pipeline. The current result is an evidence-readiness view, not a final feasibility decision.
+This assessment implements the AI/ML data feasibility evidence chain as a local, reproducible, sanitized POC pipeline. The current result is an evidence-readiness view, not a final feasibility decision.
 
 - Targets assessed: `7`.
 - Current measurement-ready targets: `0`.
@@ -51,7 +51,7 @@ This assessment measures evidence readiness: source signal, runtime plausibility
 
 ## 3. Data Universe & Effective Read Coverage
 
-The reconstructed local pipeline separates inventory from effective read coverage. A listed file is not treated as read unless the parser opened it successfully.
+The local POC pipeline separates inventory from effective read coverage. A listed file is not treated as read unless the parser opened it successfully.
 
 | source_block | files_listed | files_read_ok | files_failed | candidate_pairs_found | measurement_ready_pairs | zero_type |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -70,7 +70,7 @@ Remaining gaps are tracked as parser, vocabulary, runtime, and SME-confirmation 
 
 ## 4. Evidence & Validation Method
 
-The local reconstruction uses a conservative validation chain:
+The local POC assessment uses a conservative validation chain:
 
 | step | question | evidence_needed |
 | --- | --- | --- |
@@ -95,8 +95,8 @@ Method phases:
 
 | phase | purpose | status | current_role |
 | --- | --- | --- | --- |
-| Workbench prospection | Initial manual/notebook data inventory, schema profiling, vocabulary exploration, and committee review. | historical_context | Findings are retained as methodological context, but the local pipeline is the reproducible source of record going forward. |
-| Local reproducible reconstruction | Rebuild the same evidence chain as modular Python scripts with sanitized outputs and repeatable run summaries. | active_source_of_record | Feeds all current report sections and can be re-run as source data, parsers, or SME decisions change. |
+| Initial prospection baseline | Initial data inventory, schema profiling, vocabulary exploration, and technical review. | historical_context | Findings are retained as methodological context, while the local POC pipeline is the reproducible source of record. |
+| Reproducible POC pipeline | Implement the evidence chain as modular Python scripts with sanitized outputs and repeatable run summaries. | active_source_of_record | Feeds all current report sections and can be re-run as source data, parsers, or validation decisions change. |
 | Controlled vocabulary prospection | Use target-specific controlled terms to reduce broad keyword noise. | active_supporting_method | Supports signal discovery, not final model thresholding or endpoint thresholding. |
 | Safe content and row-level pair discovery | Identify text-code co-occurrence opportunities without emitting raw operational values in committee-facing outputs. | active_supporting_method | Produces candidate opportunities that require evidence classification and runtime validation. |
 | Target-level evidence matrix | Organize evidence by target across signal, runtime, label/mapping, measurability, and method direction. | draft_dependency | Useful as a bridge to target-level feasibility, but must be regenerated after sections 5 and 7 are consolidated. |

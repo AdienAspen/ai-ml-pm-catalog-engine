@@ -219,7 +219,7 @@ def main() -> int:
         section(
             "1. Executive Summary",
             [
-                "This assessment reconstructs the AI/ML data feasibility evidence chain in a local, reproducible, sanitized pipeline. The current result is an evidence-readiness view, not a final feasibility decision.",
+                "This assessment implements the AI/ML data feasibility evidence chain as a local, reproducible, sanitized POC pipeline. The current result is an evidence-readiness view, not a final feasibility decision.",
                 "",
                 *bullets(
                     [
@@ -266,7 +266,7 @@ def main() -> int:
         section(
             "3. Data Universe & Effective Read Coverage",
             [
-                "The reconstructed local pipeline separates inventory from effective read coverage. A listed file is not treated as read unless the parser opened it successfully.",
+                "The local POC pipeline separates inventory from effective read coverage. A listed file is not treated as read unless the parser opened it successfully.",
                 "",
                 md_table(source_denominators),
                 "",
@@ -290,7 +290,7 @@ def main() -> int:
         section(
             "4. Evidence & Validation Method",
             [
-                "The local reconstruction uses a conservative validation chain:",
+                "The local POC assessment uses a conservative validation chain:",
                 "",
                 md_table(chain),
                 "",
@@ -487,7 +487,7 @@ def main() -> int:
     summary = {
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "artifact": "ai_ml_data_feasibility_assessment_draft1_sanitized",
-        "output_markdown": str(OUT_MD),
+        "output_markdown": str(OUT_MD.relative_to(PROJECT_ROOT)),
         "target_count": target_count,
         "measurement_ready_targets": measurement_ready_targets,
         "high_severity_gap_count": high_gap_count,

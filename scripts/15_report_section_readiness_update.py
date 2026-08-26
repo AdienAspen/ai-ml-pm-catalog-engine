@@ -150,9 +150,9 @@ def main() -> int:
             "section": "Appendix D. Prospection / Threshold / Stage-Loss Evidence",
             "updated_status": "partial",
             "report_mode": "method_history_summary",
-            "basis": "Local reconstruction has catalog loading, overlap, target mapping, and pair discovery artifacts.",
+            "basis": "Current POC pipeline has catalog loading, overlap, target mapping, and pair discovery artifacts.",
             "what_can_be_written_now": "Summarize controlled vocabulary, conservative overlap, and why thresholds are prospection-only.",
-            "remaining_gap": "Workbench-era threshold/stage-loss details may need archival narrative rather than regenerated exact notebooks.",
+            "remaining_gap": "Threshold/stage-loss evidence should be framed as prospection methodology, not model or endpoint performance.",
             "primary_artifact": "reports/vocabulary_column_overlap_sanitized.csv",
         },
         {
@@ -191,7 +191,7 @@ def main() -> int:
         "- Section 6 can now be drafted as target-level evidence/readiness assessment, not final feasibility.",
         "- Section 8 can be drafted as directional technical guidance, not model-ready recommendation.",
         "- Sections 9 and 10 are ready for draft using blockers, owners, and next actions from the current evidence matrix.",
-        "- Appendices are mostly ready for draft; Appendix D may need narrative carry-forward from the Workbench-era sensitivity/stage-loss work.",
+        "- Appendices are mostly ready for draft; Appendix D should summarize threshold sensitivity and stage-loss as POC prospection evidence.",
         "- Final feasibility, coverage, and confidence remain gated by runtime validation and validated label/mapping evidence.",
     ]
     md_path.write_text("\n".join(md_lines) + "\n", encoding="utf-8")
@@ -206,9 +206,9 @@ def main() -> int:
         "high_severity_gap_count": high_gaps,
         "raw_operational_values_emitted": False,
         "outputs": {
-            "csv": str(csv_path),
-            "markdown": str(md_path),
-            "summary_json": str(json_path),
+            "csv": str(csv_path.relative_to(PROJECT_ROOT)),
+            "markdown": str(md_path.relative_to(PROJECT_ROOT)),
+            "summary_json": str(json_path.relative_to(PROJECT_ROOT)),
         },
     }
     json_path.write_text(json.dumps(summary, indent=2), encoding="utf-8")

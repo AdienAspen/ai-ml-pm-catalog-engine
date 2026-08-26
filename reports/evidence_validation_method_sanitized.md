@@ -5,8 +5,8 @@
 This section documents the method used to move from data prospection to defensible target-level feasibility evidence.
 It does not include model training, accuracy estimates, or final feasibility conclusions.
 
-The local reconstruction replaces the prior manual notebook workflow as the reproducible source of record.
-Historical Workbench findings remain useful context, but current report claims should cite the local sanitized artifacts.
+This POC pipeline is the reproducible source of record for the current feasibility assessment.
+Current report claims should cite sanitized local artifacts and explicitly separate observed, validated, proxy, synthetic, and inferred evidence.
 
 ## Validation Chain
 
@@ -35,8 +35,8 @@ Historical Workbench findings remain useful context, but current report claims s
 
 | phase | purpose | status | current_role |
 | --- | --- | --- | --- |
-| Workbench prospection | Initial manual/notebook data inventory, schema profiling, vocabulary exploration, and committee review. | historical_context | Findings are retained as methodological context, but the local pipeline is the reproducible source of record going forward. |
-| Local reproducible reconstruction | Rebuild the same evidence chain as modular Python scripts with sanitized outputs and repeatable run summaries. | active_source_of_record | Feeds all current report sections and can be re-run as source data, parsers, or SME decisions change. |
+| Initial evidence baseline | Initial inventory, schema profiling, vocabulary exploration, and methodology review. | baseline_context | Findings are retained as methodological context; current claims should cite reproducible sanitized artifacts. |
+| Reproducible POC pipeline | Implements the evidence chain as modular Python scripts with sanitized outputs and repeatable run summaries. | active_source_of_record | Feeds all current report sections and can be re-run as source data, parsers, vocabularies, or validation decisions change. |
 | Controlled vocabulary prospection | Use target-specific controlled terms to reduce broad keyword noise. | active_supporting_method | Supports signal discovery, not final model thresholding or endpoint thresholding. |
 | Safe content and row-level pair discovery | Identify text-code co-occurrence opportunities without emitting raw operational values in committee-facing outputs. | active_supporting_method | Produces candidate opportunities that require evidence classification and runtime validation. |
 | Target-level evidence matrix | Organize evidence by target across signal, runtime, label/mapping, measurability, and method direction. | draft_dependency | Useful as a bridge to target-level feasibility, but must be regenerated after sections 5 and 7 are consolidated. |

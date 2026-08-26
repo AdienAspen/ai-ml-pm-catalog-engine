@@ -169,7 +169,7 @@ def main() -> int:
                 f"PDF non-empty fault-code rows: {pdf_parser.get('fault_code_non_empty_rows', 'unknown')}; "
                 f"distinct PDF fault codes: {pdf_parser.get('distinct_fault_code_count', 'unknown')}."
             ),
-            "blockers_or_gaps": "Field Matrix reconciliation and unknown bucket semantic split remain incomplete in the local reconstruction.",
+            "blockers_or_gaps": "Field Matrix reconciliation and unknown bucket semantic split remain incomplete in the current POC evidence set.",
             "safe_to_report_now": "with_cautions",
         },
         {
@@ -265,7 +265,7 @@ def main() -> int:
                 f"overlap rows: {overlap.get('overlap_rows', 'unknown')}; "
                 f"target mapping rows: {target_mapping.get('mapping_rows', 'unknown')}."
             ),
-            "blockers_or_gaps": "Dual-threshold and stage-loss evidence from Workbench must be reconstructed locally if required for the final report.",
+            "blockers_or_gaps": "Dual-threshold and stage-loss evidence should be consolidated as POC prospection methodology before final reporting.",
             "safe_to_report_now": "partial_only",
         },
         {
@@ -339,7 +339,7 @@ def main() -> int:
             "## Key Interpretation",
             "",
             "- The report can be drafted as an evidence-readiness assessment, not as a final feasibility conclusion.",
-            "- Sections 1, 3, 4, 5, 7, 9, 10, and Appendices A-E have enough reconstructed evidence for controlled drafting with caveats.",
+            "- Sections 1, 3, 4, 5, 7, 9, 10, and Appendices A-E have enough current evidence for controlled drafting with caveats.",
             "- Section 6 and Section 8 remain blocked for final target feasibility because runtime availability, valid labels/mappings, and SME decisions are not closed.",
             "- The controlled validation chain remains mandatory: signal exists -> runtime usable -> valid label/mapping -> measurable target -> feasible method.",
             "",
@@ -364,8 +364,8 @@ def main() -> int:
         "status_counts": status_counts,
         "current_report_mode": "draft_evidence_readiness_only",
         "outputs": {
-            "csv": str(csv_path),
-            "markdown": str(md_path),
+            "csv": str(csv_path.relative_to(PROJECT_ROOT)),
+            "markdown": str(md_path.relative_to(PROJECT_ROOT)),
         },
     }
 

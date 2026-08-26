@@ -1,10 +1,10 @@
 # Asset ML Feasibility
 
-Local reconstruction workspace for an asset-maintenance ML data prospection and feasibility workstream.
+Reproducible local workspace for an asset-maintenance ML data prospection and feasibility POC.
 
 ## Scope
 
-This repository rebuilds a prior notebook-based inventory, schema profiling, controlled vocabulary, lexical prospection, ground-truth audit, PDF extraction, and reporting workflow into a reproducible local Python pipeline.
+This repository implements a reproducible Python pipeline for inventory, schema profiling, controlled vocabulary, lexical prospection, evidence classification, PDF extraction, and reporting.
 
 No model training, no accuracy estimates, and no final feasibility conclusions are produced in this stage.
 
