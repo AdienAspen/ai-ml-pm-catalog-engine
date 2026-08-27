@@ -1,0 +1,56 @@
+{
+  "stint": "STINT_1.1-reference-layer",
+  "task": "T2 External ingest",
+  "created_by": "codex",
+  "sources": [
+    {
+      "source_id": "maintie",
+      "upstream_url": "https://github.com/nlp-tlp/maintie",
+      "pinned_commit": "825e7710e4129598da997276a38b3cb40b200bc2",
+      "license": "MIT",
+      "ingest_status": "partial_ingest",
+      "evidence_role": "external_reference",
+      "can_support_measurement_denominator": false,
+      "included_paths": [
+        "README.md",
+        "LICENSE.md",
+        "SCHEME.md",
+        "GUIDELINES.md",
+        "MODELS.md",
+        "RESULTS.md",
+        "data/scheme.json"
+      ],
+      "fetchable_but_not_versioned_paths": [
+        "data/gold_release.json",
+        "data/silver_release.json"
+      ],
+      "exclusion_reason": "external text releases are reproducibly fetchable but not committed by default"
+    },
+    {
+      "source_id": "malyi",
+      "upstream_url": "https://github.com/mvmalyi/llm-driven-wind-turbine-maintenance-log-labelling",
+      "pinned_commit": "e55006f26c02e17f1d8bd1954a6b722450b649c3",
+      "license": "MIT",
+      "ingest_status": "partial_ingest",
+      "evidence_role": "external_reference",
+      "can_support_measurement_denominator": false,
+      "included_paths": [
+        "README.md",
+        "LICENSE",
+        "requirements.txt",
+        "orchestration_template.ipynb",
+        "prompts/",
+        "src/"
+      ],
+      "excluded_paths": [
+        "data/placeholder"
+      ],
+      "exclusion_reason": "placeholder file; not an evidence-bearing dataset"
+    }
+  ],
+  "controls": {
+    "raw_client_values_emitted": false,
+    "dummy_data_ingested_as_evidence": false,
+    "external_reference_promoted_to_ground_truth": false
+  }
+}
