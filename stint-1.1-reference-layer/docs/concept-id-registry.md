@@ -28,6 +28,6 @@ Examples:
 | RL-NORMALISATION-0101 | SEMANTIC_NORMALISATION | detection_symptom | semantic_scaffold | active | ZEUS-style scaffold category; Symptom hypothesis only. |
 | RL-NORMALISATION-0102 | SEMANTIC_NORMALISATION | failure_mode | semantic_scaffold | active | Scaffold category; not one-to-one with SAP Damage. |
 | RL-NORMALISATION-0103 | SEMANTIC_NORMALISATION | failure_cause | semantic_scaffold | active | Scaffold category for Cause evidence reconstruction. |
-| RL-NORMALISATION-0104 | SEMANTIC_NORMALISATION | failure_process | semantic_scaffold | active | Physical process anchor for Damage semantics. |
+| RL-NORMALISATION-0104 | SEMANTIC_NORMALISATION | failure_process | semantic_scaffold | source_capture_pending | Physical process anchor for Damage semantics; WMEP/NREL vocabulary load pending. |
 | RL-NORMALISATION-0105 | SEMANTIC_NORMALISATION | maintenance_measure | semantic_scaffold | active | Action/measure anchor for Activity semantics. |
 | RL-NORMALISATION-0106 | SEMANTIC_NORMALISATION | maintenance_type | semantic_scaffold | pending_controlled_source | MAT support only; does not resolve Activity Type. |
