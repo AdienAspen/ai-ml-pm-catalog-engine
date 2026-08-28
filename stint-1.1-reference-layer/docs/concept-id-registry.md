@@ -31,3 +31,7 @@ Examples:
 | RL-NORMALISATION-0104 | SEMANTIC_NORMALISATION | failure_process | semantic_scaffold | source_capture_pending | Physical process anchor for Damage semantics; WMEP/NREL vocabulary load pending. |
 | RL-NORMALISATION-0105 | SEMANTIC_NORMALISATION | maintenance_measure | semantic_scaffold | active | Action/measure anchor for Activity semantics. |
 | RL-NORMALISATION-0106 | SEMANTIC_NORMALISATION | maintenance_type | semantic_scaffold | pending_controlled_source | MAT support only; does not resolve Activity Type. |
+| RL-SOURCE-0101 | SOURCE_DESIGNATIONS | FLOC guidance source | floc | present_not_promoted | Supporting reference only; not a record-level label source. |
+| RL-SOURCE-0102 | SOURCE_DESIGNATIONS | KKS/RDS-style source | floc | present_not_resolver | Supporting feature/validator only; does not resolve or construct FLOC hierarchy. |
+| RL-SOURCE-0103 | SOURCE_DESIGNATIONS | FLOC structure guideline | floc | present_not_promoted | Structure support only; not a measurement denominator. |
+| RL-SOURCE-0104 | SOURCE_DESIGNATIONS | FLOC segment controlled glossary | floc | not_versioned_in_reference_layer | Must be ingested with provenance before use as controlled vocabulary content. |
