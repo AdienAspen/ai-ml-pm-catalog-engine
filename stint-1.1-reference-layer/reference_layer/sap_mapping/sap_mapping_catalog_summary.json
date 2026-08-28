@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-08-28T15:48:04.677915+00:00",
+  "source_file": "Wind Catalog Group and Codes Final v4.xlsx",
+  "source_path_redacted": true,
+  "rows": 13826,
+  "targets": 5,
+  "rows_by_target": {
+    "Activity": 490,
+    "Cause": 6232,
+    "Damage": 1693,
+    "Object Part": 1240,
+    "Symptom": 4171
+  },
+  "evidence_type_counts": {
+    "reference_evidence": 13826
+  },
+  "tier_counts": {
+    "gold": 13826
+  },
+  "measurement_denominator_eligible_rows": 0,
+  "duplicate_catalog_code_rows": 282,
+  "missing_required_rows": 0,
+  "output_csv": "stint-1.1-reference-layer/reference_layer/sap_mapping/sap_mapping_catalog_v1.csv",
+  "output_jsonl": "stint-1.1-reference-layer/reference_layer/sap_mapping/sap_mapping_catalog_v1.jsonl",
+  "duplicate_keys_csv": "stint-1.1-reference-layer/reference_layer/sap_mapping/sap_mapping_catalog_duplicate_keys.csv",
+  "raw_operational_values_emitted": false
+}
