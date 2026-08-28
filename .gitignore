@@ -48,3 +48,6 @@ Thumbs.db
 # Local/private safety configuration
 config/*.local.*
 config/restricted_terms.local.txt
+
+# Internal planning handoffs, not public/versioned artifacts
+stint-1.1-reference-layer/docs/Plan Técnico*.md
