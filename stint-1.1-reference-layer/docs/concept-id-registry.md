@@ -35,3 +35,5 @@ Examples:
 | RL-SOURCE-0102 | SOURCE_DESIGNATIONS | KKS/RDS-style source | floc | present_not_resolver | Supporting feature/validator only; does not resolve or construct FLOC hierarchy. |
 | RL-SOURCE-0103 | SOURCE_DESIGNATIONS | FLOC structure guideline | floc | present_not_promoted | Structure support only; not a measurement denominator. |
 | RL-SOURCE-0104 | SOURCE_DESIGNATIONS | FLOC segment controlled glossary | floc | not_versioned_in_reference_layer | Must be ingested with provenance before use as controlled vocabulary content. |
+| RL-SOURCE-0105 | SOURCE_DESIGNATIONS | IEC 21 logical-node reference slots | floc | pending_authoritative_value | Required for IH06-vs-IEC missing-system contrast; node values not yet materialized. |
+| RL-CANONICAL-0101 | CANONICAL_TAXONOMY | FLOC leaf observed depth constraint | floc | active_design_constraint | IH06 sanitized crosscheck observed site max depth 4-5 and no depth >= 6; use as design constraint, not final ISO mapping. |
