@@ -2,7 +2,9 @@
 
 ## Purpose
 
-T3 ingests the Wind catalog workbook as the authoritative universe of valid SAP target codes for the five catalog-backed targets.
+This note documents the early SAP_MAPPING / catalog ingest performed after external-source ingest.
+
+Under the strict STINT_1.1 Plan v2 sequencing, this is not the Malyi schema delta task. The T3 deliverable is `docs/malyi_schema_delta.md`; this SAP mapping ingest is treated as an early catalog-reference ingest for the later canonical/SAP reconciliation work.
 
 ## Evidence Classification
 

@@ -37,6 +37,12 @@ It is part of `T2 - External ingest`.
 - `prompts/`
 - `src/`
 
+## T2 Compliance Notes
+
+- The exact planning-note files `used_taxonomy.md` and `technical_report.md` were not present in the ingested Malyi source tree.
+- Available Malyi equivalents used for T3 schema comparison are `README.md`, `prompts/schemas.py`, and `src/taxonomy_handler.py`.
+- This is recorded as `not_found_in_ingested_source_tree`, not as a validated absence from every upstream release.
+
 ## Explicit Exclusions
 
 - Malyi `data/placeholder` is excluded because it is not an evidence-bearing dataset.
