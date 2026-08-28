@@ -8,15 +8,16 @@ It does not create ground truth, does not validate runtime availability, and doe
 
 ## Inputs
 
-| input | role | evidence_type | measurement use |
-|---|---|---|---|
-| Canonical constraints | Interface and destination constraint | expert_inference | Not a label source |
-| SAP mapping catalog | Authoritative target-code universe for S/B/C/5/A | reference_evidence | Not a denominator |
-| External schema delta | Architecture corroboration | external_corroboration | Not FSA validation |
+| input | role | classification_axis | classification_value | measurement use |
+|---|---|---|---|---|
+| Canonical constraints | Interface and destination constraint | constraint_class | interface_constraint | Not a label source and not evidence |
+| SAP mapping catalog | Authoritative target-code universe for S/B/C/5/A | evidence_type | reference_evidence | Not a denominator |
+| External schema delta | Architecture corroboration | evidence_type | external_corroboration | Not FSA validation |
 
 ## Reconciliation Principles
 
 - The canonical contract defines the shape and destination field.
+- Canonical constraints are not evidence and do not receive an `evidence_type` or tier.
 - The SAP catalog defines valid target-code namespaces for S/B/C/5/A.
 - The reference layer connects observed text or concepts to valid target-code candidates with provenance.
 - A catalog row is `reference_evidence`, not `validated_mapping`, unless a source concept or source text to SAP code relation is independently demonstrated.
