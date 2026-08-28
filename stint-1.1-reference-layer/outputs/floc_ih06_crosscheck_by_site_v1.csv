@@ -1,0 +1,10 @@
+site_key,ih06_record_count,leaf_record_count,min_depth,median_depth,mean_depth,max_depth,depth_ge_6_count,depth_ge_6_share,unique_observed_node_count,catalog_profile_present_count,description_present_count,depth_consistency_flag,raw_values_emitted
+SITE-001,22401,17586,1,4.0,4.01,5,0,0.0,42,22400,22401,shallower_structure,False
+SITE-002,11530,9663,1,4.0,3.81,4,0,0.0,110,11530,11530,shallower_structure,False
+SITE-003,2775,2093,1,4.0,3.78,5,0,0.0,70,2714,2775,shallower_structure,False
+SITE-004,9592,7356,1,4.0,3.95,5,0,0.0,84,513,9592,shallower_structure,False
+SITE-005,4517,3274,1,4.0,3.93,5,0,0.0,68,243,4517,shallower_structure,False
+SITE-006,7593,5700,1,4.0,3.92,5,0,0.0,69,414,7593,shallower_structure,False
+SITE-007,8417,6547,1,4.0,4.02,5,0,0.0,65,8411,8417,shallower_structure,False
+SITE-008,12015,9324,1,4.0,4.04,5,0,0.0,90,11346,12015,shallower_structure,False
+SITE-009,9601,7536,1,4.0,4.01,5,0,0.0,42,9601,9601,shallower_structure,False
