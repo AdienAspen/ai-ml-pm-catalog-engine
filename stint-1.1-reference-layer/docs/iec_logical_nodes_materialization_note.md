@@ -10,21 +10,42 @@ The reference layer now contains a controlled 21-row IEC logical-node intake fil
 
 - `stint-1.1-reference-layer/reference_layer/source_designations/iec_logical_nodes_21_reference_v1.csv`
 
-The file materializes the required shape and expected cardinality, but it does not invent node codes or labels.
+The rows were materialized from accessible IEC preview/table material supplied in the Track 1 research handoff. They are source-attested reference entries, not reconstructed or invented node codes.
 
 ## Current Status
 
-- Expected IEC node slots: 21
-- Authoritative node codes materialized: 0
-- Authoritative node labels materialized: 0
-- Status: `pending_authoritative_value`
+- Expected IEC node rows: 21
+- IEC node codes materialized: 21
+- IEC node labels materialized: 21
+- Evidence type: `reference_evidence`
+- Tier: `silver-high`
+- Source: `IEC 61400-25-2`
+- Source version: `Ed. 2.0 (2015)`
+- Status: `active`
 
-## Interpretation
+## IH06 Contrast Scope
 
-The 21-node IEC contrast remains blocked for final missing-node claims until the authoritative node values are supplied from the research source or another citable reference.
+Only physical turbine subsystem nodes are eligible for IH06 missing-system contrast:
 
-The blocker is therefore not an IH06 parsing failure. It is an upstream reference-materialization gap.
+- `WROT`
+- `WTRM`
+- `WGEN`
+- `WCNV`
+- `WTRF`
+- `WNAC`
+- `WYAW`
+- `WTOW`
+
+The other nodes are plant, device, alarm, log, availability, power-control, report, time, or general-information nodes. They are valid IEC reference entries, but they are not functional-location subsystem expectations for IH06.
+
+`WTUR` is retained as turbine general/root context, not as a missing subsystem requirement.
+
+## Source Caveat
+
+This file is based on accessible preview/table material and is not claimed to be a complete transcription of the normative document.
+
+Clause/table references come from the accessible preview material.
 
 ## Governance
 
-No invented IEC node names, codes, or labels are included. These pending rows are not usable as reference evidence until populated and reviewed.
+The rows are usable as reference evidence for POC-level semantic design and IH06 contrast scoping. They do not create record-level labels or production-grade standards compliance claims.

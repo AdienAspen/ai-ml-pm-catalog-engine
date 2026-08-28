@@ -1,20 +1,26 @@
 {
-  "created_at_utc": "2026-08-28T21:21:59.817819+00:00",
+  "created_at_utc": "2026-08-28T22:05:40.796329+00:00",
   "task": "T6b_IH06_crosscheck",
   "ih06_workbook_found": true,
   "ih06_rows_read": 88441,
   "site_count_sanitized": 9,
   "observed_node_rows": 640,
   "iso14224_proxy_rows": 44,
+  "iec_nodes_materialized": 21,
+  "iec_physical_subsystem_nodes_for_contrast": 8,
+  "iec_physical_subsystem_nodes_observed_by_token": 0,
+  "iec_physical_subsystem_nodes_not_observed_by_token": 8,
+  "iec_non_physical_nodes_excluded_from_missing_subsystem_claims": 13,
   "max_depth_min_by_site": 4,
   "max_depth_max_by_site": 5,
   "depth_ge_6_total": 0,
-  "iec_21_node_contrast_status": "blocked_until_authoritative_21_node_list_is_materialized",
+  "iec_21_node_contrast_status": "completed_as_token_proxy_requires_crosswalk_for_final_missing_system_claims",
   "raw_values_emitted": false,
   "outputs": {
     "by_site_csv": "stint-1.1-reference-layer/outputs/floc_ih06_crosscheck_by_site_v1.csv",
     "observed_nodes_csv": "stint-1.1-reference-layer/outputs/floc_ih06_observed_nodes_v1.csv",
     "iso14224_proxy_csv": "stint-1.1-reference-layer/outputs/floc_ih06_iso14224_proxy_v1.csv",
+    "iec_node_contrast_csv": "stint-1.1-reference-layer/outputs/floc_ih06_iec_node_contrast_v1.csv",
     "memo": "stint-1.1-reference-layer/docs/floc_ih06_crosscheck.md"
   }
 }
