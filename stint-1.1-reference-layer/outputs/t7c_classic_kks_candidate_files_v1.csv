@@ -1,0 +1,10 @@
+file_key,contractor_path,extension,hit_count,dominant_token_shape,dominant_context_bucket,raw_values_emitted
+FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,36,D1-A2-D4,order_work_context,False
+FILE-e4f0527c86,CONTRACTOR_PATH_001,.xlsx,36,D1-A2-D4,order_work_context,False
+FILE-834ec01a5c,CONTRACTOR_PATH_001,.xml,36,D1-A2-D4,order_work_context,False
+FILE-ea93fbaadd,CONTRACTOR_PATH_001,.json,30,D1-A2-D4,unspecified_context,False
+FILE-30777dfe58,CONTRACTOR_PATH_001,.xlsx,30,D1-A2-D4,asset_material_serial_context,False
+FILE-f028351901,CONTRACTOR_PATH_001,.xml,30,D1-A2-D4,unspecified_context,False
+FILE-e953c93004,CONTRACTOR_PATH_001,.json,1,D1-A2-D4,unspecified_context,False
+FILE-1d358b3075,CONTRACTOR_PATH_001,.xlsx,1,D1-A2-D4,unspecified_context,False
+FILE-77af9ec3c3,CONTRACTOR_PATH_001,.xml,1,D1-A2-D4,unspecified_context,False

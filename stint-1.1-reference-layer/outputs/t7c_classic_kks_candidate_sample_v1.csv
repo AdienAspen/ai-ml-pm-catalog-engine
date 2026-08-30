@@ -1,0 +1,16 @@
+candidate_key,file_key,contractor_path,extension,sheet_key,token_shape,token_length,context_bucket,raw_values_emitted
+KKS_CANDIDATE-04cc942dff,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A4-D2,7,unspecified_context,False
+KKS_CANDIDATE-04cc942dff,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A4-D2,7,fault_alarm_context,False
+KKS_CANDIDATE-49c625e2e8,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D6,9,asset_material_serial_context,False
+KKS_CANDIDATE-c9703c9bc4,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D4,7,asset_material_serial_context,False
+KKS_CANDIDATE-fa3e0b8811,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D2,5,asset_material_serial_context,False
+KKS_CANDIDATE-bf4f58ce01,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D4,7,asset_material_serial_context,False
+KKS_CANDIDATE-bf4f58ce01,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D4,7,unspecified_context,False
+KKS_CANDIDATE-bf4f58ce01,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D4,7,unspecified_context,False
+KKS_CANDIDATE-bf4f58ce01,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D4,7,unspecified_context,False
+KKS_CANDIDATE-bf4f58ce01,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D4,7,unspecified_context,False
+KKS_CANDIDATE-ec7d8046ac,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D4,7,order_work_context,False
+KKS_CANDIDATE-5d4fddcc2b,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D2,5,order_work_context,False
+KKS_CANDIDATE-ec7d8046ac,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D4,7,order_work_context,False
+KKS_CANDIDATE-5d4fddcc2b,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D2,5,order_work_context,False
+KKS_CANDIDATE-ec7d8046ac,FILE-7ee3b2bf6e,CONTRACTOR_PATH_001,.json,,D1-A2-D4,7,order_work_context,False
