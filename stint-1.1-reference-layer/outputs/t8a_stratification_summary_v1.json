@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-08-30T19:36:40.509232+00:00",
+  "task": "T8a_stratification_check",
+  "output_case": "A_partial_B_pending",
+  "explicit_maintenance_type_available": true,
+  "explicit_maintenance_type_scope": "CONTRACTOR_PATH_001 service orders only",
+  "structured_event_field_available": true,
+  "structured_event_field_scope": "CONTRACTOR_PATH_003 PDF assets-of-concern rows",
+  "maintenance_distribution_rows": 337,
+  "coverage_rows": 2,
+  "candidate_field_rows": 17,
+  "free_text_inference_performed": false,
+  "raw_values_emitted": false,
+  "outputs": {
+    "distribution_csv": "stint-1.1-reference-layer/outputs/t8a_maintenance_type_distribution_v1.csv",
+    "coverage_csv": "stint-1.1-reference-layer/outputs/t8a_stratification_coverage_v1.csv",
+    "candidate_fields_csv": "stint-1.1-reference-layer/outputs/t8a_candidate_stratification_fields_v1.csv",
+    "memo": "stint-1.1-reference-layer/docs/t8a_stratification_check.md"
+  }
+}

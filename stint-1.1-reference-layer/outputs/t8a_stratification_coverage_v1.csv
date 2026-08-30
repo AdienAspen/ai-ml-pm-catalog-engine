@@ -1,0 +1,3 @@
+contractor_path,source_family,source_file_role,records,maintenance_type_field,maintenance_type_field_present,maintenance_type_non_null_rows,maintenance_type_coverage_pct,site_field,site_field_present,site_non_null_rows,site_coverage_pct,raw_values_emitted
+CONTRACTOR_PATH_001,source_data,service_orders,10749,activityType,True,10749,100.0,siteId,True,10749,100.0,False
+CONTRACTOR_PATH_003,source_data,pdf_assets_of_concern,1581,event,True,1581,100.0,site_text,True,1581,100.0,False
