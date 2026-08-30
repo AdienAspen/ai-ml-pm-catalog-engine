@@ -1,27 +1,39 @@
 # Canonical Constraints
 
-The interface contract is not domain semantics. It is the destination constraint for the reference layer.
+## Purpose
 
-The reference layer must know which interface field, namespace, data type, and cardinality each concept can feed, but it must not copy the interface contract as semantic content.
+This file records the canonical destination constraints for concepts produced by `reference-layer-v1`.
+
+The canonical contract is an interface constraint, not domain evidence. This file reads and transcribes the frozen canonical v1.8 baseline; it does not modify it and does not promote any field to ground truth.
+
+## Source
+
+- `data/interim/extracted_source/package_004_bf45b793/latest/canonical_field_matrix.csv`
+- `data/interim/extracted_source/package_004_bf45b793/latest/FSA_SyncHub_Canonical_Record_Specification_v1_8.md`
 
 ## Target Destination Constraints
 
-| target | target_field | type | cardinality | namespace | record_identifier | primary_text_field | status | notes |
-|---|---|---|---|---|---|---|---|---|
-| symptom | TBD | string | TBD | catalog_s | pending_DELTA-0002 | pending_DELTA-0003 | unresolved | Symptom semantics remain hypothesis-level until direct project evidence exists. |
-| object_part | TBD | string | TBD | catalog_b | pending_DELTA-0002 | pending_DELTA-0003 | unresolved | Valid target code universe comes from catalog reference evidence. |
-| damage | TBD | string | TBD | catalog_c | pending_DELTA-0002 | pending_DELTA-0003 | unresolved | Damage must be treated as physical process, not observation. |
-| cause | TBD | string | TBD | catalog_5 | pending_DELTA-0002 | pending_DELTA-0003 | unresolved | Low-coverage target; denominator is target-specific. |
-| activity | TBD | string | TBD | catalog_a | pending_DELTA-0002 | pending_DELTA-0003 | unresolved | Shared evidence must not be counted as independent target evidence. |
-| floc_leaf_segment | TBD | string | TBD | floc | pending_DELTA-0002 | pending_DELTA-0003 | unresolved | Structural support can validate interpretation but does not resolve hierarchy by itself. |
-| activity_type | TBD | string | TBD | mat | pending_DELTA-0002 | pending_DELTA-0003 | unresolved | Pending controlled source confirmation. |
+| target | namespace | target_field | field_type | cardinality | required | source_ref | status |
+|---|---|---|---|---|---|---|---|
+| Symptom | `catalog_s` | `header.symptom.group` + `header.symptom.code` | `string(8)` group + `string(4)` code | `1` per notification header | yes | `canonical_field_matrix.csv`: `header.symptom.group`, `header.symptom.code`; evidence ref `Wind_Catalog_Group_and_Codes_Final_v4.xlsx`, Catalog S | resolved |
+| Object Part | `catalog_b` | `findings[].object_part` | `Resolution<{group,code,text}>` | `0..10`, exactly `1` per finding when emitted | conditional | `canonical_field_matrix.csv`: `findings[].object_part`; evidence ref Catalog B | resolved |
+| Damage | `catalog_c` | `findings[].damage` | `Resolution<{group,code,text}>` | `0..10`, exactly `1` per finding when emitted | conditional | `canonical_field_matrix.csv`: `findings[].damage`; evidence ref Catalog C | resolved |
+| Cause | `catalog_5` | `findings[].cause` | `Resolution<{group,code,text}>` | `0..10`, exactly `1` per finding when emitted | conditional | `canonical_field_matrix.csv`: `findings[].cause`; evidence ref Catalog 5 | resolved |
+| Activity | `catalog_a` | `findings[].activity` | `Resolution<{group,code,text}>` | `0..10`, exactly `1` per finding when emitted | conditional | `canonical_field_matrix.csv`: `findings[].activity`; evidence ref Catalog A | resolved |
+| FLOC leaf | `floc` | `header.functional_location` | `string(30)` | `1` per notification/order root | yes | `canonical_field_matrix.csv`: `header.functional_location`; SAP field `TPLNR`; mirrored by `order.funct_loc` | resolved |
+| Activity Type | `mat` | `header.activity_type` | `string(3)` | `1` per notification/order root | yes | `canonical_field_matrix.csv`: `header.activity_type`; SAP field `ILART`; mirrored by `order.pmacttype` | resolved |
 
-## Pending Runtime Constraints
+## Open Delta Constraints
 
-- `record_identifier` is pending under `DELTA-0002`.
-- `primary_text_field` is pending per target under `DELTA-0003`.
-- Until these constraints are resolved or explicitly proxied, candidate evidence must not be promoted to a measurement denominator.
+| constraint | delta_id | status | reason | downstream impact |
+|---|---|---|---|---|
+| `record_identifier` | `DELTA-0002` | pending | The canonical constraints do not yet name the record identity field used to form target-level measurement denominators. `record_meta.canonical_record_id` exists as a generated canonical id, while external evidence such as Malyi expects an explicit work-order identifier. | STINT_1 must not claim a measurement denominator until the selected record identity key is documented or proxied. |
+| `primary_text_field` | `DELTA-0003` | pending | The canonical includes text-bearing fields such as `header.short_text`, `header.long_text`, and classification-input text fields, but it does not bind one primary runtime text source per target. | T8 and later evidence passes must record which text field(s) were used per target before promoting candidates to measurable evidence. |
 
-## Validation Rule
+## Design Rules
 
-Before freezing `reference-layer-v1`, every produced concept or mapping candidate must have a valid destination constraint or be explicitly marked `unresolved`.
+- Do not invent canonical fields. If a concept has no destination listed above, mark it `unresolved`.
+- Do not modify the canonical contract from this file.
+- Treat this file as the destination constraint consumed by T8/T9 and downstream STINT_1 evidence engineering.
+- A valid SAP catalog code is not enough; a concept must also have a valid canonical destination field.
+- Before freezing `reference-layer-v1`, T9 must verify that no produced concept lacks a valid destination in this file.
