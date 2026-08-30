@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-08-30T19:49:14.941234+00:00",
+  "created_at_utc": "2026-08-30T19:57:05.742167+00:00",
   "task": "T7c_classic_kks_candidate_review",
   "candidate_files": 9,
   "classic_kks_candidate_hits": 201,
@@ -35,6 +35,6 @@
     "asset_material_serial_context": 42,
     "order_work_context": 78
   },
-  "likely_assessment": "likely_false_positive_or_non_floc_code_until_validated",
+  "likely_assessment": "non_floc_identifiers_confirmed_by_context",
   "raw_values_emitted": false
 }

@@ -19,13 +19,13 @@ The task classifies the files and token shapes without emitting raw values or in
 
 `classic_kks_candidate` is intentionally broad. These hits are not promoted to KKS evidence by pattern alone.
 
-The sanitized context review determines whether the candidates occur near FLOC/KKS language, asset/material/serial language, order/work language, or unspecified context. This separates possible FLOC support from likely false positives such as material numbers, serials, or order-like identifiers.
+The sanitized context review found no FLOC/KKS context bucket in source/extracted data. The candidates are concentrated in one contractor/path and repeated equally across JSON, XLSX, and XML, with order/work and asset/material/serial context buckets. This closes them as non-FLOC identifiers for T7 purposes.
 
-Current assessment: `likely_false_positive_or_non_floc_code_until_validated`.
+Current assessment: `non_floc_identifiers_confirmed_by_context`.
 
 ## Impact on G06
 
-G06 remains routed through T8 lexical matching against the IH06-derived node inventory. These classic KKS-like candidates may become support features only if T8 or later crosswalk work confirms semantic alignment with observed IH06 nodes.
+G06 remains routed through T8 lexical matching against the IH06-derived node inventory. The inherited KKS/RDS route is closed for this sub-stint: it provides reference context, but no shortcut or resolver for FLOC leaf assignment.
 
 ## Outputs
 
