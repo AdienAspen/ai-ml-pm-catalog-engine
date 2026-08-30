@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-08-28T22:27:49.002119+00:00",
+  "task": "T7_KKS_presence_check",
+  "files_scanned": 757,
+  "files_with_any_hit_scope_summed": 6,
+  "pattern_hit_count": 27,
+  "pattern_rows": 4,
+  "scan_errors": 0,
+  "rds_pp_normative_codes_checked": 7,
+  "rds_pp_normative_codes_with_hits": 0,
+  "numeric_project_specific_segments_interpreted": false,
+  "raw_values_emitted": false,
+  "outputs": {
+    "pattern_counts_csv": "stint-1.1-reference-layer/outputs/kks_presence_check_pattern_counts_v1.csv",
+    "scope_summary_csv": "stint-1.1-reference-layer/outputs/kks_presence_check_scope_summary_v1.csv",
+    "rds_pp_presence_csv": "stint-1.1-reference-layer/reference_layer/source_designations/rds_pp_normative_pattern_presence_v1.csv",
+    "errors_csv": "stint-1.1-reference-layer/outputs/kks_presence_check_errors_v1.csv",
+    "memo": "stint-1.1-reference-layer/docs/kks_presence_check.md"
+  }
+}

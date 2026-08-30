@@ -1,0 +1,5 @@
+scope,extension,pattern_id,pattern_family,files_with_hit,hit_count,raw_values_emitted
+reference_layer_artifact,.md,rds_pp_m_designation,rds_pp,1,22,False
+reference_layer_artifact,.py,rds_pp_m_designation,rds_pp,2,2,False
+reference_or_contract_source,.md,rds_pp_m_designation,rds_pp,1,1,False
+reference_or_contract_source,.md,rds_pp_u_designation,rds_pp,2,2,False
