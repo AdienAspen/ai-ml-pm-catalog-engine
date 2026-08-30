@@ -27,8 +27,8 @@ The available evidence remains consistent with the previous T6/T7 interpretation
 - KKS / RDS-PP is useful as supporting reference context.
 - It does not currently provide a resolutor for FLOC leaf assignment.
 - Numeric/project-specific KKS segments must not be interpreted without an authoritative project-specific source.
-- G06 remains open as a controlled-source / crosswalk dependency, not as a parser failure.
+- G06 is not blocked by an external controlled source. The authoritative FLOC hierarchy already exists in IH06 and was read structurally. FLOC leaf resolution depends on the internal T8 lexical matching step against observed IH06 nodes, not on KKS/RDS-PP.
 
 ## Decision
 
-Keep KKS/RDS evidence in the reference layer as support evidence only. Do not promote it to `validated_mapping` or target-level ground truth.
+Keep KKS/RDS evidence in the reference layer as support evidence only. Do not promote it to `validated_mapping` or target-level ground truth. Route G06 resolution through T8 lexical matching against the IH06-derived node inventory.
