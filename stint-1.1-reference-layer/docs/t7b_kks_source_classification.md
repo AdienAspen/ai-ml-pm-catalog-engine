@@ -10,6 +10,7 @@ No raw operational values are emitted in this note.
 
 | candidate | classification | finding | impact on G06 |
 | --- | --- | --- | --- |
+| `KKS_General.pdf` | generic KKS reference manual | A 56-page PDF reference document titled as a power-plant KKS identification system. It contains many structured tables and general KKS/system/equipment/component identification material. No inspected metadata/keyword evidence indicates SAP, FLOC, client/customer-specific mapping, or an FSA-specific crosswalk. | Raises confidence that KKS is available as general reference context, but does not resolve G06. |
 | `rds_pp_normative_pattern_presence_v1.csv` | generated T7 artefact | Aggregate output created by the T7 presence check. It only records the seven normative RDS-PP letter codes from the plan and their zero-hit status. | No additional evidence. |
 | `Plan Tecnico v2 - STINT_1.1-reference-layer.md` | internal planning source | Planning document that names RDS-PP patterns as check criteria. It is not a data source, mapping file, or client reference. | No additional evidence. |
 | `external/malyi/src/taxonomy_handler.py` | external reference code | Generic open-source taxonomy handling code. The apparent KKS/RDS hit comes from an illustrative hierarchical code example in source comments/code context. | External corroboration only; not FSA-specific. |
@@ -17,7 +18,9 @@ No raw operational values are emitted in this note.
 
 ## Conclusion
 
-T7b did not find a standalone KKS/RDS client mapping file, manual, controlled code list, or customer-specific crosswalk in the scanned corpus.
+T7b found one standalone KKS reference PDF in the corpus: `KKS_General.pdf`.
+
+The document appears to be a generic KKS power-plant identification reference/manual, not a client-specific mapping file and not a SAP/FLOC crosswalk.
 
 The available evidence remains consistent with the previous T6/T7 interpretation:
 
