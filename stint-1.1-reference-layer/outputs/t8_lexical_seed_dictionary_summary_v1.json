@@ -1,0 +1,45 @@
+{
+  "created_at_utc": "2026-08-30T20:08:58.795323+00:00",
+  "task": "T8_lexical_seed_dictionary",
+  "records_inspected": 600,
+  "minimum_required_records_inspected": 500,
+  "minimum_requirement_met": true,
+  "unique_lexical_entries": 14235,
+  "target_summary": {
+    "unknown": 11002,
+    "Activity": 909,
+    "Object Part": 1501,
+    "Symptom": 289,
+    "Cause": 176,
+    "Damage": 347,
+    "Activity Type": 11
+  },
+  "sampled_record_strata": {
+    "other_explicit_value": 120,
+    "planned_like": 120,
+    "reactive_like": 120,
+    "unclassified_explicit_value": 60,
+    "event_structural": 180
+  },
+  "source_text_fields": {
+    "classification_input.description_extended": 9489,
+    "pdf_assets_of_concern.event": 283,
+    "classification_input.description": 815,
+    "classification_input.reason": 781,
+    "classification_input.work_performed": 2867
+  },
+  "source_text_field_required": true,
+  "stratification_mixing_guardrail": "Do not mix planned/reactive strata with event_structural in the same count.",
+  "candidate_generation_performed": false,
+  "lexical_seed_dictionary_contains_source_derived_terms": true,
+  "versioned_sanitized_dictionary_available": true,
+  "raw_full_text_emitted": false,
+  "raw_values_emitted": false,
+  "outputs": {
+    "lexical_dictionary_csv": "stint-1.1-reference-layer/reference_layer/lexical_layer/lexical_seed_dictionary_v1.csv",
+    "lexical_dictionary_sanitized_csv": "stint-1.1-reference-layer/reference_layer/lexical_layer/lexical_seed_dictionary_v1_sanitized.csv",
+    "sampled_records_csv": "stint-1.1-reference-layer/outputs/t8_sampled_records_v1.csv",
+    "normalisation_pipeline_spec": "stint-1.1-reference-layer/reference_layer/semantic_normalisation/normalisation_pipeline_spec.md",
+    "memo": "stint-1.1-reference-layer/docs/t8_lexical_seed_dictionary.md"
+  }
+}
