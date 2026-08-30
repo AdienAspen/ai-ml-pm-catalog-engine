@@ -1,8 +1,8 @@
 normative_letter_code,hit_count,evidence_type,tier,source_note,raw_values_emitted
-MDA,0,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
-MDK,0,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
-MDL,0,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
-MKA,0,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
-MSE,0,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
-MST,0,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
-MUD,0,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
+MDA,1705,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
+MDK,5,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
+MDL,5,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
+MKA,5,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
+MSE,5,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
+MST,5,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False
+MUD,16,reference_evidence,silver-high,RDS-PP pattern list from STINT_1.1 plan; numeric project-specific segments are not interpreted.,False

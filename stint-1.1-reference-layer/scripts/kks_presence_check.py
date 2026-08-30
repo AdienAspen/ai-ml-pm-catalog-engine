@@ -43,14 +43,14 @@ PATTERNS = [
         "pattern_id": "rds_pp_normative_letter_code",
         "pattern_family": "rds_pp",
         "description": "Normative/supporting RDS-PP letter codes referenced in the plan",
-        "regex": re.compile(r"\\b(?:" + "|".join(RDS_PP_CODES) + r")\\b", re.IGNORECASE),
+        "regex": re.compile(r"\b(?:" + "|".join(RDS_PP_CODES) + r")\b", re.IGNORECASE),
         "emit_token": True,
     },
     {
         "pattern_id": "classic_kks_candidate",
         "pattern_family": "kks_classic",
         "description": "Classic KKS-like alphanumeric designation candidate. Numeric project-specific portion is not interpreted.",
-        "regex": re.compile(r"\\b\\d{1,2}[A-Z]{2,4}\\d{2,4}[A-Z0-9]{0,4}\\b"),
+        "regex": re.compile(r"\b\d{1,2}[A-Z]{2,4}\d{2,4}[A-Z0-9]{0,4}\b"),
         "emit_token": False,
     },
 ]
@@ -110,7 +110,7 @@ def read_zip_text(path: Path) -> str:
         for name in zf.namelist():
             if name.endswith(".xml"):
                 chunks.append(zf.read(name).decode("utf-8", errors="ignore"))
-    return "\\n".join(chunks)
+    return "\n".join(chunks)
 
 
 def read_xlsx_text(path: Path) -> str:
@@ -125,7 +125,7 @@ def read_xlsx_text(path: Path) -> str:
                         chunks.append(str(value))
     finally:
         wb.close()
-    return "\\n".join(chunks)
+    return "\n".join(chunks)
 
 
 def read_pdf_text(path: Path) -> str:
@@ -133,7 +133,7 @@ def read_pdf_text(path: Path) -> str:
     with pdfplumber.open(path) as pdf:
         for page in pdf.pages:
             chunks.append(page.extract_text(x_tolerance=1, y_tolerance=3) or "")
-    return "\\n".join(chunks)
+    return "\n".join(chunks)
 
 
 def read_supported_text(path: Path) -> str:
@@ -278,12 +278,28 @@ def main() -> None:
 
     total_hits = sum(row["hit_count"] for row in pattern_rows)
     total_files_with_hits = sum(row["files_with_any_hit"] for row in scope_rows)
+    source_data_rows = [row for row in scope_rows if row["scope"] == "source_or_extracted_data"]
+    source_data_pattern_rows = [row for row in pattern_rows if row["scope"] == "source_or_extracted_data"]
+    source_data_files_scanned = sum(row["files_scanned"] for row in source_data_rows)
+    source_data_files_with_hits = sum(row["files_with_any_hit"] for row in source_data_rows)
+    source_data_pattern_hit_count = sum(row["pattern_hit_count"] for row in source_data_rows)
+    source_data_classic_kks_hit_count = sum(
+        row["hit_count"] for row in source_data_pattern_rows if row["pattern_id"] == "classic_kks_candidate"
+    )
+    source_data_rds_pp_hit_count = sum(
+        row["hit_count"] for row in source_data_pattern_rows if row["pattern_family"] == "rds_pp"
+    )
     summary = {
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "task": "T7_KKS_presence_check",
         "files_scanned": len(files),
         "files_with_any_hit_scope_summed": total_files_with_hits,
         "pattern_hit_count": total_hits,
+        "source_or_extracted_data_files_scanned": source_data_files_scanned,
+        "source_or_extracted_data_files_with_any_hit": source_data_files_with_hits,
+        "source_or_extracted_data_pattern_hit_count": source_data_pattern_hit_count,
+        "source_or_extracted_data_classic_kks_candidate_hit_count": source_data_classic_kks_hit_count,
+        "source_or_extracted_data_rds_pp_hit_count": source_data_rds_pp_hit_count,
         "pattern_rows": len(pattern_rows),
         "scan_errors": len(errors),
         "rds_pp_normative_codes_checked": len(RDS_PP_CODES),
@@ -319,7 +335,12 @@ def main() -> None:
         "## Summary",
         "",
         f"- Files scanned: {summary['files_scanned']}",
-        f"- Pattern hit count: {summary['pattern_hit_count']}",
+        f"- Source/extracted data files scanned: {summary['source_or_extracted_data_files_scanned']}",
+        f"- Source/extracted data files with KKS/RDS hits: {summary['source_or_extracted_data_files_with_any_hit']}",
+        f"- Source/extracted data KKS/RDS hit count: {summary['source_or_extracted_data_pattern_hit_count']}",
+        f"- Source/extracted data classic KKS candidate hit count: {summary['source_or_extracted_data_classic_kks_candidate_hit_count']}",
+        f"- Source/extracted data RDS-PP hit count: {summary['source_or_extracted_data_rds_pp_hit_count']}",
+        f"- Total repository-level pattern hit count: {summary['pattern_hit_count']}",
         f"- Pattern rows emitted: {summary['pattern_rows']}",
         f"- Scan errors: {summary['scan_errors']}",
         f"- RDS-PP normative letter codes with hits: {summary['rds_pp_normative_codes_with_hits']} / {summary['rds_pp_normative_codes_checked']}",
@@ -327,6 +348,10 @@ def main() -> None:
         "## Interpretation",
         "",
         "This is a presence check, not a resolver. KKS/RDS-PP evidence may support FLOC interpretation, validation, or crosswalk construction, but it must not be treated as resolving or constructing the final hierarchy by itself.",
+        "",
+        "The corrected regex pass finds KKS-like candidate hits in `source_or_extracted_data`, all under the broad `classic_kks_candidate` pattern. It does not find RDS-PP scoped hits in source/extracted data.",
+        "",
+        "The large repository-level count is not a source-data denominator: it includes reference documents, planning material, generated artefacts, and external support code. Scope separation is therefore part of the control.",
         "",
         "The result should feed STINT_1 as supporting source-designation evidence for FLOC and related semantic reconciliation work.",
         "",
@@ -345,7 +370,7 @@ def main() -> None:
         "- Do not treat KKS/RDS-PP as a hierarchy resolver.",
         "- Preserve namespace separation: IEC id != RDS-PP != ISO != FLOC != EQUNR != technician term.",
     ]
-    (DOCS_DIR / "kks_presence_check.md").write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+    (DOCS_DIR / "kks_presence_check.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(json.dumps(summary, indent=2))
 
 

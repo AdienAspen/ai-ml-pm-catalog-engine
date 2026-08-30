@@ -1,5 +1,16 @@
 scope,extension,pattern_id,pattern_family,files_with_hit,hit_count,raw_values_emitted
+reference_layer_artifact,.csv,rds_pp_normative_letter_code,rds_pp,2,16,False
+reference_layer_artifact,.json,rds_pp_normative_letter_code,rds_pp,2,10,False
 reference_layer_artifact,.md,rds_pp_m_designation,rds_pp,1,22,False
+reference_layer_artifact,.md,rds_pp_normative_letter_code,rds_pp,3,15,False
 reference_layer_artifact,.py,rds_pp_m_designation,rds_pp,2,2,False
+reference_layer_artifact,.py,rds_pp_normative_letter_code,rds_pp,2,15,False
+reference_or_contract_source,.docx,classic_kks_candidate,kks_classic,3,987,False
 reference_or_contract_source,.md,rds_pp_m_designation,rds_pp,1,1,False
+reference_or_contract_source,.md,rds_pp_normative_letter_code,rds_pp,1,1,False
 reference_or_contract_source,.md,rds_pp_u_designation,rds_pp,2,2,False
+reference_or_contract_source,.pptx,classic_kks_candidate,kks_classic,1,13,False
+reference_or_contract_source,.xlsx,rds_pp_normative_letter_code,rds_pp,1,1689,False
+source_or_extracted_data,.json,classic_kks_candidate,kks_classic,3,67,False
+source_or_extracted_data,.xlsx,classic_kks_candidate,kks_classic,3,67,False
+source_or_extracted_data,.xml,classic_kks_candidate,kks_classic,3,67,False
