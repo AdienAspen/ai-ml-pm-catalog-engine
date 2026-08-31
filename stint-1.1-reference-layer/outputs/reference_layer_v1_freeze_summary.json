@@ -36,5 +36,16 @@
       "note": "Excluded from IEC 61400-25-2 physical-node IH06 contrast."
     }
   ],
+  "source_hygiene_check": {
+    "status": "closed",
+    "formal_source_records_clean": true,
+    "discarded_source_patterns_checked": [
+      "studylib",
+      "scribd",
+      "researchgate",
+      "utm_source=chatgpt.com"
+    ],
+    "note": "Incidental hits are documented in docs/t9_source_hygiene_check.md and are not admitted primary references."
+  },
   "raw_values_emitted": false
 }

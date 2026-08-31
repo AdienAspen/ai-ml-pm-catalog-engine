@@ -13,6 +13,7 @@ This checklist defines the minimum controls required before freezing `reference-
 - Confirm that no produced concept lacks a valid canonical destination in `canonical-constraints.md`.
 - Confirm that unresolved concepts are explicitly marked `unresolved` and do not enter measurement denominators.
 - Confirm that no raw operational values are emitted in versioned outputs.
+- Confirm that discarded sources and ChatGPT tracking URL parameters are absent from formal source records.
 - Confirm that `LTIM` is documented as IEC 61850-7-4-derived and excluded from the IEC 61400-25-2 physical-node IH06 contrast.
 - Confirm that `LEXICAL_LAYER` is frozen only as provisional, with the T8b/T8c cause documented.
 - Confirm that `SEMANTIC_NORMALISATION` is frozen as a structural scaffold while WMEP and NREL GRD remain `source_capture_pending`.
@@ -26,6 +27,10 @@ This checklist defines the minimum controls required before freezing `reference-
 | `CANONICAL_CONSTRAINTS` | complete_for_poc_reference_layer | Seven targets have destination fields declared; canonical is interface constraint, not domain evidence. | Produced concepts must resolve to a valid canonical destination before downstream consumption. |
 | `SEMANTIC_NORMALISATION` | partial_structural_scaffold | ZEUS/MaintIE/Malyi scaffold is usable, but WMEP and NREL GRD content remain `source_capture_pending`. | Containers and routing rules exist; wind failure vocabulary still requires population in STINT_1. |
 | `LEXICAL_LAYER` | provisional_pending_token_filtering_and_domain_grouping | T8 was a contact test; T8b/T8c show broad token/n-gram admission and weak grouping into canonical domain concepts. | Do not treat lexical output as final seed dictionary; rework filtering/grouping during STINT_1. |
+
+## Source Hygiene Control
+
+`docs/t9_source_hygiene_check.md` records the explicit grep verification for discarded sources and `utm_source=chatgpt.com`. Formal source records are clean; incidental hits are documented and not used as primary sources.
 
 ## Freeze Rule
 
