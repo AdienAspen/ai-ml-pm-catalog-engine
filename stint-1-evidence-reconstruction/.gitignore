@@ -1,0 +1,13 @@
+# Dictionaries with source-derived terms
+**/lexical_layer_v2/*_working.csv
+**/*_unsanitized.csv
+
+# Outputs with raw operational values
+evidence/**/raw_*
+phase_*/outputs/**/*_raw.csv
+
+# Local caches
+**/__pycache__/
+**/.ipynb_checkpoints/
+
+# Only sanitized artefacts should be versioned by default.
