@@ -1,0 +1,144 @@
+{
+  "created_at_utc": "2026-08-31T20:25:32.304127+00:00",
+  "task": "T8c_observed_term_length_diagnostic",
+  "rows": 14235,
+  "distinct_observed_terms": 10639,
+  "word_length_counts": {
+    "1": 3081,
+    "2": 5579,
+    "3": 5575
+  },
+  "pct_1_2_words": 60.84,
+  "pct_3_plus_words": 39.16,
+  "pct_5_plus_words": 0.0,
+  "median_word_length": 2.0,
+  "mean_word_length": 2.18,
+  "by_target": {
+    "Activity": {
+      "rows": 909,
+      "word_length_counts": {
+        "1": 54,
+        "2": 357,
+        "3": 498
+      },
+      "pct_1_2_words": 45.21,
+      "pct_3_plus_words": 54.79
+    },
+    "Activity Type": {
+      "rows": 11,
+      "word_length_counts": {
+        "1": 2,
+        "2": 4,
+        "3": 5
+      },
+      "pct_1_2_words": 54.55,
+      "pct_3_plus_words": 45.45
+    },
+    "Cause": {
+      "rows": 176,
+      "word_length_counts": {
+        "1": 19,
+        "2": 67,
+        "3": 90
+      },
+      "pct_1_2_words": 48.86,
+      "pct_3_plus_words": 51.14
+    },
+    "Damage": {
+      "rows": 347,
+      "word_length_counts": {
+        "1": 50,
+        "2": 139,
+        "3": 158
+      },
+      "pct_1_2_words": 54.47,
+      "pct_3_plus_words": 45.53
+    },
+    "Object Part": {
+      "rows": 1501,
+      "word_length_counts": {
+        "1": 117,
+        "2": 577,
+        "3": 807
+      },
+      "pct_1_2_words": 46.24,
+      "pct_3_plus_words": 53.76
+    },
+    "Symptom": {
+      "rows": 289,
+      "word_length_counts": {
+        "1": 17,
+        "2": 116,
+        "3": 156
+      },
+      "pct_1_2_words": 46.02,
+      "pct_3_plus_words": 53.98
+    },
+    "unknown": {
+      "rows": 11002,
+      "word_length_counts": {
+        "1": 2822,
+        "2": 4319,
+        "3": 3861
+      },
+      "pct_1_2_words": 64.91,
+      "pct_3_plus_words": 35.09
+    }
+  },
+  "by_source_text_field": {
+    "classification_input.description": {
+      "rows": 815,
+      "word_length_counts": {
+        "1": 274,
+        "2": 331,
+        "3": 210
+      },
+      "pct_1_2_words": 74.23,
+      "pct_3_plus_words": 25.77
+    },
+    "classification_input.description_extended": {
+      "rows": 9489,
+      "word_length_counts": {
+        "1": 1777,
+        "2": 3677,
+        "3": 4035
+      },
+      "pct_1_2_words": 57.48,
+      "pct_3_plus_words": 42.52
+    },
+    "classification_input.reason": {
+      "rows": 781,
+      "word_length_counts": {
+        "1": 264,
+        "2": 315,
+        "3": 202
+      },
+      "pct_1_2_words": 74.14,
+      "pct_3_plus_words": 25.86
+    },
+    "classification_input.work_performed": {
+      "rows": 2867,
+      "word_length_counts": {
+        "1": 696,
+        "2": 1151,
+        "3": 1020
+      },
+      "pct_1_2_words": 64.42,
+      "pct_3_plus_words": 35.58
+    },
+    "pdf_assets_of_concern.event": {
+      "rows": 283,
+      "word_length_counts": {
+        "1": 70,
+        "2": 105,
+        "3": 108
+      },
+      "pct_1_2_words": 61.84,
+      "pct_3_plus_words": 38.16
+    }
+  },
+  "diagnosis": "broad_short_ngram_extraction_supported",
+  "updated_interpretation": "The high distinct-term count is not caused by full text-segment extraction, but the artefact contains a substantial short n-gram component. The remaining issue is broad token/n-gram admission and weak canonical grouping.",
+  "lexical_layer_status": "provisional_pending_token_filtering_and_domain_grouping",
+  "raw_values_emitted": false
+}
