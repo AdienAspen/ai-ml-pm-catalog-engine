@@ -22,8 +22,8 @@ Examples:
 |---|---|---|---|---|---|
 | RL-CANONICAL-0001 | CANONICAL_TAXONOMY | TBD | TBD | pending | Bootstrap placeholder. |
 | RL-SOURCE-0001 | SOURCE_DESIGNATIONS | TBD | TBD | pending | Bootstrap placeholder. |
-| RL-LEXICAL-0001 | LEXICAL_LAYER | TBD | TBD | pending | Bootstrap placeholder. |
-| RL-NORMALISATION-0001 | SEMANTIC_NORMALISATION | TBD | TBD | pending | Bootstrap placeholder. |
+| RL-LEXICAL-0001 | LEXICAL_LAYER | lexical seed dictionary | multi_target | provisional_pending_token_filtering_and_domain_grouping | T8 contact test completed; T8b/T8c show broad token/n-gram admission and weak domain grouping. |
+| RL-NORMALISATION-0001 | SEMANTIC_NORMALISATION | semantic scaffold | multi_target | partial_structural_scaffold | Containers and routing rules exist; WMEP/NREL GRD lexical content remains source_capture_pending. |
 | RL-SAP-0001 | SAP_MAPPING | TBD | TBD | pending | Bootstrap placeholder. |
 | RL-NORMALISATION-0101 | SEMANTIC_NORMALISATION | detection_symptom | semantic_scaffold | active | ZEUS-style scaffold category; Symptom hypothesis only. |
 | RL-NORMALISATION-0102 | SEMANTIC_NORMALISATION | failure_mode | semantic_scaffold | active | Scaffold category; not one-to-one with SAP Damage. |

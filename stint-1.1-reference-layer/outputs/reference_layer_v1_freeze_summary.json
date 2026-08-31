@@ -1,0 +1,40 @@
+{
+  "task": "T9_reference_layer_v1_freeze",
+  "reference_layer_version": "reference-layer-v1",
+  "freeze_status": "frozen_for_poc_downstream_use_with_declared_partial_objects",
+  "complete_objects": [
+    "SAP_MAPPING",
+    "SOURCE_DESIGNATIONS",
+    "CANONICAL_CONSTRAINTS"
+  ],
+  "partial_or_provisional_objects": [
+    {
+      "object": "SEMANTIC_NORMALISATION",
+      "status": "partial_structural_scaffold",
+      "reason": "WMEP and NREL GRD vocabulary/content remain source_capture_pending."
+    },
+    {
+      "object": "LEXICAL_LAYER",
+      "status": "provisional_pending_token_filtering_and_domain_grouping",
+      "reason": "T8b/T8c confirmed broad token/n-gram admission and weak grouping into canonical domain concepts."
+    }
+  ],
+  "classification_corrections": [
+    {
+      "item": "canonical_contract",
+      "classification": "interface_constraint",
+      "note": "Not evidence and not expert inference."
+    },
+    {
+      "item": "ZEUS_public_preview_category_names",
+      "classification": "reference_evidence",
+      "note": "Project-target routing remains expert_inference."
+    },
+    {
+      "item": "LTIM",
+      "classification": "IEC_61850_7_4_derived_reference",
+      "note": "Excluded from IEC 61400-25-2 physical-node IH06 contrast."
+    }
+  ],
+  "raw_values_emitted": false
+}

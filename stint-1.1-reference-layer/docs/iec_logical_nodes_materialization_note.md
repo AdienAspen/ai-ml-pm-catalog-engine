@@ -19,8 +19,9 @@ The rows were materialized from accessible IEC preview/table material supplied i
 - IEC node labels materialized: 21
 - Evidence type: `reference_evidence`
 - Tier: `silver-high`
-- Source: `IEC 61400-25-2`
-- Source version: `Ed. 2.0 (2015)`
+- Primary source: `IEC 61400-25-2`
+- Primary source version: `Ed. 2.0 (2015)`
+- `LTIM` source: `IEC 61850-7-4` derived reference
 - Status: `active`
 
 ## IH06 Contrast Scope
@@ -37,6 +38,8 @@ Only physical turbine subsystem nodes are eligible for IH06 missing-system contr
 - `WTOW`
 
 The other nodes are plant, device, alarm, log, availability, power-control, report, time, or general-information nodes. They are valid IEC reference entries, but they are not functional-location subsystem expectations for IH06.
+
+`LTIM` is retained for traceability as an IEC 61850-7-4-derived time-management node. It is not treated as an IEC 61400-25-2 physical wind-turbine subsystem node.
 
 `WTUR` is retained as turbine general/root context, not as a missing subsystem requirement.
 
