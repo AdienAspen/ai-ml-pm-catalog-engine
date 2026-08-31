@@ -1,0 +1,7 @@
+check_id,topic,status,evidence,downstream_rule
+F0-001,838_vs_910_candidate_pair_rows,resolved,838 source opportunity rows plus 72 target-expansion rows equals 910 target-expanded rows.,Use 838 for source opportunities and 910 only for target-expanded classification rows.
+F0-002,147_vs_157_file_scope,resolved,157 structural files equals 147 source_data plus 10 mapping/reference files.,Pair discovery scope is source_data only unless explicitly widened.
+F0-003,G08_parser_gap,closed,Latest denominator reconciliation reports current_parser_issue_on_tabular_files=0.,Do not keep G08 as an open parser gap unless new parser evidence appears.
+F0-004,Cause_Activity_ActivityType_shared_expansion,open_for_phase_2,"36 source opportunities were expanded across Cause, Activity, and Activity Type.","Treat as shared evidence, not independent target evidence, until DELTA-0009 semantic split."
+F0-005,DELTA-0002_record_identifier,resolved_for_poc_policy,STINT_1 defines deterministic stint1_record_id proxy.,No denominator unless grouped by stint1_record_id and target.
+F0-006,DELTA-0003_primary_text_field,resolved_for_poc_policy,STINT_1 defines target-specific source_text_field routing.,No evidence promotion without source_text_field.

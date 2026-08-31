@@ -2,7 +2,7 @@
 
 ## Status
 
-`open`
+`resolved_for_poc_policy`
 
 ## Issue
 
@@ -12,7 +12,34 @@ The frozen canonical constraints do not yet name the definitive record identity 
 
 Before any target denominator is claimed, STINT_1 must document the selected `record_id` or proxy record identifier and its coverage.
 
+## Decision
+
+STINT_1 uses `stint1_record_id` as the record identity key for PoC evidence reconstruction.
+
+`stint1_record_id` is a deterministic, non-reversible proxy generated from sanitized record lineage:
+
+```text
+source_family + source_path_key + source_record_ordinal + source_text_field
+```
+
+When a canonical runtime record already exposes `record_meta.canonical_record_id`, that value may be recorded as `canonical_record_id_ref`, but STINT_1 denominators use `stint1_record_id` for consistency across source families.
+
+## Why This Is Acceptable for PoC
+
+The project no longer has a client validation channel for production record identity. A deterministic proxy is therefore the only auditable way to prevent row/file/candidate counts from being mistaken for measurement denominators.
+
+This does not modify the frozen canonical contract and does not claim production runtime identity.
+
 ## Constraint
 
-Do not treat row counts, file counts, or candidate counts as measurement denominators until record identity is resolved or explicitly proxied.
+Do not treat row counts, file counts, or candidate counts as measurement denominators unless they are grouped by `stint1_record_id` and target.
 
+Do not emit raw source paths or raw business identifiers into versioned evidence.
+
+## Downstream Validation
+
+Phase 6 must report record-id coverage by:
+
+```text
+target x evidence_type x tier x contractor_path x site_key x stratum
+```

@@ -1,0 +1,63 @@
+{
+  "created_at_utc": "2026-08-31T22:20:39.764026+00:00",
+  "task": "F0_consolidation_and_preconditions",
+  "source_artifacts": {
+    "denominator_reconciliation": "artifacts/denominator_reconciliation_pass_summary_sanitized.json",
+    "target_level_matrix": "artifacts/target_level_evidence_matrix_summary_sanitized.json",
+    "reference_layer_freeze": "stint-1.1-reference-layer/outputs/reference_layer_v1_freeze_summary.json"
+  },
+  "denominator_reconciliation": {
+    "source_opportunity_rows": 838,
+    "target_expanded_rows": 910,
+    "target_expansion_delta": 72,
+    "multi_target_hint_rows": 36,
+    "reconciled": true
+  },
+  "file_scope_reconciliation": {
+    "structural_files_attempted": 157,
+    "safe_content_pair_files_attempted": 147,
+    "structural_attempted_by_role": {
+      "mapping_doc": 4,
+      "reference_data": 6,
+      "source_data": 147
+    }
+  },
+  "gaps_and_deltas": {
+    "G04_runtime": "closed_for_poc_by_documented_proxy_assumption",
+    "G08_parser": "closed_current_tabular_parser_issues_zero",
+    "DELTA-0002": "resolved_for_poc_policy",
+    "DELTA-0003": "resolved_for_poc_policy",
+    "DELTA-0009": "open_for_phase_2_semantic_split"
+  },
+  "reference_layer_status": {
+    "freeze_status": "frozen_for_poc_downstream_use_with_declared_partial_objects",
+    "complete_objects": [
+      "SAP_MAPPING",
+      "SOURCE_DESIGNATIONS",
+      "CANONICAL_CONSTRAINTS"
+    ],
+    "partial_or_provisional_objects": [
+      {
+        "object": "SEMANTIC_NORMALISATION",
+        "status": "partial_structural_scaffold",
+        "reason": "WMEP and NREL GRD vocabulary/content remain source_capture_pending."
+      },
+      {
+        "object": "LEXICAL_LAYER",
+        "status": "provisional_pending_token_filtering_and_domain_grouping",
+        "reason": "T8b/T8c confirmed broad token/n-gram admission and weak grouping into canonical domain concepts."
+      }
+    ]
+  },
+  "target_level_baseline": {
+    "target_count": 7,
+    "measurement_ready_targets": 0,
+    "current_report_use": "input_to_target_level_feasibility_assessment_draft"
+  },
+  "raw_values_emitted": false,
+  "outputs": {
+    "checks_csv": "stint-1-evidence-ground-truth/phase_0_consolidation/outputs/f0_precondition_checks.csv",
+    "summary_json": "stint-1-evidence-ground-truth/phase_0_consolidation/outputs/f0_consolidation_summary.json",
+    "memo": "stint-1-evidence-ground-truth/phase_0_consolidation/outputs/f0_consolidation_memo.md"
+  }
+}
