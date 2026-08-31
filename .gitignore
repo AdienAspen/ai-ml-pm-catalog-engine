@@ -54,4 +54,6 @@ stint-1.1-reference-layer/docs/Plan Técnico*.md
 
 # Local-only lexical artefacts derived from source corpus text
 stint-1.1-reference-layer/reference_layer/lexical_layer/lexical_seed_dictionary_v1.csv
+stint-1.1-reference-layer/reference_layer/lexical_layer/*working*.csv
+stint-1.1-reference-layer/reference_layer/lexical_layer/*consolidated_raw*.csv
 stint-1.1-reference-layer/reference_layer/lexical_layer/*observed_terms*.csv

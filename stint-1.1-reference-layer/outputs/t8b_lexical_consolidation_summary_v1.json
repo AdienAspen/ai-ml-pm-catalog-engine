@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-08-31T20:05:12.722897+00:00",
+  "task": "T8b_lexical_consolidation_pass",
+  "initial_rows": 14235,
+  "initial_distinct_observed_term_keys": 10639,
+  "initial_distinct_normalised_term_keys": 10639,
+  "consolidated_distinct_term_keys": 10303,
+  "consolidated_contextual_rows": 14000,
+  "initial_observed_equals_normalised": true,
+  "row_reduction_pct": 1.65,
+  "distinct_term_reduction_pct": 3.16,
+  "target_summary": {
+    "unknown": 10810,
+    "Activity": 879,
+    "Object Part": 1492,
+    "Symptom": 286,
+    "Cause": 175,
+    "Damage": 347,
+    "Activity Type": 11
+  },
+  "status_summary": {
+    "unresolved": 10810,
+    "hypothesis": 3190
+  },
+  "lexical_artifact_status": "provisional_pending_manual_review",
+  "heuristic_target_range": "300-800 canonical concepts is a sanity heuristic, not a requirement",
+  "raw_values_emitted": false,
+  "outputs": {
+    "consolidated_sanitized_csv": "stint-1.1-reference-layer/reference_layer/lexical_layer/lexical_seed_dictionary_v1_consolidated_sanitized.csv",
+    "summary_json": "stint-1.1-reference-layer/outputs/t8b_lexical_consolidation_summary_v1.json",
+    "memo": "stint-1.1-reference-layer/docs/t8b_lexical_consolidation_pass.md"
+  }
+}
