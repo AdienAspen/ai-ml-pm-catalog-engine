@@ -4,6 +4,9 @@
 
 - Never use a global denominator for the PoC.
 - Denominators are target-specific.
+- The default STINT_1 denominator unit is a `record-field` evidence unit, not a physical record.
+- Because `stint1_record_id` includes `source_text_field`, one physical source record can contribute multiple denominator units when different fields provide distinct target evidence.
+- Physical-record denominators, if needed, must be reported separately by deduplicating on source lineage without `source_text_field`.
 - `expert_inference` does not enter a measurement denominator by itself.
 - `reference_evidence` does not enter a measurement denominator by itself.
 - `validated_mapping`, `real_observed_label`, or defensible proxy/silver evidence may enter only when provenance and target destination are explicit.
@@ -18,4 +21,3 @@ target x evidence_type x tier x contractor_path x site_key x stratum
 ## Accuracy Boundary
 
 Do not estimate model accuracy, coverage, or contractual performance until a defensible measurement denominator exists for the target being assessed.
-

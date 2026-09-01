@@ -86,6 +86,15 @@ def main() -> None:
         "construction": "deterministic_non_reversible_hash_over_sanitized_record_lineage",
         "stability": "stable_if_source_package_ordering_and_source_record_ordinal_are_reproducible",
         "uniqueness_scope": "unique_by_design_within_source_family_source_path_key_source_record_ordinal_source_text_field",
+        "denominator_unit": "record_field_evidence_unit",
+        "physical_record_note": (
+            "Because source_text_field is part of the key, one physical source record can produce "
+            "multiple stint1_record_id values when multiple fields contribute evidence."
+        ),
+        "physical_record_denominator_policy": (
+            "If a physical-record denominator is needed, calculate it separately by deduplicating "
+            "sanitized source lineage without source_text_field."
+        ),
         "collision_policy": "check_for_duplicate_stint1_record_id_within_each_phase_output_before_denominator_use",
         "production_claim": "PoC proxy only; does not claim production runtime record identity",
     }
@@ -234,6 +243,9 @@ def main() -> None:
         f"- Construction: `{record_id_policy['construction']}`",
         f"- Stability: {record_id_policy['stability']}.",
         f"- Uniqueness scope: {record_id_policy['uniqueness_scope']}.",
+        f"- Denominator unit: `{record_id_policy['denominator_unit']}`.",
+        f"- Physical-record note: {record_id_policy['physical_record_note']}",
+        f"- Physical-record denominator policy: {record_id_policy['physical_record_denominator_policy']}",
         f"- Collision policy: {record_id_policy['collision_policy']}.",
         f"- Production claim: {record_id_policy['production_claim']}.",
         "",

@@ -35,6 +35,9 @@ This pass does not train models, estimate accuracy, create production ground tru
 - Construction: `deterministic_non_reversible_hash_over_sanitized_record_lineage`
 - Stability: stable_if_source_package_ordering_and_source_record_ordinal_are_reproducible.
 - Uniqueness scope: unique_by_design_within_source_family_source_path_key_source_record_ordinal_source_text_field.
+- Denominator unit: `record_field_evidence_unit`.
+- Physical-record note: Because source_text_field is part of the key, one physical source record can produce multiple stint1_record_id values when multiple fields contribute evidence.
+- Physical-record denominator policy: If a physical-record denominator is needed, calculate it separately by deduplicating sanitized source lineage without source_text_field.
 - Collision policy: check_for_duplicate_stint1_record_id_within_each_phase_output_before_denominator_use.
 - Production claim: PoC proxy only; does not claim production runtime record identity.
 

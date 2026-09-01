@@ -22,6 +22,8 @@ STINT_1 uses `stint1_record_id` as the record identity key for PoC evidence reco
 source_family + source_path_key + source_record_ordinal + source_text_field
 ```
 
+Because `source_text_field` is part of the key, `stint1_record_id` identifies a `record-field` evidence unit. The same physical source record can therefore produce more than one `stint1_record_id` when multiple text/runtime fields contribute evidence.
+
 When a canonical runtime record already exposes `record_meta.canonical_record_id`, that value may be recorded as `canonical_record_id_ref`, but STINT_1 denominators use `stint1_record_id` for consistency across source families.
 
 ## Why This Is Acceptable for PoC
@@ -33,6 +35,8 @@ This does not modify the frozen canonical contract and does not claim production
 ## Constraint
 
 Do not treat row counts, file counts, or candidate counts as measurement denominators unless they are grouped by `stint1_record_id` and target.
+
+When a report needs a physical-record denominator, it must be calculated separately by deduplicating sanitized source lineage without `source_text_field`.
 
 Do not emit raw source paths or raw business identifiers into versioned evidence.
 
