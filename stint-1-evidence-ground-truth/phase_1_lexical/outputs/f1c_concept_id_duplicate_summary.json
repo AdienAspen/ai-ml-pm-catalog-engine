@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-09-01T20:16:40.082802+00:00",
+  "task": "F1c_concept_id_duplicate_check",
+  "rows": 14479,
+  "distinct_concept_ids": 13816,
+  "duplicate_concept_id_groups": 200,
+  "duplicate_rows_total": 863,
+  "ambiguous_duplicate_concept_ids": 0,
+  "ambiguous_duplicate_rows": 0,
+  "max_rows_per_duplicate_id": 9,
+  "duplicate_row_count_distribution": {
+    "2": 29,
+    "3": 95,
+    "4": 10,
+    "5": 21,
+    "6": 4,
+    "7": 7,
+    "8": 4,
+    "9": 30
+  },
+  "duplicate_owner_counts": {
+    "IH06_OBSERVED_NODES": 581,
+    "SAP_MAPPING": 282
+  },
+  "duplicate_target_counts": {
+    "Damage": 282,
+    "FLOC leaf": 581
+  },
+  "interpretation": "Duplicate concept IDs are non-ambiguous when owner, target, namespace, target field, role, and canonical concept key remain identical.",
+  "f1d_control": "F1d may use concept_id as a concept-level anchor, but repeated concept rows must be treated as contextual occurrences, not separate concepts.",
+  "raw_values_emitted": false,
+  "outputs": {
+    "summary_json": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1c_concept_id_duplicate_summary.json",
+    "groups_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1c_concept_id_duplicate_groups.csv",
+    "memo": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1c_concept_id_duplicate_memo.md"
+  }
+}
