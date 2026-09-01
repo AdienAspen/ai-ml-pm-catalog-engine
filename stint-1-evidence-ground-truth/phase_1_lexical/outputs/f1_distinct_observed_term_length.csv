@@ -1,0 +1,4 @@
+word_length,contextual_rows,distinct_observed_term_keys,distinct_normalised_term_keys,raw_values_emitted
+1,3081,1477,1477,False
+2,5579,4365,4365,False
+3,5575,4797,4797,False
