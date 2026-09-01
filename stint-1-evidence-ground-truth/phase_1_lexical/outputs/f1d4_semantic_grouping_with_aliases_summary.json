@@ -1,0 +1,106 @@
+{
+  "created_at_utc": "2026-09-01T23:38:45.004415+00:00",
+  "task": "F1d4_semantic_grouping_with_translation_aliases",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "input_rows": 7790,
+  "mapped_rows": 4887,
+  "unresolved_rows": 2903,
+  "mapped_pct": 62.73,
+  "distinct_term_keys": 5710,
+  "distinct_canonical_concepts_mapped": 579,
+  "target_summary": {
+    "Activity": {
+      "rows": 879,
+      "mapped_rows": 318,
+      "unresolved_rows": 561,
+      "mapped_pct": 36.18,
+      "distinct_canonical_concepts": 11
+    },
+    "Activity Type": {
+      "rows": 11,
+      "mapped_rows": 0,
+      "unresolved_rows": 11,
+      "mapped_pct": 0.0,
+      "distinct_canonical_concepts": 0
+    },
+    "Cause": {
+      "rows": 175,
+      "mapped_rows": 141,
+      "unresolved_rows": 34,
+      "mapped_pct": 80.57,
+      "distinct_canonical_concepts": 30
+    },
+    "Damage": {
+      "rows": 347,
+      "mapped_rows": 277,
+      "unresolved_rows": 70,
+      "mapped_pct": 79.83,
+      "distinct_canonical_concepts": 53
+    },
+    "Object Part": {
+      "rows": 1492,
+      "mapped_rows": 1272,
+      "unresolved_rows": 220,
+      "mapped_pct": 85.25,
+      "distinct_canonical_concepts": 119
+    },
+    "Symptom": {
+      "rows": 286,
+      "mapped_rows": 190,
+      "unresolved_rows": 96,
+      "mapped_pct": 66.43,
+      "distinct_canonical_concepts": 29
+    },
+    "unknown": {
+      "rows": 4600,
+      "mapped_rows": 2689,
+      "unresolved_rows": 1911,
+      "mapped_pct": 58.46,
+      "distinct_canonical_concepts": 424
+    }
+  },
+  "vocabulary_owner_counts_mapped": {
+    "BLADE_FAILURE_MODE_LITERATURE": 9,
+    "CONVERTER_FIELD_DAMAGE_LITERATURE": 35,
+    "GENERATOR_FAILURE_LITERATURE": 1,
+    "HYDRAULIC_PITCH_FAILURE_LITERATURE": 17,
+    "IH06_OBSERVED_NODES": 676,
+    "NREL_GRD": 27,
+    "NREL_MAIN_BEARING": 9,
+    "SAP_MAPPING": 3967,
+    "TRANSFORMER_FAILURE_LITERATURE": 11,
+    "WMEP_CAUSES": 59,
+    "WMEP_EFFECTS": 5,
+    "YAW_FAILURE_LITERATURE": 2,
+    "ZEUS_SCAFFOLD": 69
+  },
+  "status_counts": {
+    "semantic_anchor_candidate": 2114,
+    "semantic_anchor_high": 2773,
+    "unresolved": 2903
+  },
+  "match_text_source_counts": {
+    "canonical_concept": 4807,
+    "translation_alias_es": 80
+  },
+  "thresholds": {
+    "Symptom": 0.48,
+    "Object Part": 0.52,
+    "Damage": 0.48,
+    "Cause": 0.48,
+    "Activity": 0.52,
+    "FLOC leaf": 0.52,
+    "Activity Type": 0.52,
+    "unknown": 0.56
+  },
+  "observed_to_concept_mapping_performed": true,
+  "translation_alias_layer_used": true,
+  "label_generation_method": "semantic_embedding_plus_translation_alias_rule_set_v1",
+  "evaluation_independence": "derived_from_rules",
+  "raw_values_emitted": false,
+  "outputs": {
+    "grouping_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/lexical_layer_v2/lexical_semantic_domain_grouping_with_aliases_v1_sanitized.csv",
+    "summary_json": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1d4_semantic_grouping_with_aliases_summary.json",
+    "memo": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1d4_semantic_grouping_with_aliases_memo.md"
+  }
+}

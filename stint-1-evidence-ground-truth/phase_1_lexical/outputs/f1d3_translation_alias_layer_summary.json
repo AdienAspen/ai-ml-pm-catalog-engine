@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-09-01T23:34:56.485248+00:00",
+  "task": "F1d3_translation_alias_layer",
+  "alias_rows": 53,
+  "missing_alias_sources": 0,
+  "target_counts": {
+    "Cause": 16,
+    "Symptom": 8,
+    "Damage": 29
+  },
+  "owner_counts": {
+    "WMEP_CAUSES": 9,
+    "WMEP_EFFECTS": 8,
+    "NREL_GRD": 26,
+    "NREL_MAIN_BEARING": 9,
+    "HYDRAULIC_PITCH_FAILURE_LITERATURE": 1
+  },
+  "evidence_type": "expert_inference",
+  "tier": "silver-medium",
+  "evaluation_independence": "derived_from_rules",
+  "raw_values_emitted": false,
+  "outputs": {
+    "alias_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/translation_aliases_es_v1.csv",
+    "summary_json": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1d3_translation_alias_layer_summary.json",
+    "memo": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1d3_translation_alias_layer_memo.md"
+  }
+}
