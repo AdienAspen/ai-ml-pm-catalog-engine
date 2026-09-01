@@ -14,9 +14,18 @@ Before any target denominator is claimed, STINT_1 must document the selected `re
 
 ## Decision
 
-STINT_1 uses `stint1_record_id` as the record identity key for PoC evidence reconstruction.
+STINT_1 uses two related identifiers:
 
-`stint1_record_id` is a deterministic, non-reversible proxy generated from sanitized record lineage:
+- `physical_record_id` for denominator counting
+- `stint1_record_id` for record-field evidence traceability
+
+`physical_record_id` is a deterministic, non-reversible proxy generated from sanitized physical record lineage:
+
+```text
+source_family + source_path_key + source_record_ordinal
+```
+
+`stint1_record_id` is a deterministic, non-reversible proxy generated from sanitized record-field lineage:
 
 ```text
 source_family + source_path_key + source_record_ordinal + source_text_field
@@ -24,7 +33,9 @@ source_family + source_path_key + source_record_ordinal + source_text_field
 
 Because `source_text_field` is part of the key, `stint1_record_id` identifies a `record-field` evidence unit. The same physical source record can therefore produce more than one `stint1_record_id` when multiple text/runtime fields contribute evidence.
 
-When a canonical runtime record already exposes `record_meta.canonical_record_id`, that value may be recorded as `canonical_record_id_ref`, but STINT_1 denominators use `stint1_record_id` for consistency across source families.
+Denominator `N` is counted by unique `physical_record_id x target`, not by evidence rows and not by `stint1_record_id`. A record with multiple convergent evidence rows for the same target counts once.
+
+When a canonical runtime record already exposes `record_meta.canonical_record_id`, that value may be recorded as `canonical_record_id_ref`, but STINT_1 denominator counts use `physical_record_id` for consistency across source families.
 
 ## Why This Is Acceptable for PoC
 
@@ -34,16 +45,18 @@ This does not modify the frozen canonical contract and does not claim production
 
 ## Constraint
 
-Do not treat row counts, file counts, or candidate counts as measurement denominators unless they are grouped by `stint1_record_id` and target.
+Do not treat row counts, file counts, candidate counts, or evidence-row counts as measurement denominators unless they are deduplicated by `physical_record_id` and target.
 
-When a report needs a physical-record denominator, it must be calculated separately by deduplicating sanitized source lineage without `source_text_field`.
+`stint1_record_id` may be used for audit trails, conflict review, and evidence convergence, but not as the default denominator count.
 
 Do not emit raw source paths or raw business identifiers into versioned evidence.
 
 ## Downstream Validation
 
-Phase 6 must report record-id coverage by:
+Phase 6 must report denominator coverage by:
 
 ```text
-target x evidence_type x tier x contractor_path x site_key x stratum
+target x denominator_type x evidence_type x tier x contractor_path x site_key x stratum
 ```
+
+The report must state whether `N` is a contractual denominator or a POC proxy denominator.

@@ -68,7 +68,7 @@ Se resuelven dentro de STINT_1, con dueño asignado:
 - Incorporar la reconciliación de denominadores (838+72=910; 147 vs 157)
 - Corregir estado de G08 — cerrado, `0 issues`
 - Marcar en el matrix que Cause / Activity / Activity Type comparten expansión multi-target
-- **Resolver DELTA-0002** — elegir clave de identidad: `record_meta.canonical_record_id` o identificador de negocio. Sin esto no hay denominador defendible
+- **Resolver DELTA-0002** — declarar `physical_record_id` para conteos de denominador y `stint1_record_id` para trazabilidad record-field. Sin esto no hay denominador defendible
 - **Resolver DELTA-0003** — declarar campo de texto primario por target. Sin esto no hay evidencia medible
 
 **Entregable:** Feasibility Report Draft 2 + `canonical-constraints.md` actualizado.
@@ -226,6 +226,8 @@ F3, F4 y F5 producen mayoritariamente `expert_inference`. Excluirlo de forma abs
 ├─────────────────────────────────────────────────────┤
 │  Admite:   real_observed_label                      │
 │            validated_mapping                        │
+│            tier = gold                              │
+│            status = resolved                        │
 │  Excluye:  expert_inference — sin excepción         │
 │            reference_evidence                       │
 │            external_corroboration                   │
@@ -258,8 +260,22 @@ Una entrada `expert_inference` solo entra al denominador proxy si cumple **todas
 - Fuente de la que deriva, declarada
 - Destino canónico válido en `canonical-constraints.md`
 - Tier asignado con criterio explícito
+- `label_generation_method` declarado
+- `evaluation_independence` declarado
 
 **Si falta cualquiera, va a `unresolved`.**
+
+### Unidad de conteo
+
+`N` cuenta registros físicos únicos por target, no filas de evidencia. Varias evidencias convergentes sobre el mismo registro y target cuentan una vez.
+
+`stint1_record_id` puede identificar unidades `record-field` para auditoría, pero F6 debe deduplicar por `physical_record_id x target`.
+
+### Independencia de evaluación
+
+Todo label proxy debe declarar `label_generation_method` y `evaluation_independence`.
+
+Un held-out proxy evaluation set solo puede usar registros `independent`, o debe excluir explícitamente el rule set que produjo las etiquetas del predictor evaluado. Si el mismo rule set genera y predice la etiqueta, la evaluación es circular y no puede reportarse como accuracy.
 
 ### Estructura de reporte
 
@@ -300,5 +316,7 @@ Para cada uno de los 7 targets debe existir:
 |---|---|
 | Proxy se reporta como contractual | `denominator_type` obligatorio en todo output; verificación en F6 |
 | `expert_inference` entra al proxy sin provenance | checklist de cinco requisitos, bloqueante |
+| Evaluación circular sobre etiquetas generadas por reglas | `label_generation_method` y `evaluation_independence` obligatorios |
+| Convergencia de evidencia infla denominadores | contar `N` por `physical_record_id x target`, no por filas de evidencia |
 | Vocabulario dimensionado sobre conteo inflado | conteo de términos distintos antes de filtrar (F1) |
 | Rango 300–800 tratado como meta | declarado explícitamente como heurística de timebox |

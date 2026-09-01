@@ -9,6 +9,7 @@ This schema extends the STINT_1.1 provenance model with record-level fields need
 | field | meaning |
 |---|---|
 | `record_id` | Stable record identifier or documented proxy. |
+| `physical_record_id` | Stable proxy for the physical source record before `source_text_field` expansion. Required for denominator counting. |
 | `target` | One of the seven project targets. |
 | `evidence_type` | Provenance/type of evidence. |
 | `tier` | Confidence tier. |
@@ -20,6 +21,8 @@ This schema extends the STINT_1.1 provenance model with record-level fields need
 | `contractor_path` | Sanitized contractor/path key. |
 | `concept_id` | Stable reference-layer or STINT_1 concept id. |
 | `confidence` | Numeric or categorical confidence, if defensible. |
+| `label_generation_method` | Method that produced the label or candidate label, for example `observed`, `manual`, `rule_set_id`, or `derivation_rule`. |
+| `evaluation_independence` | Evaluation independence flag: `independent`, `derived_from_rules`, or `unknown`. |
 | `notes` | Sanitized methodological note, never raw operational text. |
 
 ## Evidence Types
@@ -44,3 +47,8 @@ This schema extends the STINT_1.1 provenance model with record-level fields need
 
 `evidence_type` and `tier` are independent axes. Do not encode source provenance inside confidence tier.
 
+## Evaluation Independence
+
+Evidence used to generate a proxy label must declare how that label was produced and whether it is independent from the rule set that may later be evaluated.
+
+`evaluation_independence = independent` is required for a held-out proxy evaluation set unless the evaluated rule set is explicitly excluded from the predictor under test. Labels marked `derived_from_rules` may support development and audit, but they cannot be used to claim model performance against the same logic that generated them.
