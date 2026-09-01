@@ -1,5 +1,6 @@
 # Dictionaries with source-derived terms
 **/lexical_layer_v2/*_working.csv
+**/canonical_vocabulary/*_working.csv
 **/*_unsanitized.csv
 
 # Outputs with raw operational values

@@ -1,0 +1,53 @@
+{
+  "created_at_utc": "2026-09-01T19:24:04.814388+00:00",
+  "task": "F1c_canonical_vocabulary_materialization",
+  "canonical_vocabulary_rows": 14479,
+  "working_vocabulary_rows": 14477,
+  "distinct_concept_ids": 13816,
+  "owner_counts": {
+    "SAP_MAPPING": 13826,
+    "IH06_OBSERVED_NODES": 640,
+    "ZEUS_SCAFFOLD": 6,
+    "MALYI_SCHEMA": 5,
+    "WMEP": 1,
+    "NREL_GRD": 1
+  },
+  "target_counts": {
+    "Activity": 491,
+    "Cause": 6233,
+    "Damage": 1695,
+    "Object Part": 1240,
+    "Symptom": 4172,
+    "FLOC leaf": 640,
+    "Activity Type": 1,
+    "method_support": 5,
+    "Cause/Symptom": 1,
+    "Damage/Object Part": 1
+  },
+  "status_counts": {
+    "active": 14467,
+    "hypothesis": 3,
+    "source_capture_pending": 3,
+    "pending_controlled_source": 1,
+    "schema_only": 5
+  },
+  "evidence_type_counts": {
+    "reference_evidence": 14474,
+    "external_corroboration": 5
+  },
+  "pending_sources": [
+    "ZEUS_SCAFFOLD",
+    "WMEP",
+    "NREL_GRD"
+  ],
+  "concept_id_semantics": "concept_level_identifier_not_row_identifier",
+  "sap_mapping_policy": "reference_evidence_valid_code_universe_not_validated_mapping",
+  "observed_to_concept_mapping_performed": false,
+  "raw_values_emitted": false,
+  "outputs": {
+    "sanitized_vocabulary_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/canonical_vocabulary_v1_sanitized.csv",
+    "working_vocabulary_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/canonical_vocabulary_v1_working.csv",
+    "summary_json": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1c_canonical_vocabulary_summary.json",
+    "memo": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1c_canonical_vocabulary_memo.md"
+  }
+}
