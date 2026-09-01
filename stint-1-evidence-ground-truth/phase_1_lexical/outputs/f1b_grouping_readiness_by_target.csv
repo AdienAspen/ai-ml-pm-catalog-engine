@@ -1,0 +1,8 @@
+target,rows,distinct_term_keys,distinct_concept_ids,distinct_canonical_concepts,canonical_concept_column_present,raw_values_emitted
+Activity,879,701,879,,False,False
+Activity Type,11,11,11,,False,False
+Cause,175,143,175,,False,False
+Damage,347,258,347,,False,False
+Object Part,1492,1043,1492,,False,False
+Symptom,286,222,286,,False,False
+unknown,4600,3377,4600,,False,False

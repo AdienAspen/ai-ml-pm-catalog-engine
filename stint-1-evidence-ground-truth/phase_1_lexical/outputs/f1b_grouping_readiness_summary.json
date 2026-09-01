@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-09-01T19:07:55.122991+00:00",
+  "task": "F1b_grouping_readiness_check",
+  "rows": 7790,
+  "distinct_term_keys": 5710,
+  "distinct_concept_ids": 7790,
+  "canonical_concept_column_present": false,
+  "distinct_canonical_concepts": null,
+  "status": "grouping_not_demonstrated_missing_canonical_concept",
+  "interpretation": "F1 bootstrap filtered singleton unknown terms but did not yet produce a canonical_concept grouping field.",
+  "lexical_layer_status": "provisional_pending_token_filtering_and_domain_grouping",
+  "evaluation_independence_values": {
+    "derived_from_rules": 7790
+  },
+  "raw_values_emitted": false,
+  "outputs": {
+    "summary_json": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1b_grouping_readiness_summary.json",
+    "target_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1b_grouping_readiness_by_target.csv",
+    "memo": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1b_grouping_readiness_memo.md"
+  }
+}
