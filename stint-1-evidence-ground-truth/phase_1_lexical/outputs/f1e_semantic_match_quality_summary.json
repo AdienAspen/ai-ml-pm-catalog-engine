@@ -1,0 +1,79 @@
+{
+  "created_at_utc": "2026-09-01T23:52:44.281508+00:00",
+  "task": "F1e_semantic_match_quality_check",
+  "input_rows": 7790,
+  "mapped_rows": 4887,
+  "unresolved_rows": 2903,
+  "mapped_pct": 62.73,
+  "score_band_counts": {
+    "borderline": 747,
+    "high": 2773,
+    "middle": 1367,
+    "unresolved_below_threshold": 2903
+  },
+  "mapped_score_stats": {
+    "borderline": {
+      "rows": 747,
+      "min": 0.48,
+      "p25": 0.5619,
+      "median": 0.579,
+      "p75": 0.6008,
+      "max": 0.62
+    },
+    "high": {
+      "rows": 2773,
+      "min": 0.7,
+      "p25": 0.7462,
+      "median": 0.801,
+      "p75": 0.8816,
+      "max": 1.0
+    },
+    "middle": {
+      "rows": 1367,
+      "min": 0.5439,
+      "p25": 0.6284,
+      "median": 0.6517,
+      "p75": 0.676,
+      "max": 0.6997
+    }
+  },
+  "thresholds_by_observed_target_hint": {
+    "Activity": [
+      0.52
+    ],
+    "Activity Type": [
+      0.52
+    ],
+    "Cause": [
+      0.48
+    ],
+    "Damage": [
+      0.48
+    ],
+    "Object Part": [
+      0.52
+    ],
+    "Symptom": [
+      0.48
+    ],
+    "unknown": [
+      0.56
+    ]
+  },
+  "manual_review_sample_rows": 30,
+  "manual_review_sample_design": "10 high, 10 middle, 10 borderline semantic anchors when available",
+  "internal_review_file_is_gitignored": true,
+  "translation_alias_net_gain_note": "F1d4 added 9 mapped rows and 6 mapped concepts over F1d2; 80 mapped rows selected translation_alias_es as match text.",
+  "evaluation_independence": "derived_from_rules",
+  "label_generation_method": "semantic_embedding_plus_translation_alias_rule_set_v1",
+  "quality_decision": "pending_manual_review",
+  "raw_values_emitted": false,
+  "outputs": {
+    "score_distribution_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e_semantic_match_score_distribution.csv",
+    "sanitized_sample_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e_semantic_match_quality_sample_sanitized.csv",
+    "unresolved_profile_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e_unresolved_profile.csv",
+    "summary_json": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e_semantic_match_quality_summary.json",
+    "memo": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e_semantic_match_quality_memo.md",
+    "internal_review_csv": "reports/internal/f1e_semantic_match_quality_review_internal_redacted.csv"
+  }
+}

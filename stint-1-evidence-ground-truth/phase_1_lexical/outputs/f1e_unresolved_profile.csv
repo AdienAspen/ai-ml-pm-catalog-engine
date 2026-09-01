@@ -1,0 +1,70 @@
+observed_target_hint,source_text_field,stratum,row_count,distinct_term_keys
+unknown,classification_input.description_extended,other_explicit_value,589,589
+unknown,classification_input.description_extended,unclassified_explicit_value,572,572
+unknown,classification_input.description_extended,reactive_like,418,418
+Activity,classification_input.description_extended,other_explicit_value,158,158
+Activity,classification_input.description_extended,reactive_like,141,141
+unknown,classification_input.description_extended,planned_like,94,94
+Activity,classification_input.work_performed,reactive_like,72,72
+Object Part,classification_input.description_extended,reactive_like,70,70
+Symptom,classification_input.description_extended,reactive_like,67,67
+Activity,classification_input.work_performed,planned_like,48,48
+unknown,classification_input.work_performed,unclassified_explicit_value,46,46
+Object Part,classification_input.description_extended,other_explicit_value,38,38
+unknown,classification_input.work_performed,other_explicit_value,35,35
+Activity,classification_input.description_extended,planned_like,32,32
+unknown,pdf_assets_of_concern.event,event_structural,31,31
+Activity,classification_input.work_performed,other_explicit_value,29,29
+unknown,classification_input.work_performed,reactive_like,26,26
+Activity,classification_input.description_extended,unclassified_explicit_value,22,22
+Damage,classification_input.description_extended,other_explicit_value,21,21
+Object Part,classification_input.description_extended,unclassified_explicit_value,20,20
+Damage,classification_input.description_extended,reactive_like,20,20
+Object Part,classification_input.work_performed,planned_like,18,18
+Symptom,classification_input.description_extended,unclassified_explicit_value,18,18
+unknown,classification_input.work_performed,planned_like,17,17
+Object Part,classification_input.work_performed,reactive_like,17,17
+unknown,classification_input.description,other_explicit_value,16,16
+unknown,classification_input.reason,other_explicit_value,16,16
+Object Part,classification_input.work_performed,other_explicit_value,16,16
+Activity,classification_input.description,other_explicit_value,15,15
+unknown,classification_input.description,reactive_like,15,15
+unknown,classification_input.reason,reactive_like,14,14
+Activity,classification_input.work_performed,unclassified_explicit_value,14,14
+Activity,classification_input.reason,other_explicit_value,14,14
+Object Part,pdf_assets_of_concern.event,event_structural,13,13
+Cause,classification_input.description_extended,unclassified_explicit_value,11,11
+Object Part,classification_input.work_performed,unclassified_explicit_value,11,11
+Damage,classification_input.work_performed,reactive_like,9,9
+Cause,classification_input.description_extended,reactive_like,8,8
+Damage,classification_input.work_performed,unclassified_explicit_value,8,8
+unknown,classification_input.description,unclassified_explicit_value,7,7
+unknown,classification_input.reason,unclassified_explicit_value,7,7
+Cause,classification_input.work_performed,reactive_like,6,6
+Activity,classification_input.description,reactive_like,6,6
+Activity,classification_input.reason,reactive_like,6,6
+Activity Type,classification_input.work_performed,other_explicit_value,6,6
+Cause,pdf_assets_of_concern.event,event_structural,6,6
+Activity Type,classification_input.description_extended,other_explicit_value,5,5
+Symptom,classification_input.work_performed,reactive_like,5,5
+unknown,classification_input.description,planned_like,4,4
+Symptom,classification_input.description_extended,other_explicit_value,4,4
+Damage,classification_input.work_performed,other_explicit_value,4,4
+Object Part,classification_input.description,reactive_like,4,4
+Damage,classification_input.description_extended,unclassified_explicit_value,4,4
+unknown,classification_input.reason,planned_like,4,4
+Object Part,classification_input.reason,reactive_like,4,4
+Cause,classification_input.work_performed,unclassified_explicit_value,3,3
+Object Part,classification_input.reason,unclassified_explicit_value,2,2
+Damage,pdf_assets_of_concern.event,event_structural,2,2
+Object Part,classification_input.description,other_explicit_value,2,2
+Activity,pdf_assets_of_concern.event,event_structural,2,2
+Object Part,classification_input.description,unclassified_explicit_value,2,2
+Object Part,classification_input.reason,other_explicit_value,2,2
+Activity,classification_input.description,unclassified_explicit_value,1,1
+Damage,classification_input.description,reactive_like,1,1
+Activity,classification_input.reason,unclassified_explicit_value,1,1
+Object Part,classification_input.description_extended,planned_like,1,1
+Damage,classification_input.reason,reactive_like,1,1
+Symptom,classification_input.reason,reactive_like,1,1
+Symptom,classification_input.description,reactive_like,1,1

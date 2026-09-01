@@ -1,0 +1,26 @@
+target,score_band,row_count
+Activity,borderline,102
+Activity,high,194
+Activity,middle,138
+Activity,unresolved_below_threshold,561
+Activity Type,unresolved_below_threshold,11
+Cause,borderline,78
+Cause,high,271
+Cause,middle,128
+Cause,unresolved_below_threshold,34
+Damage,borderline,115
+Damage,high,345
+Damage,middle,182
+Damage,unresolved_below_threshold,70
+FLOC leaf,borderline,120
+FLOC leaf,high,333
+FLOC leaf,middle,223
+Object Part,borderline,264
+Object Part,high,1495
+Object Part,middle,555
+Object Part,unresolved_below_threshold,220
+Symptom,borderline,68
+Symptom,high,135
+Symptom,middle,141
+Symptom,unresolved_below_threshold,96
+unknown,unresolved_below_threshold,1911
