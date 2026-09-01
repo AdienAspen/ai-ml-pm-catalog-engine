@@ -75,23 +75,37 @@ Se resuelven dentro de STINT_1, con dueño asignado:
 
 ---
 
-## Fase 1 — Consolidación léxica *(nueva)*
+## Fase 1 — Consolidación léxica (revisada)
 
-**Objetivo:** convertir el diccionario provisional en capa operativa.
+Objetivo: convertir el diccionario provisional en capa operativa.
 
-**Punto de partida:** 10.639 términos observados, producto de barrido n-grama 1–3. Los 3.081 unigramas son el material aprovechable.
+Paso previo obligatorio — dimensionar antes de decidir
 
-- **Filtrado por frecuencia** — descartar n-gramas de aparición única sin señal de dominio
-- **Agrupamiento por concepto** — colapsar variantes a `canonical_concept` con `concept_id` estable
-- **Ampliar muestreo** más allá de los 600 registros iniciales, manteniendo estratificación
-- **Poblar el scaffold ZEUS** con vocabulario WMEP y NREL GRD, con `evidence_type` por fila
-- Preservar `source_text_field` por término
+El conteo del T8c reportó filas por longitud, no términos distintos. Antes de cualquier filtrado:
 
-**Meta razonable:** 300–800 conceptos canónicos con múltiples variantes cada uno.
+contar distinct observed_term_key por longitud en palabras
 
-**Entregable:** `lexical_layer_v2` + `SEMANTIC_NORMALISATION` completo.
+Los 3.081 unigramas son un conteo de filas contextuales y pueden estar inflados por duplicados. El vocabulario real puede ser sustancialmente menor.
 
-**Por qué va primero:** todas las fases siguientes consumen esta capa. Sin ella, el matching no opera.
+Sin este conteo, cualquier dimensionamiento es a ciegas.
+
+Trabajo
+Filtrado por frecuencia — descartar n-gramas de aparición única sin señal de dominio
+Agrupamiento por concepto — colapsar variantes a canonical_concept con concept_id estable
+Ampliar muestreo más allá de los 600 registros, manteniendo estratificación
+Poblar el scaffold ZEUS con vocabulario WMEP y NREL GRD, evidence_type por fila
+Preservar source_text_field por término
+
+
+Sobre el rango 300–800
+
+Es una heurística de timebox, no un criterio de éxito.
+
+El número correcto emerge del dominio. Forzar 800 fusiona conceptos distintos; forzar 300 elimina señal útil.
+
+Cómo usarlo: si el resultado cae muy fuera del rango, es señal para revisar el método de agrupamiento — no para ajustar el resultado hacia el número.
+
+Entregable: lexical_layer_v2 + SEMANTIC_NORMALISATION completo + conteo de términos distintos por longitud.
 
 ---
 
@@ -196,71 +210,95 @@ Si la derivación planned/reactive requiere inferencia, marcarla `expert_inferen
 
 ---
 
-## Fase 6 — Denominadores *(G01)*
+## Fase 6 — Denominadores *(reescrita)*
 
 **No es una tarea — es la consecuencia de las anteriores.**
 
+### La distinción que gobierna toda la fase
+
+F3, F4 y F5 producen mayoritariamente `expert_inference`. Excluirlo de forma absoluta dejaría esos targets sin ninguna forma de evaluación.
+
+**Por eso se emiten dos denominadores separados, nunca fusionados:**
+
 ```
-target × evidence_type × tier × path × site × estrato → N registros evaluables
+┌─────────────────────────────────────────────────────┐
+│  DENOMINADOR CONTRACTUAL                            │
+├─────────────────────────────────────────────────────┤
+│  Admite:   real_observed_label                      │
+│            validated_mapping                        │
+│  Excluye:  expert_inference — sin excepción         │
+│            reference_evidence                       │
+│            external_corroboration                   │
+│                                                     │
+│  Es el único que respondería al 95% del contrato.   │
+│  Expectativa realista: cero o cercano a cero en     │
+│  varios targets. Eso es un resultado válido.        │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│  DENOMINADOR PROXY POC                              │
+├─────────────────────────────────────────────────────┤
+│  Admite:   todo lo del contractual                  │
+│            silver-high                              │
+│            silver-medium cualificado                │
+│            expert_inference con provenance completa │
+│                                                     │
+│  Se reporta SIEMPRE como proxy evaluation set.      │
+│  NUNCA como verified production accuracy.           │
+│  Es el que permite evaluar el POC.                  │
+└─────────────────────────────────────────────────────┘
 ```
 
-**Reglas:**
+### Requisitos para admitir `expert_inference` en el proxy
+
+Una entrada `expert_inference` solo entra al denominador proxy si cumple **todas**:
+
+- `concept_id` estable y resoluble
+- Regla de derivación documentada y reproducible
+- Fuente de la que deriva, declarada
+- Destino canónico válido en `canonical-constraints.md`
+- Tier asignado con criterio explícito
+
+**Si falta cualquiera, va a `unresolved`.**
+
+### Estructura de reporte
+
+```
+target × denominator_type × evidence_type × tier 
+      × path × site × estrato → N registros evaluables
+```
+
+`denominator_type` es columna obligatoria. **Un reporte que no la traiga es inválido.**
+
+### Reglas que no cambian
+
 - Nunca un denominador global
-- `expert_inference` **no entra** en denominador de medición
-- Estratos no se mezclan
-- Un denominador de cero es resultado válido
+- Estratos no se mezclan — `event_structural` jamás con `planned/reactive`
+- Un denominador de cero es resultado válido y esperado
+- La cifra contractual y la proxy **nunca se presentan juntas sin etiqueta**
 
-**Entregable:** `evidence_denominator_matrix` — base sobre la que STINT_2 construye modelos.
-
----
-
-## Secuencia
-
-| Fase | Foco | Gap / Delta | Depende de |
-|---|---|---|---|
-| 0 | Consolidación + deltas | G04, G08, D-0002, D-0003 | — |
-| 1 | Consolidación léxica | deuda 1.1 | F0 |
-| 2 | Semantic reconciliation | G02, D-0009 | F1 |
-| 3 | Fault codes GE (Path A) | G03 | F1, F2 |
-| 4 | XLSX weak supervision (Path B) | G06, G05 | F1, F2 |
-| 5 | Symptom | G07 | F3, F4 |
-| 6 | Denominadores | G01 | todas |
-
-**Ruta crítica:** F0 → F1 → F2 → F4 → F5 → F6
-**F3 y F4 son paralelizables** tras F2.
+**Entregable:** `evidence_denominator_matrix` con ambos denominadores separados por target.
 
 ---
 
-## Expectativa de resultado
-
-**Benchmark del dominio:** 0,75–0,85 F1 en trabajos publicados sobre órdenes de trabajo eólicas *(NIST/Lutz, Malyi)*.
-
-Eso calibra qué esperar en STINT_3 y sitúa el 95% contractual en perspectiva. **Reportar contra proxy evaluation set, nunca como verified production accuracy.**
-
----
-
-## Criterio de cierre
+## Actualización al criterio de cierre
 
 Para cada uno de los 7 targets debe existir:
 
-- Denominador declarado — aunque sea cero
-- Tier de evidencia que lo respalda
+- **Denominador contractual declarado** — aunque sea cero
+- **Denominador proxy declarado** — aunque sea cero
+- Tier y `evidence_type` que respaldan cada uno
 - Procedencia documentada por registro
 - Recomendación de método justificada por la evidencia real
 - Segmentación declarada donde aplique
 
-**Declarar que un target no tiene evidencia suficiente es un resultado válido y esperado.**
-
 ---
 
-## Riesgos
+## Actualización al registro de riesgos
 
 | Riesgo | Mitigación |
 |---|---|
-| Symptom se rellena por presión de completitud | prohibición explícita + `UNKNOWN` permitido |
-| Denominadores contaminados por estratos mezclados | segmentación obligatoria desde F4 |
-| `expert_inference` migra a denominador | verificación en F6, ejes separados |
-| Capa léxica sigue sin converger | F1 con meta declarada, no abierta |
-| Hipótesis Symptom≈FailureEffect se cristaliza | `status: hypothesis` bloqueado hasta evidencia FSA |
-| Sobre-ingeniería | timebox por fase, criterio de suficiencia explícito |
-
+| Proxy se reporta como contractual | `denominator_type` obligatorio en todo output; verificación en F6 |
+| `expert_inference` entra al proxy sin provenance | checklist de cinco requisitos, bloqueante |
+| Vocabulario dimensionado sobre conteo inflado | conteo de términos distintos antes de filtrar (F1) |
+| Rango 300–800 tratado como meta | declarado explícitamente como heurística de timebox |
