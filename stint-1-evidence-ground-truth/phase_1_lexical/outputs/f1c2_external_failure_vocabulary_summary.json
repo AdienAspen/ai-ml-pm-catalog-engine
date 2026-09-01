@@ -1,0 +1,71 @@
+{
+  "created_at_utc": "2026-09-01T23:00:05.202686+00:00",
+  "task": "F1c2_external_failure_vocabulary_materialization",
+  "rows": 144,
+  "distinct_concept_ids": 144,
+  "owner_counts": {
+    "BLADE_FAILURE_MODE_LITERATURE": 20,
+    "CONVERTER_FIELD_DAMAGE_LITERATURE": 17,
+    "GENERATOR_FAILURE_LITERATURE": 12,
+    "HYDRAULIC_PITCH_FAILURE_LITERATURE": 19,
+    "NREL_GRD": 27,
+    "NREL_MAIN_BEARING": 9,
+    "TRANSFORMER_FAILURE_LITERATURE": 14,
+    "WMEP_CAUSES": 9,
+    "WMEP_EFFECTS": 8,
+    "YAW_FAILURE_LITERATURE": 9
+  },
+  "target_counts": {
+    "Damage": 120,
+    "Cause": 16,
+    "Symptom": 8
+  },
+  "tier_counts": {
+    "silver-high": 90,
+    "silver-medium": 54
+  },
+  "status_counts": {
+    "active": 89,
+    "requires_semantic_classification": 54,
+    "residual_category": 1
+  },
+  "semantic_level_counts": {
+    "failure_mode_taxonomy": 20,
+    "component_or_damage_mechanism": 17,
+    "fault_or_failure_event": 12,
+    "component_failure_mode_or_cause": 19,
+    "failure_cause": 16,
+    "damage_mechanism": 20,
+    "field_reported_damage": 9,
+    "fault_tree_event": 14,
+    "failure_effect": 8,
+    "fault_or_damage_vocabulary": 9
+  },
+  "wmep_effects_closed": true,
+  "wmep_causes_available": true,
+  "damage_beyond_gearbox_available": true,
+  "damage_vocabulary_homogeneous": false,
+  "high_confidence_ingest_sets": [
+    "WMEP_EFFECTS",
+    "WMEP_CAUSES",
+    "NREL_GRD",
+    "NREL_MAIN_BEARING",
+    "BLADE_FAILURE_MODE_LITERATURE",
+    "CONVERTER_FIELD_DAMAGE_LITERATURE"
+  ],
+  "medium_confidence_requires_classification": [
+    "GENERATOR_FAILURE_LITERATURE",
+    "YAW_FAILURE_LITERATURE",
+    "TRANSFORMER_FAILURE_LITERATURE",
+    "HYDRAULIC_PITCH_FAILURE_LITERATURE"
+  ],
+  "researchgate_primary_sources_used": false,
+  "utm_source_urls_present": false,
+  "observed_to_concept_mapping_performed": false,
+  "raw_values_emitted": false,
+  "outputs": {
+    "vocabulary_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv",
+    "summary_json": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1c2_external_failure_vocabulary_summary.json",
+    "memo": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1c2_external_failure_vocabulary_memo.md"
+  }
+}
