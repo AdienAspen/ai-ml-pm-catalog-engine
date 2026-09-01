@@ -1,0 +1,3 @@
+risk_id,risk,status,interpretation,control
+F0B-001,description_extended_concentration,coverage_measured,description_extended is primary/supporting routing for multiple targets; low coverage would affect several targets at once.,Use measured field coverage before F1 filtering and before any denominator claim.
+F0B-002,pdf_event_structural_support,policy_required,pdf_assets_of_concern.event belongs to event_structural stratum and must not be merged into planned/reactive denominators.,Evidence using PDF event support must carry stratum=event_structural or a declared mixed-source split.

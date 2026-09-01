@@ -1,0 +1,94 @@
+{
+  "created_at_utc": "2026-09-01T18:34:22.355738+00:00",
+  "task": "F0b_routing_field_coverage_check",
+  "service_source_files_found": 1,
+  "service_records_checked": 10749,
+  "pdf_records_checked": 1581,
+  "field_coverage_rows": [
+    {
+      "source_family": "source_data_structured",
+      "source_text_field": "classification_input.description",
+      "records_checked": 10749,
+      "non_null_records": 10749,
+      "non_empty_records": 10749,
+      "non_empty_pct": 100.0,
+      "coverage_status": "available",
+      "raw_values_emitted": false
+    },
+    {
+      "source_family": "source_data_structured",
+      "source_text_field": "classification_input.description_extended",
+      "records_checked": 10749,
+      "non_null_records": 10341,
+      "non_empty_records": 10341,
+      "non_empty_pct": 96.2,
+      "coverage_status": "available",
+      "raw_values_emitted": false
+    },
+    {
+      "source_family": "source_data_structured",
+      "source_text_field": "classification_input.reason",
+      "records_checked": 10749,
+      "non_null_records": 10338,
+      "non_empty_records": 10338,
+      "non_empty_pct": 96.18,
+      "coverage_status": "available",
+      "raw_values_emitted": false
+    },
+    {
+      "source_family": "source_data_structured",
+      "source_text_field": "classification_input.work_performed",
+      "records_checked": 10749,
+      "non_null_records": 10123,
+      "non_empty_records": 10123,
+      "non_empty_pct": 94.18,
+      "coverage_status": "available",
+      "raw_values_emitted": false
+    },
+    {
+      "source_family": "source_data_structured",
+      "source_text_field": "header.activity_type",
+      "records_checked": 10749,
+      "non_null_records": 10749,
+      "non_empty_records": 10749,
+      "non_empty_pct": 100.0,
+      "coverage_status": "available",
+      "raw_values_emitted": false
+    },
+    {
+      "source_family": "pdf_structural_event",
+      "source_text_field": "pdf_assets_of_concern.event",
+      "records_checked": 1581,
+      "non_null_records": 1581,
+      "non_empty_records": 1581,
+      "non_empty_pct": 100.0,
+      "coverage_status": "available",
+      "raw_values_emitted": false
+    }
+  ],
+  "target_routing_risks": [
+    {
+      "risk_id": "F0B-001",
+      "risk": "description_extended_concentration",
+      "status": "coverage_measured",
+      "interpretation": "description_extended is primary/supporting routing for multiple targets; low coverage would affect several targets at once.",
+      "control": "Use measured field coverage before F1 filtering and before any denominator claim."
+    },
+    {
+      "risk_id": "F0B-002",
+      "risk": "pdf_event_structural_support",
+      "status": "policy_required",
+      "interpretation": "pdf_assets_of_concern.event belongs to event_structural stratum and must not be merged into planned/reactive denominators.",
+      "control": "Evidence using PDF event support must carry stratum=event_structural or a declared mixed-source split."
+    }
+  ],
+  "description_extended_status": "coverage_measured",
+  "stratum_policy": "PDF event evidence is event_structural. It may support Object Part or Damage, but denominators must keep event_structural separate from planned/reactive strata.",
+  "raw_values_emitted": false,
+  "outputs": {
+    "field_coverage_csv": "stint-1-evidence-ground-truth/phase_0_consolidation/outputs/f0b_routing_field_coverage.csv",
+    "risk_csv": "stint-1-evidence-ground-truth/phase_0_consolidation/outputs/f0b_routing_risks.csv",
+    "summary_json": "stint-1-evidence-ground-truth/phase_0_consolidation/outputs/f0b_routing_field_coverage_summary.json",
+    "memo": "stint-1-evidence-ground-truth/phase_0_consolidation/outputs/f0b_routing_field_coverage_memo.md"
+  }
+}
