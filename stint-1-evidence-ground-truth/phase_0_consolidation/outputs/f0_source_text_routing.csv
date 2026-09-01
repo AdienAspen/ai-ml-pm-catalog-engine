@@ -1,0 +1,8 @@
+target,primary_source_text_field,allowed_supporting_fields,notes
+Symptom,classification_input.description_extended,classification_input.description; classification_input.reason,Hypothesis/silver-medium at most until downstream validation; run on semantically reactive subsets only.
+Object Part,classification_input.description_extended,classification_input.work_performed; pdf_assets_of_concern.event,Use component/system mentions; do not promote if only generic action text is present.
+Damage,classification_input.description_extended,classification_input.description; pdf_assets_of_concern.event,Route through failure-process semantics; do not treat generic failure mode as SAP Damage.
+Cause,classification_input.reason,classification_input.description_extended,Never infer Cause directly from Damage; shared multi-target evidence remains blocked by DELTA-0009.
+Activity,classification_input.work_performed,classification_input.description_extended,Action/measure evidence can support Activity after semantic split.
+FLOC leaf,header.functional_location,classification_input.description_extended,Structural target; text is supporting evidence only. Resolve against IH06-derived nodes.
+Activity Type,header.activity_type,classification_input.work_performed,Direct field where available; inferred maintenance type remains expert_inference.

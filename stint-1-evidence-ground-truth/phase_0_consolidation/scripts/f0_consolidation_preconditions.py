@@ -75,6 +75,66 @@ def main() -> None:
         },
     ]
 
+    record_id_policy = {
+        "record_id_field": "stint1_record_id",
+        "composition": [
+            "source_family",
+            "source_path_key",
+            "source_record_ordinal",
+            "source_text_field",
+        ],
+        "construction": "deterministic_non_reversible_hash_over_sanitized_record_lineage",
+        "stability": "stable_if_source_package_ordering_and_source_record_ordinal_are_reproducible",
+        "uniqueness_scope": "unique_by_design_within_source_family_source_path_key_source_record_ordinal_source_text_field",
+        "collision_policy": "check_for_duplicate_stint1_record_id_within_each_phase_output_before_denominator_use",
+        "production_claim": "PoC proxy only; does not claim production runtime record identity",
+    }
+
+    source_text_routing = [
+        {
+            "target": "Symptom",
+            "primary_source_text_field": "classification_input.description_extended",
+            "allowed_supporting_fields": "classification_input.description; classification_input.reason",
+            "notes": "Hypothesis/silver-medium at most until downstream validation; run on semantically reactive subsets only.",
+        },
+        {
+            "target": "Object Part",
+            "primary_source_text_field": "classification_input.description_extended",
+            "allowed_supporting_fields": "classification_input.work_performed; pdf_assets_of_concern.event",
+            "notes": "Use component/system mentions; do not promote if only generic action text is present.",
+        },
+        {
+            "target": "Damage",
+            "primary_source_text_field": "classification_input.description_extended",
+            "allowed_supporting_fields": "classification_input.description; pdf_assets_of_concern.event",
+            "notes": "Route through failure-process semantics; do not treat generic failure mode as SAP Damage.",
+        },
+        {
+            "target": "Cause",
+            "primary_source_text_field": "classification_input.reason",
+            "allowed_supporting_fields": "classification_input.description_extended",
+            "notes": "Never infer Cause directly from Damage; shared multi-target evidence remains blocked by DELTA-0009.",
+        },
+        {
+            "target": "Activity",
+            "primary_source_text_field": "classification_input.work_performed",
+            "allowed_supporting_fields": "classification_input.description_extended",
+            "notes": "Action/measure evidence can support Activity after semantic split.",
+        },
+        {
+            "target": "FLOC leaf",
+            "primary_source_text_field": "header.functional_location",
+            "allowed_supporting_fields": "classification_input.description_extended",
+            "notes": "Structural target; text is supporting evidence only. Resolve against IH06-derived nodes.",
+        },
+        {
+            "target": "Activity Type",
+            "primary_source_text_field": "header.activity_type",
+            "allowed_supporting_fields": "classification_input.work_performed",
+            "notes": "Direct field where available; inferred maintenance type remains expert_inference.",
+        },
+    ]
+
     summary = {
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "task": "F0_consolidation_and_preconditions",
@@ -102,6 +162,8 @@ def main() -> None:
             "DELTA-0003": "resolved_for_poc_policy",
             "DELTA-0009": "open_for_phase_2_semantic_split",
         },
+        "record_id_policy": record_id_policy,
+        "source_text_routing": source_text_routing,
         "reference_layer_status": {
             "freeze_status": reference_freeze["freeze_status"],
             "complete_objects": reference_freeze["complete_objects"],
@@ -117,6 +179,7 @@ def main() -> None:
             "checks_csv": "stint-1-evidence-ground-truth/phase_0_consolidation/outputs/f0_precondition_checks.csv",
             "summary_json": "stint-1-evidence-ground-truth/phase_0_consolidation/outputs/f0_consolidation_summary.json",
             "memo": "stint-1-evidence-ground-truth/phase_0_consolidation/outputs/f0_consolidation_memo.md",
+            "source_text_routing_csv": "stint-1-evidence-ground-truth/phase_0_consolidation/outputs/f0_source_text_routing.csv",
         },
     }
 
@@ -125,6 +188,11 @@ def main() -> None:
         OUTPUTS_DIR / "f0_precondition_checks.csv",
         checks,
         ["check_id", "topic", "status", "evidence", "downstream_rule"],
+    )
+    write_csv(
+        OUTPUTS_DIR / "f0_source_text_routing.csv",
+        source_text_routing,
+        ["target", "primary_source_text_field", "allowed_supporting_fields", "notes"],
     )
     (OUTPUTS_DIR / "f0_consolidation_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
 
@@ -154,6 +222,31 @@ def main() -> None:
         "- Cause / Activity / Activity Type shared expansion remains open for Phase 2 semantic split.",
         "- `DELTA-0002` is resolved for PoC by `stint1_record_id` deterministic proxy policy.",
         "- `DELTA-0003` is resolved for PoC by target-specific `source_text_field` routing.",
+        "",
+        "## DELTA-0002 Record Identifier Specification",
+        "",
+        f"- Record id field: `{record_id_policy['record_id_field']}`",
+        "- Composition:",
+        "  - `source_family`",
+        "  - `source_path_key`",
+        "  - `source_record_ordinal`",
+        "  - `source_text_field`",
+        f"- Construction: `{record_id_policy['construction']}`",
+        f"- Stability: {record_id_policy['stability']}.",
+        f"- Uniqueness scope: {record_id_policy['uniqueness_scope']}.",
+        f"- Collision policy: {record_id_policy['collision_policy']}.",
+        f"- Production claim: {record_id_policy['production_claim']}.",
+        "",
+        "## DELTA-0003 Source Text Routing",
+        "",
+        "| target | primary_source_text_field | allowed_supporting_fields | notes |",
+        "|---|---|---|---|",
+        *[
+            f"| {row['target']} | `{row['primary_source_text_field']}` | `{row['allowed_supporting_fields']}` | {row['notes']} |"
+            for row in source_text_routing
+        ],
+        "",
+        "PDF-derived records keep `stratum: event_structural` and must not be mixed with planned/reactive strata.",
         "",
         "## Phase Gate",
         "",
