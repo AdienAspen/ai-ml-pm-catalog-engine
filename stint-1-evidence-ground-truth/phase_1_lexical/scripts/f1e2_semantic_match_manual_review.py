@@ -105,7 +105,9 @@ def main() -> None:
     sample["manual_review_notes_sanitized"] = [note for _, note in decisions]
     sample["manual_reviewer"] = "codex_agent_semantic_review"
     sample["manual_review_basis"] = "redacted observed term versus redacted canonical concept"
-    sample["quality_use"] = "precision_estimate_only_not_independent_evaluation"
+    sample["review_mode"] = "human_validated_pipeline_proposal"
+    sample["evaluation_independence_for_future_eval"] = "not_independent_anchor_visible"
+    sample["quality_use"] = "qa_sample_only_not_performance_metric_not_held_out"
     sample.to_csv(REVIEWED_SAMPLE, index=False)
 
     internal_rows = []
@@ -116,7 +118,9 @@ def main() -> None:
         out["manual_review_result"] = result
         out["manual_review_notes"] = note
         out["manual_reviewer"] = "codex_agent_semantic_review"
-        out["quality_use"] = "precision_estimate_only_not_independent_evaluation"
+        out["review_mode"] = "human_validated_pipeline_proposal"
+        out["evaluation_independence_for_future_eval"] = "not_independent_anchor_visible"
+        out["quality_use"] = "qa_sample_only_not_performance_metric_not_held_out"
         internal_rows.append(out)
     write_csv(INTERNAL_REVIEWED, internal_rows, list(internal_rows[0].keys()) if internal_rows else [])
 
@@ -147,9 +151,12 @@ def main() -> None:
             "semantic_anchor_candidate_middle": "retain only as review queue, not auto-promoted",
             "semantic_anchor_candidate_borderline": "route to unresolved/manual-review backlog by default",
         },
-        "coverage_without_quality_warning": "62.73% remains coverage, not quality, until band precision is applied.",
+        "qa_language_control": "High band result must be stated as QA sample result, n=10, no errors observed; not as a performance precision estimate.",
+        "coverage_without_quality_warning": "62.73% remains coverage, not quality, until QA review is applied.",
+        "human_review_provenance": "human_validated_pipeline_proposal",
+        "future_evaluation_independence": "not_independent_anchor_visible",
         "evaluation_independence": "derived_from_rules",
-        "quality_use": "precision_estimate_only_not_independent_evaluation",
+        "quality_use": "qa_sample_only_not_performance_metric_not_held_out",
         "raw_values_emitted": False,
         "outputs": {
             "reviewed_sample_csv": str(REVIEWED_SAMPLE.relative_to(PROJECT_ROOT)),
@@ -164,9 +171,10 @@ def main() -> None:
 
 ## Scope
 
-This pass records a manual semantic review of the 30-row F1e sample. It estimates match
-quality by score band. It does not create ground truth, does not create independent
-evaluation evidence, and does not promote any row to contractual measurement readiness.
+This pass records a manual semantic review of the 30-row F1e sample. The reviewer saw the
+pipeline-proposed anchor, so this is `human_validated_pipeline_proposal`, not independent
+annotation. It does not create ground truth, does not create held-out evaluation evidence,
+and does not promote any row to contractual measurement readiness.
 
 ## Result By Band
 
@@ -193,16 +201,16 @@ evaluation evidence, and does not promote any row to contractual measurement rea
     memo += """
 ## Interpretation
 
-- The high-score band is strong on this sample and can be retained as the preferred F2 review queue.
+- The high-score band had no observed errors in the QA sample (`n=10`); this is not a performance precision claim.
 - The middle band is mixed; it should remain reviewable evidence, not automatic promotion.
 - The borderline band is mostly noisy; raising thresholds or routing borderline rows to unresolved/manual review is likely better than carrying noise into F2.
 
 ## Controls
 
-- Review is based on redacted observed terms and redacted canonical concepts.
+- Review is based on redacted observed terms and the pipeline-proposed redacted canonical concepts.
 - Versioned outputs contain keys, metadata, scores, and review results only.
 - Internal redacted review detail remains under `reports/internal/`, which is ignored by Git.
-- All rows remain `derived_from_rules`; this is a quality check, not independent evaluation.
+- All rows remain non-independent for STINT_2 because the anchor proposal was visible to the reviewer.
 """
     MEMO_MD.write_text(memo, encoding="utf-8")
 

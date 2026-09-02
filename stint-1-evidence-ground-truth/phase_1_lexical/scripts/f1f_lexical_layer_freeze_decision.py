@@ -20,7 +20,7 @@ F1E2_REVIEW = OUTPUTS_DIR / "f1e2_semantic_match_manual_review_sanitized.csv"
 
 FROZEN_CANDIDATES = LAYER_DIR / "lexical_layer_v2_high_confidence_candidates_sanitized.csv"
 UNRESOLVED_ROUTING = LAYER_DIR / "lexical_layer_v2_unresolved_routing_sanitized.csv"
-INDEPENDENT_REVIEW_SEED = OUTPUTS_DIR / "f1e2_manual_review_seed_sanitized.csv"
+HUMAN_VALIDATED_REVIEW = OUTPUTS_DIR / "f1e2_human_validated_pipeline_review_sanitized.csv"
 SUMMARY_JSON = OUTPUTS_DIR / "f1f_lexical_layer_freeze_decision_summary.json"
 MEMO_MD = OUTPUTS_DIR / "f1f_lexical_layer_freeze_decision_memo.md"
 
@@ -77,14 +77,17 @@ def main() -> None:
     non_high.to_csv(UNRESOLVED_ROUTING, index=False)
 
     review = pd.read_csv(F1E2_REVIEW)
-    review_seed = review.copy()
-    review_seed["evaluation_independence"] = "independent_manual_review"
-    review_seed["evidence_type"] = "expert_review_quality_check"
-    review_seed["tier"] = "silver-medium"
-    review_seed["can_support_contractual_denominator"] = False
-    review_seed["can_support_proxy_denominator"] = review_seed["manual_review_result"].eq("correct")
-    review_seed["quality_use"] = "held_out_seed_for_future_calibration_not_production_accuracy"
-    review_seed.to_csv(INDEPENDENT_REVIEW_SEED, index=False)
+    human_validated_review = review.copy()
+    human_validated_review["review_mode"] = "human_validated_pipeline_proposal"
+    human_validated_review["evaluation_independence_for_future_eval"] = "not_independent_anchor_visible"
+    human_validated_review["evidence_type"] = "expert_review_quality_check"
+    human_validated_review["tier"] = "silver-medium"
+    human_validated_review["can_support_contractual_denominator"] = False
+    human_validated_review["can_support_proxy_denominator"] = human_validated_review[
+        "manual_review_result"
+    ].eq("correct")
+    human_validated_review["quality_use"] = "qa_sample_only_not_performance_metric_not_held_out"
+    human_validated_review.to_csv(HUMAN_VALIDATED_REVIEW, index=False)
 
     target_summary = {}
     for target, frame in df.groupby("target"):
@@ -138,8 +141,9 @@ def main() -> None:
         ),
         "score_band_counts": {str(k): int(v) for k, v in sorted(band_counts.items())},
         "manual_review_result_counts": {str(k): int(v) for k, v in sorted(review_counts.items())},
-        "manual_review_seed_rows": int(len(review_seed)),
-        "manual_review_seed_independence": "independent_manual_review",
+        "human_validated_review_rows": int(len(human_validated_review)),
+        "human_validated_review_mode": "human_validated_pipeline_proposal",
+        "future_evaluation_independence": "not_independent_anchor_visible",
         "target_summary": target_summary,
         "observed_target_hint_summary": observed_hint_summary,
         "high_confidence_vocabulary_owner_counts": {
@@ -155,13 +159,14 @@ def main() -> None:
         "denominator_controls": {
             "contractual": "not_supported",
             "poc_proxy": "high_confidence_candidates_can_enter_F2_review_queue_only",
-            "independent_evaluation": "only_manual_review_seed_is_independent_from_embedding_rule_set",
+            "independent_evaluation": "not_supported_by_F1e2_review_because_pipeline_anchor_was_visible",
         },
+        "qa_language_control": "State high band as QA sample result, n=10, no errors observed; never as a performance precision estimate.",
         "raw_values_emitted": False,
         "outputs": {
             "high_confidence_candidates": str(FROZEN_CANDIDATES.relative_to(PROJECT_ROOT)),
             "unresolved_routing": str(UNRESOLVED_ROUTING.relative_to(PROJECT_ROOT)),
-            "independent_review_seed": str(INDEPENDENT_REVIEW_SEED.relative_to(PROJECT_ROOT)),
+            "human_validated_review": str(HUMAN_VALIDATED_REVIEW.relative_to(PROJECT_ROOT)),
             "summary_json": str(SUMMARY_JSON.relative_to(PROJECT_ROOT)),
             "memo": str(MEMO_MD.relative_to(PROJECT_ROOT)),
         },
@@ -192,7 +197,7 @@ The prior semantic mapping coverage is retained as diagnostic coverage, not qual
 
 | score band | manual review result |
 | --- | --- |
-| high | 10 correct / 0 doubtful / 0 incorrect |
+| high | QA sample result, n=10, no errors observed |
 | middle | 3 correct / 2 doubtful / 5 incorrect |
 | borderline | 1 correct / 2 doubtful / 7 incorrect |
 
@@ -208,7 +213,9 @@ The prior semantic mapping coverage is retained as diagnostic coverage, not qual
 - The high-confidence layer remains `expert_inference` and `derived_from_rules`.
 - It can support POC proxy review workflows after F2 target review.
 - It cannot support contractual denominators.
-- The 30 manually reviewed rows are preserved as an independent manual-review seed for future calibration, not as verified production accuracy.
+- The 30 manually reviewed rows are preserved as `human_validated_pipeline_proposal`.
+- They are not independent held-out evidence because the pipeline-proposed anchor was visible to the reviewer.
+- A truly independent review requires blind annotation: observed term plus allowed catalog, without the pipeline proposal.
 """
     MEMO_MD.write_text(memo, encoding="utf-8")
 

@@ -21,7 +21,7 @@ The prior semantic mapping coverage is retained as diagnostic coverage, not qual
 
 | score band | manual review result |
 | --- | --- |
-| high | 10 correct / 0 doubtful / 0 incorrect |
+| high | QA sample result, n=10, no errors observed |
 | middle | 3 correct / 2 doubtful / 5 incorrect |
 | borderline | 1 correct / 2 doubtful / 7 incorrect |
 
@@ -37,4 +37,6 @@ The prior semantic mapping coverage is retained as diagnostic coverage, not qual
 - The high-confidence layer remains `expert_inference` and `derived_from_rules`.
 - It can support POC proxy review workflows after F2 target review.
 - It cannot support contractual denominators.
-- The 30 manually reviewed rows are preserved as an independent manual-review seed for future calibration, not as verified production accuracy.
+- The 30 manually reviewed rows are preserved as `human_validated_pipeline_proposal`.
+- They are not independent held-out evidence because the pipeline-proposed anchor was visible to the reviewer.
+- A truly independent review requires blind annotation: observed term plus allowed catalog, without the pipeline proposal.

@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-09-01T23:59:52.211261+00:00",
+  "created_at_utc": "2026-09-02T00:19:51.778990+00:00",
   "task": "F1e2_semantic_match_manual_review",
   "sample_rows": 30,
   "sample_design": "10 high, 10 middle, 10 borderline semantic anchors",
@@ -65,9 +65,12 @@
     "semantic_anchor_candidate_middle": "retain only as review queue, not auto-promoted",
     "semantic_anchor_candidate_borderline": "route to unresolved/manual-review backlog by default"
   },
-  "coverage_without_quality_warning": "62.73% remains coverage, not quality, until band precision is applied.",
+  "qa_language_control": "High band result must be stated as QA sample result, n=10, no errors observed; not as a performance precision estimate.",
+  "coverage_without_quality_warning": "62.73% remains coverage, not quality, until QA review is applied.",
+  "human_review_provenance": "human_validated_pipeline_proposal",
+  "future_evaluation_independence": "not_independent_anchor_visible",
   "evaluation_independence": "derived_from_rules",
-  "quality_use": "precision_estimate_only_not_independent_evaluation",
+  "quality_use": "qa_sample_only_not_performance_metric_not_held_out",
   "raw_values_emitted": false,
   "outputs": {
     "reviewed_sample_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e2_semantic_match_manual_review_sanitized.csv",

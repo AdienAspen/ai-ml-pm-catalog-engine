@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-09-02T00:09:52.439094+00:00",
+  "created_at_utc": "2026-09-02T00:19:52.557357+00:00",
   "task": "F1f_lexical_layer_freeze_decision",
   "input_rows": 7790,
   "reported_coverage_rows_prior_to_quality_filter": 4887,
@@ -19,8 +19,9 @@
     "doubtful": 4,
     "incorrect": 12
   },
-  "manual_review_seed_rows": 30,
-  "manual_review_seed_independence": "independent_manual_review",
+  "human_validated_review_rows": 30,
+  "human_validated_review_mode": "human_validated_pipeline_proposal",
+  "future_evaluation_independence": "not_independent_anchor_visible",
   "target_summary": {
     "Activity": {
       "rows": 995,
@@ -153,13 +154,14 @@
   "denominator_controls": {
     "contractual": "not_supported",
     "poc_proxy": "high_confidence_candidates_can_enter_F2_review_queue_only",
-    "independent_evaluation": "only_manual_review_seed_is_independent_from_embedding_rule_set"
+    "independent_evaluation": "not_supported_by_F1e2_review_because_pipeline_anchor_was_visible"
   },
+  "qa_language_control": "State high band as QA sample result, n=10, no errors observed; never as a performance precision estimate.",
   "raw_values_emitted": false,
   "outputs": {
     "high_confidence_candidates": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/lexical_layer_v2/lexical_layer_v2_high_confidence_candidates_sanitized.csv",
     "unresolved_routing": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/lexical_layer_v2/lexical_layer_v2_unresolved_routing_sanitized.csv",
-    "independent_review_seed": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e2_manual_review_seed_sanitized.csv",
+    "human_validated_review": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e2_human_validated_pipeline_review_sanitized.csv",
     "summary_json": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1f_lexical_layer_freeze_decision_summary.json",
     "memo": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1f_lexical_layer_freeze_decision_memo.md"
   }
