@@ -1,0 +1,78 @@
+{
+  "created_at_utc": "2026-09-01T23:59:52.211261+00:00",
+  "task": "F1e2_semantic_match_manual_review",
+  "sample_rows": 30,
+  "sample_design": "10 high, 10 middle, 10 borderline semantic anchors",
+  "manual_review_result_counts": {
+    "correct": 14,
+    "incorrect": 12,
+    "doubtful": 4
+  },
+  "band_summary": {
+    "borderline": {
+      "sample_rows": 10,
+      "correct": 1,
+      "incorrect": 7,
+      "doubtful": 2,
+      "correct_pct": 10.0,
+      "correct_or_doubtful_pct": 30.0
+    },
+    "high": {
+      "sample_rows": 10,
+      "correct": 10,
+      "incorrect": 0,
+      "doubtful": 0,
+      "correct_pct": 100.0,
+      "correct_or_doubtful_pct": 100.0
+    },
+    "middle": {
+      "sample_rows": 10,
+      "correct": 3,
+      "incorrect": 5,
+      "doubtful": 2,
+      "correct_pct": 30.0,
+      "correct_or_doubtful_pct": 50.0
+    }
+  },
+  "target_review_counts": {
+    "Activity": {
+      "correct": 2
+    },
+    "Damage": {
+      "incorrect": 1,
+      "doubtful": 1
+    },
+    "FLOC leaf": {
+      "incorrect": 5
+    },
+    "Object Part": {
+      "correct": 12,
+      "incorrect": 5,
+      "doubtful": 1
+    },
+    "Symptom": {
+      "incorrect": 1,
+      "doubtful": 2
+    }
+  },
+  "quality_reading": {
+    "high": "strong precision on this sample",
+    "middle": "mixed; needs target-aware review before promotion",
+    "borderline": "low precision; should not flow into F2 without stricter threshold or manual confirmation"
+  },
+  "recommended_threshold_policy": {
+    "semantic_anchor_high": "retain as preferred candidate set for F2 review",
+    "semantic_anchor_candidate_middle": "retain only as review queue, not auto-promoted",
+    "semantic_anchor_candidate_borderline": "route to unresolved/manual-review backlog by default"
+  },
+  "coverage_without_quality_warning": "62.73% remains coverage, not quality, until band precision is applied.",
+  "evaluation_independence": "derived_from_rules",
+  "quality_use": "precision_estimate_only_not_independent_evaluation",
+  "raw_values_emitted": false,
+  "outputs": {
+    "reviewed_sample_csv": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e2_semantic_match_manual_review_sanitized.csv",
+    "summary_json": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e2_semantic_match_manual_review_summary.json",
+    "memo": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e2_semantic_match_manual_review_memo.md",
+    "internal_reviewed_csv": "reports/internal/f1e2_semantic_match_manual_review_internal_redacted.csv"
+  }
+}
