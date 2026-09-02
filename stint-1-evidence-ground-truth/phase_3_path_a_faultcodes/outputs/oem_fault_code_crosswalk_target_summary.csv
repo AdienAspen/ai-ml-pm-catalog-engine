@@ -1,0 +1,5 @@
+target,fault_code_candidates_high,fault_code_candidates_medium,fault_code_unresolved,distinct_candidate_concepts,raw_values_emitted
+Activity,0,0,79,0,False
+Cause,2,10,67,11,False
+Damage,3,11,65,13,False
+Object Part,7,10,62,15,False

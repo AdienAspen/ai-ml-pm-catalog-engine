@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-09-02T16:38:25.401489+00:00",
+  "task": "F3_oem_fault_code_crosswalk_path_a",
+  "input_fault_code_rows": 602,
+  "distinct_fault_code_keys": 79,
+  "crosswalk_rows": 316,
+  "target_count": 4,
+  "candidate_status_counts": {
+    "candidate_high_requires_review": 12,
+    "candidate_medium_requires_review": 31,
+    "unresolved_below_threshold": 273
+  },
+  "fault_codes_with_any_candidate": 24,
+  "fault_codes_without_candidate": 55,
+  "min_candidate_score": 0.62,
+  "high_candidate_score": 0.7,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "evidence_type_for_candidates": "expert_inference",
+  "tier_for_candidates": "silver-medium",
+  "evaluation_independence": "derived_from_rules",
+  "contractual_denominator_supported": false,
+  "poc_proxy_denominator_supported": false,
+  "decision": "candidate_crosswalk_for_review_only_no_1_to_1_mapping_claim",
+  "raw_values_emitted": false,
+  "outputs": {
+    "crosswalk_csv": "stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/oem_fault_code_crosswalk_sanitized.csv",
+    "code_profile_csv": "stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/oem_fault_code_profile_sanitized.csv",
+    "target_summary_csv": "stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/oem_fault_code_crosswalk_target_summary.csv",
+    "summary_json": "stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/oem_fault_code_crosswalk_summary.json",
+    "report_md": "stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/oem_fault_code_crosswalk_report.md",
+    "internal_review_csv": "reports/internal/oem_fault_code_crosswalk_internal_review_redacted.csv"
+  }
+}
