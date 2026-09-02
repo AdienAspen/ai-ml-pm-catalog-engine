@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-09-02T16:14:36.913884+00:00",
+  "created_at_utc": "2026-09-02T16:25:08.796264+00:00",
   "task": "F2_unknown_reconciliation",
   "source_unknown_pair_rows": 802,
   "reconciliation_groups": 22,
@@ -11,6 +11,14 @@
   },
   "lexical_unknown_high_confidence_rows": 1414,
   "lexical_unknown_unresolved_or_rework_rows": 3186,
+  "count_reconciliation": {
+    "f1d1_baseline_unknown_mapped_rows": 192,
+    "f1d4_semantic_unknown_mapped_rows_before_quality_filter": 2689,
+    "f1d4_final_target_unknown_rows_after_semantic_matching": 1911,
+    "f1f_observed_unknown_high_confidence_rows": 1414,
+    "why_different": "192 belongs to the F1d1 string/token baseline, not to F1d4. F1d4 used multilingual semantic matching and mapped 2689 of the 4600 originally unknown-hint rows before quality filtering. F1f then retained 1414 of those originally unknown-hint rows as high-confidence candidates.",
+    "no_expansion_or_rerun": true
+  },
   "lexical_unknown_assignment_counts": {
     "Activity": 63,
     "Cause": 198,

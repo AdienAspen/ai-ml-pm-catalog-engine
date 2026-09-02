@@ -38,6 +38,26 @@ high-confidence lexical assignments whose observed target hint was `unknown`.
 
 Rows routed to unresolved/rework from unknown hint: `3186`.
 
+## Count Reconciliation
+
+`192` and `1,414` are different stages/views of the lexical layer, not an undeclared
+expansion:
+
+- `192` = originally-unknown rows mapped by the F1d1 string/token baseline.
+- `2,689` = originally-unknown rows mapped by F1d4 semantic matching before quality filtering.
+- `1,414` = originally-unknown rows that F1f retained as
+  high-confidence candidate targets after the quality filter.
+
+Therefore `1,414 > 192` is valid because it compares F1f high-confidence semantic matches
+against the earlier F1d1 baseline, not against the same matching method.
+
+## Out-of-Scope Rule
+
+Rows are classified as `out_of_scope` when their pattern is explained by spreadsheet layout
+artifacts, temporal fields, scheduling fields, duration/quantity fields, or similar metadata
+co-occurrences rather than by a source text concept paired to a target code or controlled
+vocabulary.
+
 ## Interpretation
 
 - The historical `unknown` pair rows are not a single backlog. They split into schema/layout artifacts, identifier joins, temporal metadata, and a smaller set of narrative/status candidates.

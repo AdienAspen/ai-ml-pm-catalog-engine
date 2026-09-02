@@ -27,6 +27,10 @@ F1_HIGH = (
     / "lexical_layer_v2"
     / "lexical_layer_v2_high_confidence_candidates_sanitized.csv"
 )
+F1D_BASELINE_SUMMARY = STINT_ROOT / "phase_1_lexical" / "outputs" / "f1d_domain_grouping_summary.json"
+F1D4_SEMANTIC_SUMMARY = (
+    STINT_ROOT / "phase_1_lexical" / "outputs" / "f1d4_semantic_grouping_with_aliases_summary.json"
+)
 F1_UNRESOLVED = (
     STINT_ROOT
     / "phase_1_lexical"
@@ -247,8 +251,23 @@ def build_unknown_reconciliation(classified: pd.DataFrame, internal: pd.DataFram
 
     high = pd.read_csv(F1_HIGH)
     unresolved = pd.read_csv(F1_UNRESOLVED)
+    baseline_unknown_mapped = None
+    semantic_unknown_mapped = None
+    if F1D_BASELINE_SUMMARY.exists():
+        baseline = json.loads(F1D_BASELINE_SUMMARY.read_text(encoding="utf-8"))
+        baseline_unknown_mapped = baseline.get("target_summary", {}).get("unknown", {}).get("mapped_rows")
+    if F1D4_SEMANTIC_SUMMARY.exists():
+        semantic = json.loads(F1D4_SEMANTIC_SUMMARY.read_text(encoding="utf-8"))
+        semantic_unknown_mapped = semantic.get("target_summary", {}).get("unknown", {}).get("mapped_rows")
     high_unknown = high[high["observed_target_hint"] == "unknown"].copy()
     unresolved_unknown = unresolved[unresolved["observed_target_hint"] == "unknown"].copy()
+    f1d4_target_unknown_rows = int(
+        len(
+            pd.concat([high, unresolved], ignore_index=True, sort=False).query(
+                "target == 'unknown'"
+            )
+        )
+    )
     lexical_rows = []
     for target, frame in high_unknown.groupby("target"):
         lexical_rows.append(
@@ -311,6 +330,18 @@ def build_unknown_reconciliation(classified: pd.DataFrame, internal: pd.DataFram
         "classification_counts_by_pair_row": {str(k): int(v) for k, v in sorted(class_counts.items())},
         "lexical_unknown_high_confidence_rows": int(len(high_unknown)),
         "lexical_unknown_unresolved_or_rework_rows": int(len(unresolved_unknown)),
+        "count_reconciliation": {
+            "f1d1_baseline_unknown_mapped_rows": baseline_unknown_mapped,
+            "f1d4_semantic_unknown_mapped_rows_before_quality_filter": semantic_unknown_mapped,
+            "f1d4_final_target_unknown_rows_after_semantic_matching": f1d4_target_unknown_rows,
+            "f1f_observed_unknown_high_confidence_rows": int(len(high_unknown)),
+            "why_different": (
+                "192 belongs to the F1d1 string/token baseline, not to F1d4. "
+                "F1d4 used multilingual semantic matching and mapped 2689 of the 4600 originally unknown-hint rows before quality filtering. "
+                "F1f then retained 1414 of those originally unknown-hint rows as high-confidence candidates."
+            ),
+            "no_expansion_or_rerun": True,
+        },
         "lexical_unknown_assignment_counts": {str(k): int(v) for k, v in sorted(lexical_counts.items())},
         "validation_status": "agent_pattern_review_pending_human_confirmation",
         "raw_values_emitted": False,
@@ -359,6 +390,26 @@ high-confidence lexical assignments whose observed target hint was `unknown`.
 
     report += f"""
 Rows routed to unresolved/rework from unknown hint: `{summary["lexical_unknown_unresolved_or_rework_rows"]}`.
+
+## Count Reconciliation
+
+`192` and `1,414` are different stages/views of the lexical layer, not an undeclared
+expansion:
+
+- `192` = originally-unknown rows mapped by the F1d1 string/token baseline.
+- `2,689` = originally-unknown rows mapped by F1d4 semantic matching before quality filtering.
+- `1,414` = originally-unknown rows that F1f retained as
+  high-confidence candidate targets after the quality filter.
+
+Therefore `1,414 > 192` is valid because it compares F1f high-confidence semantic matches
+against the earlier F1d1 baseline, not against the same matching method.
+
+## Out-of-Scope Rule
+
+Rows are classified as `out_of_scope` when their pattern is explained by spreadsheet layout
+artifacts, temporal fields, scheduling fields, duration/quantity fields, or similar metadata
+co-occurrences rather than by a source text concept paired to a target code or controlled
+vocabulary.
 """
 
     report += """
