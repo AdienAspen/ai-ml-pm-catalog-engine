@@ -1,0 +1,166 @@
+{
+  "created_at_utc": "2026-09-02T00:09:52.439094+00:00",
+  "task": "F1f_lexical_layer_freeze_decision",
+  "input_rows": 7790,
+  "reported_coverage_rows_prior_to_quality_filter": 4887,
+  "reported_coverage_pct_prior_to_quality_filter": 62.73,
+  "usable_high_confidence_rows": 2773,
+  "usable_high_confidence_pct": 35.6,
+  "routed_to_unresolved_or_rework_rows": 5017,
+  "high_confidence_distinct_canonical_concepts": 359,
+  "score_band_counts": {
+    "borderline": 747,
+    "high": 2773,
+    "middle": 1367,
+    "unresolved_below_threshold": 2903
+  },
+  "manual_review_result_counts": {
+    "correct": 14,
+    "doubtful": 4,
+    "incorrect": 12
+  },
+  "manual_review_seed_rows": 30,
+  "manual_review_seed_independence": "independent_manual_review",
+  "target_summary": {
+    "Activity": {
+      "rows": 995,
+      "usable_high_confidence_rows": 194,
+      "usable_high_confidence_pct": 19.5,
+      "high_confidence_distinct_canonical_concepts": 13,
+      "unresolved_or_routed_out_rows": 801
+    },
+    "Activity Type": {
+      "rows": 11,
+      "usable_high_confidence_rows": 0,
+      "usable_high_confidence_pct": 0.0,
+      "high_confidence_distinct_canonical_concepts": 0,
+      "unresolved_or_routed_out_rows": 11
+    },
+    "Cause": {
+      "rows": 511,
+      "usable_high_confidence_rows": 271,
+      "usable_high_confidence_pct": 53.03,
+      "high_confidence_distinct_canonical_concepts": 62,
+      "unresolved_or_routed_out_rows": 240
+    },
+    "Damage": {
+      "rows": 712,
+      "usable_high_confidence_rows": 345,
+      "usable_high_confidence_pct": 48.46,
+      "high_confidence_distinct_canonical_concepts": 59,
+      "unresolved_or_routed_out_rows": 367
+    },
+    "FLOC leaf": {
+      "rows": 676,
+      "usable_high_confidence_rows": 333,
+      "usable_high_confidence_pct": 49.26,
+      "high_confidence_distinct_canonical_concepts": 49,
+      "unresolved_or_routed_out_rows": 343
+    },
+    "Object Part": {
+      "rows": 2534,
+      "usable_high_confidence_rows": 1495,
+      "usable_high_confidence_pct": 59.0,
+      "high_confidence_distinct_canonical_concepts": 150,
+      "unresolved_or_routed_out_rows": 1039
+    },
+    "Symptom": {
+      "rows": 440,
+      "usable_high_confidence_rows": 135,
+      "usable_high_confidence_pct": 30.68,
+      "high_confidence_distinct_canonical_concepts": 26,
+      "unresolved_or_routed_out_rows": 305
+    },
+    "unknown": {
+      "rows": 1911,
+      "usable_high_confidence_rows": 0,
+      "usable_high_confidence_pct": 0.0,
+      "high_confidence_distinct_canonical_concepts": 0,
+      "unresolved_or_routed_out_rows": 1911
+    }
+  },
+  "observed_target_hint_summary": {
+    "Activity": {
+      "rows": 879,
+      "usable_high_confidence_rows": 131,
+      "usable_high_confidence_pct": 14.9,
+      "high_confidence_distinct_canonical_concepts": 9,
+      "unresolved_or_routed_out_rows": 748
+    },
+    "Activity Type": {
+      "rows": 11,
+      "usable_high_confidence_rows": 0,
+      "usable_high_confidence_pct": 0.0,
+      "high_confidence_distinct_canonical_concepts": 0,
+      "unresolved_or_routed_out_rows": 11
+    },
+    "Cause": {
+      "rows": 175,
+      "usable_high_confidence_rows": 73,
+      "usable_high_confidence_pct": 41.71,
+      "high_confidence_distinct_canonical_concepts": 16,
+      "unresolved_or_routed_out_rows": 102
+    },
+    "Damage": {
+      "rows": 347,
+      "usable_high_confidence_rows": 182,
+      "usable_high_confidence_pct": 52.45,
+      "high_confidence_distinct_canonical_concepts": 32,
+      "unresolved_or_routed_out_rows": 165
+    },
+    "Object Part": {
+      "rows": 1492,
+      "usable_high_confidence_rows": 916,
+      "usable_high_confidence_pct": 61.39,
+      "high_confidence_distinct_canonical_concepts": 89,
+      "unresolved_or_routed_out_rows": 576
+    },
+    "Symptom": {
+      "rows": 286,
+      "usable_high_confidence_rows": 57,
+      "usable_high_confidence_pct": 19.93,
+      "high_confidence_distinct_canonical_concepts": 10,
+      "unresolved_or_routed_out_rows": 229
+    },
+    "unknown": {
+      "rows": 4600,
+      "usable_high_confidence_rows": 1414,
+      "usable_high_confidence_pct": 30.74,
+      "high_confidence_distinct_canonical_concepts": 257,
+      "unresolved_or_routed_out_rows": 3186
+    }
+  },
+  "high_confidence_vocabulary_owner_counts": {
+    "CONVERTER_FIELD_DAMAGE_LITERATURE": 28,
+    "HYDRAULIC_PITCH_FAILURE_LITERATURE": 15,
+    "IH06_OBSERVED_NODES": 333,
+    "NREL_GRD": 5,
+    "NREL_MAIN_BEARING": 2,
+    "SAP_MAPPING": 2321,
+    "TRANSFORMER_FAILURE_LITERATURE": 7,
+    "WMEP_CAUSES": 36,
+    "WMEP_EFFECTS": 3,
+    "YAW_FAILURE_LITERATURE": 1,
+    "ZEUS_SCAFFOLD": 22
+  },
+  "decision": {
+    "LEXICAL_LAYER": "closed_for_F2_as_high_confidence_candidate_layer",
+    "middle_band": "route_to_unresolved_not_auto_promoted",
+    "borderline_band": "route_to_unresolved_not_auto_promoted",
+    "unresolved_below_threshold": "remain_unresolved",
+    "translation_alias_layer": "kept_as_expert_inference_but_low_net_gain"
+  },
+  "denominator_controls": {
+    "contractual": "not_supported",
+    "poc_proxy": "high_confidence_candidates_can_enter_F2_review_queue_only",
+    "independent_evaluation": "only_manual_review_seed_is_independent_from_embedding_rule_set"
+  },
+  "raw_values_emitted": false,
+  "outputs": {
+    "high_confidence_candidates": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/lexical_layer_v2/lexical_layer_v2_high_confidence_candidates_sanitized.csv",
+    "unresolved_routing": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/lexical_layer_v2/lexical_layer_v2_unresolved_routing_sanitized.csv",
+    "independent_review_seed": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1e2_manual_review_seed_sanitized.csv",
+    "summary_json": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1f_lexical_layer_freeze_decision_summary.json",
+    "memo": "stint-1-evidence-ground-truth/phase_1_lexical/outputs/f1f_lexical_layer_freeze_decision_memo.md"
+  }
+}
