@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-09-02T16:14:36.913884+00:00",
+  "task": "F2_unknown_reconciliation",
+  "source_unknown_pair_rows": 802,
+  "reconciliation_groups": 22,
+  "classification_counts_by_pair_row": {
+    "matched_vocabulary": 18,
+    "out_of_scope": 662,
+    "pending": 94,
+    "unrelated_cooccurrence": 28
+  },
+  "lexical_unknown_high_confidence_rows": 1414,
+  "lexical_unknown_unresolved_or_rework_rows": 3186,
+  "lexical_unknown_assignment_counts": {
+    "Activity": 63,
+    "Cause": 198,
+    "Damage": 163,
+    "FLOC leaf": 333,
+    "Object Part": 579,
+    "Symptom": 78,
+    "unresolved_or_rework": 0
+  },
+  "validation_status": "agent_pattern_review_pending_human_confirmation",
+  "raw_values_emitted": false,
+  "outputs": {
+    "unknown_groups_csv": "stint-1-evidence-ground-truth/phase_2_reconciliation/outputs/unknown_reconciliation/unknown_reconciliation_groups_sanitized.csv",
+    "unknown_lexical_summary_csv": "stint-1-evidence-ground-truth/phase_2_reconciliation/outputs/unknown_reconciliation/unknown_lexical_reconciliation_summary_sanitized.csv",
+    "unknown_report": "stint-1-evidence-ground-truth/phase_2_reconciliation/outputs/unknown_reconciliation/unknown_reconciliation_report.md",
+    "unknown_summary_json": "stint-1-evidence-ground-truth/phase_2_reconciliation/outputs/unknown_reconciliation/unknown_reconciliation_summary.json"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "created_at_utc": "2026-09-02T16:14:36.926175+00:00",
+  "task": "F2_multitarget_split_DELTA_0009",
+  "expanded_rows_prior": 108,
+  "prior_target_counts": {
+    "Activity": 36,
+    "Activity Type": 36,
+    "Cause": 36
+  },
+  "unique_pair_structures": 36,
+  "split_groups": 6,
+  "text_signal_family_counts": {
+    "activity_type_structural_signal": 9,
+    "cause_specific_reason_signal": 9,
+    "shared_narrative_signal": 18
+  },
+  "decision": {
+    "shared_expansion_confirmed": true,
+    "activity_cause_activity_type_not_independent": true,
+    "promoted_targets": [],
+    "cause": "reason_text_field is target-specific candidate only, not validated mapping",
+    "activity_type": "activityType structural field is target-specific candidate only, pending MAT/catalog validation",
+    "activity": "no independent Activity evidence demonstrated by these 36 structures"
+  },
+  "precondition_status": "DELTA-0009 split completed_for_planning_but_not_measurement_promotion",
+  "raw_values_emitted": false,
+  "outputs": {
+    "multitarget_groups_csv": "stint-1-evidence-ground-truth/phase_2_reconciliation/outputs/multitarget_split/multitarget_split_groups_sanitized.csv",
+    "multitarget_report": "stint-1-evidence-ground-truth/phase_2_reconciliation/outputs/multitarget_split/multitarget_split_report.md",
+    "multitarget_summary_json": "stint-1-evidence-ground-truth/phase_2_reconciliation/outputs/multitarget_split/multitarget_split_summary.json"
+  }
+}
