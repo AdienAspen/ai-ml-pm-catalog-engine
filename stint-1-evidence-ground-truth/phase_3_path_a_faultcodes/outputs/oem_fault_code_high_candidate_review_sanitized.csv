@@ -1,0 +1,11 @@
+fault_code_key,high_target_count,high_targets,high_rows,frequency,max_match_score,candidate_concepts,multi_target_high_candidate,review_requirement,raw_values_emitted
+FAULT-0a2d643bfd24,2,Damage;Object Part,2,1,0.7967,CV-EXT-e9ff5924c64e;CV-SAP-7677a353fef7,True,blind_or_target_specific_review_required_before_counting,False
+FAULT-434c9b5ae514,2,Cause;Object Part,2,1,0.8578,CV-SAP-7738807f6e5b;CV-SAP-774043923e23,True,blind_or_target_specific_review_required_before_counting,False
+FAULT-8527a891e224,1,Cause,1,7,0.711,CV-SAP-d29e90933f32,False,blind_review_required_before_promotion,False
+FAULT-2fca346db656,1,Damage,1,4,0.7534,CV-EXT-065677bfb54d,False,blind_review_required_before_promotion,False
+FAULT-421c0a7b6d0e,1,Damage,1,3,0.7021,CV-SAP-a80d8ad556b1,False,blind_review_required_before_promotion,False
+FAULT-c7ce483fd1cc,1,Object Part,1,3,0.7925,CV-SAP-d97c931bef5d,False,blind_review_required_before_promotion,False
+FAULT-5d389f5e2e34,1,Object Part,1,2,0.7275,CV-SAP-d97c931bef5d,False,blind_review_required_before_promotion,False
+FAULT-bcaf44f4041e,1,Object Part,1,2,0.7095,CV-SAP-58be96f62634,False,blind_review_required_before_promotion,False
+FAULT-482d9673cfee,1,Object Part,1,1,0.7388,CV-SAP-301eca0f1a28,False,blind_review_required_before_promotion,False
+FAULT-c75d3f1f5bcd,1,Object Part,1,1,0.7172,CV-SAP-5638c881ab97,False,blind_review_required_before_promotion,False

@@ -1,0 +1,28 @@
+{
+  "created_at_utc": "2026-09-03T17:01:30.384934+00:00",
+  "task": "F3b_fault_code_closure_check",
+  "scoring_matrix_rows": 316,
+  "scoring_matrix_definition": "79 fault-code keys scored against 4 target families; not emitted mappings",
+  "candidate_rows_total": 43,
+  "candidate_high_rows": 12,
+  "candidate_medium_rows": 31,
+  "unresolved_rows": 273,
+  "high_candidate_distinct_fault_code_keys": 10,
+  "high_candidate_codes_with_single_target": 8,
+  "high_candidate_codes_with_multiple_targets": 2,
+  "activity_result": {
+    "candidate_high": 0,
+    "candidate_medium": 0,
+    "unresolved": 79,
+    "interpretation": "fault codes describe condition/state, not technician action; Activity=0 is a domain finding, not a parser failure."
+  },
+  "manual_review_status": "high_candidates_identified_not_blind_reviewed",
+  "blind_review_required": true,
+  "measurement_readiness_change": "none",
+  "raw_values_emitted": false,
+  "outputs": {
+    "high_candidate_review_csv": "stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/oem_fault_code_high_candidate_review_sanitized.csv",
+    "summary_json": "stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f3b_fault_code_closure_summary.json",
+    "memo": "stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f3b_fault_code_closure_memo.md"
+  }
+}
