@@ -1,0 +1,86 @@
+{
+  "created_at_utc": "2026-09-07T18:01:58.440250+00:00",
+  "pass_id": "F5.1b2.2",
+  "task_type": "automatic_alarm_pattern_detection_count_and_profile_only",
+  "scope": "complete_non_empty_reason_universe",
+  "records_evaluated": 10749,
+  "reason_non_empty_rows": 10338,
+  "tracks": {
+    "F5.1b2.2a": "OEM alarm pattern coverage",
+    "F5.1b2.2b": "CMS pattern coverage with severity extracted",
+    "F5.1b2.2c": "dispatch_motive exclusion by pattern",
+    "F5.1b2.2d": "residual without pattern where technician prose may live"
+  },
+  "flag_counts": {
+    "oem_alarm_pattern": {
+      "rows": 3519,
+      "pct": 34.04
+    },
+    "cms_alert_pattern": {
+      "rows": 189,
+      "pct": 1.83
+    },
+    "dispatch_motive_pattern": {
+      "rows": 855,
+      "pct": 8.27
+    },
+    "residual_no_pattern": {
+      "rows": 5819,
+      "pct": 56.29
+    }
+  },
+  "exclusive_bucket_counts": {
+    "cms_alert_pattern": {
+      "rows": 189,
+      "pct": 1.83
+    },
+    "dispatch_motive_pattern": {
+      "rows": 811,
+      "pct": 7.84
+    },
+    "oem_alarm_pattern": {
+      "rows": 3519,
+      "pct": 34.04
+    },
+    "residual_no_pattern": {
+      "rows": 5819,
+      "pct": 56.29
+    }
+  },
+  "cms_severity_buckets": {
+    "1": 12,
+    "2": 72,
+    "3": 36,
+    "6": 69
+  },
+  "dispatch_pattern_category_counts": {
+    "inspection": 537,
+    "adjustment_or_settings": 152,
+    "planned_or_periodic": 83,
+    "upgrade_or_retrofit": 41,
+    "testing_or_commissioning": 39,
+    "administrative_or_logistics": 4
+  },
+  "residual_profile": {
+    "language_buckets": {
+      "undetermined": 4695,
+      "spanish_like": 521,
+      "english_like": 383,
+      "mixed_or_ambiguous": 220
+    },
+    "word_count_buckets": {
+      "02_short_4_8_words": 4526,
+      "01_very_short_1_3_words": 1106,
+      "03_medium_9_20_words": 173,
+      "04_long_21_plus_words": 14
+    }
+  },
+  "pattern_precedence_for_exclusive_bucket": [
+    "oem_alarm_pattern",
+    "cms_alert_pattern",
+    "dispatch_motive_pattern",
+    "residual_no_pattern"
+  ],
+  "promotion_status": "none_count_and_profile_only",
+  "raw_operational_values_emitted_to_versioned_artifacts": false
+}

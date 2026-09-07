@@ -1,0 +1,5 @@
+pass_id,pattern_track,flag_rows,flag_pct_of_reason_non_empty,exclusive_rows,exclusive_pct_of_reason_non_empty,classification_action,raw_operational_values_emitted
+F5.1b2.2,oem_alarm_pattern,3519,34.04,3519,34.04,count_and_profile_only_no_target_promotion,False
+F5.1b2.2,cms_alert_pattern,189,1.83,189,1.83,count_and_profile_only_no_target_promotion,False
+F5.1b2.2,dispatch_motive_pattern,855,8.27,811,7.84,count_and_profile_only_no_target_promotion,False
+F5.1b2.2,residual_no_pattern,5819,56.29,5819,56.29,count_and_profile_only_no_target_promotion,False

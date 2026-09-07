@@ -1,0 +1,5 @@
+pattern_position,occurrence_rows,pct_of_oem_occurrences,raw_operational_values_emitted
+prefix_dash_or_colon,2918,71.93,False
+prefix_space,725,17.87,False
+suffix_dash_or_colon,327,8.06,False
+embedded_terminal_code,87,2.14,False

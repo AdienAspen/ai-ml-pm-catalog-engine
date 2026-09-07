@@ -1,0 +1,28 @@
+{
+  "created_at_utc": "2026-09-07T20:33:07.275740+00:00",
+  "pass_id": "T5.1b2.5",
+  "task_type": "symptom_final_verdict",
+  "final_verdict": "symptom_signal_exists_as_proxy_candidate_but_is_not_ground_truth",
+  "contractual_denominator_supported": false,
+  "proxy_candidate_signal_supported": true,
+  "proxy_candidate_observed_condition_rows_total_before_dedup": 1999,
+  "reason_observed_condition_candidate_rows": 1827,
+  "other_paths_observed_condition_candidate_rows": {
+    "PATH_A_NOTES": 42,
+    "PATH_A_CONCERN_TABLE": 68,
+    "B2_WORKBOOKS": 62
+  },
+  "oem_dictionary": {
+    "oem_occurrence_rows": 4057,
+    "distinct_oem_codes": 679,
+    "distinct_code_normalised_description_pairs": 1014,
+    "multi_description_codes": 151,
+    "likely_polysemous_codes": 81
+  },
+  "evidence_type": "expert_inference",
+  "tier": "silver-medium_maximum",
+  "label_generation_method": "semantic_prototype_matching_v2_normalised_telegram_text_and_oem_pattern_dictionary",
+  "evaluation_independence": "derived_from_rules",
+  "denominator_status": "nothing_promoted_to_contractual_or_proxy_denominator_in_this_pass",
+  "raw_operational_values_emitted_to_versioned_artifacts": false
+}

@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-09-07T18:30:05.563045+00:00",
+  "pass_id": "F5.1b2.2f",
+  "task_type": "residual_unique_sample_and_oem_space_pattern_expansion",
+  "reason_non_empty_rows": 10338,
+  "strict_residual_rows_before_oem_space": 5819,
+  "strict_residual_distinct_reason_hashes": 1870,
+  "oem_space_rows_recovered_from_strict_residual": 398,
+  "residual_rows_after_oem_space_expansion": 5421,
+  "unique_blind_sample_rows_prepared": 40,
+  "sample_basis": "distinct_reason_hashes_from_strict_residual_one_row_per_hash",
+  "oem_code_description_note": "code-to-description is counted as one-to-many capable; no one-to-one assumption is made",
+  "classification_action": "profile_only_no_target_promotion",
+  "raw_operational_values_emitted_to_versioned_artifacts": false,
+  "internal_visible_sample_location": "reports/internal/f51b2_2f_residual_unique_and_oem_space/"
+}

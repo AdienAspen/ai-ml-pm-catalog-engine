@@ -12,3 +12,9 @@ phase_*/outputs/**/*_raw.csv
 **/.ipynb_checkpoints/
 
 # Only sanitized artefacts should be versioned by default.
+
+# Working vocabulary with source-derived labels
+phase_1_lexical/outputs/canonical_vocabulary/*_working.csv
+
+# Internal review key maps are local only
+phase_5_symptom/outputs/**/f51b_reason_blind_review_internal_key.csv

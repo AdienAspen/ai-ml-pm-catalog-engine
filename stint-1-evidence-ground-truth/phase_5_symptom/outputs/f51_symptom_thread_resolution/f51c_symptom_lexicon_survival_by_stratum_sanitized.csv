@@ -1,0 +1,9 @@
+stratum,survival_status,term_count,raw_values_emitted
+event_structural,fell_to_f1_unresolved_rework,1,False
+event_structural,survived_high_band_as_symptom,1,False
+other_explicit_value,fell_to_f1_unresolved_rework,8,False
+other_explicit_value,survived_high_band_as_symptom,3,False
+reactive_like,fell_to_f1_unresolved_rework,161,False
+reactive_like,survived_high_band_as_symptom,37,False
+unclassified_explicit_value,fell_to_f1_unresolved_rework,59,False
+unclassified_explicit_value,survived_high_band_as_symptom,16,False

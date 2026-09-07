@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-09-07T20:50:39.187732+00:00",
+  "task": "F5.1c",
+  "question": "Whether the 289 Symptom lexical terms survived F1 high band or fell into discarded/rework outputs.",
+  "source_seed_path": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1.1-reference-layer/reference_layer/lexical_layer/lexical_seed_dictionary_v1_consolidated_sanitized.csv",
+  "f1_high_band_path": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_1_lexical/outputs/lexical_layer_v2/lexical_layer_v2_high_confidence_candidates_sanitized.csv",
+  "expected_note": "Historical Symptom lexical rows reconciled at 289; F1 consumes their consolidated term keys.",
+  "seed_symptom_terms": 286,
+  "historical_seed_rows": 289,
+  "consolidated_seed_rows": 286,
+  "distinct_consolidated_term_keys": 222,
+  "survived_high_band_total": 57,
+  "survived_high_band_distinct_term_keys": 41,
+  "survived_high_band_as_symptom": 57,
+  "survived_high_band_as_symptom_distinct_term_keys": 41,
+  "survived_high_band_retargeted": 0,
+  "survived_high_band_retargeted_distinct_term_keys": 0,
+  "retained_in_f1_v2_not_high_band": 0,
+  "retained_in_f1_v2_not_high_band_distinct_term_keys": 0,
+  "fell_to_f1_unresolved_rework": 229,
+  "fell_to_f1_unresolved_rework_distinct_term_keys": 181,
+  "discarded_before_or_during_f1_v2": 0,
+  "discarded_before_or_during_f1_v2_distinct_term_keys": 0,
+  "source_rows_by_status": {
+    "fell_to_f1_unresolved_rework": 230,
+    "survived_high_band_as_symptom": 59
+  },
+  "record_count_by_status": {
+    "fell_to_f1_unresolved_rework": 525,
+    "survived_high_band_as_symptom": 175
+  },
+  "survived_high_band_pct": 19.93,
+  "survived_high_band_distinct_key_pct": 18.47,
+  "survived_high_band_as_symptom_pct": 19.93,
+  "survived_high_band_as_symptom_distinct_key_pct": 18.47,
+  "high_band_targets": {
+    "Symptom": 57
+  },
+  "raw_values_emitted": false,
+  "denominator_promotion": false
+}

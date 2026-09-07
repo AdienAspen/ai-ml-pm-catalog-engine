@@ -1,0 +1,4 @@
+path_bucket,text_rows_evaluated,rows_with_oem_pattern,pct_rows_with_oem_pattern,oem_occurrence_rows,distinct_code_hashes,distinct_code_description_pairs,verdict,raw_operational_values_emitted
+PATH_A_NOTES,362,15,4.14,45,10,21,pattern_present,False
+PATH_A_CONCERN_TABLE,1581,0,0.0,0,0,0,pattern_not_observed,False
+B2_WORKBOOKS,1963,3,0.15,4,3,4,pattern_present,False

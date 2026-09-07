@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-09-06T00:23:53.524638+00:00",
+  "pass_id": "F5.1b",
+  "task_type": "reason_blind_review_package",
+  "records_evaluated": 10749,
+  "reason_non_empty_rows": 10338,
+  "symptom_like_cue_rows": 921,
+  "distinct_symptom_like_reason_hashes": 367,
+  "blind_review_rows_prepared": 20,
+  "blind_review_design": "blind_no_pipeline_proposal_or_semantic_flags",
+  "thread_status": "awaiting_blind_review_responses",
+  "contractual_denominator_supported": false,
+  "proxy_denominator_supported_now": false,
+  "raw_operational_values_emitted": false,
+  "outputs": [
+    "f51b_reason_blind_review_memo.md",
+    "f51b_reason_blind_review_packet_sanitized.csv",
+    "f51b_reason_blind_review_response_template_sanitized.csv",
+    "f51b_reason_blind_review_summary_sanitized.json"
+  ],
+  "internal_outputs_ignored": [
+    "f51b_reason_blind_review_internal_key.csv"
+  ]
+}

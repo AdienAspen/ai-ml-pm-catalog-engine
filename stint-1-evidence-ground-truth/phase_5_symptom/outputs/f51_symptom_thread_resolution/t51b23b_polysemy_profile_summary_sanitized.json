@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-09-07T19:50:09.368225+00:00",
+  "pass_id": "T5.1b2.3b",
+  "task_type": "oem_polysemic_code_profile",
+  "oem_occurrence_rows": 4057,
+  "codes_total": 679,
+  "multi_description_codes": 151,
+  "polysemy_classification_counts": {
+    "likely_polysemous": 81,
+    "undetermined": 29,
+    "likely_transcription_variant": 41
+  },
+  "variant_count_histogram": {
+    "5_plus": 29,
+    "4": 11,
+    "3": 33,
+    "2": 78
+  },
+  "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "classification_action": "profile_only_no_collapse_no_dedup_no_sap_mapping",
+  "context_fields_profiled": [
+    "site_hash",
+    "asset_type_hash",
+    "date_quarter"
+  ],
+  "internal_visible_sample_groups": 20,
+  "raw_operational_values_emitted_to_versioned_artifacts": false,
+  "internal_visible_sample_location": "reports/internal/t51b23b_oem_polysemy_profile/"
+}

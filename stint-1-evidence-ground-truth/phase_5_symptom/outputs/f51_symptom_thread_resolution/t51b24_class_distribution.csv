@@ -1,0 +1,6 @@
+predicted_class,row_count,pct_of_reason_non_empty,raw_operational_values_emitted
+observed_condition,366,3.54,False
+dispatch_motive,407,3.94,False
+ambiguous,1,0.01,False
+not_interpretable,2,0.02,False
+abstained,9562,92.49,False

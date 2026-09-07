@@ -1,0 +1,3 @@
+validation_subset,validation_rows,covered_rows,correct_rows,precision_on_covered,coverage,raw_operational_values_emitted
+complete_reason_universe,40,6,6,1.0,0.15,False
+residual_after_pattern_passes,40,5,5,1.0,0.125,False

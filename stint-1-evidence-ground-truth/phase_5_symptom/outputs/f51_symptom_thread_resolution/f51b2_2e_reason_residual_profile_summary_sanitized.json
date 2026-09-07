@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-09-07T18:10:47.280207+00:00",
+  "pass_id": "F5.1b2.2e",
+  "task_type": "residual_reason_profile_count_only",
+  "scope": "reason rows not matched by OEM alarm, CMS alert, or dispatch motive strict patterns",
+  "residual_rows": 5819,
+  "numeric_prefix_rows": {
+    "rows": 307,
+    "pct": 5.28
+  },
+  "code_like_prefix_rows": {
+    "rows": 2041,
+    "pct": 35.07
+  },
+  "weak_dispatch_cue_rows": {
+    "rows": 1549,
+    "pct": 26.62
+  },
+  "top_profile_buckets_are_sanitized": true,
+  "blind_residual_review_rows_prepared": 40,
+  "classification_action": "profile_only_no_target_promotion",
+  "raw_operational_values_emitted_to_versioned_artifacts": false,
+  "internal_visible_sample_location": "reports/internal/f51b2_2e_reason_residual_profile/"
+}

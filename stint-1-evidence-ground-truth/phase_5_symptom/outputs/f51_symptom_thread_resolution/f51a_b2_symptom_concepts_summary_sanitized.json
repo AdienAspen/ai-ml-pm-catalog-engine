@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-09-06T00:16:46.771101+00:00",
+  "pass_id": "F5.1a",
+  "task_type": "b2_symptom_concept_thread_resolution",
+  "source_pass": "B2.5",
+  "symptom_concepts_evaluated": 6,
+  "symptom_evidence_rows": 584,
+  "symptom_refined_event_units": 365,
+  "observed_condition_like_concepts": 0,
+  "generic_or_unusable_concepts": 6,
+  "blind_review_needed": false,
+  "blind_review_event_sample_size": 0,
+  "thread_verdict": "discard_thread_as_generic_noise",
+  "promotion_status": "not_promoted_source_unconfirmed",
+  "contractual_denominator_supported": false,
+  "proxy_denominator_supported_now": false,
+  "raw_operational_values_emitted": false,
+  "outputs": [
+    "f51a_b2_symptom_concepts_memo.md",
+    "f51a_b2_symptom_concepts_sanitized.csv",
+    "f51a_b2_symptom_concepts_summary_sanitized.json"
+  ]
+}

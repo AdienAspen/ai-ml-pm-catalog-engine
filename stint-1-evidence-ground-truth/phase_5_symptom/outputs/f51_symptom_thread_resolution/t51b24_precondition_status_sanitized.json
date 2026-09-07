@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-09-07T18:44:18.909849+00:00",
+  "pass_id": "T5.1b2.4",
+  "status": "blocked_pending_blind_review_labels",
+  "validation_rows_available": 0,
+  "required_validation_rows": 80,
+  "reason": "Both blind-review response templates exist, but reviewer_response values are not populated.",
+  "classification_action": "not_run_no_threshold_or_confusion_matrix_fabricated",
+  "raw_operational_values_emitted_to_versioned_artifacts": false
+}

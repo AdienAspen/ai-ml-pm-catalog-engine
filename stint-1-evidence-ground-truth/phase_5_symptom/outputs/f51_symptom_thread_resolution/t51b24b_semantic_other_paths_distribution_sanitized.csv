@@ -1,0 +1,16 @@
+path_bucket,predicted_class,row_count,pct_of_path_rows,raw_operational_values_emitted
+PATH_A_NOTES,observed_condition,42,4.76,False
+PATH_A_NOTES,dispatch_motive,343,38.89,False
+PATH_A_NOTES,ambiguous,9,1.02,False
+PATH_A_NOTES,not_interpretable,4,0.45,False
+PATH_A_NOTES,abstained,484,54.88,False
+PATH_A_CONCERN_TABLE,observed_condition,68,4.3,False
+PATH_A_CONCERN_TABLE,dispatch_motive,285,18.03,False
+PATH_A_CONCERN_TABLE,ambiguous,3,0.19,False
+PATH_A_CONCERN_TABLE,not_interpretable,764,48.32,False
+PATH_A_CONCERN_TABLE,abstained,461,29.16,False
+B2_WORKBOOKS,observed_condition,62,3.16,False
+B2_WORKBOOKS,dispatch_motive,189,9.63,False
+B2_WORKBOOKS,ambiguous,13,0.66,False
+B2_WORKBOOKS,not_interpretable,4,0.2,False
+B2_WORKBOOKS,abstained,1695,86.35,False

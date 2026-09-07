@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-09-07T17:35:53.920841+00:00",
+  "pass_id": "F5.1b2.1",
+  "task_type": "unbiased_reason_blind_review_package",
+  "records_evaluated": 10749,
+  "reason_non_empty_rows": 10338,
+  "distinct_reason_hashes": 3346,
+  "sample_rows": 40,
+  "sample_basis": "complete_non_empty_reason_universe_no_cue_preselection",
+  "reviewer_response_allowed_values": [
+    "observed_condition",
+    "dispatch_motive",
+    "ambiguous",
+    "not_interpretable"
+  ],
+  "git_policy": "reports/internal/* is ignored; do not commit these files",
+  "pipeline_proposal_shown": false,
+  "semantic_flags_shown": false,
+  "pii_redacted": true,
+  "raw_operational_values_emitted_to_versioned_artifacts": false,
+  "internal_artifacts_location": "reports/internal/f51b2_reason_blind_review_unbiased/"
+}

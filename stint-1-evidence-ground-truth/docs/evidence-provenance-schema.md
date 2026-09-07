@@ -25,6 +25,23 @@ This schema extends the STINT_1.1 provenance model with record-level fields need
 | `evaluation_independence` | Evaluation independence flag: `independent`, `derived_from_rules`, or `unknown`. |
 | `notes` | Sanitized methodological note, never raw operational text. |
 
+
+## OEM Code Handling
+
+OEM and alarm codes must be parsed and persisted as strings, not numeric values. Leading zeros are semantically significant and must be preserved end to end. Any parser, CSV reader, spreadsheet reader, or aggregation step that touches these fields must force text/string dtype before hashing, grouping, joining, or counting.
+
+Required fields for OEM dictionary artifacts:
+
+| field | rule |
+|---|---|
+| `code` | Internal-only raw code string, preserving leading zeros. |
+| `code_hash` | Versionable stable hash derived from the exact raw code string. |
+| `raw_description` | Internal-only observed description exactly as extracted, subject to internal access controls. |
+| `normalised_description` | Internal-only normalized description used for semantic comparison. |
+| `normalised_description_hash` | Versionable stable hash derived from the normalized description. |
+
+Never coerce OEM codes to integer or float. A value such as `0512` becoming `512` is a silent collision risk.
+
 ## Evidence Types
 
 - `real_observed_label`

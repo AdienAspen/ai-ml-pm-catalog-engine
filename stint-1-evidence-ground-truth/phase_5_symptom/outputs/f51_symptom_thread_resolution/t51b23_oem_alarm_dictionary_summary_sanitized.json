@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-09-07T19:38:49.387004+00:00",
+  "pass_id": "T5.1b2.3",
+  "task_type": "oem_alarm_code_description_dictionary",
+  "reason_non_empty_rows": 10338,
+  "oem_occurrence_rows": 4057,
+  "distinct_oem_codes": 679,
+  "distinct_code_normalised_description_pairs": 1014,
+  "codes_with_multiple_normalised_descriptions": 151,
+  "codes_with_multiple_raw_descriptions": 161,
+  "pattern_position_counts": {
+    "prefix_space": 725,
+    "embedded_terminal_code": 87,
+    "prefix_dash_or_colon": 2918,
+    "suffix_dash_or_colon": 327
+  },
+  "raw_and_normalised_forms_preserved": "raw_internal_only_normalised_hashed_in_versioned_outputs",
+  "sap_mapping_status": "not_attempted",
+  "classification_action": "dictionary_extraction_only_no_symptom_classification_no_denominator_promotion",
+  "raw_operational_values_emitted_to_versioned_artifacts": false,
+  "internal_raw_dictionary_location": "reports/internal/t51b23_oem_alarm_dictionary/"
+}

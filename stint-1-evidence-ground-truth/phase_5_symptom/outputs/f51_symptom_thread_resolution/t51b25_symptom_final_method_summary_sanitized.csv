@@ -1,0 +1,6 @@
+method,source,finding,supporting_rows,candidate_observed_condition_rows,denominator_promotion,raw_operational_values_emitted
+sap_mapping_symptom_thread,F5.1a,discarded_generic_noise,584,0,not_promoted,False
+semantic_normalized_reason,T5.1b2X-normalized,candidate_signal_present_conservative,10338,1827,not_promoted,False
+oem_dictionary,T5.1b2.3/T5.1b2.3b,strong_observed_alarm_dictionary_but_not_sap_mapping,4057,,not_promoted,False
+other_path_oem_pattern,T5.1b2.4,not_exclusive,,,not_promoted,False
+other_path_semantic_classifier,T5.1b2.4b,candidate_signal_present_beyond_oem_pattern,4426,172,not_promoted,False

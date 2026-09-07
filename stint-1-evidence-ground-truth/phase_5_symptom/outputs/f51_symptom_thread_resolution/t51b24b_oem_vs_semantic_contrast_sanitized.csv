@@ -1,0 +1,4 @@
+path_bucket,text_rows_evaluated,oem_pattern_rows,oem_pattern_pct,semantic_observed_condition_rows,semantic_observed_condition_pct,semantic_non_abstained_rows,semantic_coverage_pct,verdict,raw_operational_values_emitted
+PATH_A_NOTES,882,15,4.14,42,4.76,398,45.12,signal_present_beyond_oem_pattern,False
+PATH_A_CONCERN_TABLE,1581,0,0.0,68,4.3,1120,70.84,signal_present_beyond_oem_pattern,False
+B2_WORKBOOKS,1963,3,0.15,62,3.16,268,13.65,signal_present_beyond_oem_pattern,False

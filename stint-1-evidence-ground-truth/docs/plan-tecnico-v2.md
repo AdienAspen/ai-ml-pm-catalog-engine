@@ -27,7 +27,7 @@ Producir, para cada uno de los 7 targets, un conjunto de evidencia evaluable con
 |---|---|---|
 | Reference layer | no existía | `reference-layer-v1` congelado |
 | G06 / FLOC | vía KKS + research | **KKS cerrado.** Va por matching léxico contra IH06 |
-| G03 / Fault codes GE | investigación pendiente | research agotado. **No hay catálogo público** |
+| G03 / Fault codes OEM_ENTITY_001 | investigación pendiente | research agotado. **No hay catálogo público** |
 | G05 / MAT | bloqueado sin fuente | ZEUS aporta `maintenance_type` |
 | G07 / Symptom | sin marco | `≈ Failure Effect tipo 6` (hipótesis) + 289 términos léxicos detectados |
 | G04 | pendiente | cerrado por proxy documentado |
@@ -124,11 +124,11 @@ Entregable: lexical_layer_v2 + SEMANTIC_NORMALISATION completo + conteo de térm
 
 ---
 
-## Fase 3 — Path A: Fault codes GE *(G03)*
+## Fase 3 — Path A: Fault codes OEM_ENTITY_001 *(G03)*
 
 **Objetivo:** resolver los 79 tokens de fault code sobre 602 registros PDF.
 
-**El research está agotado.** No existe catálogo público GE ni crosswalk OEM→SAP. La cadena de trabajo es interna:
+**El research está agotado.** No existe catálogo público OEM_ENTITY_001 ni crosswalk OEM→SAP. La cadena de trabajo es interna:
 
 ```
 fault code → contexto de aparición → concepto de mantención
@@ -149,7 +149,7 @@ fault code → contexto de aparición → concepto de mantención
 
 Reconstrucción semántica desde:
 ```
-narrative + component + action + site + turbine 
+narrative + component + action + site + turbine
 + metadata + catálogos + reglas de negocio
 ```
 
@@ -179,7 +179,7 @@ Si la derivación planned/reactive requiere inferencia, marcarla `expert_inferen
 
 - ZEUS `maintenance_type` como andamiaje conceptual
 - `activityType` de `CONTRACTOR_PATH_001` como señal directa donde exista
-- Sin fuente GE controlada: reconstrucción marcada `expert_inference`
+- Sin fuente OEM_ENTITY_001 controlada: reconstrucción marcada `expert_inference`
 
 **Entregable:** silver labels por target, con procedencia y estrato.
 
@@ -280,7 +280,7 @@ Un held-out proxy evaluation set solo puede usar registros `independent`, o debe
 ### Estructura de reporte
 
 ```
-target × denominator_type × evidence_type × tier 
+target × denominator_type × evidence_type × tier
       × path × site × estrato → N registros evaluables
 ```
 

@@ -1,0 +1,7 @@
+profile_metric,row_count,pct_of_reason_non_empty,raw_operational_values_emitted
+reason_non_empty_rows,10338,100.0,False
+strict_residual_rows_before_oem_space,5819,56.29,False
+strict_residual_distinct_reason_hashes,1870,18.09,False
+oem_space_rows_recovered_from_strict_residual,398,3.85,False
+residual_rows_after_oem_space_expansion,5421,52.44,False
+unique_blind_sample_rows_prepared,40,0.39,False

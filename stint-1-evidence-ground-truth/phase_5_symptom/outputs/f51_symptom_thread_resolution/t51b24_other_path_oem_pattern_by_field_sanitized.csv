@@ -1,0 +1,8 @@
+path_bucket,source_text_field,pattern_position,oem_occurrence_rows,rows_with_oem_pattern,distinct_code_hashes,raw_operational_values_emitted
+B2_WORKBOOKS,xlsx_snapshot.issue_text,embedded_terminal_code,1,1,1,False
+B2_WORKBOOKS,xlsx_snapshot.notes_text,prefix_space,2,2,2,False
+B2_WORKBOOKS,xlsx_snapshot.notes_text,suffix_dash_or_colon,1,1,1,False
+PATH_A_NOTES,pdf_notes_region.notes_region_text,embedded_terminal_code,10,10,6,False
+PATH_A_NOTES,pdf_notes_region.notes_region_text,prefix_dash_or_colon,5,5,1,False
+PATH_A_NOTES,pdf_notes_region.notes_region_text,prefix_space,15,10,7,False
+PATH_A_NOTES,pdf_notes_region.notes_region_text,suffix_dash_or_colon,15,5,3,False

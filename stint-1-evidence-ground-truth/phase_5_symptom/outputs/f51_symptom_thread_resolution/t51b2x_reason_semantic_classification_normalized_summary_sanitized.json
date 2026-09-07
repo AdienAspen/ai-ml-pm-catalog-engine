@@ -1,0 +1,28 @@
+{
+  "created_at_utc": "2026-09-07T19:14:31.086311+00:00",
+  "pass_id": "T5.1b2X-normalized",
+  "status": "completed_no_target_promotion",
+  "reason_non_empty_rows": 10338,
+  "validation_rows": 80,
+  "normalisation": "strip_numeric_codes_separators_placeholders_split_camel_case",
+  "threshold_selection": "maximise_f1_proxy_among_thresholds_with_precision_at_least_0_8",
+  "threshold": 0.5,
+  "covered_validation_rows": 27,
+  "correct_validation_rows": 22,
+  "precision_on_covered_validation_rows": 0.8148,
+  "coverage_on_validation_rows": 0.3375,
+  "f1_proxy": 0.4112,
+  "predicted_class_distribution": {
+    "observed_condition": 1827,
+    "dispatch_motive": 1375,
+    "abstained": 6941,
+    "ambiguous": 176,
+    "not_interpretable": 19
+  },
+  "observed_condition_candidate_rows": 1827,
+  "label_generation_method": "semantic_prototype_matching_v2_normalised_telegram_text",
+  "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "evaluation_independence": "derived_from_rules",
+  "control_of_circularity": "model_blind_review rows calibrate this rule; they are not independent held-out data for STINT_2 if the same mechanism is used",
+  "raw_operational_values_emitted_to_versioned_artifacts": false
+}
