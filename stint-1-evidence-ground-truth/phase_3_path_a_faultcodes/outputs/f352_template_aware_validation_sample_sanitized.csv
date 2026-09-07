@@ -1,0 +1,11 @@
+path_hash,file_hash,template_variant,expected_core_template,core_headings_found_count,sample_validation_status,raw_operational_values_emitted
+ba74468466c46b76,752d1cf17a8672b9,PDF-TPL-001,False,3,pass,False
+4cde56ea6258afdc,8a3868c60984c5cd,PDF-TPL-002,False,2,pass,False
+0324e8bd8f33c71d,2a21d61519b78b42,PDF-TPL-003,False,3,pass,False
+638b3e886d9c9451,61b73795895e61ce,PDF-TPL-004,False,3,pass,False
+01f5d0767691f009,49077732669812cf,PDF-TPL-005,True,4,pass,False
+005f804fe910a81b,6c74c9f86eeb951d,PDF-TPL-006,True,4,pass,False
+064de0ca21264be6,9094f89c52addd18,PDF-TPL-007,False,3,pass,False
+156f1912104aed46,bfa33d1432e32189,PDF-TPL-008,False,1,pass,False
+04ae2b182114b819,a15c493f36679794,PDF-TPL-005,True,4,pass,False
+0521f31533ef07f4,d6d93cd3ea467009,PDF-TPL-005,True,4,pass,False

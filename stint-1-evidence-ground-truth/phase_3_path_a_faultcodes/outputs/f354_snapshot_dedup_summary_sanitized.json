@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-09-03T19:45:48.321923+00:00",
+  "pass_id": "T3.5.4",
+  "snapshot_rows_evaluated": 602,
+  "rows_dedup_ready": 600,
+  "rows_missing_temporal_inputs": 2,
+  "estimated_events": 362,
+  "overall_compression_ratio": 1.66,
+  "dedup_window_tolerance_days": 1,
+  "raw_operational_values_emitted": false,
+  "outputs": {
+    "memo": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f354_snapshot_dedup_memo.md",
+    "estimated_events": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f354_estimated_events_sanitized.csv",
+    "row_assignments": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f354_snapshot_row_assignments_sanitized.csv",
+    "by_namespace": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f354_dedup_by_namespace_sanitized.csv",
+    "by_classification": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f354_dedup_by_classification_sanitized.csv"
+  },
+  "internal_outputs_ignored": {
+    "estimated_events_internal": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/reports/internal/path_a_repair/f354_estimated_events_internal.csv"
+  }
+}

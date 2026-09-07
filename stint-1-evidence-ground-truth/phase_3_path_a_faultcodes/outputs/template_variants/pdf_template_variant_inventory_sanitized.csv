@@ -1,0 +1,9 @@
+template_variant,section_signature,file_count,report_year_min,report_year_max,report_month_min,report_month_max,read_ok_files,recognized_core_files,zero_interpretation_allowed_files,has_asset_status,has_notes,has_assets_of_concern,has_planned_work,has_site_roster,has_no_attachments,raw_operational_values_emitted
+PDF-TPL-006,ASSET STATUS; NOTES; ASSETS OF CONCERN; PLANNED WORK; SITE ROSTER; NO ATTACHMENTS,198,2025,2026,2025-01,2026-03,198,198,198,True,True,True,True,True,True,False
+PDF-TPL-005,ASSET STATUS; NOTES; ASSETS OF CONCERN; PLANNED WORK,136,2025,2026,2025-09,2026-01,136,136,136,True,True,True,True,False,False,False
+PDF-TPL-007,ASSET STATUS; NOTES; PLANNED WORK,26,2025,2025,2025-04,2025-09,26,0,0,True,True,False,True,False,False,False
+PDF-TPL-003,ASSET STATUS; NOTES; ASSETS OF CONCERN,24,2022,2023,2022-11,2023-02,24,0,0,True,True,True,False,False,False,False
+PDF-TPL-002,ASSET STATUS; NOTES,7,2022,2022,2022-11,2022-12,7,0,0,True,True,False,False,False,False,False
+PDF-TPL-001,ASSET STATUS; ASSETS OF CONCERN; PLANNED WORK; SITE ROSTER; NO ATTACHMENTS,1,2025,2025,2025-08,2025-08,1,0,0,True,False,True,True,True,True,False
+PDF-TPL-004,ASSET STATUS; NOTES; ASSETS OF CONCERN; NO ATTACHMENTS,1,2022,2022,2022-11,2022-11,1,0,0,True,True,True,False,False,True,False
+PDF-TPL-008,NOTES,1,unknown,unknown,unknown,unknown,1,0,0,False,True,False,False,False,False,False

@@ -1,0 +1,13 @@
+component_family,note_line_count,raw_operational_values_emitted
+blade,81,False
+yaw,65,False
+pitch,52,False
+brake,33,False
+sensor,30,False
+hydraulic,22,False
+bearing,19,False
+generator,19,False
+gearbox,9,False
+converter,6,False
+tower,3,False
+communication,2,False

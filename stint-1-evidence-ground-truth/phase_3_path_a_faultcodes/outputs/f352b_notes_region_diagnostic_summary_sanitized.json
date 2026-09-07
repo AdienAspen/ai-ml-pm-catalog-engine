@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-09-03T18:47:21.239841+00:00",
+  "pass_id": "T3.5.2b",
+  "engine": "pdfplumber_spatial_notes_region",
+  "files_evaluated": 394,
+  "core_recognized_files": 334,
+  "stacked_notes_nonempty_core_files": 13,
+  "region_notes_nonempty_core_files": 319,
+  "region_notes_nonempty_core_rate": 0.9551,
+  "known_sample_files_checked": 2,
+  "known_sample_files_region_nonempty": 2,
+  "known_sample_all_markers_found": true,
+  "raw_operational_values_emitted": false
+}

@@ -1,0 +1,3 @@
+sample_label,path_hash,file_hash,template_variant,stacked_notes_nonempty,notes_region_nonempty,notes_region_char_count,notes_region_line_count,notes_region_content_hash,sample_marker_1_found_in_notes_region,sample_marker_2_found_in_notes_region,sample_marker_3_found_in_notes_region,raw_operational_values_emitted,sample_marker_4_found_in_notes_region,sample_marker_5_found_in_notes_region,sample_marker_6_found_in_notes_region,sample_marker_7_found_in_notes_region
+2025-12-04,3bd2b3fd3b0c9c72,047f70428083d306,PDF-TPL-005,False,True,26,1,954ad57f1a4e0055,True,True,True,False,,,,
+2026-08-05,7fd431a952e65428,3bdef068c001b317,PDF-TPL-006,False,True,88,3,587eaa02f5447f81,True,True,True,False,True,True,True,True

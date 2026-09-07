@@ -1,0 +1,9 @@
+template_variant,files,read_ok_files,recognized_core_files,asset_status_present_files,notes_present_files,assets_of_concern_present_files,planned_work_present_files,site_roster_present_files,core_headings_found_min,core_headings_found_median,core_sections_text_nonempty_min,core_sections_text_nonempty_median,core_4_heading_success_files,core_4_text_nonempty_files,raw_operational_values_emitted
+PDF-TPL-006,198,198,198,198,11,198,197,198,4,4.0,2,3.0,198,11,False
+PDF-TPL-005,136,136,136,136,2,136,136,0,4,4.0,3,3.0,136,2,False
+PDF-TPL-007,26,26,0,26,0,0,26,0,3,3.0,2,2.0,0,0,False
+PDF-TPL-003,24,24,0,24,4,24,0,0,3,3.0,2,2.0,0,0,False
+PDF-TPL-002,7,7,0,7,2,0,0,0,2,2.0,1,1.0,0,0,False
+PDF-TPL-001,1,1,0,1,0,1,1,1,3,3.0,3,3.0,0,0,False
+PDF-TPL-004,1,1,0,1,0,1,0,0,3,3.0,2,2.0,0,0,False
+PDF-TPL-008,1,1,0,0,0,0,0,0,1,1.0,0,0.0,0,0,False

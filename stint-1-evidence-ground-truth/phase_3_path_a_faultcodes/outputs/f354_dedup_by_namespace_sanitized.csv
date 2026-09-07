@@ -1,0 +1,4 @@
+namespace,snapshot_rows,estimated_events,compression_ratio,raw_operational_values_emitted
+asset_state,313,88,3.56,False
+fault_code,188,175,1.07,False
+undetermined_code,101,99,1.02,False

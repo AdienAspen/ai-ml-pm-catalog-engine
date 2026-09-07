@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-09-03T19:02:22.428539+00:00",
+  "pass_id": "T3.5.3",
+  "input_files": 394,
+  "notes_region_nonempty_files": 362,
+  "note_lines_extracted": 1323,
+  "note_lines_with_semantic_signal": 882,
+  "note_lines_with_asset_ref": 697,
+  "note_lines_with_candidate_contractor": 206,
+  "note_lines_with_candidate_targets": 647,
+  "raw_operational_values_emitted": false,
+  "outputs": {
+    "memo": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f353_notes_semantics_memo.md",
+    "notes_semantics": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f353_notes_semantics_sanitized.csv",
+    "by_variant": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f353_notes_semantics_by_variant_sanitized.csv",
+    "by_target": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f353_notes_semantics_by_target_sanitized.csv",
+    "positive_control": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f353_notes_semantics_positive_control_sanitized.csv"
+  },
+  "internal_outputs_ignored": {
+    "notes_semantics_internal": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/reports/internal/path_a_repair/f353_notes_semantics_internal.csv"
+  }
+}

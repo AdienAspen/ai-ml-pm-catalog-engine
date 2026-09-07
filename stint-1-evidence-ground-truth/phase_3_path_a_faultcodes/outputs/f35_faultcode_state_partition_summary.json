@@ -1,0 +1,34 @@
+{
+  "template_inventory": {
+    "created_at_utc": "2026-09-03T17:30:18.743921+00:00",
+    "pass_id": "F3.5.0",
+    "files_profiled": 394,
+    "template_variants": 8,
+    "recognized_core_files": 334,
+    "zero_interpretation_allowed_files": 334,
+    "raw_operational_values_emitted": false
+  },
+  "code_state_partition": {
+    "created_at_utc": "2026-09-03T17:30:18.811300+00:00",
+    "pass_id": "T3.5.1",
+    "non_empty_code_rows_evaluated": 602,
+    "distinct_code_keys_evaluated": 79,
+    "classification_counts": {
+      "fault_code": 34,
+      "state_code": 5,
+      "undetermined": 40
+    },
+    "classification_status": "provisional_requires_template_aware_reparse",
+    "raw_operational_values_emitted": false
+  },
+  "outputs": {
+    "template_variant_inventory": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/template_variants/pdf_template_variant_inventory_sanitized.csv",
+    "template_variant_file_map": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/template_variants/pdf_template_variant_file_map_sanitized.csv",
+    "faultcode_state_partition": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f35_faultcode_state_partition_sanitized.csv",
+    "memo": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f35_template_variant_and_state_partition_memo.md"
+  },
+  "internal_outputs_ignored": {
+    "faultcode_state_partition_internal": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/reports/internal/path_a_repair/f35_faultcode_state_partition_internal.csv"
+  },
+  "raw_operational_values_emitted": false
+}

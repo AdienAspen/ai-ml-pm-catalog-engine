@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-09-03T19:46:18.700439+00:00",
+  "pass_id": "T3.5.5",
+  "estimated_events_input": 362,
+  "scoring_rows": 910,
+  "candidate_rows": 117,
+  "candidate_events": 62,
+  "asset_state_events": 88,
+  "fault_code_events": 175,
+  "undetermined_code_events": 99,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "target_thresholds": {
+    "Object Part": 0.67,
+    "Damage": 0.7,
+    "Cause": 0.72
+  },
+  "contractual_denominator_supported": false,
+  "poc_proxy_denominator_supported": false,
+  "raw_operational_values_emitted": false,
+  "outputs": {
+    "memo": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f355_path_a_crosswalk_v2_memo.md",
+    "crosswalk_v2": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f355_path_a_crosswalk_v2_sanitized.csv",
+    "by_target": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f355_path_a_crosswalk_v2_by_target_sanitized.csv",
+    "by_namespace": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_3_path_a_faultcodes/outputs/f355_path_a_crosswalk_v2_by_namespace_sanitized.csv"
+  },
+  "internal_outputs_ignored": {
+    "review_redacted": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/reports/internal/path_a_repair/f355_path_a_crosswalk_v2_internal_review_redacted.csv"
+  }
+}

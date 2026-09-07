@@ -1,0 +1,15 @@
+target,status,rows,estimated_events,raw_operational_values_emitted
+Cause,candidate_high_requires_review,7,7,False
+Cause,candidate_medium_requires_review,29,29,False
+Cause,not_applicable_to_fault_crosswalk,99,99,False
+Cause,unresolved_below_threshold,139,139,False
+Damage,candidate_high_requires_review,9,9,False
+Damage,candidate_medium_requires_review,12,12,False
+Damage,not_applicable_to_fault_crosswalk,99,99,False
+Damage,unresolved_below_threshold,154,154,False
+Object Part,candidate_high_requires_review,27,27,False
+Object Part,candidate_medium_requires_review,33,33,False
+Object Part,not_applicable_to_fault_crosswalk,99,99,False
+Object Part,unresolved_below_threshold,115,115,False
+asset_state,keep_as_asset_state_operational_context,85,85,False
+asset_state,review_repair_or_maintenance_as_secondary_activity_type_signal,3,3,False

@@ -1,0 +1,8 @@
+namespace,target,rows,estimated_events,raw_operational_values_emitted
+asset_state,asset_state,88,88,False
+fault_code,Cause,175,175,False
+fault_code,Damage,175,175,False
+fault_code,Object Part,175,175,False
+undetermined_code,Cause,99,99,False
+undetermined_code,Damage,99,99,False
+undetermined_code,Object Part,99,99,False

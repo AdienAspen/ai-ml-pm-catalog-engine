@@ -1,0 +1,3 @@
+sample_label,path_hash,file_hash,template_variant,notes_region_nonempty,marker_1_found,marker_2_found,marker_3_found,raw_operational_values_emitted,marker_4_found,marker_5_found,marker_6_found,marker_7_found
+2025-12-04,3bd2b3fd3b0c9c72,047f70428083d306,PDF-TPL-005,True,True,True,True,False,,,,
+2026-08-05,7fd431a952e65428,3bdef068c001b317,PDF-TPL-006,True,True,True,True,False,True,True,True,True

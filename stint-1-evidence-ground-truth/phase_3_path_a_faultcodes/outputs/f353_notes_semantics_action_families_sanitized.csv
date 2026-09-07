@@ -1,0 +1,9 @@
+action_family,note_line_count,raw_operational_values_emitted
+maintenance,166,False
+troubleshoot,165,False
+replace,49,False
+inspect,40,False
+repair,34,False
+offline_or_down,18,False
+monitor,12,False
+reset,2,False

@@ -1,0 +1,7 @@
+condition_family,note_line_count,raw_operational_values_emitted
+fault,50,False
+voltage,22,False
+limit,17,False
+damage,15,False
+alarm,2,False
+vibration,1,False
