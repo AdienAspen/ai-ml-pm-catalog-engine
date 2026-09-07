@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-09-05T00:07:37.889895+00:00",
+  "pass_id": "B2.5",
+  "task_type": "snapshot_grouping_refinement_and_reanchor",
+  "files_scanned": 127,
+  "baseline_date_sensitive_events": 1843,
+  "snapshot_text_rows": 1988,
+  "refined_events": 1857,
+  "refined_vs_baseline_delta": 14,
+  "duration_present_rows": 115,
+  "duration_grouped_events": 109,
+  "fallback_grouped_events": 1748,
+  "evidence_rows_after_reanchor": 1557,
+  "refined_event_units_with_any_candidate": 901,
+  "record_target_units_with_any_candidate": 1094,
+  "target_refined_event_counts": {
+    "Activity": 74,
+    "Cause": 57,
+    "Damage": 110,
+    "Object Part": 488,
+    "Symptom": 365
+  },
+  "contractual_denominator_supported": false,
+  "proxy_denominator_candidate_units_after_review": 0,
+  "scope_note": "Grouping simulates the upstream event constitution role that would belong to SyncHub in production. It is needed here only to define auditable B2 event units for the POC.",
+  "raw_operational_values_emitted": false
+}

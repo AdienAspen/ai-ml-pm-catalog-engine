@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-04T23:07:21.360614+00:00",
+  "pass_id": "B2.1b",
+  "task_type": "xlsx_known_positive_text_marker_validation",
+  "validation_mode": "direct_cell_marker_vs_header_extractor",
+  "doc_type_buckets_validated": [
+    "EOD",
+    "POD",
+    "other",
+    "snapshot_unprefixed"
+  ],
+  "validated_files": 4,
+  "validated_markers": 12,
+  "markers_recovered": 12,
+  "known_positive_case_validation": "passed_direct_cell_markers",
+  "limitations": "This validates workbook cell/header extraction, not visual layout rendering.",
+  "raw_operational_values_emitted": false
+}

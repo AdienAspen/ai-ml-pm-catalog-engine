@@ -1,0 +1,252 @@
+file_key,sheet_key,family,doc_type,month_bucket,sheet_index,max_rows,max_columns,non_empty_rows,header_row_detected,header_signature,header_category_counts,candidate_text_columns,candidate_text_categories,rows_with_candidate_text
+B2FILE-d570981cc842,B2SHEET-d5d6d216ef08,SNAPSHOT_FAMILY_001,EOD,2026-04,1,62,14,30,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,10
+B2FILE-34773b8db509,B2SHEET-83b832493421,SNAPSHOT_FAMILY_001,EOD,2026-04,2,62,14,39,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,18
+B2FILE-49ca9c082b30,B2SHEET-640efc1640ff,SNAPSHOT_FAMILY_001,EOD,2026-04,3,62,14,36,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,15
+B2FILE-824b296c9de9,B2SHEET-a77df78f1fbf,SNAPSHOT_FAMILY_001,EOD,2026-04,4,61,14,32,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,11
+B2FILE-1e4c26dc60e8,B2SHEET-0bec1531a4f8,SNAPSHOT_FAMILY_001,EOD,2026-04,5,66,14,38,29,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,12
+B2FILE-b3334faf6b9f,B2SHEET-75f585ae412a,SNAPSHOT_FAMILY_001,EOD,2026-04,6,66,14,42,29,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-143b0df68803,B2SHEET-d48ae00d3266,SNAPSHOT_FAMILY_001,EOD,2026-04,7,66,14,40,29,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,15
+B2FILE-ff0e095a5c37,B2SHEET-a0358d939fef,SNAPSHOT_FAMILY_001,EOD,2026-04,8,66,14,41,29,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,15
+B2FILE-0fa69a63b874,B2SHEET-80bc7cf12d40,SNAPSHOT_FAMILY_001,EOD,2026-04,9,62,14,31,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,11
+B2FILE-6564dab7feb6,B2SHEET-1548a773576d,SNAPSHOT_FAMILY_001,EOD,2026-04,10,66,14,40,29,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,14
+B2FILE-ae04963d8a9b,B2SHEET-9163dee45edb,SNAPSHOT_FAMILY_001,EOD,2026-04,11,65,14,38,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,16
+B2FILE-9b589e2d6e2f,B2SHEET-634b8993c981,SNAPSHOT_FAMILY_001,EOD,2026-04,12,65,14,40,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-819467384bd1,B2SHEET-ba4664781809,SNAPSHOT_FAMILY_001,EOD,2026-04,13,62,14,30,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,10
+B2FILE-c040608456ff,B2SHEET-83de6f2c11cf,SNAPSHOT_FAMILY_001,EOD,2026-04,14,62,14,32,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,12
+B2FILE-4171e9e27635,B2SHEET-59395622ce30,SNAPSHOT_FAMILY_001,EOD,2026-04,15,62,14,31,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,11
+B2FILE-1f4d9136cc28,B2SHEET-e26ea5241215,SNAPSHOT_FAMILY_001,EOD,2026-04,16,62,14,34,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,13
+B2FILE-5a12241ac729,B2SHEET-7960b22a9152,SNAPSHOT_FAMILY_001,EOD,2026-07,17,64,14,39,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,14
+B2FILE-5a12241ac729,B2SHEET-de82bb777a8b,SNAPSHOT_FAMILY_001,EOD,2026-07,18,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-1f309a9becf4,B2SHEET-1f4905a9db42,SNAPSHOT_FAMILY_001,EOD,2026-07,19,64,14,39,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,14
+B2FILE-1f309a9becf4,B2SHEET-989073b302fc,SNAPSHOT_FAMILY_001,EOD,2026-07,20,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-8d5a5266ae56,B2SHEET-82db9ccf0fb5,SNAPSHOT_FAMILY_001,EOD,2026-07,21,64,14,39,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,14
+B2FILE-8d5a5266ae56,B2SHEET-d3f263b3da8d,SNAPSHOT_FAMILY_001,EOD,2026-07,22,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-5fa7b0436850,B2SHEET-242a84f62a54,SNAPSHOT_FAMILY_001,EOD,2026-07,23,64,14,42,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-5fa7b0436850,B2SHEET-cf8be07e11ba,SNAPSHOT_FAMILY_001,EOD,2026-07,24,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-43f46d241824,B2SHEET-ff1941bb2a12,SNAPSHOT_FAMILY_001,EOD,2026-07,25,64,14,40,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,15
+B2FILE-43f46d241824,B2SHEET-3ff576e01f8d,SNAPSHOT_FAMILY_001,EOD,2026-07,26,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-66046ab4a956,B2SHEET-29e1ce40dc74,SNAPSHOT_FAMILY_001,EOD,2026-07,27,64,14,42,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-66046ab4a956,B2SHEET-a360895f01b1,SNAPSHOT_FAMILY_001,EOD,2026-07,28,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-4e1129336ec5,B2SHEET-c12429818f02,SNAPSHOT_FAMILY_001,EOD,2026-07,29,66,14,46,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-4e1129336ec5,B2SHEET-446e50fa3d6b,SNAPSHOT_FAMILY_001,EOD,2026-07,30,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-01f4873a4c51,B2SHEET-e4fe2117b63b,SNAPSHOT_FAMILY_001,EOD,2026-07,31,66,14,45,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-01f4873a4c51,B2SHEET-e8f951bdf465,SNAPSHOT_FAMILY_001,EOD,2026-07,32,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-d92d75825282,B2SHEET-30a841e0ee80,SNAPSHOT_FAMILY_001,EOD,2026-07,33,66,14,44,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-d92d75825282,B2SHEET-62164ba730a9,SNAPSHOT_FAMILY_001,EOD,2026-07,34,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-f799102905d0,B2SHEET-6564fa21e63a,SNAPSHOT_FAMILY_001,EOD,2026-07,35,61,14,40,12,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,21
+B2FILE-f799102905d0,B2SHEET-918f613d39e7,SNAPSHOT_FAMILY_001,EOD,2026-07,36,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-842b4c772dd8,B2SHEET-6f8da6a46150,SNAPSHOT_FAMILY_001,EOD,2026-07,37,61,14,36,12,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-842b4c772dd8,B2SHEET-5659b4f69c49,SNAPSHOT_FAMILY_001,EOD,2026-07,38,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-bf3c7f965628,B2SHEET-29772e65337f,SNAPSHOT_FAMILY_001,EOD,2026-07,39,61,14,37,12,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,18
+B2FILE-bf3c7f965628,B2SHEET-3e98b0245d36,SNAPSHOT_FAMILY_001,EOD,2026-07,40,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-979dd41cce0e,B2SHEET-70dfba19c7d0,SNAPSHOT_FAMILY_001,EOD,2026-07,41,61,14,37,12,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,18
+B2FILE-979dd41cce0e,B2SHEET-b57283064f2d,SNAPSHOT_FAMILY_001,EOD,2026-07,42,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-0e549a7736a3,B2SHEET-a889eb938379,SNAPSHOT_FAMILY_001,EOD,2026-07,43,61,14,36,12,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-0e549a7736a3,B2SHEET-b9a3cb9bc0a9,SNAPSHOT_FAMILY_001,EOD,2026-07,44,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-5769314a14c8,B2SHEET-9183e864908d,SNAPSHOT_FAMILY_001,EOD,2026-07,45,60,14,36,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,11
+B2FILE-5769314a14c8,B2SHEET-9c4aa7bac3f5,SNAPSHOT_FAMILY_001,EOD,2026-07,46,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-4968f4a4fd50,B2SHEET-bdd2abcbce5b,SNAPSHOT_FAMILY_001,EOD,2026-07,47,63,14,39,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,14
+B2FILE-4968f4a4fd50,B2SHEET-56fbb1489b52,SNAPSHOT_FAMILY_001,EOD,2026-07,48,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-9985d3e2746a,B2SHEET-4e90aae87bf5,SNAPSHOT_FAMILY_001,EOD,2026-07,49,63,14,39,30,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,14
+B2FILE-9985d3e2746a,B2SHEET-e96e384e5067,SNAPSHOT_FAMILY_001,EOD,2026-07,50,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-d7131808ef9e,B2SHEET-83566d3bdd7e,SNAPSHOT_FAMILY_001,EOD,2026-06,51,62,14,39,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,16
+B2FILE-d7131808ef9e,B2SHEET-e1209e562334,SNAPSHOT_FAMILY_001,EOD,2026-06,52,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-367910a14907,B2SHEET-ed3efde3273c,SNAPSHOT_FAMILY_001,EOD,2026-06,53,62,14,40,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-367910a14907,B2SHEET-e844fddddc92,SNAPSHOT_FAMILY_001,EOD,2026-06,54,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-39a6ade03284,B2SHEET-097418030aab,SNAPSHOT_FAMILY_001,EOD,2026-06,55,62,14,38,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,15
+B2FILE-39a6ade03284,B2SHEET-7fed4e8050b9,SNAPSHOT_FAMILY_001,EOD,2026-06,56,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-c813915ebaa4,B2SHEET-3ab22f1e6e6b,SNAPSHOT_FAMILY_001,EOD,2026-06,57,62,14,37,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,14
+B2FILE-c813915ebaa4,B2SHEET-d3f19831f052,SNAPSHOT_FAMILY_001,EOD,2026-06,58,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-89c62702aa94,B2SHEET-ebfc2b04ddc7,SNAPSHOT_FAMILY_001,EOD,2026-06,59,62,14,38,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,15
+B2FILE-89c62702aa94,B2SHEET-070ef059e6fc,SNAPSHOT_FAMILY_001,EOD,2026-06,60,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-677d23a25091,B2SHEET-d2e1b89524df,SNAPSHOT_FAMILY_001,EOD,2026-06,61,62,14,38,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,15
+B2FILE-677d23a25091,B2SHEET-af2cd2448dd2,SNAPSHOT_FAMILY_001,EOD,2026-06,62,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-df3eb3c4fa36,B2SHEET-e3224fde4594,SNAPSHOT_FAMILY_001,EOD,2026-06,63,62,14,39,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,16
+B2FILE-df3eb3c4fa36,B2SHEET-1fb451c2dda2,SNAPSHOT_FAMILY_001,EOD,2026-06,64,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-81a64c28af33,B2SHEET-60ac7b84b67a,SNAPSHOT_FAMILY_001,EOD,2026-06,65,62,14,36,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,14
+B2FILE-81a64c28af33,B2SHEET-155589ebdec5,SNAPSHOT_FAMILY_001,EOD,2026-06,66,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-741611488f10,B2SHEET-1ba6ea3f5054,SNAPSHOT_FAMILY_001,EOD,2026-06,67,63,14,37,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,14
+B2FILE-741611488f10,B2SHEET-6b5d3ae3ca31,SNAPSHOT_FAMILY_001,EOD,2026-06,68,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-7810c38e417a,B2SHEET-95900d6af26d,SNAPSHOT_FAMILY_001,EOD,2026-06,69,63,14,40,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,15
+B2FILE-7810c38e417a,B2SHEET-16b754fd5499,SNAPSHOT_FAMILY_001,EOD,2026-06,70,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-6abe90f53b2d,B2SHEET-f9d51bfd2cbf,SNAPSHOT_FAMILY_001,EOD,2026-06,71,64,14,44,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-6abe90f53b2d,B2SHEET-60ec01e08859,SNAPSHOT_FAMILY_001,EOD,2026-06,72,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-9e9a28d3df6e,B2SHEET-c3169ffc5225,SNAPSHOT_FAMILY_001,EOD,2026-06,73,62,14,39,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,16
+B2FILE-9e9a28d3df6e,B2SHEET-2e013473d324,SNAPSHOT_FAMILY_001,EOD,2026-06,74,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-a6624eeae81a,B2SHEET-9f5b5ed8bfee,SNAPSHOT_FAMILY_001,EOD,2026-06,75,64,14,43,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,18
+B2FILE-a6624eeae81a,B2SHEET-9cfb408d0c86,SNAPSHOT_FAMILY_001,EOD,2026-06,76,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-7e0e8141c46c,B2SHEET-a67a25a331da,SNAPSHOT_FAMILY_001,EOD,2026-06,77,64,14,44,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-7e0e8141c46c,B2SHEET-deef6c1d4335,SNAPSHOT_FAMILY_001,EOD,2026-06,78,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-40adae3eb25e,B2SHEET-32e0117935c2,SNAPSHOT_FAMILY_001,EOD,2026-06,79,64,14,46,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,21
+B2FILE-40adae3eb25e,B2SHEET-fa488bdefcd6,SNAPSHOT_FAMILY_001,EOD,2026-06,80,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-752ec213621f,B2SHEET-af87bd25dbbf,SNAPSHOT_FAMILY_001,EOD,2026-06,81,61,14,42,27,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,20
+B2FILE-752ec213621f,B2SHEET-e8ae6849e5ab,SNAPSHOT_FAMILY_001,EOD,2026-06,82,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-960444aa845c,B2SHEET-403704285e17,SNAPSHOT_FAMILY_001,EOD,2026-06,83,61,14,41,27,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-960444aa845c,B2SHEET-2938bf12b348,SNAPSHOT_FAMILY_001,EOD,2026-06,84,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-630737baf081,B2SHEET-5f4a837e1951,SNAPSHOT_FAMILY_001,EOD,2026-06,85,62,14,40,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-630737baf081,B2SHEET-4b0586409cbc,SNAPSHOT_FAMILY_001,EOD,2026-06,86,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-486f4d66dbe8,B2SHEET-eab2b6f22ed7,SNAPSHOT_FAMILY_001,EOD,2026-06,87,62,14,42,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-486f4d66dbe8,B2SHEET-6d707d02a7f6,SNAPSHOT_FAMILY_001,EOD,2026-06,88,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-6b077a688244,B2SHEET-4dee024ed8f1,SNAPSHOT_FAMILY_001,EOD,2026-06,89,63,14,40,29,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,16
+B2FILE-6b077a688244,B2SHEET-e20b032ae3db,SNAPSHOT_FAMILY_001,EOD,2026-06,90,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-200e7e9aa8b7,B2SHEET-7e572c436969,SNAPSHOT_FAMILY_001,EOD,2026-06,91,62,14,40,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,16
+B2FILE-200e7e9aa8b7,B2SHEET-7b84c70fbeb8,SNAPSHOT_FAMILY_001,EOD,2026-06,92,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-8701ef3c30f5,B2SHEET-2ef7c291e804,SNAPSHOT_FAMILY_001,EOD,2026-06,93,63,14,40,29,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,16
+B2FILE-8701ef3c30f5,B2SHEET-9f3fc260d768,SNAPSHOT_FAMILY_001,EOD,2026-06,94,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-05f9065d5272,B2SHEET-41b92af16bdb,SNAPSHOT_FAMILY_001,EOD,2026-06,95,62,14,40,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-05f9065d5272,B2SHEET-5a6042ec20d5,SNAPSHOT_FAMILY_001,EOD,2026-06,96,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-feb7ce89f479,B2SHEET-e2f54ad43b40,SNAPSHOT_FAMILY_001,EOD,2026-06,97,62,14,36,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,13
+B2FILE-feb7ce89f479,B2SHEET-df8a1af20d72,SNAPSHOT_FAMILY_001,EOD,2026-06,98,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-afde3b3cdd01,B2SHEET-70524e001bb2,SNAPSHOT_FAMILY_001,EOD,2026-06,99,62,14,37,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,14
+B2FILE-afde3b3cdd01,B2SHEET-079f795d5b8a,SNAPSHOT_FAMILY_001,EOD,2026-06,100,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-d3ad5a5531cf,B2SHEET-e793a3aefa71,SNAPSHOT_FAMILY_001,EOD,2026-06,101,62,14,37,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,14
+B2FILE-d3ad5a5531cf,B2SHEET-a01ed5217c53,SNAPSHOT_FAMILY_001,EOD,2026-06,102,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-f93f01c7e269,B2SHEET-bb7952f64e03,SNAPSHOT_FAMILY_001,EOD,2026-06,103,62,14,38,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,16
+B2FILE-f93f01c7e269,B2SHEET-9dd0dd6507cf,SNAPSHOT_FAMILY_001,EOD,2026-06,104,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-f837b95653cc,B2SHEET-71eb75dcade9,SNAPSHOT_FAMILY_001,EOD,2026-06,105,62,14,41,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,18
+B2FILE-f837b95653cc,B2SHEET-3b8f97f5395c,SNAPSHOT_FAMILY_001,EOD,2026-06,106,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-5b6f745af3fe,B2SHEET-a229536c7398,SNAPSHOT_FAMILY_001,EOD,unknown_month,107,62,14,38,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,16
+B2FILE-5b6f745af3fe,B2SHEET-1d2a6d430679,SNAPSHOT_FAMILY_001,EOD,unknown_month,108,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-53a1f0e4fad1,B2SHEET-8bd508c2ce96,SNAPSHOT_FAMILY_001,EOD,2026-03,109,62,14,29,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,9
+B2FILE-53c8fffa6bf3,B2SHEET-e3d69afa5014,SNAPSHOT_FAMILY_001,EOD,2026-03,110,62,14,31,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,11
+B2FILE-75279369dd1b,B2SHEET-792c2f14f6ed,SNAPSHOT_FAMILY_001,EOD,2026-03,111,62,14,30,26,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,10
+B2FILE-0863a7fdf35d,B2SHEET-874015a08947,SNAPSHOT_FAMILY_001,EOD,2026-05,112,66,14,42,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-70209a72ec77,B2SHEET-088059207fcd,SNAPSHOT_FAMILY_001,EOD,2026-05,113,67,14,43,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,20
+B2FILE-70209a72ec77,B2SHEET-ead847b6f621,SNAPSHOT_FAMILY_001,EOD,2026-05,114,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-b0178517b216,B2SHEET-fb4a35818097,SNAPSHOT_FAMILY_001,EOD,2026-05,115,67,14,44,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,20
+B2FILE-b0178517b216,B2SHEET-30a92d3b291f,SNAPSHOT_FAMILY_001,EOD,2026-05,116,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-05e9d84b0365,B2SHEET-c86a63014550,SNAPSHOT_FAMILY_001,EOD,2026-05,117,67,14,44,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,21
+B2FILE-05e9d84b0365,B2SHEET-54f9ec51b934,SNAPSHOT_FAMILY_001,EOD,2026-05,118,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-b6dbac5429a1,B2SHEET-0a181abfd838,SNAPSHOT_FAMILY_001,EOD,2026-05,119,67,14,41,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,18
+B2FILE-b6dbac5429a1,B2SHEET-e4e91f79e409,SNAPSHOT_FAMILY_001,EOD,2026-05,120,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-763dd32eceaf,B2SHEET-7f2139ce36fe,SNAPSHOT_FAMILY_001,EOD,2026-05,121,66,14,42,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-763dd32eceaf,B2SHEET-b83e3a8556c8,SNAPSHOT_FAMILY_001,EOD,2026-05,122,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-db635501d8e6,B2SHEET-9cf7e84b3797,SNAPSHOT_FAMILY_001,EOD,2026-05,123,66,14,45,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,22
+B2FILE-db635501d8e6,B2SHEET-4f016cec1394,SNAPSHOT_FAMILY_001,EOD,2026-05,124,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-753bdd1af1ea,B2SHEET-e9222b354f1d,SNAPSHOT_FAMILY_001,EOD,2026-05,125,63,14,42,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-753bdd1af1ea,B2SHEET-6c780a7d26f1,SNAPSHOT_FAMILY_001,EOD,2026-05,126,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-d15d662dfa5d,B2SHEET-35ad75e6b044,SNAPSHOT_FAMILY_001,EOD,2026-05,127,63,14,40,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,17
+B2FILE-d15d662dfa5d,B2SHEET-74adadf23bf6,SNAPSHOT_FAMILY_001,EOD,2026-05,128,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-1e4c2ba93998,B2SHEET-b61c1d6a127b,SNAPSHOT_FAMILY_001,EOD,2026-05,129,65,14,43,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,20
+B2FILE-1e4c2ba93998,B2SHEET-d8d687b0b623,SNAPSHOT_FAMILY_001,EOD,2026-05,130,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-b8ce2c63c856,B2SHEET-7ee256d41d1b,SNAPSHOT_FAMILY_001,EOD,2026-05,131,65,14,43,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,20
+B2FILE-b8ce2c63c856,B2SHEET-b666d70a4521,SNAPSHOT_FAMILY_001,EOD,2026-05,132,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-f5d81ce7c001,B2SHEET-a4fded1f1e5a,SNAPSHOT_FAMILY_001,EOD,2026-05,133,65,14,42,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-f5d81ce7c001,B2SHEET-7f7b64cc67f0,SNAPSHOT_FAMILY_001,EOD,2026-05,134,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-5d512df297cb,B2SHEET-e160b46ab9cb,SNAPSHOT_FAMILY_001,EOD,2026-05,135,65,14,42,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-5d512df297cb,B2SHEET-244b3ad98d9d,SNAPSHOT_FAMILY_001,EOD,2026-05,136,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-412f34d77514,B2SHEET-84e25e525c3f,SNAPSHOT_FAMILY_001,EOD,2026-05,137,65,14,42,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-412f34d77514,B2SHEET-46383b8f2198,SNAPSHOT_FAMILY_001,EOD,2026-05,138,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-b0db2e2b988c,B2SHEET-9dbcf64130ae,SNAPSHOT_FAMILY_001,EOD,2026-05,139,65,14,41,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,18
+B2FILE-b0db2e2b988c,B2SHEET-44bfa019a6ed,SNAPSHOT_FAMILY_001,EOD,2026-05,140,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-b4906f0b6f84,B2SHEET-a3e608a753e1,SNAPSHOT_FAMILY_001,EOD,2026-05,141,65,14,42,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-b4906f0b6f84,B2SHEET-6570fe6bbf92,SNAPSHOT_FAMILY_001,EOD,2026-05,142,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-91b78fa2f0cf,B2SHEET-3eca177e2c7b,SNAPSHOT_FAMILY_001,EOD,2026-05,143,65,14,42,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,19
+B2FILE-91b78fa2f0cf,B2SHEET-b412823e0881,SNAPSHOT_FAMILY_001,EOD,2026-05,144,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-3f8491d9f10e,B2SHEET-1a73c5588262,SNAPSHOT_FAMILY_001,EOD,2026-05,145,65,14,43,28,HDRSIG-8b782dfcbef7,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",1,notes_text,20
+B2FILE-3f8491d9f10e,B2SHEET-f0ac37abf3c9,SNAPSHOT_FAMILY_001,EOD,2026-05,146,49,10,31,2,HDRSIG-ebef3a133c99,"{""asset_ref"": 3, ""date_time"": 5}",0,,0
+B2FILE-ca0caec1d8ae,B2SHEET-88d1f31f42a9,SNAPSHOT_FAMILY_002,POD,2026-08,147,79,14,38,10,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,21
+B2FILE-ca0caec1d8ae,B2SHEET-8125805df1fe,SNAPSHOT_FAMILY_002,POD,2026-08,148,49,10,49,2,HDRSIG-a1528ae23a60,"{""asset_ref"": 3, ""date_time"": 3, ""other"": 2}",0,,0
+B2FILE-ca0caec1d8ae,B2SHEET-3e1e9641cecb,SNAPSHOT_FAMILY_002,POD,2026-08,149,1,1,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-63b7d6ad2a52,B2SHEET-81eea35077e9,SNAPSHOT_FAMILY_002,POD,2026-08,150,79,14,39,10,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,22
+B2FILE-63b7d6ad2a52,B2SHEET-eb3d0394fde0,SNAPSHOT_FAMILY_002,POD,2026-08,151,49,10,49,2,HDRSIG-a1528ae23a60,"{""asset_ref"": 3, ""date_time"": 3, ""other"": 2}",0,,0
+B2FILE-63b7d6ad2a52,B2SHEET-cab96d49defa,SNAPSHOT_FAMILY_002,POD,2026-08,152,1,1,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-1812fd8b610b,B2SHEET-ce7f187181fb,SNAPSHOT_FAMILY_002,POD,2026-08,153,79,14,40,10,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,23
+B2FILE-1812fd8b610b,B2SHEET-91f0e3b3cfd6,SNAPSHOT_FAMILY_002,POD,2026-08,154,49,10,49,2,HDRSIG-a1528ae23a60,"{""asset_ref"": 3, ""date_time"": 3, ""other"": 2}",0,,0
+B2FILE-1812fd8b610b,B2SHEET-2f6380e27d6b,SNAPSHOT_FAMILY_002,POD,2026-08,155,1,1,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-95815125d636,B2SHEET-def812fd45f6,SNAPSHOT_FAMILY_002,POD,2026-08,156,79,14,42,10,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,25
+B2FILE-95815125d636,B2SHEET-97c89d3df59e,SNAPSHOT_FAMILY_002,POD,2026-08,157,49,10,49,2,HDRSIG-a1528ae23a60,"{""asset_ref"": 3, ""date_time"": 3, ""other"": 2}",0,,0
+B2FILE-95815125d636,B2SHEET-1c8844dbb3ef,SNAPSHOT_FAMILY_002,POD,2026-08,158,1,1,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-df0c4343d0dd,B2SHEET-cb3a0313e854,SNAPSHOT_FAMILY_002,POD,2026-08,159,79,14,40,10,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,23
+B2FILE-df0c4343d0dd,B2SHEET-71a82214ad99,SNAPSHOT_FAMILY_002,POD,2026-08,160,49,10,49,2,HDRSIG-a1528ae23a60,"{""asset_ref"": 3, ""date_time"": 3, ""other"": 2}",0,,0
+B2FILE-df0c4343d0dd,B2SHEET-f9b38c1fe65c,SNAPSHOT_FAMILY_002,POD,2026-08,161,1,1,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-9f57b2c90baa,B2SHEET-b4552503e596,SNAPSHOT_FAMILY_002,POD,2026-08,162,79,14,40,10,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,23
+B2FILE-9f57b2c90baa,B2SHEET-9e57ed3a239e,SNAPSHOT_FAMILY_002,POD,2026-08,163,49,10,49,2,HDRSIG-a1528ae23a60,"{""asset_ref"": 3, ""date_time"": 3, ""other"": 2}",0,,0
+B2FILE-9f57b2c90baa,B2SHEET-e4570fc75d10,SNAPSHOT_FAMILY_002,POD,2026-08,164,1,1,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-f2755a9f89f1,B2SHEET-32493f4615f5,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,165,22,7,17,17,HDRSIG-5321d96387aa,"{""location_ref"": 1, ""other"": 5}",0,,0
+B2FILE-f2755a9f89f1,B2SHEET-d0832490c8a1,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,166,14,11,14,1,HDRSIG-93cee7927518,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 3}",1,notes_text,0
+B2FILE-f2755a9f89f1,B2SHEET-ae76de26e9d2,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,167,3,11,3,1,HDRSIG-2990253d6ef3,"{""asset_ref"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,0
+B2FILE-f2755a9f89f1,B2SHEET-623bbf2e11c0,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,168,10,11,10,1,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,0
+B2FILE-f2755a9f89f1,B2SHEET-8837092cbb57,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,169,2,11,2,1,HDRSIG-e9cbda3106f1,"{""asset_ref"": 1, ""issue_text"": 1, ""other"": 4}",1,issue_text,0
+B2FILE-f2755a9f89f1,B2SHEET-5c0c541fe91d,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,170,12,11,12,2,HDRSIG-52111b756b59,"{""location_ref"": 2, ""other"": 4}",0,,0
+B2FILE-f2755a9f89f1,B2SHEET-9d226175ef0c,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,171,75,12,39,17,HDRSIG-33f90ed3ad94,"{""asset_ref"": 1, ""date_time"": 1, ""notes_text"": 1, ""other"": 2}",1,notes_text,23
+B2FILE-f2755a9f89f1,B2SHEET-cf5f0865adca,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,172,2,11,2,1,HDRSIG-ac3755254525,"{""date_time"": 1, ""notes_text"": 1, ""other"": 3}",1,notes_text,0
+B2FILE-f2755a9f89f1,B2SHEET-0e0ce0fa8b44,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,173,2,11,2,1,HDRSIG-8038670779ec,"{""notes_text"": 1, ""other"": 4}",1,notes_text,0
+B2FILE-f2755a9f89f1,B2SHEET-f58270420988,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,174,2,10,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-f2755a9f89f1,B2SHEET-80e62dd465c0,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,175,46,17,46,1,HDRSIG-38aba994b15d,"{""location_ref"": 2, ""other"": 5, ""work_text"": 2}",2,work_text,0
+B2FILE-f2755a9f89f1,B2SHEET-db03a5118f24,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,176,443,10,432,17,HDRSIG-fce1073359ff,"{""date_time"": 1, ""other"": 1}",0,,0
+B2FILE-f2755a9f89f1,B2SHEET-e2ca2d997f8f,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,177,1,1,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-54b4a7dae48f,B2SHEET-1ca72ce03a40,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,178,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-54b4a7dae48f,B2SHEET-46b988f5f88f,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,179,56,14,29,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-7111f9f30c9f,B2SHEET-9de0f331933e,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,180,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-7111f9f30c9f,B2SHEET-9c83e84dc497,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,181,56,14,35,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",13
+B2FILE-2917fcaef690,B2SHEET-b8457a217033,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,182,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-2917fcaef690,B2SHEET-2388b56e60a8,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,183,56,14,31,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",12
+B2FILE-713af3653d42,B2SHEET-8b760746b5e6,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,184,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-713af3653d42,B2SHEET-97c874b94bdc,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,185,56,14,29,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-e5c41ad9b08f,B2SHEET-0dab30adba76,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,186,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-e5c41ad9b08f,B2SHEET-00d817b6fc3a,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,187,56,14,30,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-1bff261279a1,B2SHEET-d7a2998c8526,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,188,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-1bff261279a1,B2SHEET-5382c190c78b,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,189,56,14,33,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",13
+B2FILE-a4e80040910d,B2SHEET-845fff0506d6,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,190,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-a4e80040910d,B2SHEET-94389c327fb2,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,191,56,14,35,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",14
+B2FILE-b06b34af29ae,B2SHEET-8f34c3cb2df5,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,192,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-b06b34af29ae,B2SHEET-dba7d8f95591,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,193,56,14,35,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",14
+B2FILE-07e262fc1d76,B2SHEET-1834964f6659,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,194,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-07e262fc1d76,B2SHEET-9a4c679dcfcf,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,195,56,14,33,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",13
+B2FILE-cea07000e914,B2SHEET-0fc2b8405aff,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-07,196,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-cea07000e914,B2SHEET-56110af16e93,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-07,197,56,14,31,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",12
+B2FILE-ece4cf8ee6e0,B2SHEET-d64f647c62c8,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-07,198,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-ece4cf8ee6e0,B2SHEET-27b5f147170a,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-07,199,56,14,30,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",12
+B2FILE-2e98b4e1896d,B2SHEET-c660b1883512,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-07,200,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-2e98b4e1896d,B2SHEET-a0d5f807416b,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-07,201,56,14,27,25,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",10
+B2FILE-122b18e44a93,B2SHEET-53d977563b84,SNAPSHOT_FAMILY_003,POD,2025-01,202,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-122b18e44a93,B2SHEET-571e46d1984d,SNAPSHOT_FAMILY_003,POD,2025-01,203,54,14,43,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",14
+B2FILE-10d3c437a959,B2SHEET-7be9bdf1755d,SNAPSHOT_FAMILY_003,POD,2025-01,204,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-10d3c437a959,B2SHEET-acc264c0ce4d,SNAPSHOT_FAMILY_003,POD,2025-01,205,54,14,39,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",13
+B2FILE-1c16d955cf1c,B2SHEET-36fcd0ecdc88,SNAPSHOT_FAMILY_003,POD,2025-01,206,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-1c16d955cf1c,B2SHEET-5c01ceb8b042,SNAPSHOT_FAMILY_003,POD,2025-01,207,54,14,36,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-b09be20dbd35,B2SHEET-12b0b1b5d963,SNAPSHOT_FAMILY_003,POD,2025-01,208,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-b09be20dbd35,B2SHEET-4bf635531960,SNAPSHOT_FAMILY_003,POD,2025-01,209,54,14,39,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",13
+B2FILE-d200671a4ca2,B2SHEET-402b56aa6274,SNAPSHOT_FAMILY_003,POD,2025-01,210,35,16,1,4,HDRSIG-d337fa3be9f1,"{""other"": 3}",0,,0
+B2FILE-d200671a4ca2,B2SHEET-d2478280832d,SNAPSHOT_FAMILY_003,POD,2025-01,211,54,14,37,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",13
+B2FILE-3de4c98f6aa9,B2SHEET-e74450c66ca8,SNAPSHOT_FAMILY_003,POD,2025-02,212,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-3de4c98f6aa9,B2SHEET-ead030472467,SNAPSHOT_FAMILY_003,POD,2025-02,213,54,14,33,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",8
+B2FILE-1e8bd92700c1,B2SHEET-550d329c97ee,SNAPSHOT_FAMILY_003,POD,2025-02,214,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-1e8bd92700c1,B2SHEET-3e50143e6685,SNAPSHOT_FAMILY_003,POD,2025-02,215,54,14,35,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-2115f6d394e8,B2SHEET-977f7cf0e9cd,SNAPSHOT_FAMILY_003,POD,2025-03,216,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-2115f6d394e8,B2SHEET-67c78f4aefe8,SNAPSHOT_FAMILY_003,POD,2025-03,217,54,14,30,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",8
+B2FILE-d95accd1f834,B2SHEET-b8faed3f007f,SNAPSHOT_FAMILY_003,POD,2025-03,218,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-d95accd1f834,B2SHEET-bffcf20f2790,SNAPSHOT_FAMILY_003,POD,2025-03,219,54,14,35,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",14
+B2FILE-12a23411bf31,B2SHEET-075a210086c5,SNAPSHOT_FAMILY_003,POD,2025-03,220,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-12a23411bf31,B2SHEET-7650e4eb39d6,SNAPSHOT_FAMILY_003,POD,2025-03,221,54,14,31,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-7d3898c1aaae,B2SHEET-eff7db6cff35,SNAPSHOT_FAMILY_003,POD,2025-04,222,35,16,1,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-7d3898c1aaae,B2SHEET-1862f089bd78,SNAPSHOT_FAMILY_003,POD,2025-04,223,55,14,37,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",13
+B2FILE-877b347de52f,B2SHEET-3918d1db85cf,SNAPSHOT_FAMILY_003,POD,2025-05,224,35,16,1,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-877b347de52f,B2SHEET-cdb27fd68334,SNAPSHOT_FAMILY_003,POD,2025-05,225,55,14,31,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-a1d9afbaab39,B2SHEET-0ab10cbf0e05,SNAPSHOT_FAMILY_003,POD,2025-05,226,35,16,1,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-a1d9afbaab39,B2SHEET-e417dde5bc65,SNAPSHOT_FAMILY_003,POD,2025-05,227,55,14,32,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-83338a71cf66,B2SHEET-15343345ef8c,SNAPSHOT_FAMILY_003,POD,2025-05,228,35,16,1,1,HDRSIG-39ed95eea055,"{""issue_text"": 1, ""other"": 2}",1,issue_text,0
+B2FILE-83338a71cf66,B2SHEET-1fa36802003e,SNAPSHOT_FAMILY_003,POD,2025-05,229,55,14,36,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",14
+B2FILE-d456ecc63ea6,B2SHEET-a8d9508e3229,SNAPSHOT_FAMILY_003,POD,2025-05,230,35,16,1,1,HDRSIG-39ed95eea055,"{""issue_text"": 1, ""other"": 2}",1,issue_text,0
+B2FILE-d456ecc63ea6,B2SHEET-7e08ef29b6f5,SNAPSHOT_FAMILY_003,POD,2025-05,231,55,14,33,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",14
+B2FILE-c1effdc17597,B2SHEET-31ae45c89214,SNAPSHOT_FAMILY_003,POD,2025-06,232,35,16,1,1,HDRSIG-e8392a335959,"{""issue_text"": 1, ""other"": 1}",1,issue_text,0
+B2FILE-c1effdc17597,B2SHEET-50c661f58565,SNAPSHOT_FAMILY_003,POD,2025-06,233,55,14,30,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",12
+B2FILE-6374929f557e,B2SHEET-fbfb599cb30b,SNAPSHOT_FAMILY_003,POD,2025-06,234,35,16,1,1,HDRSIG-e8392a335959,"{""issue_text"": 1, ""other"": 1}",1,issue_text,0
+B2FILE-6374929f557e,B2SHEET-34c5e1c742e4,SNAPSHOT_FAMILY_003,POD,2025-06,235,55,14,30,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-bae4f4a56e19,B2SHEET-554056f87878,SNAPSHOT_FAMILY_003,POD,2025-06,236,35,16,1,1,HDRSIG-e8392a335959,"{""issue_text"": 1, ""other"": 1}",1,issue_text,0
+B2FILE-bae4f4a56e19,B2SHEET-8782c81e3d04,SNAPSHOT_FAMILY_003,POD,2025-06,237,55,14,28,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",10
+B2FILE-c099e1fe582a,B2SHEET-891ae0e19014,SNAPSHOT_FAMILY_003,POD,2025-06,238,35,16,1,1,HDRSIG-e8392a335959,"{""issue_text"": 1, ""other"": 1}",1,issue_text,0
+B2FILE-c099e1fe582a,B2SHEET-4f3d25b56651,SNAPSHOT_FAMILY_003,POD,2025-06,239,55,14,36,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-a7071284ee75,B2SHEET-ab61e1839bd7,SNAPSHOT_FAMILY_003,POD,2025-06,240,35,16,1,1,HDRSIG-e8392a335959,"{""issue_text"": 1, ""other"": 1}",1,issue_text,0
+B2FILE-a7071284ee75,B2SHEET-7689306c4442,SNAPSHOT_FAMILY_003,POD,2025-06,241,55,14,29,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-fc0e6996cabd,B2SHEET-11e1d4e00ea1,SNAPSHOT_FAMILY_003,POD,2025-06,242,35,16,1,1,HDRSIG-e8392a335959,"{""issue_text"": 1, ""other"": 1}",1,issue_text,0
+B2FILE-fc0e6996cabd,B2SHEET-cbd690be9866,SNAPSHOT_FAMILY_003,POD,2025-06,243,55,14,29,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-2911a4b75337,B2SHEET-7f9afe5513db,SNAPSHOT_FAMILY_003,POD,2025-06,244,35,16,1,1,HDRSIG-e8392a335959,"{""issue_text"": 1, ""other"": 1}",1,issue_text,0
+B2FILE-2911a4b75337,B2SHEET-72c8ce6129a8,SNAPSHOT_FAMILY_003,POD,2025-06,245,55,14,38,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",15
+B2FILE-5d5bb9622d98,B2SHEET-cbe816b90b63,SNAPSHOT_FAMILY_003,POD,2025-06,246,35,16,1,1,HDRSIG-e8392a335959,"{""issue_text"": 1, ""other"": 1}",1,issue_text,0
+B2FILE-5d5bb9622d98,B2SHEET-1315a0667230,SNAPSHOT_FAMILY_003,POD,2025-06,247,55,14,31,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",10
+B2FILE-73b74c2d50e4,B2SHEET-f4e953a91a04,SNAPSHOT_FAMILY_003,POD,2024-12,248,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-73b74c2d50e4,B2SHEET-e926ab017d2f,SNAPSHOT_FAMILY_003,POD,2024-12,249,54,14,33,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11
+B2FILE-f217f2fce0ed,B2SHEET-03080700b7ec,SNAPSHOT_FAMILY_003,POD,2024-12,250,35,16,0,,HDRSIG-ef12efbd765f,{},0,,0
+B2FILE-f217f2fce0ed,B2SHEET-f542c021b3ae,SNAPSHOT_FAMILY_003,POD,2024-12,251,54,14,33,23,HDRSIG-1ec4f600f607,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",2,"issue_text,notes_text",11

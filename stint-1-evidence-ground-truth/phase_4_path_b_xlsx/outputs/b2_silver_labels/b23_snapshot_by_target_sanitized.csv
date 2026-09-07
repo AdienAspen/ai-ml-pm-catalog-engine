@@ -1,0 +1,6 @@
+target,status,evidence_rows,conservative_event_units,persistence_clusters,canonical_concepts,term_keys,raw_operational_values_emitted
+Activity,b2_snapshot_text_candidate_requires_review,81,73,52,8,9,False
+Cause,b2_snapshot_text_candidate_requires_review,75,57,37,15,20,False
+Damage,b2_snapshot_text_candidate_requires_review,143,110,66,15,15,False
+Object Part,b2_snapshot_text_candidate_requires_review,734,483,193,45,68,False
+Symptom,b2_symptom_like_candidate_source_unconfirmed,585,363,52,6,9,False

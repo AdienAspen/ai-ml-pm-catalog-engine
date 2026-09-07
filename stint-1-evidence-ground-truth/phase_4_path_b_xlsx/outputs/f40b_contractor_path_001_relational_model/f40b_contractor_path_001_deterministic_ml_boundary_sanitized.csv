@@ -1,0 +1,8 @@
+target,resolvable_by_join_or_rule,requires_ml,rationale_sanitized,supporting_field_names,raw_operational_values_emitted
+Object Part,partial_yes,conditional_remainder,"Consumption has item/resource arrays with structured itemId, quantity, unit, and order keys. Rule resolution is plausible for coded items; description-only residue remains ML or curation territory.",totalResourceConsumption;resources[];items[];resources[].activityType;resources[].date;resources[].unitOfMeasure;resources[].activityTypeId;resources[].quantity;items[].itemSerialNumber;items[].unitOfMeasure;items[].itemId;items[].quantity,False
+Activity,partial_yes,yes_for_detail,activityType is structured; detailed work action is in prose fields such as workPerformed and descriptions.,activityType;workPerformed;description;descriptionExtended,False
+Activity Type / MAT,yes,no_for_direct_field,Positive control confirms direct activityType coverage in service-orders.,activityType,False
+FLOC leaf,partial_yes,conditional_remainder,Asset/site/customer/contract keys close deterministically inside the API family; SAP FLOC leaf still requires external catalog alignment.,assetId;siteId;padId,False
+Damage,no_dedicated_field_confirmed,yes,No dedicated damage field was confirmed in the bounded field profile.,,False
+Cause,no_deterministic_rule_confirmed,yes_or_manual_review,"`reason` exists as free text, but its root-cause semantics are unconfirmed; it may encode visit/work motive rather than failure cause.",reason,False
+Symptom,unknown_or_no,yes_if_required,No dedicated pre-execution reported symptom field was confirmed.,,False

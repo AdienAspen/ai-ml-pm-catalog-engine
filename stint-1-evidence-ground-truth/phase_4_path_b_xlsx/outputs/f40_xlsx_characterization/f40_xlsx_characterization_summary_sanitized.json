@@ -1,0 +1,17 @@
+{
+  "run_utc": "2026-09-04T18:08:35.268969+00:00",
+  "task": "F4.0 XLSX document-family characterization",
+  "files_in_sample": 4,
+  "files_interpretable": 4,
+  "positive_controls_passed": true,
+  "sheet_rows_emitted": 8,
+  "column_rows_emitted": 19,
+  "text_column_count": 11,
+  "status_or_code_like_column_count": 1,
+  "planned_reactive_candidate_column_count": 0,
+  "repeated_identifier_like_hashes_in_sample": 0,
+  "template_signature_count": 4,
+  "files_truncated": 0,
+  "pii_location_count": 10,
+  "raw_operational_values_emitted": false
+}

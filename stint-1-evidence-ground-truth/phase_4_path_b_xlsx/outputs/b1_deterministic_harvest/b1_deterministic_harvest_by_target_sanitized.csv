@@ -1,0 +1,4 @@
+target,evidence_type,tier,status,evidence_rows,physical_records,can_support_contractual_denominator,can_support_proxy_denominator,raw_operational_values_emitted
+Activity Type / MAT,real_observed_label,gold,resolved_observed_source_label,10749,10749,10749,10749,False
+FLOC leaf,real_observed_label,silver-high,internal_asset_site_join_resolved_external_floc_alignment_required,10749,10749,0,0,False
+Object Part,real_observed_label,silver-high,structured_source_material_observed_mapping_required,15358,4079,0,0,False

@@ -1,0 +1,10 @@
+{
+  "consumption_records": 10749,
+  "consumption_records_with_items": 4079,
+  "consumption_records_with_resources": 10105,
+  "item_rows": 15358,
+  "resource_rows": 56785,
+  "object_part_signal_rows": 15358,
+  "distinct_source_item_concepts": 708,
+  "raw_operational_values_emitted": false
+}

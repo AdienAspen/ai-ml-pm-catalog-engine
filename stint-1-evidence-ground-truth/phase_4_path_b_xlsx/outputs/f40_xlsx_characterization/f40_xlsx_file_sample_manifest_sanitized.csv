@@ -1,0 +1,5 @@
+sample_id,path_hash,package_key,family_key,extension,file_size_bytes,size_band,family_temporal_rank,selection_reason,raw_operational_values_emitted
+F40-XLSX-SAMPLE-001,PATH-4e81e9994a5b,PKG-aa088df89d,FAM-d1905f991a,.xlsx,101354,lt_1mb,18,one_file_per_productive_xlsx_family_spread_by_family,False
+F40-XLSX-SAMPLE-002,PATH-8670d08a7805,PKG-e632274d74,FAM-0c2fcabe96,.xlsx,179611,lt_1mb,14,one_file_per_productive_xlsx_family_spread_by_family,False
+F40-XLSX-SAMPLE-003,PATH-174c399d6cf7,PKG-e632274d74,FAM-7635b13206,.xlsx,179764,lt_1mb,9,one_file_per_productive_xlsx_family_spread_by_family,False
+F40-XLSX-SAMPLE-004,PATH-358e947dd123,PKG-e632274d74,FAM-69eea87638,.xlsx,179585,lt_1mb,8,one_file_per_productive_xlsx_family_spread_by_family,False

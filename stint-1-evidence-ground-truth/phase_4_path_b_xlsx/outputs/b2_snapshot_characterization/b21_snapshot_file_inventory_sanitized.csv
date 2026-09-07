@@ -1,0 +1,128 @@
+file_key,family,doc_type,month_bucket,sheet_count,template_variant,non_empty_rows,rows_with_candidate_text,header_category_counts,status
+B2FILE-d570981cc842,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,30,10,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-34773b8db509,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,39,18,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-49ca9c082b30,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,36,15,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-824b296c9de9,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,32,11,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-1e4c26dc60e8,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,38,12,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-b3334faf6b9f,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,42,17,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-143b0df68803,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,40,15,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-ff0e095a5c37,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,41,15,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-0fa69a63b874,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,31,11,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-6564dab7feb6,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,40,14,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-ae04963d8a9b,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,38,16,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-9b589e2d6e2f,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,40,17,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-819467384bd1,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,30,10,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-c040608456ff,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,32,12,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-4171e9e27635,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,31,11,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-1f4d9136cc28,SNAPSHOT_FAMILY_001,EOD,2026-04,1,B2TPL-3a9f88b91b3b,34,13,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-5a12241ac729,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,70,14,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-1f309a9becf4,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,70,14,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-8d5a5266ae56,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,70,14,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-5fa7b0436850,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,73,17,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-43f46d241824,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,71,15,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-66046ab4a956,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,73,17,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-4e1129336ec5,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,77,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-01f4873a4c51,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,76,17,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-d92d75825282,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,75,17,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-f799102905d0,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-1d8b6aa3f107,71,21,"{""asset_ref"": 4, ""date_time"": 6, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-842b4c772dd8,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-1d8b6aa3f107,67,17,"{""asset_ref"": 4, ""date_time"": 6, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-bf3c7f965628,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-1d8b6aa3f107,68,18,"{""asset_ref"": 4, ""date_time"": 6, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-979dd41cce0e,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-1d8b6aa3f107,68,18,"{""asset_ref"": 4, ""date_time"": 6, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-0e549a7736a3,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-1d8b6aa3f107,67,17,"{""asset_ref"": 4, ""date_time"": 6, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-5769314a14c8,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,67,11,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-4968f4a4fd50,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,70,14,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-9985d3e2746a,SNAPSHOT_FAMILY_001,EOD,2026-07,2,B2TPL-d4d0ad5054f0,70,14,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-d7131808ef9e,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,70,16,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-367910a14907,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,71,17,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-39a6ade03284,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,69,15,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-c813915ebaa4,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,68,14,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-89c62702aa94,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,69,15,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-677d23a25091,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,69,15,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-df3eb3c4fa36,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,70,16,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-81a64c28af33,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,67,14,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-741611488f10,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-928f4491e44f,68,14,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-7810c38e417a,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-928f4491e44f,71,15,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-6abe90f53b2d,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,75,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-9e9a28d3df6e,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,70,16,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-a6624eeae81a,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,74,18,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-7e0e8141c46c,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,75,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-40adae3eb25e,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,77,21,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-752ec213621f,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,73,20,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-960444aa845c,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,72,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-630737baf081,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,71,17,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-486f4d66dbe8,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,73,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-6b077a688244,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,71,16,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-200e7e9aa8b7,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,71,16,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-8701ef3c30f5,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,71,16,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-05f9065d5272,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,71,17,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-feb7ce89f479,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,67,13,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-afde3b3cdd01,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,68,14,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-d3ad5a5531cf,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,68,14,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-f93f01c7e269,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,69,16,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-f837b95653cc,SNAPSHOT_FAMILY_001,EOD,2026-06,2,B2TPL-d4d0ad5054f0,72,18,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-5b6f745af3fe,SNAPSHOT_FAMILY_001,EOD,unknown_month,2,B2TPL-d4d0ad5054f0,69,16,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-53a1f0e4fad1,SNAPSHOT_FAMILY_001,EOD,2026-03,1,B2TPL-3a9f88b91b3b,29,9,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-53c8fffa6bf3,SNAPSHOT_FAMILY_001,EOD,2026-03,1,B2TPL-3a9f88b91b3b,31,11,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-75279369dd1b,SNAPSHOT_FAMILY_001,EOD,2026-03,1,B2TPL-3a9f88b91b3b,30,10,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-0863a7fdf35d,SNAPSHOT_FAMILY_001,EOD,2026-05,1,B2TPL-3a9f88b91b3b,42,19,"{""asset_ref"": 1, ""date_time"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-70209a72ec77,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,74,20,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-b0178517b216,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,75,20,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-05e9d84b0365,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,75,21,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-b6dbac5429a1,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,72,18,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-763dd32eceaf,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,73,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-db635501d8e6,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,76,22,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-753bdd1af1ea,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,73,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-d15d662dfa5d,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,71,17,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-1e4c2ba93998,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,74,20,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-b8ce2c63c856,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,74,20,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-f5d81ce7c001,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,73,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-5d512df297cb,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,73,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-412f34d77514,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,73,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-b0db2e2b988c,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,72,18,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-b4906f0b6f84,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,73,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-91b78fa2f0cf,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,73,19,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-3f8491d9f10e,SNAPSHOT_FAMILY_001,EOD,2026-05,2,B2TPL-d4d0ad5054f0,74,20,"{""asset_ref"": 4, ""date_time"": 7, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-ca0caec1d8ae,SNAPSHOT_FAMILY_002,POD,2026-08,3,B2TPL-09352e59ea57,87,21,"{""asset_ref"": 4, ""date_time"": 4, ""notes_text"": 1, ""other"": 4}",read_ok
+B2FILE-63b7d6ad2a52,SNAPSHOT_FAMILY_002,POD,2026-08,3,B2TPL-09352e59ea57,88,22,"{""asset_ref"": 4, ""date_time"": 4, ""notes_text"": 1, ""other"": 4}",read_ok
+B2FILE-1812fd8b610b,SNAPSHOT_FAMILY_002,POD,2026-08,3,B2TPL-09352e59ea57,89,23,"{""asset_ref"": 4, ""date_time"": 4, ""notes_text"": 1, ""other"": 4}",read_ok
+B2FILE-95815125d636,SNAPSHOT_FAMILY_002,POD,2026-08,3,B2TPL-09352e59ea57,91,25,"{""asset_ref"": 4, ""date_time"": 4, ""notes_text"": 1, ""other"": 4}",read_ok
+B2FILE-df0c4343d0dd,SNAPSHOT_FAMILY_002,POD,2026-08,3,B2TPL-09352e59ea57,89,23,"{""asset_ref"": 4, ""date_time"": 4, ""notes_text"": 1, ""other"": 4}",read_ok
+B2FILE-9f57b2c90baa,SNAPSHOT_FAMILY_002,POD,2026-08,3,B2TPL-09352e59ea57,89,23,"{""asset_ref"": 4, ""date_time"": 4, ""notes_text"": 1, ""other"": 4}",read_ok
+B2FILE-f2755a9f89f1,SNAPSHOT_FAMILY_002,daily_or_eod,unknown_month,13,B2TPL-e99e6a788639,579,23,"{""asset_ref"": 5, ""date_time"": 5, ""issue_text"": 1, ""location_ref"": 5, ""notes_text"": 6, ""other"": 35, ""work_text"": 2}",read_ok
+B2FILE-54b4a7dae48f,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,2,B2TPL-845a1a48e58e,29,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-7111f9f30c9f,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,2,B2TPL-845a1a48e58e,35,13,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-2917fcaef690,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,2,B2TPL-845a1a48e58e,31,12,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-713af3653d42,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,2,B2TPL-845a1a48e58e,29,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-e5c41ad9b08f,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,2,B2TPL-845a1a48e58e,30,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-1bff261279a1,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,2,B2TPL-845a1a48e58e,33,13,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-a4e80040910d,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,2,B2TPL-845a1a48e58e,35,14,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-b06b34af29ae,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,2,B2TPL-845a1a48e58e,35,14,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-07e262fc1d76,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-08,2,B2TPL-845a1a48e58e,33,13,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-cea07000e914,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-07,2,B2TPL-845a1a48e58e,31,12,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-ece4cf8ee6e0,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-07,2,B2TPL-845a1a48e58e,30,12,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-2e98b4e1896d,SNAPSHOT_FAMILY_003,snapshot_unprefixed,2026-07,2,B2TPL-845a1a48e58e,27,10,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-122b18e44a93,SNAPSHOT_FAMILY_003,POD,2025-01,2,B2TPL-845a1a48e58e,43,14,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-10d3c437a959,SNAPSHOT_FAMILY_003,POD,2025-01,2,B2TPL-845a1a48e58e,39,13,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-1c16d955cf1c,SNAPSHOT_FAMILY_003,POD,2025-01,2,B2TPL-845a1a48e58e,36,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-b09be20dbd35,SNAPSHOT_FAMILY_003,POD,2025-01,2,B2TPL-845a1a48e58e,39,13,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-d200671a4ca2,SNAPSHOT_FAMILY_003,POD,2025-01,2,B2TPL-688471159390,38,13,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 4}",read_ok
+B2FILE-3de4c98f6aa9,SNAPSHOT_FAMILY_003,POD,2025-02,2,B2TPL-845a1a48e58e,33,8,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-1e8bd92700c1,SNAPSHOT_FAMILY_003,POD,2025-02,2,B2TPL-845a1a48e58e,35,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-2115f6d394e8,SNAPSHOT_FAMILY_003,POD,2025-03,2,B2TPL-845a1a48e58e,30,8,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-d95accd1f834,SNAPSHOT_FAMILY_003,POD,2025-03,2,B2TPL-845a1a48e58e,35,14,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-12a23411bf31,SNAPSHOT_FAMILY_003,POD,2025-03,2,B2TPL-845a1a48e58e,31,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-7d3898c1aaae,SNAPSHOT_FAMILY_003,POD,2025-04,2,B2TPL-845a1a48e58e,38,13,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-877b347de52f,SNAPSHOT_FAMILY_003,POD,2025-05,2,B2TPL-845a1a48e58e,32,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-a1d9afbaab39,SNAPSHOT_FAMILY_003,POD,2025-05,2,B2TPL-845a1a48e58e,33,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-83338a71cf66,SNAPSHOT_FAMILY_003,POD,2025-05,2,B2TPL-c0b34b358d76,37,14,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 2, ""notes_text"": 1, ""other"": 3}",read_ok
+B2FILE-d456ecc63ea6,SNAPSHOT_FAMILY_003,POD,2025-05,2,B2TPL-c0b34b358d76,34,14,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 2, ""notes_text"": 1, ""other"": 3}",read_ok
+B2FILE-c1effdc17597,SNAPSHOT_FAMILY_003,POD,2025-06,2,B2TPL-73c07cc3144b,31,12,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-6374929f557e,SNAPSHOT_FAMILY_003,POD,2025-06,2,B2TPL-73c07cc3144b,31,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-bae4f4a56e19,SNAPSHOT_FAMILY_003,POD,2025-06,2,B2TPL-73c07cc3144b,29,10,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-c099e1fe582a,SNAPSHOT_FAMILY_003,POD,2025-06,2,B2TPL-73c07cc3144b,37,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-a7071284ee75,SNAPSHOT_FAMILY_003,POD,2025-06,2,B2TPL-73c07cc3144b,30,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-fc0e6996cabd,SNAPSHOT_FAMILY_003,POD,2025-06,2,B2TPL-73c07cc3144b,30,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-2911a4b75337,SNAPSHOT_FAMILY_003,POD,2025-06,2,B2TPL-73c07cc3144b,39,15,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-5d5bb9622d98,SNAPSHOT_FAMILY_003,POD,2025-06,2,B2TPL-73c07cc3144b,32,10,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 2, ""notes_text"": 1, ""other"": 2}",read_ok
+B2FILE-73b74c2d50e4,SNAPSHOT_FAMILY_003,POD,2024-12,2,B2TPL-845a1a48e58e,33,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok
+B2FILE-f217f2fce0ed,SNAPSHOT_FAMILY_003,POD,2024-12,2,B2TPL-845a1a48e58e,33,11,"{""asset_ref"": 1, ""date_time"": 2, ""issue_text"": 1, ""notes_text"": 1, ""other"": 1}",read_ok

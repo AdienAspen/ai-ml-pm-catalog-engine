@@ -1,0 +1,41 @@
+{
+  "created_at_utc": "2026-09-04T22:49:10.893151+00:00",
+  "pass_id": "B1.2b",
+  "task_type": "textual_residue_cap_and_damage_anchor_diagnostic",
+  "cap_detected_in_b12_script": false,
+  "b12_cause_description_extended_concepts_by_status": [
+    {
+      "target": "Cause",
+      "source_text_field": "descriptionExtended",
+      "status": "textual_residue_candidate_requires_review",
+      "b12_distinct_concepts": 50
+    },
+    {
+      "target": "Cause",
+      "source_text_field": "descriptionExtended",
+      "status": "textual_residue_converged_candidate_requires_review",
+      "b12_distinct_concepts": 27
+    }
+  ],
+  "b12_damage_description_extended_concepts_by_status": [
+    {
+      "target": "Damage",
+      "source_text_field": "descriptionExtended",
+      "status": "textual_residue_candidate_requires_review",
+      "b12_distinct_concepts": 50
+    },
+    {
+      "target": "Damage",
+      "source_text_field": "descriptionExtended",
+      "status": "textual_residue_converged_candidate_requires_review",
+      "b12_distinct_concepts": 26
+    }
+  ],
+  "lexical_source_cause_description_extended_concepts": 54,
+  "lexical_source_damage_description_extended_concepts": 48,
+  "damage_physical_records": 4477,
+  "damage_distinct_concepts": 51,
+  "damage_top10_anchor_sample_path": "b1_damage_anchor_sample_sanitized.csv",
+  "damage_source_family_path": "b1_damage_anchor_source_family_sanitized.csv",
+  "raw_operational_values_emitted": false
+}

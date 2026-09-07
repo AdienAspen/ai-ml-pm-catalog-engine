@@ -1,0 +1,5 @@
+doc_type,snapshot_text_rows,baseline_date_sensitive_events,refined_events,refined_compression_ratio,duration_present_rows,duration_grouped_events
+EOD,1344,1230,1246,1.078652,115,109
+POD,429,411,411,1.043796,0,0
+daily_or_eod,69,54,54,1.277778,0,0
+snapshot_unprefixed,146,146,146,1.0,0,0

@@ -1,0 +1,4 @@
+sample_id,selection_bucket,reason_value_hash,word_count,redacted_example_shape,cause_cue_present,motive_or_work_cue_present,symptom_like_cue_present,language_bucket,raw_operational_values_emitted
+REASON-B1-3-001,cause_cue,REASON-68125d27e984,7,<alpha> <num> <alpha> <alpha> <alpha> . <alpha> . <alpha> <alpha>,True,False,False,english_like,False
+REASON-B1-3-002,motive_or_work_cue,REASON-74aa4a9d086e,4,<alpha> - <alpha> <num> <alpha>,False,True,False,undetermined,False
+REASON-B1-3-003,symptom_like_cue,REASON-f8607cb04b88,3,<alpha> <alpha> <alpha>,False,False,True,undetermined,False

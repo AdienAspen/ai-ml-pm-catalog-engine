@@ -1,0 +1,5 @@
+doc_type,snapshot_rows,estimated_events,estimated_events_with_snapshot_date,compression_ratio,date_sensitive_compression_ratio,asset_ref_present_rate,code_ref_present_rate
+EOD,1344,270,1232,4.977778,1.090909,0.96131,0.0
+POD,429,106,411,4.04717,1.043796,0.986014,0.254079
+daily_or_eod,69,54,54,1.277778,1.277778,0.492754,0.0
+snapshot_unprefixed,146,30,146,4.866667,1.0,1.0,0.417808

@@ -1,0 +1,8 @@
+entity_key,entity_label,role,formats_present,preferred_format,json_file_size_bytes,json_record_count,json_top_level_field_count,read_status,raw_operational_values_emitted
+ENTITY-503c9856dc,api_common_v1_assets,master_data,json;xlsx;xml,json,118889,286,10,json_control_ready,False
+ENTITY-4f5bf38b42,api_common_v1_contracts,master_data,json;xlsx;xml,json,839,5,4,json_control_ready,False
+ENTITY-241a08e6dc,api_common_v1_customers,master_data,json;xlsx;xml,json,306,4,2,json_control_ready,False
+ENTITY-8f59fcf225,api_common_v1_sites,master_data,json;xlsx;xml,json,30107,5,3,json_control_ready,False
+ENTITY-2af97ee076,api_service_v1_service-orders,transactional,json;xlsx;xml,json,13368444,10749,24,json_control_ready,False
+ENTITY-7304ae5129,api_service_v1_service-orders_consumption,transactional,json;xlsx;xml,json,16676211,10749,5,json_control_ready,False
+ENTITY-2d0cfbdb56,api_service_v1_service-visits,transactional,json;xlsx;xml,json,5586580,11862,12,json_control_ready,False

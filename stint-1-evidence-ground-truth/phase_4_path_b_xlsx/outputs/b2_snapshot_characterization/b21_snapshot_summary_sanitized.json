@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-09-04T22:57:35.472672+00:00",
+  "pass_id": "B2.1",
+  "task_type": "snapshot_workbook_template_characterization",
+  "files_discovered": 127,
+  "files_read_ok": 127,
+  "files_failed": 0,
+  "families": {
+    "SNAPSHOT_FAMILY_001": 83,
+    "SNAPSHOT_FAMILY_002": 7,
+    "SNAPSHOT_FAMILY_003": 37
+  },
+  "doc_types": {
+    "EOD": 83,
+    "POD": 31,
+    "daily_or_eod": 1,
+    "snapshot_unprefixed": 12
+  },
+  "template_variants": 10,
+  "sheets_profiled": 251,
+  "sheets_with_candidate_text": 144,
+  "rows_with_candidate_text": 1942,
+  "known_positive_case_validation": "pending_not_provided_for_b2_xlsx",
+  "raw_operational_values_emitted": false,
+  "outputs": [
+    "b21_snapshot_characterization_memo.md",
+    "b21_snapshot_file_inventory_sanitized.csv",
+    "b21_snapshot_sheet_profile_sanitized.csv",
+    "b21_snapshot_template_variants_sanitized.csv",
+    "b21_snapshot_text_field_candidates_sanitized.csv",
+    "b21_snapshot_summary_sanitized.json"
+  ]
+}

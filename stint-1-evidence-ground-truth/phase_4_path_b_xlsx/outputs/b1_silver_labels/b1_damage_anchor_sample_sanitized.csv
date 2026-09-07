@@ -1,0 +1,11 @@
+sample_rank,concept_id,canonical_concept_key,source_text_field,status,source_family,vocabulary_owner,semantic_level,subsystem,evidence_rows,physical_records
+1,CV-EXT-33f446901e86,CONCEPT-ea11adc35ca8,descriptionExtended,textual_residue_candidate_requires_review,CV-EXT,CONVERTER_FIELD_DAMAGE_LITERATURE,component_or_damage_mechanism,converter_power_electronics,1051,866
+2,RL-NORMALISATION-0104,CONCEPT-6487b4d0f045,descriptionExtended,textual_residue_candidate_requires_review,RL-NORMALISATION,ZEUS_SCAFFOLD,,,665,578
+3,CV-SAP-ca5574409700,CONCEPT-103b3682e559,descriptionExtended,textual_residue_candidate_requires_review,CV-SAP,SAP_MAPPING,,,612,561
+4,CV-SAP-a80d8ad556b1,CONCEPT-3d18edb1256a,descriptionExtended,textual_residue_candidate_requires_review,CV-SAP,SAP_MAPPING,,,383,383
+5,CV-SAP-72715dae8a3d,CONCEPT-6be36ca49ee8,descriptionExtended,textual_residue_candidate_requires_review,CV-SAP,SAP_MAPPING,,,355,355
+6,CV-SAP-1e871b5cb6e7,CONCEPT-ede764958c08,descriptionExtended,textual_residue_candidate_requires_review,CV-SAP,SAP_MAPPING,,,337,337
+7,CV-SAP-ca5574409700,CONCEPT-103b3682e559,descriptionExtended,textual_residue_converged_candidate_requires_review,CV-SAP,SAP_MAPPING,,,786,321
+8,CV-SAP-ca5574409700,CONCEPT-103b3682e559,reason,textual_residue_converged_candidate_requires_review,CV-SAP,SAP_MAPPING,,,786,321
+9,CV-SAP-5c3aa5920527,CONCEPT-34b471e71276,descriptionExtended,textual_residue_candidate_requires_review,CV-SAP,SAP_MAPPING,,,325,299
+10,CV-EXT-3383d1c9624e,CONCEPT-448d8fb75b9a,descriptionExtended,textual_residue_candidate_requires_review,CV-EXT,NREL_MAIN_BEARING,field_reported_damage,main_bearing,279,279

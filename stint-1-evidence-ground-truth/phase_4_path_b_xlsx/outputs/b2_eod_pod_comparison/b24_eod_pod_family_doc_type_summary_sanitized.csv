@@ -1,0 +1,6 @@
+family,doc_type,files,template_variants,files_with_candidate_text,total_candidate_text_rows,candidate_text_file_rate
+SNAPSHOT_FAMILY_001,EOD,83,4,83,1344,1.0
+SNAPSHOT_FAMILY_002,POD,6,1,6,137,1.0
+SNAPSHOT_FAMILY_002,daily_or_eod,1,1,1,23,1.0
+SNAPSHOT_FAMILY_003,POD,25,4,25,292,1.0
+SNAPSHOT_FAMILY_003,snapshot_unprefixed,12,1,12,146,1.0

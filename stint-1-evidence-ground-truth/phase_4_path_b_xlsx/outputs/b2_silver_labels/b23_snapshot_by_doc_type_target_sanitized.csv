@@ -1,0 +1,20 @@
+doc_type,target,evidence_rows,conservative_event_units,persistence_clusters,canonical_concepts,raw_operational_values_emitted
+EOD,Activity,58,52,36,8,False
+EOD,Cause,23,18,8,7,False
+EOD,Damage,41,38,23,6,False
+EOD,Object Part,353,269,79,28,False
+EOD,Symptom,518,302,34,5,False
+POD,Activity,15,15,10,5,False
+POD,Cause,42,31,23,10,False
+POD,Damage,57,44,15,8,False
+POD,Object Part,255,147,73,34,False
+POD,Symptom,49,44,14,6,False
+daily_or_eod,Activity,8,6,6,3,False
+daily_or_eod,Cause,6,4,4,3,False
+daily_or_eod,Damage,44,27,27,3,False
+daily_or_eod,Object Part,63,26,26,20,False
+daily_or_eod,Symptom,3,2,2,3,False
+snapshot_unprefixed,Cause,4,4,2,2,False
+snapshot_unprefixed,Damage,1,1,1,1,False
+snapshot_unprefixed,Object Part,63,41,15,13,False
+snapshot_unprefixed,Symptom,15,15,2,2,False

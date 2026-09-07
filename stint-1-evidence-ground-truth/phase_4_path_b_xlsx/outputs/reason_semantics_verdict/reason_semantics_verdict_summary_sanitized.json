@@ -1,0 +1,38 @@
+{
+  "created_at_utc": "2026-09-04T22:03:21.862605+00:00",
+  "pass_id": "B1.3",
+  "contractor_path": "CONTRACTOR_PATH_001",
+  "task_type": "reason_semantics_verdict",
+  "records_evaluated": 10749,
+  "reason_non_empty_rows": 10338,
+  "reason_non_empty_rate": 0.961764,
+  "distinct_reason_keys": 3346,
+  "top_reason_share_pct": 2.6021,
+  "median_word_count": 5,
+  "activity_type_reason_pair_keys": 3453,
+  "cue_counts": {
+    "cause_cue": 838,
+    "motive_or_work_cue": 1270,
+    "symptom_like_cue": 921,
+    "generic_placeholder_cue": 748,
+    "pii_indicator_cue": 85
+  },
+  "language_distribution": {
+    "english_like": 799,
+    "undetermined": 8478,
+    "spanish_like": 829,
+    "mixed_or_ambiguous": 232
+  },
+  "verdict": "reason_not_confirmed_as_deterministic_cause",
+  "downstream_status": "textual_support_only_pending_semantic_or_manual_validation",
+  "contractual_denominator_supported": false,
+  "poc_proxy_denominator_supported_now": false,
+  "raw_operational_values_emitted": false,
+  "outputs": [
+    "reason_semantics_verdict.md",
+    "reason_field_distribution_sanitized.csv",
+    "reason_field_redacted_sample_sanitized.csv",
+    "reason_semantics_routing_sanitized.csv",
+    "reason_semantics_verdict_summary_sanitized.json"
+  ]
+}

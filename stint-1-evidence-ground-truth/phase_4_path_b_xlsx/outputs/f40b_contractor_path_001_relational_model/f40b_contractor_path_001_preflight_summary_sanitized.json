@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-09-04T21:04:07.024561+00:00",
+  "pass_id": "F4.0b-preflight",
+  "expected_entities": 7,
+  "entities_with_json": 7,
+  "entities_with_xlsx": 7,
+  "entities_with_xml": 7,
+  "total_json_records": 33660,
+  "positive_control_markers": 6,
+  "positive_control_markers_present": 6,
+  "raw_operational_values_emitted": false,
+  "outputs": {
+    "entity_inventory": "f40b_contractor_path_001_entity_inventory_preflight_sanitized.csv",
+    "positive_controls": "f40b_contractor_path_001_positive_controls_sanitized.csv",
+    "internal_manifest": "reports/internal/f40b_contractor_path_001_relational_model/f40b_contractor_path_001_entity_manifest_internal.csv"
+  }
+}

@@ -1,0 +1,6 @@
+target,status,evidence_rows,refined_event_units,canonical_concepts,term_keys,grouped_text_rows,raw_operational_values_emitted
+Activity,b25_grouped_text_candidate_requires_review,78,74,8,9,81,False
+Cause,b25_grouped_text_candidate_requires_review,70,57,15,20,72,False
+Damage,b25_grouped_text_candidate_requires_review,124,110,15,15,139,False
+Object Part,b25_grouped_text_candidate_requires_review,701,488,45,68,736,False
+Symptom,b25_symptom_like_candidate_source_unconfirmed,584,365,6,9,585,False

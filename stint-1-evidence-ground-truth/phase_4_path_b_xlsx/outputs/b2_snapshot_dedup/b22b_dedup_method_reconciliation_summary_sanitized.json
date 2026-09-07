@@ -1,0 +1,18 @@
+{
+  "pass_id": "B2.2b",
+  "task_type": "snapshot_dedup_method_reconciliation",
+  "source_pass": "B2.2",
+  "snapshot_rows": 1988,
+  "estimated_events_without_date": 460,
+  "estimated_events_with_snapshot_date": 1843,
+  "without_date_key_definition": "family + doc_type + asset_key + code_key + text_signature",
+  "with_date_key_definition": "family + doc_type + asset_key + code_key + text_signature + snapshot_date_bucket",
+  "recommended_b2_denominator_key": "estimated_event_key_with_snapshot_date",
+  "recommended_b2_denominator_rows": 1843,
+  "persistence_cluster_key": "estimated_event_key",
+  "persistence_cluster_rows": 460,
+  "rationale": "The non-date key can merge repeated conditions across different snapshot dates. Until B2 duration/incidence semantics are validated, the date-sensitive key is the conservative unit for B2.3.",
+  "daily_or_eod_status": "small_ambiguous_bucket_low_compression_characterize_separately",
+  "symptom_branch_status": "third_family_without_confirmed_initial_problem_report_field",
+  "raw_operational_values_emitted": false
+}

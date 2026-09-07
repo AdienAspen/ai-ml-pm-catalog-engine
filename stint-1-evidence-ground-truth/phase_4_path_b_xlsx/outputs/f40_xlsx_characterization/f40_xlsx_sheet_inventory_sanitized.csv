@@ -1,0 +1,9 @@
+sample_id,path_hash,sheet_index,sheet_hash,sheet_role,header_row_index,inspected_column_count,sampled_data_row_count,free_text_column_count,code_column_count,status_column_count,identifier_column_count,date_column_count,metadata_column_count,unknown_column_count,text_outside_routing_present,embedded_objects_present,truncated
+F40-XLSX-SAMPLE-001,PATH-4e81e9994a5b,0,SHEET-e5e72beb4e,weather_or_environmental_context,0,2,15,0,1,0,0,0,0,1,False,True,False
+F40-XLSX-SAMPLE-001,PATH-4e81e9994a5b,1,SHEET-c45ef42dee,daily_status_or_snapshot,5,2,10,2,0,0,0,0,0,0,True,True,False
+F40-XLSX-SAMPLE-002,PATH-8670d08a7805,0,SHEET-c45ef42dee,daily_status_or_snapshot,4,2,11,1,0,0,0,0,0,1,True,True,False
+F40-XLSX-SAMPLE-002,PATH-8670d08a7805,1,SHEET-8589c63b09,unknown_document_section,0,3,15,2,0,0,0,0,0,1,True,True,False
+F40-XLSX-SAMPLE-003,PATH-174c399d6cf7,0,SHEET-c45ef42dee,daily_status_or_snapshot,4,2,11,1,0,0,0,0,0,1,True,True,False
+F40-XLSX-SAMPLE-003,PATH-174c399d6cf7,1,SHEET-8589c63b09,unknown_document_section,0,3,15,2,0,0,0,0,0,1,True,True,False
+F40-XLSX-SAMPLE-004,PATH-358e947dd123,0,SHEET-c45ef42dee,daily_status_or_snapshot,4,2,11,1,0,0,0,0,0,1,True,True,False
+F40-XLSX-SAMPLE-004,PATH-358e947dd123,1,SHEET-8589c63b09,unknown_document_section,0,3,15,2,0,0,0,0,0,1,True,True,False

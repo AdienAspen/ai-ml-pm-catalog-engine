@@ -1,0 +1,15 @@
+src_entity,src_field,tgt_entity,tgt_field,estimated_cardinality,match_rate_pct,source_non_null_count,raw_operational_values_emitted
+api_common_v1_assets,siteId,api_common_v1_sites,id,many-to-one,100.0,286,False
+api_common_v1_assets,customerId,api_common_v1_customers,id,many-to-one,100.0,286,False
+api_common_v1_assets,serviceContractId,api_common_v1_contracts,id,many-to-one,100.0,286,False
+api_service_v1_service-orders,assetId,api_common_v1_assets,id,many-to-one,99.99,10749,False
+api_service_v1_service-orders,siteId,api_common_v1_sites,id,many-to-one,100.0,10749,False
+api_service_v1_service-orders,customerId,api_common_v1_customers,id,many-to-one,100.0,10749,False
+api_service_v1_service-orders,contractId,api_common_v1_contracts,id,many-to-one,100.0,10749,False
+api_service_v1_service-orders,padId,api_common_v1_assets,padId,many-to-one,99.99,10749,False
+api_service_v1_service-visits,orderId,api_service_v1_service-orders,id,many-to-one,93.59,11862,False
+api_service_v1_service-visits,assetId,api_common_v1_assets,id,many-to-one,99.99,11862,False
+api_service_v1_service-visits,customerId,api_common_v1_customers,id,many-to-one,100.0,11862,False
+api_service_v1_service-visits,contractId,api_common_v1_contracts,id,many-to-one,100.0,11862,False
+api_service_v1_service-orders_consumption,orderId,api_service_v1_service-orders,id,one-to-one_or_sparse,100.0,10749,False
+api_service_v1_service-orders_consumption,_serviceOrderId,api_service_v1_service-orders,id,one-to-one_or_sparse,100.0,10749,False

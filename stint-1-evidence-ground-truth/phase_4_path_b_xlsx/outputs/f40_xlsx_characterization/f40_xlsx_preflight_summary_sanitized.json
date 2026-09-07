@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-09-04T18:01:48.027679+00:00",
+  "pass_id": "F4.0-preflight",
+  "productive_xlsx_candidates": 134,
+  "sample_files_selected": 4,
+  "sample_family_count": 4,
+  "positive_controls_ready": 4,
+  "raw_operational_values_emitted": false,
+  "outputs": {
+    "sanitized_manifest": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_4_path_b_xlsx/outputs/f40_xlsx_characterization/f40_xlsx_file_sample_manifest_sanitized.csv",
+    "sanitized_positive_controls": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-1-evidence-ground-truth/phase_4_path_b_xlsx/outputs/f40_xlsx_characterization/f40_xlsx_positive_control_check_sanitized.csv",
+    "internal_manifest": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/reports/internal/f40_xlsx_characterization/f40_xlsx_file_sample_manifest_internal.csv"
+  }
+}

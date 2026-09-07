@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-09-04T22:59:12.025657+00:00",
+  "pass_id": "B2.4",
+  "task_type": "eod_pod_structural_comparison",
+  "source_pass": "B2.1",
+  "files_compared": 127,
+  "doc_types_compared": [
+    "EOD",
+    "POD",
+    "daily_or_eod",
+    "snapshot_unprefixed"
+  ],
+  "eod_files": 83,
+  "pod_files": 31,
+  "unprefixed_snapshot_files": 12,
+  "daily_or_eod_files": 1,
+  "known_positive_case_validation": "pending_not_provided_for_b2_xlsx",
+  "symptom_availability_verdict": "structural_opportunity_only_content_validation_pending",
+  "raw_operational_values_emitted": false,
+  "outputs": [
+    "b24_eod_pod_comparison_memo.md",
+    "b24_eod_pod_doc_type_summary_sanitized.csv",
+    "b24_eod_pod_family_doc_type_summary_sanitized.csv",
+    "b24_text_category_summary_sanitized.csv",
+    "b24_eod_pod_summary_sanitized.json"
+  ]
+}

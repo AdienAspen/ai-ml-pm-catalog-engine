@@ -1,0 +1,9 @@
+source_family,vocabulary_owner,semantic_level,evidence_rows,physical_records,concepts
+CV-SAP,SAP_MAPPING,,7988,3310,39
+CV-EXT,CONVERTER_FIELD_DAMAGE_LITERATURE,component_or_damage_mechanism,1551,1037,1
+RL-NORMALISATION,ZEUS_SCAFFOLD,,1192,840,1
+CV-EXT,NREL_MAIN_BEARING,field_reported_damage,279,279,1
+CV-EXT,TRANSFORMER_FAILURE_LITERATURE,fault_tree_event,239,194,3
+CV-EXT,YAW_FAILURE_LITERATURE,fault_or_damage_vocabulary,154,154,1
+CV-EXT,NREL_GRD,damage_mechanism,117,117,1
+CV-EXT,HYDRAULIC_PITCH_FAILURE_LITERATURE,component_failure_mode_or_cause,141,103,4

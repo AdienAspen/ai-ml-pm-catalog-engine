@@ -1,0 +1,48 @@
+{
+  "created_at_utc": "2026-09-04T21:30:13.005146+00:00",
+  "pass_id": "F4.0b",
+  "task_type": "relational_model_characterization_only",
+  "entities_profiled": 7,
+  "transactional_entities_profiled": 3,
+  "record_counts": {
+    "api_common_v1_assets": 286,
+    "api_common_v1_contracts": 5,
+    "api_common_v1_customers": 4,
+    "api_common_v1_sites": 5,
+    "api_service_v1_service-orders": 10749,
+    "api_service_v1_service-orders_consumption": 10749,
+    "api_service_v1_service-visits": 11862
+  },
+  "canonical_format_recommendation": "json",
+  "positive_control_markers_present": 6,
+  "positive_control_markers_total": 6,
+  "relationship_count_reported": 14,
+  "consumption_object_part_verdict": "structured_object_part_signal_present_rule_resolvable_with_item_id_and_quantity_fields",
+  "symptom_verdict": "no",
+  "contractor_path_001_corresponds_to_api_dump_family": "yes",
+  "field_budget_per_entity": 60,
+  "sampled_records_per_entity_for_text_language": 30,
+  "truncated_or_read_incomplete": [],
+  "prohibited_outputs_created": false,
+  "raw_operational_values_emitted": false,
+  "outputs": [
+    "f40b_contractor_path_001_relational_model_memo.md",
+    "f40b_contractor_path_001_entity_inventory.csv",
+    "f40b_contractor_path_001_transactional_profile_sanitized.csv",
+    "f40b_contractor_path_001_key_graph.md",
+    "f40b_contractor_path_001_deterministic_ml_boundary_sanitized.csv",
+    "f40b_contractor_path_001_symptom_verdict_sanitized.md",
+    "f40b_contractor_path_001_relational_model_summary_sanitized.json",
+    "f40b_contractor_path_001_relationship_match_rates_sanitized.csv",
+    "f40b_contractor_path_001_reason_field_qa_sanitized.csv",
+    "f40b_contractor_path_001_reason_field_qa_sanitized.md"
+  ],
+  "subject_label": "CONTRACTOR_PATH_001",
+  "reason_field_cause_semantics_confirmed": false,
+  "reason_field_qa": {
+    "records_profiled": 10749,
+    "non_empty_reason_rows": 10749,
+    "redacted_examples": 3,
+    "cause_semantics_confirmed": false
+  }
+}

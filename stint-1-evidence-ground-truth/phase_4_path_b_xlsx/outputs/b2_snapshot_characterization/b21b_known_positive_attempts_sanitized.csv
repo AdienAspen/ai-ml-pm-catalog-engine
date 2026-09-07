@@ -1,0 +1,5 @@
+file_key,family,doc_type,markers_found
+B2FILE-d570981cc842,SNAPSHOT_FAMILY_001,EOD,3
+B2FILE-ca0caec1d8ae,SNAPSHOT_FAMILY_002,POD,3
+B2FILE-f2755a9f89f1,SNAPSHOT_FAMILY_002,daily_or_eod,3
+B2FILE-54b4a7dae48f,SNAPSHOT_FAMILY_003,snapshot_unprefixed,3

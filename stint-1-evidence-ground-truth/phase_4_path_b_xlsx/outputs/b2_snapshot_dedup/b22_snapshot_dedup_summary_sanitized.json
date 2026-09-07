@@ -1,0 +1,30 @@
+{
+  "created_at_utc": "2026-09-04T23:17:10.419669+00:00",
+  "pass_id": "B2.2",
+  "task_type": "snapshot_deduplication",
+  "source_pass": "B2.1_plus_B2.1b",
+  "files_scanned": 127,
+  "snapshot_rows": 1988,
+  "estimated_events": 460,
+  "estimated_events_with_snapshot_date": 1843,
+  "overall_compression_ratio": 4.321739,
+  "date_sensitive_compression_ratio": 1.078676,
+  "doc_type_counts": {
+    "EOD": 1344,
+    "POD": 429,
+    "daily_or_eod": 69,
+    "snapshot_unprefixed": 146
+  },
+  "known_positive_case_validation": "passed_direct_cell_markers",
+  "dedup_unit": "estimated_event_key",
+  "dedup_method": "family_doc_type_asset_code_text_signature",
+  "limitation": "No duration-based incident_start estimate was used because B2 XLSX duration semantics are not yet validated.",
+  "raw_operational_values_emitted": false,
+  "outputs": [
+    "b22_snapshot_dedup_memo.md",
+    "b22_snapshot_rows_sanitized.csv",
+    "b22_snapshot_dedup_by_bucket_sanitized.csv",
+    "b22_snapshot_dedup_by_doc_type_sanitized.csv",
+    "b22_snapshot_dedup_summary_sanitized.json"
+  ]
+}

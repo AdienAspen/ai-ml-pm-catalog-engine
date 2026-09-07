@@ -1,0 +1,38 @@
+{
+  "created_at_utc": "2026-09-04T23:58:25.009285+00:00",
+  "pass_id": "B2.3",
+  "task_type": "snapshot_text_weak_supervision",
+  "files_scanned": 127,
+  "text_rows_extracted": 2013,
+  "text_rows_by_doc_type": {
+    "EOD": 1344,
+    "POD": 449,
+    "daily_or_eod": 73,
+    "snapshot_unprefixed": 147
+  },
+  "lexical_high_terms_loaded": 1491,
+  "evidence_rows": 1618,
+  "conservative_event_unit": "estimated_event_key_with_snapshot_date",
+  "conservative_event_units_with_any_candidate": 894,
+  "record_target_units_with_any_candidate": 1086,
+  "target_conservative_event_counts": {
+    "Activity": 73,
+    "Cause": 57,
+    "Damage": 110,
+    "Object Part": 483,
+    "Symptom": 363
+  },
+  "contractual_denominator_supported": false,
+  "proxy_denominator_candidate_units_after_review": 0,
+  "symptom_status": "symptom_like_terms_possible_but_initial_problem_source_unconfirmed",
+  "label_generation_method": "b2_3_snapshot_lexical_layer_v2_rule",
+  "evaluation_independence": "derived_from_rules",
+  "raw_operational_values_emitted": false,
+  "outputs": [
+    "b23_snapshot_silver_labels_memo.md",
+    "b23_snapshot_silver_labels_sanitized.csv",
+    "b23_snapshot_by_target_sanitized.csv",
+    "b23_snapshot_by_doc_type_target_sanitized.csv",
+    "b23_snapshot_summary_sanitized.json"
+  ]
+}

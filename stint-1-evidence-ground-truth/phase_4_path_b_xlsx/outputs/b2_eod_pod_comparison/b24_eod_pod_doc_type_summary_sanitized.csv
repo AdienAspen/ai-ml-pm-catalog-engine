@@ -1,0 +1,5 @@
+doc_type,files,template_variants,files_with_candidate_text,total_candidate_text_rows,files_with_issue_or_notes,issue_or_notes_rows,candidate_text_file_rate,issue_or_notes_file_rate
+EOD,83,4,83,1344,83,1344,1.0,1.0
+POD,31,5,31,429,31,429,1.0,1.0
+daily_or_eod,1,1,1,23,1,23,1.0,1.0
+snapshot_unprefixed,12,1,12,146,12,146,1.0,1.0

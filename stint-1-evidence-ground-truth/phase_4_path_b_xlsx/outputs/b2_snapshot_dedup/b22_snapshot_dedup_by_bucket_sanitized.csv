@@ -1,0 +1,6 @@
+family,doc_type,snapshot_rows,estimated_events,estimated_events_with_snapshot_date,compression_ratio,date_sensitive_compression_ratio,asset_ref_present_rows,asset_ref_present_rate,code_ref_present_rows,code_ref_present_rate
+SNAPSHOT_FAMILY_001,EOD,1344,270,1232,4.977778,1.090909,1292,0.96131,0,0.0
+SNAPSHOT_FAMILY_002,POD,137,33,121,4.151515,1.132231,131,0.956204,0,0.0
+SNAPSHOT_FAMILY_002,daily_or_eod,69,54,54,1.277778,1.277778,34,0.492754,0,0.0
+SNAPSHOT_FAMILY_003,POD,292,73,290,4.0,1.006897,292,1.0,109,0.373288
+SNAPSHOT_FAMILY_003,snapshot_unprefixed,146,30,146,4.866667,1.0,146,1.0,61,0.417808

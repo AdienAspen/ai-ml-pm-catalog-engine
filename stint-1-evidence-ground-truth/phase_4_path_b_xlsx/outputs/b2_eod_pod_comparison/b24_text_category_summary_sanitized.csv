@@ -1,0 +1,14 @@
+family,doc_type,candidate_text_categories,sheets,files,rows_with_candidate_text
+SNAPSHOT_FAMILY_001,EOD,notes_text,83,83,1344
+SNAPSHOT_FAMILY_003,POD,"issue_text,notes_text",25,25,292
+SNAPSHOT_FAMILY_003,snapshot_unprefixed,"issue_text,notes_text",12,12,146
+SNAPSHOT_FAMILY_002,POD,notes_text,6,6,137
+SNAPSHOT_FAMILY_002,daily_or_eod,notes_text,6,1,23
+SNAPSHOT_FAMILY_001,EOD,,63,63,0
+SNAPSHOT_FAMILY_003,POD,,15,15,0
+SNAPSHOT_FAMILY_002,POD,,12,6,0
+SNAPSHOT_FAMILY_003,snapshot_unprefixed,,12,12,0
+SNAPSHOT_FAMILY_003,POD,issue_text,10,10,0
+SNAPSHOT_FAMILY_002,daily_or_eod,,5,1,0
+SNAPSHOT_FAMILY_002,daily_or_eod,issue_text,1,1,0
+SNAPSHOT_FAMILY_002,daily_or_eod,work_text,1,1,0

@@ -1,0 +1,4 @@
+sample_id,reason_value_hash,word_count,redacted_example_shape,cause_cue_present,visit_or_work_motive_cue_present,pii_indicator_present,raw_operational_values_emitted
+REASON-QA-001,REASON-68125d27e984,7,<alpha> <num> <alpha> <alpha> <alpha> . <alpha> . <alpha> <alpha>,True,False,False,False
+REASON-QA-002,REASON-68125d27e984,7,<alpha> <num> <alpha> <alpha> <alpha> . <alpha> . <alpha> <alpha>,True,False,False,False
+REASON-QA-003,REASON-68125d27e984,7,<alpha> <num> <alpha> <alpha> <alpha> . <alpha> . <alpha> <alpha>,True,False,False,False

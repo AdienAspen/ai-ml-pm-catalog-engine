@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-09-04T21:54:16.026614+00:00",
+  "pass_id": "B1.1",
+  "contractor_path": "CONTRACTOR_PATH_001",
+  "task_type": "deterministic_structural_harvest",
+  "service_order_records": 10749,
+  "activity_type_rows": 10749,
+  "activity_type_distinct_source_labels": 6,
+  "consumption_records": 10749,
+  "consumption_item_signal_rows": 15358,
+  "orders_with_consumption_records": 10749,
+  "floc_route_context_rows": 10749,
+  "asset_join_match_rate": 0.999907,
+  "site_join_match_rate": 1.0,
+  "contractual_denominator_rows_supported_now": 10749,
+  "raw_operational_values_emitted": false,
+  "outputs": [
+    "b1_deterministic_harvest_memo.md",
+    "b1_deterministic_harvest_evidence_sanitized.csv",
+    "b1_deterministic_harvest_by_target_sanitized.csv",
+    "b1_deterministic_harvest_relationship_rates_sanitized.csv",
+    "b1_activity_type_distribution_sanitized.csv",
+    "b1_consumption_object_part_summary_sanitized.json",
+    "b1_deterministic_harvest_summary_sanitized.json"
+  ]
+}
