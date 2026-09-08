@@ -1,0 +1,52 @@
+{
+  "created_at_utc": "2026-09-08T19:53:39.032559+00:00",
+  "artifact": "stint-1-evidence-ground-truth/phase_6_denominators/outputs/f6_committee_closure_denominator_table_sanitized.csv",
+  "corpus_files_by_family": {
+    "Path A PDFs": 394,
+    "B1 relational/API dump family": "7 logical entities; 21 redundant structured files across json/xlsx/xml",
+    "B2 snapshot workbooks": 127
+  },
+  "records_evaluated_by_branch": {
+    "Path A snapshot rows": 602,
+    "Path A estimated events": 362,
+    "Path A integrated candidate/event keys": 521,
+    "B1 physical records": 10749,
+    "B2 snapshot text rows": 1988,
+    "B2 baseline date-sensitive events": 1843,
+    "B2 refined events": 1857
+  },
+  "open_canonical_deltas_at_stint_close": [
+    {
+      "delta_id": "DELTA-0009",
+      "topic": "Shared Cause / Activity / Activity Type evidence",
+      "status": "open",
+      "stint1_handling": "Run semantic split before target promotion or denominator use."
+    }
+  ],
+  "canonical_deltas_all": [
+    {
+      "delta_id": "DELTA-0002",
+      "topic": "Record identifier",
+      "status": "resolved_for_poc_policy",
+      "stint1_handling": "Use deterministic `stint1_record_id` proxy for PoC denominators; do not claim production runtime identity."
+    },
+    {
+      "delta_id": "DELTA-0003",
+      "topic": "Primary text field by target",
+      "status": "resolved_for_poc_policy",
+      "stint1_handling": "Use target-specific `source_text_field` routing; every evidence row must carry this field."
+    },
+    {
+      "delta_id": "DELTA-0009",
+      "topic": "Shared Cause / Activity / Activity Type evidence",
+      "status": "open",
+      "stint1_handling": "Run semantic split before target promotion or denominator use."
+    }
+  ],
+  "scope_controls": {
+    "no_global_path_aggregation": true,
+    "raw_operational_values_emitted": false,
+    "symptom_b2_snapshot_365_excluded_from_proxy": true,
+    "floc_leaf_explicit_zero": true
+  }
+}

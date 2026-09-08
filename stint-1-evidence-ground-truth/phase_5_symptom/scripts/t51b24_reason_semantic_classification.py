@@ -305,7 +305,7 @@ def main() -> None:
         "label_generation_method": LABEL_METHOD,
         "embedding_model": MODEL_NAME,
         "evaluation_independence": "derived_from_rules",
-        "control_of_circularity": "model_blind_review rows calibrate this rule; they are not independent held-out data for STINT_2 if the same semantic-prototype mechanism is used",
+        "control_of_circularity": "model_blind_review rows are calibration material and a potential seed for future independent annotation; they are not a held-out evaluation set for STINT_2 if the same semantic-prototype mechanism is used",
         "raw_operational_values_emitted_to_versioned_artifacts": False,
     }
 
@@ -339,7 +339,7 @@ def main() -> None:
         "## Subset Guardrail\n\n"
         "Metrics are also emitted by validation subset because the residual sample intentionally over-represents difficult cases.\n\n"
         "## Circularity Guardrail\n\n"
-        "The reviewed rows calibrate this semantic rule. They are `model_blind_review` calibration material, not independent held-out data for STINT_2 if the same semantic-prototype mechanism is used.\n",
+        "The reviewed rows calibrate this semantic rule. They are `model_blind_review` calibration material and a potential seed for future independent annotation; they are not a held-out evaluation set for STINT_2 if the same semantic-prototype mechanism is used.\n",
         encoding="utf-8",
     )
 

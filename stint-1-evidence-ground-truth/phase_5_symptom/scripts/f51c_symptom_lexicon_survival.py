@@ -142,7 +142,7 @@ def main() -> None:
                 "match_method": survival["match_method"],
                 "f1_consumption_status": survival["f1_consumption_status"],
                 "evidence_type": "expert_inference",
-                "tier": "silver-medium_maximum",
+                "tier": "silver-medium",
                 "evaluation_independence": "derived_from_rules",
                 "raw_values_emitted": False,
             }

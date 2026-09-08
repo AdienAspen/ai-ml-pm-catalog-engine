@@ -1,225 +1,225 @@
-# Fase 4 — Reescritura
-## Path B · Reconstrucción de evidencia por familia de fuente
+# Phase 4 — Rewrite
+## Path B · Evidence Reconstruction by Source Family
 
 **FSA BRIDGE / AI-ML Workstream · STINT_1**
-*Reemplaza la Fase 4 del plan técnico v2, tras F4.0 y F4.0b*
+*Replaces Phase 4 of Technical Plan v2, after F4.0 and F4.0b*
 
 ---
 
-## Qué cambió
+## What Changed
 
-La versión anterior trataba Path B como una familia homogénea de "XLSX / Daily Maintenance Reports" y asumía weak supervision como herramienta principal para los siete targets.
+The previous version treated Path B as a homogeneous "XLSX / Daily Maintenance Reports" family and assumed weak supervision was the primary tool for all seven targets.
 
-**La caracterización reveló dos familias con naturalezas opuestas:**
+**Characterization revealed two families with opposite natures:**
 
 ```
-CONTRACTOR_PATH_001    modelo relacional · 7 entidades · 33.660 registros
-                       registros atómicos · joins al 93,6–100%
-                       → buena parte se resuelve sin ML
+CONTRACTOR_PATH_001    relational model · 7 entities · 33,660 records
+                       atomic records · joins at 93.6–100%
+                       → much of it is resolved without ML
 
-OEM_ENTITY_001 EOD / POD           workbooks diarios de estado
-                       misma naturaleza que Path A
-                       → requiere deduplicación antes de extraer
+OEM_ENTITY_001 EOD / POD           daily state workbooks
+                       same nature as Path A
+                       → requires deduplication before extraction
 ```
 
-**Consecuencia:** dos ramas, mismo objetivo, distinto método. Nunca un denominador común.
+**Consequence:** two paths, same objective, different method. Never a shared denominator.
 
 ---
 
-## Objetivo
+## Objective
 
-Producir evidencia evaluable por target, con procedencia y estrato, para los dos paths de Path B.
+Produce target-level evaluable evidence, with provenance and stratum, for both Path B paths.
 
-**Principio rector confirmado por la caracterización:**
+**Guiding principle confirmed by characterization:**
 
-> El trabajo de ML no es clasificar todo. Es clasificar lo que no se puede resolver de otra forma.
+> ML work is not about classifying everything. It is about classifying what cannot be resolved another way.
 
 ---
 
-## Rama B1 — `CONTRACTOR_PATH_001` · relacional
+## Path B1 — `CONTRACTOR_PATH_001` · Relational
 
-### Frontera determinístico / ML — establecida
+### Deterministic / ML Boundary — Established
 
-| Target | Ruta | Método |
+| Target | Route | Method |
 |---|---|---|
-| **Activity Type / MAT** | campo directo `activityType` | join · **sale de ML** |
-| **Object Part** | `consumption` → materiales | join + mapeo material→catálogo B |
-| **Activity** | estructural + detalle textual | join + ML sobre residuo |
-| **FLOC leaf** | joins internos + alineación SAP | join + matching contra IH06 |
-| **Cause** | `reason` — semántica sin confirmar | texto → ML |
-| **Damage** | sin campo dedicado | texto → ML |
-| **Symptom** | sin campo pre-ejecución | ❌ no alcanzable |
+| **Activity Type / MAT** | direct `activityType` field | join · **out of ML** |
+| **Object Part** | `consumption` → materials | join + material→catalog B mapping |
+| **Activity** | structural + textual detail | join + ML over remainder |
+| **FLOC leaf** | internal joins + SAP alignment | join + matching against IH06 |
+| **Cause** | `reason` — semantics unconfirmed | text → ML |
+| **Damage** | no dedicated field | text → ML |
+| **Symptom** | no pre-execution field | ❌ unattainable |
 
-### B1.1 — Cosecha determinística *(primero)*
+### B1.1 — Deterministic Harvest *(First)*
 
-- Extraer `activityType` → **MAT resuelto**, `evidence_type: real_observed_label`
-- `consumption` → materiales por orden. Evaluar cobertura y viabilidad de mapeo a catálogo B por regla
-- Joins internos para FLOC: `assets → sites`, y alineación contra la jerarquía IH06
-- **Todo lo cosechado aquí no entra al pipeline de ML.** Es evidencia estructural
+- Extract `activityType` → **resolved MAT**, `evidence_type: real_observed_label`
+- `consumption` → materials per order. Evaluate coverage and feasibility of rule-based mapping to catalog B
+- Internal joins for FLOC: `assets → sites`, and alignment against the IH06 hierarchy
+- **Nothing harvested here enters the ML pipeline.** It is structural evidence
 
-**Entregable:** `b1_deterministic_harvest` con tier y procedencia por target.
+**Deliverable:** `b1_deterministic_harvest` with tier and provenance by target.
 
-### B1.2 — Residuo textual *(solo lo que queda)*
+### B1.2 — Textual Remainder *(Only What Remains)*
 
-Targets: **Cause**, **Damage**, y el detalle de **Activity** no cubierto por campo.
+Targets: **Cause**, **Damage**, and **Activity** detail not covered by a field.
 
-- Campo primario: `description_extended` (96,2% cobertura)
-- Soporte: `reason` (100% cobertura, semántica no confirmada)
-- Aplicar `LEXICAL_LAYER v2` — 359 conceptos, banda high únicamente
-- Weak supervision con convergencia de señales
+- Primary field: `description_extended` (96.2% coverage)
+- Support: `reason` (100% coverage, semantics unconfirmed)
+- Apply `LEXICAL_LAYER v2` — 359 concepts, high band only
+- Weak supervision with signal convergence
 
-**Entregable:** `b1_silver_labels` por target, con `source_text_field` declarado.
+**Deliverable:** `b1_silver_labels` by target, with declared `source_text_field`.
 
-### ⚠️ B1.3 — Pregunta abierta sobre `reason`
+### ⚠️ B1.3 — Open Question About `reason`
 
-`reason` está poblado al 100% pero su semántica no está confirmada. En modelos de servicio de campo suele ser **motivo de la visita** —por qué se despachó al técnico— no causa raíz.
+`reason` is populated 100%, but its semantics are unconfirmed. In field-service models it is often the **reason for the visit** — why the technician was dispatched — not root cause.
 
-> **Si resulta ser eso, es más cercano a Symptom que a Cause** — y sería el único campo del corpus con información pre-ejecución.
+> **If that is the case, it is closer to Symptom than Cause** — and would be the only field in the corpus with pre-execution information.
 
-**Verificar antes de enrutarlo definitivamente.** No promover mientras siga sin confirmar.
+**Verify before routing it definitively.** Do not promote it while it remains unconfirmed.
 
 ---
 
-## Rama B2 — OEM_ENTITY_001 EOD / POD · snapshot
+## Path B2 — OEM_ENTITY_001 EOD / POD · Snapshot
 
-**Misma naturaleza que Path A. Mismo tratamiento.**
+**Same nature as Path A. Same treatment.**
 
-### B2.1 — Caracterización pendiente
+### B2.1 — Pending Characterization
 
-`F4.0` muestreó `CONTRACTOR_PATH_002` y `SITE_PATH_002_SNAPSHOT` con caps bajos. Falta:
+`F4.0` sampled `CONTRACTOR_PATH_002` and `SITE_PATH_002_SNAPSHOT` with low caps. Missing:
 
-- Inventario de variantes de plantilla por familia
-- Extracción espacial validada contra caso positivo conocido
-- Localizar campos de prosa fuera del routing
+- Inventory of template variants by family
+- Spatial extraction validated against a known positive case
+- Locate prose fields outside routing
 
-**Aplicar el método de F3.5, que ya está probado.**
+**Apply the F3.5 method, which is already proven.**
 
-### B2.2 — Deduplicación
+### B2.2 — Deduplication
 
-Los workbooks son de estado: una condición persiste en múltiples archivos diarios.
+The workbooks contain state: a condition persists across multiple daily files.
 
 ```
-clave: site + asset + code + ventana(incident_start ± tolerancia)
+key: site + asset + code + window(incident_start ± tolerance)
 incident_start_estimated = snapshot_date − duration
 ```
 
-**Reportar siempre `snapshot_rows` y `estimated_events` por separado.**
+**Always report `snapshot_rows` and `estimated_events` separately.**
 
-### B2.3 — Extracción y weak supervision
+### B2.3 — Extraction and Weak Supervision
 
-- Separar códigos de estado de códigos de falla — namespace `asset_state`
-- Extraer prosa técnica donde exista
-- Anclar contra `LEXICAL_LAYER v2`
+- Separate status codes from fault codes — `asset_state` namespace
+- Extract technical prose where present
+- Anchor against `LEXICAL_LAYER v2`
 
-### ⚠️ B2.4 — Verificación EOD vs POD
+### ⚠️ B2.4 — EOD vs POD Verification
 
 ```
-POD  →  Plan of Day   ·  estado al inicio del turno
-EOD  →  End of Day    ·  trabajo ejecutado
+POD  →  Plan of Day   ·  state at the start of the shift
+EOD  →  End of Day    ·  work performed
 ```
 
-**Nadie ha comparado ambas familias.** Si los EOD registran ejecución, deberían tener mejor densidad de Activity y menor repetición.
+**No one has compared the two families.** If EOD records execution, it should have higher Activity density and less repetition.
 
-**Y la pregunta crítica:** ¿algún EOD registra el reporte inicial del problema? Es el único lugar del corpus donde Symptom podría existir.
+**And the critical question:** does any EOD record the initial problem report? It is the only place in the corpus where Symptom might exist.
 
 ---
 
-## FLOC leaf *(G06)* — transversal a ambas ramas
+## FLOC Leaf *(G06)* — Cross-Cutting Both Paths
 
-**KKS cerrado definitivamente.** Sin designaciones heredadas utilizables. La vía es matching contra los nodos reales del IH06.
+**KKS definitively closed.** No usable inherited designations. The route is matching against the actual IH06 nodes.
 
-**Constraints confirmados:**
+**Confirmed constraints:**
 
-- Jerarquía real: 88.441 filas · 9 sitios · profundidad 4–5
-- **Cero filas a profundidad ≥ 6** — el leaf disponible es Component/Maintainable Item, no Part
-- Profundidad **no homogénea entre sitios** — medir por planta, nunca globalmente
-- Un Object Part más granular que el leaf FLOC **no tiene nodo donde aterrizar**
+- Actual hierarchy: 88,441 rows · 9 sites · depth 4–5
+- **Zero rows at depth ≥ 6** — the available leaf is Component/Maintainable Item, not Part
+- Depth is **not homogeneous across sites** — measure by plant, never globally
+- An Object Part more granular than the FLOC leaf **has no node on which to land**
 
-En B1, los joins internos pueden aportar ruta estructural parcial. En B2, es matching léxico puro.
+In B1, internal joins can provide a partial structural route. In B2, it is pure lexical matching.
 
-**Nota:** el crosswalk IH06 ↔ IEC es documentación de cobertura, no requisito del pipeline. Prioridad baja.
-
----
-
-## Activity Type / MAT *(G05)* — estado actualizado
-
-```
-B1   →  resuelto por campo directo. Sale de ML
-B2   →  sin fuente OEM_ENTITY_001 controlada
-        ZEUS maintenance_type como andamiaje
-        reconstrucción marcada expert_inference
-```
-
-**G05 deja de estar bloqueado en la rama relacional.** Era el target más bloqueado del proyecto desde STINT_0.
+**Note:** the IH06 ↔ IEC crosswalk is coverage documentation, not a pipeline requirement. Low priority.
 
 ---
 
-## Estratificación — reglas
+## Activity Type / MAT *(G05)* — Updated Status
 
 ```
-B1  →  activityType explícito, 100% cobertura → estratificar directo
-B2  →  event_structural · NUNCA planned/reactive
+B1   →  resolved by direct field. Out of ML
+B2   →  no controlled OEM_ENTITY_001 source
+        ZEUS maintenance_type as scaffold
+        reconstruction marked expert_inference
+```
+
+**G05 is no longer blocked in the relational path.** It had been the project's most blocked target since STINT_0.
+
+---
+
+## Stratification — Rules
+
+```
+B1  →  explicit activityType, 100% coverage → stratify directly
+B2  →  event_structural · NEVER planned/reactive
 Path A → event_structural
 ```
 
-- **No mezclar estratos en un mismo denominador**
-- Derivación planned/reactive por inferencia → `expert_inference`
-- **B1 y B2 nunca comparten denominador.** Distribuciones distintas, naturalezas distintas
+- **Do not mix strata in the same denominator**
+- Planned/reactive derivation by inference → `expert_inference`
+- **B1 and B2 never share a denominator.** Different distributions, different natures
 
 ---
 
-## Symptom — estado tras la caracterización
+## Symptom — Status After Characterization
 
 ```
-Path A        no registra síntoma observado
-B1            sin campo pre-ejecución confirmado
-B2            pendiente de verificar (B2.4)
+Path A        no observed symptom recorded
+B1            no confirmed pre-execution field
+B2            pending verification (B2.4)
 ```
 
-**Dos de tres familias confirmadas sin fuente.** Si B2.4 confirma la tercera, Symptom pasa de *escaso* a **estructuralmente inalcanzable** — porque el corpus se compone de objetos tipo orden y reportes de estado, y ninguno registra el síntoma reportado.
+**Two of three families confirmed without a source.** If B2.4 confirms the third, Symptom moves from *scarce* to **structurally unattainable** — because the corpus consists of order-like objects and status reports, and none records the reported symptom.
 
-**Eso es un hallazgo de feasibility válido, no un fallo.**
+**That is a valid feasibility finding, not a failure.**
 
 ---
 
-## Secuencia
+## Sequence
 
-| Paso | Rama | Depende de |
+| Step | Path | Depends on |
 |---|---|---|
-| B1.1 cosecha determinística | B1 | F4.0b ✅ |
-| B1.3 verificar `reason` | B1 | — |
-| B1.2 residuo textual | B1 | B1.1, B1.3 |
-| B2.1 caracterización | B2 | — |
+| B1.1 deterministic harvest | B1 | F4.0b ✅ |
+| B1.3 verify `reason` | B1 | — |
+| B1.2 textual remainder | B1 | B1.1, B1.3 |
+| B2.1 characterization | B2 | — |
 | B2.4 EOD vs POD | B2 | B2.1 |
-| B2.2 deduplicación | B2 | B2.1 |
-| B2.3 extracción | B2 | B2.2 |
+| B2.2 deduplication | B2 | B2.1 |
+| B2.3 extraction | B2 | B2.2 |
 
-**B1 y B2 son paralelizables.** B1.1 es la de mayor retorno inmediato: resuelve MAT y evalúa Object Part sin ML.
+**B1 and B2 can run in parallel.** B1.1 has the highest immediate return: it resolves MAT and evaluates Object Part without ML.
 
 ---
 
-## Entregables
+## Deliverables
 
 ```
-b1_deterministic_harvest      evidencia estructural
-b1_silver_labels              Cause · Damage · Activity residual
+b1_deterministic_harvest      structural evidence
+b1_silver_labels              Cause · Damage · residual Activity
 b2_snapshot_dedup             snapshot_rows vs estimated_events
-b2_silver_labels              por target, con estrato
-floc_leaf_candidates          por sitio, nunca global
-reason_semantics_verdict      resolución de B1.3
-eod_pod_comparison            resolución de B2.4
+b2_silver_labels              by target, with stratum
+floc_leaf_candidates          by site, never global
+reason_semantics_verdict      B1.3 resolution
+eod_pod_comparison            B2.4 resolution
 ```
 
 ---
 
-## Criterio de cierre
+## Completion Criteria
 
-Por target y por rama:
+By target and by path:
 
-- Evidencia declarada con `evidence_type`, `tier`, `status`
-- Ruta declarada: determinística, ML, o no alcanzable
-- Estrato y `source_text_field` en toda fila
-- Denominadores separados por rama, nunca agregados
-- `UNKNOWN` permitido y esperado
+- Evidence declared with `evidence_type`, `tier`, `status`
+- Declared route: deterministic, ML, or unattainable
+- Stratum and `source_text_field` on every row
+- Denominators separated by path, never aggregated
+- `UNKNOWN` allowed and expected
 
-**Declarar que un target no es alcanzable en una rama es resultado válido.**
+**Declaring that a target is unattainable in a path is a valid result.**

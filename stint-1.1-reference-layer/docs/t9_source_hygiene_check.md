@@ -24,7 +24,7 @@ The formal reference-layer source records are clean:
 
 Two non-blocking incidental hits were observed in broader repository scope:
 
-- `docs/Plan Tecnico v2 - STINT_1.1-reference-layer.md`: planning instruction text that names discarded-source cleanup as a requirement. This file is ignored and is not a source-of-record reference.
+- `docs/technical-plan-v2-stint-1.1-reference-layer.md`: planning instruction text that names discarded-source cleanup as a requirement. This file is ignored and is not a source-of-record reference.
 - `external/malyi/README.md`: upstream third-party README badge/link for ResearchGate. This is part of the pinned upstream project metadata and is not used as a primary source in the reference layer.
 
 ## Decision

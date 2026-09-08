@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-09-07T19:14:31.086311+00:00",
+  "created_at_utc": "2026-09-08T19:53:36.078606+00:00",
   "pass_id": "T5.1b2X-normalized",
   "status": "completed_no_target_promotion",
   "reason_non_empty_rows": 10338,
@@ -23,6 +23,6 @@
   "label_generation_method": "semantic_prototype_matching_v2_normalised_telegram_text",
   "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
   "evaluation_independence": "derived_from_rules",
-  "control_of_circularity": "model_blind_review rows calibrate this rule; they are not independent held-out data for STINT_2 if the same mechanism is used",
+  "control_of_circularity": "model_blind_review rows are calibration material and a potential seed for future independent annotation; they are not a held-out evaluation set for STINT_2 if the same mechanism is used",
   "raw_operational_values_emitted_to_versioned_artifacts": false
 }

@@ -1,4 +1,4 @@
-Prompt F4.0 — Caracterización XLSX
+F4.0 XLSX Characterization Prompt
 Versión optimizada · agente interno · presupuesto controlado
 
 ROLE

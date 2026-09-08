@@ -173,7 +173,7 @@ def main() -> None:
 
 This pass records a manual semantic review of the 30-row F1e sample. The reviewer saw the
 pipeline-proposed anchor, so this is `human_validated_pipeline_proposal`, not independent
-annotation. It does not create ground truth, does not create held-out evaluation evidence,
+annotation. It does not create ground truth and does not create a held-out evaluation set,
 and does not promote any row to contractual measurement readiness.
 
 ## Result By Band

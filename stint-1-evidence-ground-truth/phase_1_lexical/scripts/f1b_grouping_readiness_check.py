@@ -130,7 +130,7 @@ def main() -> None:
         "",
         "## Evaluation Boundary",
         "",
-        "All lexical rows remain `derived_from_rules`; they are not independent held-out labels for STINT_2.",
+        "All lexical rows remain `derived_from_rules`; they are not a held-out evaluation set for STINT_2.",
     ]
     (OUTPUTS_DIR / "f1b_grouping_readiness_memo.md").write_text(
         "\n".join(lines) + "\n", encoding="utf-8"

@@ -214,7 +214,7 @@ The prior semantic mapping coverage is retained as diagnostic coverage, not qual
 - It can support POC proxy review workflows after F2 target review.
 - It cannot support contractual denominators.
 - The 30 manually reviewed rows are preserved as `human_validated_pipeline_proposal`.
-- They are not independent held-out evidence because the pipeline-proposed anchor was visible to the reviewer.
+- They are calibration material and potential seed for future independent annotation, not a held-out evaluation set, because the pipeline-proposed anchor was visible to the reviewer.
 - A truly independent review requires blind annotation: observed term plus allowed catalog, without the pipeline proposal.
 """
     MEMO_MD.write_text(memo, encoding="utf-8")

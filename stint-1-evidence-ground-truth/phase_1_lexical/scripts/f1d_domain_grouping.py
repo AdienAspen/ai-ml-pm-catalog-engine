@@ -401,7 +401,7 @@ def main() -> None:
             "## Governance",
             "",
             "- Grouping links are `expert_inference`, not `validated_mapping`.",
-            "- All rows are `derived_from_rules`; they cannot be used as independent held-out labels for STINT_2.",
+            "- All rows are `derived_from_rules`; they are not a held-out evaluation set for STINT_2.",
             "- `unresolved` is an expected output and must not be forced into a concept.",
             "- Damage-adjacent evidence preserves vocabulary owner, subsystem, and semantic level to avoid flattening heterogeneous evidence sets.",
         ]

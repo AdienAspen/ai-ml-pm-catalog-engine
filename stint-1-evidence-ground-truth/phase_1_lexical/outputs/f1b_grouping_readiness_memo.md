@@ -25,4 +25,4 @@ The current F1 output is a filtered working layer. It is not yet evidence that v
 
 ## Evaluation Boundary
 
-All lexical rows remain `derived_from_rules`; they are not independent held-out labels for STINT_2.
+All lexical rows remain `derived_from_rules`; they are not a held-out evaluation set for STINT_2.

@@ -171,9 +171,10 @@ def main() -> None:
             "likely_polysemous_codes": poly["polysemy_classification_counts"].get("likely_polysemous", 0),
         },
         "evidence_type": "expert_inference",
-        "tier": "silver-medium_maximum",
+        "tier": "silver-medium",
         "label_generation_method": "semantic_prototype_matching_v2_normalised_telegram_text_and_oem_pattern_dictionary",
         "evaluation_independence": "derived_from_rules",
+        "tier_ceiling_note": "tier ceiling: silver-medium for Symptom; must not be promoted above this level",
         "denominator_status": "nothing_promoted_to_contractual_or_proxy_denominator_in_this_pass",
         "raw_operational_values_emitted_to_versioned_artifacts": False,
     }

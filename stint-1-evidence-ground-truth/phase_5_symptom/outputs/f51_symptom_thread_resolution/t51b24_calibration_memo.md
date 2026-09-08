@@ -19,4 +19,4 @@ Metrics are also emitted by validation subset because the residual sample intent
 
 ## Circularity Guardrail
 
-The reviewed rows calibrate this semantic rule. They are `model_blind_review` calibration material, not independent held-out data for STINT_2 if the same semantic-prototype mechanism is used.
+The reviewed rows calibrate this semantic rule. They are `model_blind_review` calibration material and a potential seed for future independent annotation; they are not a held-out evaluation set for STINT_2 if the same semantic-prototype mechanism is used.

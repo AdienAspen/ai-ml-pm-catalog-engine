@@ -1,0 +1,136 @@
+{
+  "created_at_utc": "2026-09-08T19:53:38.619805+00:00",
+  "pass_id": "F6",
+  "task_type": "denominator_consolidation",
+  "contractual_denominator_rule": {
+    "evidence_type": [
+      "real_observed_label",
+      "validated_mapping"
+    ],
+    "tier": "gold",
+    "status": "resolved"
+  },
+  "proxy_denominator_rule": "qualified silver/expert_inference with complete provenance; requires anti-circularity controls",
+  "counting_units_by_path": {
+    "PATH_A_PDF_EVENTS": "estimated_event_key_x_target",
+    "B1_RELATIONAL_STRUCTURED": "physical_record_id_x_target",
+    "B1_RELATIONAL_TEXTUAL": "physical_record_id_x_target",
+    "B2_WORKBOOK_SNAPSHOTS": "refined_event_key_x_target",
+    "Symptom F5 path verdict": "candidate_text_row_or_hash_x_target, proxy only"
+  },
+  "contractual_denominator_admitted_by_target": {
+    "Symptom": {
+      "by_path_not_aggregated": "",
+      "diagnostic_sum_do_not_use_as_denominator": 0
+    },
+    "Object Part": {
+      "by_path_not_aggregated": "",
+      "diagnostic_sum_do_not_use_as_denominator": 0
+    },
+    "Damage": {
+      "by_path_not_aggregated": "",
+      "diagnostic_sum_do_not_use_as_denominator": 0
+    },
+    "Cause": {
+      "by_path_not_aggregated": "",
+      "diagnostic_sum_do_not_use_as_denominator": 0
+    },
+    "Activity": {
+      "by_path_not_aggregated": "",
+      "diagnostic_sum_do_not_use_as_denominator": 0
+    },
+    "FLOC leaf": {
+      "by_path_not_aggregated": "",
+      "diagnostic_sum_do_not_use_as_denominator": 0
+    },
+    "Activity Type / MAT": {
+      "by_path_not_aggregated": "B1_RELATIONAL_STRUCTURED:10749",
+      "diagnostic_sum_do_not_use_as_denominator": 10749
+    }
+  },
+  "proxy_denominator_admitted_by_target": {
+    "Symptom": {
+      "by_path_not_aggregated": "B2_WORKBOOKS:62;PATH_A_CONCERN_TABLE:68;PATH_A_NOTES:42;RELATIONAL_REASON:1827",
+      "diagnostic_sum_do_not_use_as_denominator": 1999
+    },
+    "Object Part": {
+      "by_path_not_aggregated": "B2_WORKBOOK_SNAPSHOTS:488;PATH_A_PDF_EVENTS:280",
+      "diagnostic_sum_do_not_use_as_denominator": 768
+    },
+    "Damage": {
+      "by_path_not_aggregated": "B1_RELATIONAL_TEXTUAL:1263;B2_WORKBOOK_SNAPSHOTS:110;PATH_A_PDF_EVENTS:116",
+      "diagnostic_sum_do_not_use_as_denominator": 1489
+    },
+    "Cause": {
+      "by_path_not_aggregated": "B1_RELATIONAL_TEXTUAL:1250;B2_WORKBOOK_SNAPSHOTS:57;PATH_A_PDF_EVENTS:36",
+      "diagnostic_sum_do_not_use_as_denominator": 1343
+    },
+    "Activity": {
+      "by_path_not_aggregated": "B1_RELATIONAL_TEXTUAL:1215;B2_WORKBOOK_SNAPSHOTS:74;PATH_A_PDF_EVENTS:339",
+      "diagnostic_sum_do_not_use_as_denominator": 1628
+    },
+    "FLOC leaf": {
+      "by_path_not_aggregated": "",
+      "diagnostic_sum_do_not_use_as_denominator": 0
+    },
+    "Activity Type / MAT": {
+      "by_path_not_aggregated": "B1_RELATIONAL_STRUCTURED:10749",
+      "diagnostic_sum_do_not_use_as_denominator": 10749
+    }
+  },
+  "proxy_candidate_units_before_review_by_target": {
+    "Symptom": {
+      "by_path_not_aggregated": "B2_WORKBOOKS:62;B2_WORKBOOK_SNAPSHOTS:365;LEXICAL_LAYER_V2_HIGH_BAND:41;PATH_A_CONCERN_TABLE:68;PATH_A_NOTES:42;RELATIONAL_REASON:1827",
+      "diagnostic_sum_do_not_use_as_denominator": 2405
+    },
+    "Object Part": {
+      "by_path_not_aggregated": "B1_RELATIONAL_STRUCTURED:4079;B2_WORKBOOK_SNAPSHOTS:488;PATH_A_PDF_EVENTS:280",
+      "diagnostic_sum_do_not_use_as_denominator": 4847
+    },
+    "Damage": {
+      "by_path_not_aggregated": "B1_RELATIONAL_TEXTUAL:4477;B2_WORKBOOK_SNAPSHOTS:110;PATH_A_PDF_EVENTS:116",
+      "diagnostic_sum_do_not_use_as_denominator": 4703
+    },
+    "Cause": {
+      "by_path_not_aggregated": "B1_RELATIONAL_TEXTUAL:3273;B2_WORKBOOK_SNAPSHOTS:57;PATH_A_PDF_EVENTS:36",
+      "diagnostic_sum_do_not_use_as_denominator": 3366
+    },
+    "Activity": {
+      "by_path_not_aggregated": "B1_RELATIONAL_TEXTUAL:2846;B2_WORKBOOK_SNAPSHOTS:74;PATH_A_PDF_EVENTS:339",
+      "diagnostic_sum_do_not_use_as_denominator": 3259
+    },
+    "FLOC leaf": {
+      "by_path_not_aggregated": "B1_RELATIONAL_STRUCTURED:10749",
+      "diagnostic_sum_do_not_use_as_denominator": 10749
+    },
+    "Activity Type / MAT": {
+      "by_path_not_aggregated": "B1_RELATIONAL_STRUCTURED:10749",
+      "diagnostic_sum_do_not_use_as_denominator": 10749
+    }
+  },
+  "measurement_ready_targets_contractual": [
+    "Activity Type / MAT"
+  ],
+  "measurement_ready_targets_proxy_admitted": [
+    "Symptom",
+    "Object Part",
+    "Damage",
+    "Cause",
+    "Activity",
+    "Activity Type / MAT"
+  ],
+  "mandatory_scope_statements": [
+    "Grouping simulates SyncHub behavior; it is not an ML workstream deliverable.",
+    "Every POC metric must be measured against explicitly labeled proxy evaluation sets, never as verified production accuracy.",
+    "No global denominator is valid across Path A, B1, and B2.",
+    "FLOC leaf is an explicit zero: internal joins exist, but no SAP/FLOC leaf alignment evidence has been produced yet.",
+    "B2 snapshot Symptom candidates are retained diagnostically but excluded from proxy admission after F5.1a classified the thread as generic catalog noise."
+  ],
+  "explicit_zero_targets": {
+    "FLOC leaf": "B1 structural joins provide candidate routeability, but FLOC leaf has no admitted contractual or proxy denominator until SAP/FLOC leaf alignment evidence is produced."
+  },
+  "explicit_proxy_exclusions": {
+    "Symptom / B2_WORKBOOK_SNAPSHOTS": "365 candidate event units excluded from proxy admission; they are the F5.1a generic-noise thread, not the later B2 semantic observed-condition signal."
+  },
+  "raw_operational_values_emitted": false
+}

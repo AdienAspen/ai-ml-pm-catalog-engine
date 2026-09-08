@@ -347,7 +347,7 @@ def main() -> None:
         "label_generation_method": LABEL_METHOD,
         "embedding_model": MODEL_NAME,
         "evaluation_independence": "derived_from_rules",
-        "control_of_circularity": "model_blind_review rows calibrate this rule; they are not independent held-out data for STINT_2 if the same mechanism is used",
+        "control_of_circularity": "model_blind_review rows are calibration material and a potential seed for future independent annotation; they are not a held-out evaluation set for STINT_2 if the same mechanism is used",
         "raw_operational_values_emitted_to_versioned_artifacts": False,
     }
 

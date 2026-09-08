@@ -34,7 +34,7 @@ Exact files named in the original T2 plan, `used_taxonomy.md` and `technical_rep
 | Cause | `catalog_5` | Low-coverage target; denominator remains target-specific. | Malyi explicitly models `Cause`, corroborating the target concept. It does not resolve low project coverage or provide labels for this corpus. |
 | Activity | `catalog_a` | Shared evidence must not be counted as independent target evidence. | Malyi includes `Maintenance_Type` and `Action_Taken`, corroborating the need to separate maintenance class from action labels. |
 | FLOC leaf segment | `floc` | Structural support can validate interpretation but does not resolve hierarchy by itself. | Malyi's taxonomy handler corroborates hierarchical component-code handling. It does not validate project FLOC construction. |
-| Activity Type | `mat` | Pending controlled source confirmation. | Malyi's `Maintenance_Type` aligns conceptually with activity type/classification, but cannot substitute for the missing project GE MAT/activity-type controlled source. |
+| Activity Type | `mat` | Pending controlled source confirmation. | Malyi's `Maintenance_Type` aligns conceptually with activity type/classification, but cannot substitute for the missing project activity-type controlled source. |
 
 ## Main Alignments
 
