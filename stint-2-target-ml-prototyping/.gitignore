@@ -1,0 +1,24 @@
+# Visible-text annotation material: closed environment only.
+g0_independent_evaluation/internal/
+**/internal/
+**/*_visible_internal.csv
+**/*_unsanitized.csv
+
+# Trained model binaries.
+**/models/*.pkl
+**/models/*.pickle
+**/models/*.joblib
+**/models/*.bin
+**/models/*.safetensors
+**/models/*.onnx
+
+# Raw operational outputs.
+**/outputs/**/*_raw.csv
+**/outputs/**/raw_*
+
+# Local caches.
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Only sanitized artifacts are versioned.
