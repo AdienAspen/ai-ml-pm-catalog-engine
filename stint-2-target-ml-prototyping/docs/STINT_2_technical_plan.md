@@ -330,6 +330,56 @@ Reuse the `T5.1b2.X-normalized` pipeline unchanged. Only the prototypes differ.
 
 ---
 
+## Prototype provenance governance — mandatory
+
+⚠️ **Zero-shot does not automatically mean independent.**
+
+If prototypes are selected by looking at G0 results, if thresholds are tuned against the full evaluation set, or if wording is reused from the earlier pseudo-labels, the baseline stops being clean.
+
+**Every prototype carries three fields:**
+
+```
+prototype_source        zeus_maintenance_measure · wmep_causes
+                        nrel_grd · g11e_blind_sample
+                        analyst_construction
+
+construction_method     transcribed_from_source
+                        derived_from_blind_sample
+                        analyst_authored
+
+evaluation_exclusion    list of units that may not be used to
+                        evaluate this prototype
+```
+
+### Declared contamination in this pass
+
+**Object Part prototypes were built from the `G1.1e` blind sample.** Terms such as `yaw ring`, `torque arm bushing` and `pitch manifold accumulator` come directly from reading those 20 orders.
+
+```
+consequence   those 20 orders are excluded from Object Part evaluation
+              construction_method: derived_from_blind_sample
+```
+
+**Cause, Damage and Activity prototypes are clean.** They are transcribed from WMEP, NREL GRD and ZEUS without inspecting any result.
+
+```
+construction_method: transcribed_from_source
+```
+
+### Threshold calibration split — declare before running
+
+Do not tune thresholds against the full `evaluation_set_v1`. Split it:
+
+```
+60%   calibration subset   used to select the threshold
+40%   held-out subset      never touched during calibration
+                           reports the final figure
+```
+
+**The split must be fixed and recorded before the first run.** Re-splitting after seeing results invalidates the held-out portion.
+
+---
+
 ## Prototypes per target
 
 Prototypes are short phrases in the register of the corpus, not catalogue descriptions. Keep them under 6 words. Do not use SAP code text.
@@ -426,7 +476,11 @@ select threshold maximising coverage subject to precision >= 0.80
 report the full precision-coverage curve, not only the selected point
 ```
 
-Calibrate against `evaluation_set_v1` where the target is admitted — Cause, Object Part, Symptom. For Damage and Activity, report the curve without a selected threshold and flag that calibration awaits `g01-v2`.
+Calibrate against the **60% calibration subset** of `evaluation_set_v1` where the target is admitted — Cause, Object Part, Symptom. Report the final figure against the 40% held-out subset only.
+
+For Object Part, additionally exclude the 20 orders from the `G1.1e` blind sample from both subsets. They informed prototype construction and cannot evaluate it.
+
+For Damage and Activity, report the curve without a selected threshold and flag that calibration awaits `g01-v2`.
 
 ---
 
@@ -470,6 +524,10 @@ label_generation_method  zero_shot_prototype_matching_v1
 embedding_model          paraphrase-multilingual-MiniLM-L12-v2
 evaluation_independence  derived_from_rules
 anchor_source            prototype_domain_vocabulary
+prototype_source         per prototype · see governance section
+construction_method      per prototype · see governance section
+evaluation_exclusion     per prototype · see governance section
+calibration_subset       60_40_split_fixed_before_run
 ```
 
 ⚠️ **`anchor_source` must be written as a literal field on every evidence row.** `G1.2c` found it absent from all inspected artefacts and had to derive it from vocabulary ownership. That gap must not be reproduced.
@@ -493,6 +551,9 @@ anchor_source            prototype_domain_vocabulary
 - `top_class_share` reported and flagged where above 30%
 - Side-by-side contrast against catalogue anchoring
 - `anchor_source` populated as a literal field
+- `prototype_source`, `construction_method` and `evaluation_exclusion` recorded per prototype
+- 60/40 calibration split fixed and recorded before the first run
+- `G1.1e` blind-sample orders excluded from Object Part evaluation
 - Nothing promoted
 
 ---
@@ -502,7 +563,6 @@ anchor_source            prototype_domain_vocabulary
 Whether `G2.1` — supervised training — is warranted at all.
 
 If zero-shot achieves defensible coverage at precision ≥ 0.80, training a supervised classifier on the same evidence adds risk without adding information. **That would be a valid POC conclusion, not a shortfall.**
-
 
 
 
