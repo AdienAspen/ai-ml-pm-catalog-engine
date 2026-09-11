@@ -1,0 +1,5 @@
+target,path_bucket,source_artifact,selection_rule,unit_field,expected_f6_admitted_units,recovered_rows,recovered_unique_units,reconciles_to_f6,unique_units_equal_rows,raw_operational_values_emitted
+Symptom,RELATIONAL_REASON,t51b2x_reason_semantic_classification_normalized.csv,predicted_class=observed_condition;abstained=False,reason_hash,1827,1827,696,True,False,False
+Symptom,PATH_A_CONCERN_TABLE,t51b24b_semantic_other_paths.csv,predicted_class=observed_condition;abstained=False,record_hash,68,68,68,True,True,False
+Symptom,PATH_A_NOTES,t51b24b_semantic_other_paths.csv,predicted_class=observed_condition;abstained=False,record_hash,42,42,42,True,True,False
+Symptom,B2_WORKBOOKS,t51b24b_semantic_other_paths.csv,predicted_class=observed_condition;abstained=False,record_hash,62,62,62,True,True,False

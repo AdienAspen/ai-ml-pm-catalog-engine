@@ -1,0 +1,17 @@
+{
+  "all_paths_reconcile_to_f6": true,
+  "expected_f6_admitted_units": {
+    "B2_WORKBOOKS": 62,
+    "PATH_A_CONCERN_TABLE": 68,
+    "PATH_A_NOTES": 42,
+    "RELATIONAL_REASON": 1827
+  },
+  "raw_operational_values_emitted": false,
+  "recovered_total_rows": 1999,
+  "selection_rule": "predicted_class=observed_condition;abstained=False",
+  "source_artifacts": {
+    "RELATIONAL_REASON": "stint-1-evidence-ground-truth/phase_5_symptom/outputs/f51_symptom_thread_resolution/t51b2x_reason_semantic_classification_normalized.csv",
+    "other_paths": "stint-1-evidence-ground-truth/phase_5_symptom/outputs/f51_symptom_thread_resolution/t51b24b_semantic_other_paths.csv"
+  },
+  "task": "G0.0b_recover_symptom_row_level_units"
+}

@@ -1,0 +1,15 @@
+group,statistic,combined_text_word_count
+no_high_band_anchor_with_text,min,1.0
+no_high_band_anchor_with_text,p25,11.0
+no_high_band_anchor_with_text,median,23.0
+no_high_band_anchor_with_text,p75,35.0
+no_high_band_anchor_with_text,p90,48.0
+no_high_band_anchor_with_text,p95,100.5
+no_high_band_anchor_with_text,max,205.0
+high_band_anchor,min,2.0
+high_band_anchor,p25,33.0
+high_band_anchor,median,48.0
+high_band_anchor,p75,58.0
+high_band_anchor,p90,131.0
+high_band_anchor,p95,205.0
+high_band_anchor,max,614.0

@@ -1,0 +1,6 @@
+site_id_hash,site_key,ih06_root_hash,orders,orders_with_turbine_token,matched_asset_node_orders,asset_node_match_rate,unmatched_turbine_token_orders,missing_turbine_token_orders,ih06_record_count,ih06_leaf_record_count,ih06_max_depth,ih06_depth_ge_6_count,reachable_leaf_depths,reachability_verdict,alignment_basis,raw_values_emitted
+SITEID-3edc899252b6,SITE-003,IH06ROOT-62a7722a6980,1581,1548,1548,97.912713,0,33,2775,2093,5,0,3;4;5,asset_node_reachable_leaf_requires_component_selector,site_name_contract_name_high_confidence,False
+SITEID-d7884cb59dcc,SITE-008,IH06ROOT-b3ce9f4027b8,4192,4186,4186,99.85687,0,6,12015,9324,5,0,3;4;5,asset_node_reachable_leaf_requires_component_selector,site_name_contract_name_high_confidence,False
+SITEID-b96c210bc005,SITE-007,IH06ROOT-884e789e91d0,2299,2296,2296,99.869508,0,3,8417,6547,5,0,3;4;5,asset_node_reachable_leaf_requires_component_selector,site_name_contract_name_high_confidence,False
+SITEID-650c6f421e7f,SITE-009,IH06ROOT-4572a6e276ac,1898,1897,1897,99.947313,0,1,9601,7536,5,0,3;4;5,asset_node_reachable_leaf_requires_component_selector,site_name_contract_name_high_confidence,False
+SITEID-5e258808987e,SITE-001,IH06ROOT-f68a48a9c71b,779,772,772,99.101412,0,7,22401,17586,5,0,2;3;4;5,asset_node_reachable_leaf_requires_component_selector,site_name_contract_name_high_confidence,False

@@ -1,0 +1,9 @@
+resource_activity_bucket,unlikely_component_activity_bucket,orders,share_of_no_item_orders
+work time,work_or_other_activity,4037,60.524738
+mob de mob|travel to from turbine|work time,mixed_with_travel_or_mob,1590,23.838081
+no_resource_activity,no_resource_activity,496,7.436282
+mob de mob|work time,mixed_with_travel_or_mob,287,4.302849
+travel to from turbine|work time,mixed_with_travel_or_mob,181,2.713643
+mob de mob,travel_or_mob_only,33,0.494753
+mob de mob|travel to from turbine,travel_or_mob_only,32,0.47976
+travel to from turbine,travel_or_mob_only,14,0.209895

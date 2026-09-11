@@ -1,0 +1,51 @@
+{
+  "annotators": [
+    "chapter_team_annotator_01",
+    "chapter_team_annotator_02"
+  ],
+  "created_at_utc": "2026-09-09T21:50:10.271719+00:00",
+  "max_source_unit_share": 0.05,
+  "missing_text_units_by_target_path": {
+    "Activity|B2_WORKBOOK_SNAPSHOTS": 26,
+    "Cause|B2_WORKBOOK_SNAPSHOTS": 18,
+    "Damage|B2_WORKBOOK_SNAPSHOTS": 9,
+    "Object Part|B2_WORKBOOK_SNAPSHOTS": 76,
+    "Symptom|RELATIONAL_REASON": 12
+  },
+  "overlap_rate": 0.25,
+  "overlap_records": 375,
+  "package_rows_by_annotator": {
+    "chapter_team_annotator_01": 935,
+    "chapter_team_annotator_02": 940
+  },
+  "protocol_version": "G0.1-v1",
+  "raw_operational_values_emitted_in_versioned_outputs": false,
+  "sampled_by_target": {
+    "Activity": 300,
+    "Cause": 300,
+    "Damage": 300,
+    "Object Part": 300,
+    "Symptom": 300
+  },
+  "sampled_by_target_path": {
+    "Activity|B1_RELATIONAL_TEXTUAL": 197,
+    "Activity|B2_WORKBOOK_SNAPSHOTS": 48,
+    "Activity|PATH_A_PDF_EVENTS": 55,
+    "Cause|B1_RELATIONAL_TEXTUAL": 225,
+    "Cause|B2_WORKBOOK_SNAPSHOTS": 39,
+    "Cause|PATH_A_PDF_EVENTS": 36,
+    "Damage|B1_RELATIONAL_TEXTUAL": 256,
+    "Damage|B2_WORKBOOK_SNAPSHOTS": 20,
+    "Damage|PATH_A_PDF_EVENTS": 24,
+    "Object Part|B2_WORKBOOK_SNAPSHOTS": 179,
+    "Object Part|PATH_A_PDF_EVENTS": 121,
+    "Symptom|B2_WORKBOOKS": 62,
+    "Symptom|PATH_A_CONCERN_TABLE": 68,
+    "Symptom|PATH_A_NOTES": 42,
+    "Symptom|RELATIONAL_REASON": 128
+  },
+  "sampled_records": 1500,
+  "target_sample_size": 300,
+  "task": "G0.2_stratified_annotation_sample",
+  "visible_text_packages_versioned": false
+}

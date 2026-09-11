@@ -1,0 +1,17 @@
+group,resource_activity_bucket,unlikely_component_activity_bucket,orders,share_of_group
+high_band_anchor,work time,work_or_other_activity,2297,61.466417
+high_band_anchor,mob de mob|travel to from turbine|work time,mixed_with_travel_or_mob,904,24.190527
+high_band_anchor,no_resource_activity,no_resource_activity,251,6.716618
+high_band_anchor,mob de mob|work time,mixed_with_travel_or_mob,120,3.211132
+high_band_anchor,travel to from turbine|work time,mixed_with_travel_or_mob,111,2.970297
+high_band_anchor,mob de mob,travel_or_mob_only,26,0.695745
+high_band_anchor,mob de mob|travel to from turbine,travel_or_mob_only,18,0.48167
+high_band_anchor,travel to from turbine,travel_or_mob_only,10,0.267594
+no_high_band_anchor_with_text,work time,work_or_other_activity,1740,59.365404
+no_high_band_anchor_with_text,mob de mob|travel to from turbine|work time,mixed_with_travel_or_mob,686,23.404981
+no_high_band_anchor_with_text,no_resource_activity,no_resource_activity,243,8.290686
+no_high_band_anchor_with_text,mob de mob|work time,mixed_with_travel_or_mob,167,5.697714
+no_high_band_anchor_with_text,travel to from turbine|work time,mixed_with_travel_or_mob,70,2.388263
+no_high_band_anchor_with_text,mob de mob|travel to from turbine,travel_or_mob_only,14,0.477653
+no_high_band_anchor_with_text,mob de mob,travel_or_mob_only,7,0.238826
+no_high_band_anchor_with_text,travel to from turbine,travel_or_mob_only,4,0.136472

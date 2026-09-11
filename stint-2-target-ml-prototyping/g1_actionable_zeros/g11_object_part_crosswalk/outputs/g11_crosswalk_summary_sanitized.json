@@ -1,0 +1,23 @@
+{
+  "catalog_b_rows": 1240,
+  "consumption_records": 10749,
+  "created_at_utc": "2026-09-10T22:20:27.664219+00:00",
+  "crosswalk_status_counts": {
+    "auto_candidate_medium": 5,
+    "auto_candidate_strong": 498,
+    "auto_candidate_weak": 58,
+    "no_catalog_b_candidate": 147
+  },
+  "distinct_catalog_b_codes": 1240,
+  "distinct_source_item_concepts": 708,
+  "internal_review_dir_mode": "700",
+  "internal_review_file_mode": "600",
+  "item_signal_rows": 15358,
+  "orders_with_items": 4079,
+  "orders_with_strong_or_medium_candidate": 3027,
+  "orders_with_strong_or_medium_candidate_percent_of_item_orders": 74.209365,
+  "orders_without_items": 6670,
+  "promotion_rule": "A candidate crosswalk is not contractual truth and requires explicit review before admission.",
+  "raw_operational_values_emitted_in_versioned_outputs": false,
+  "task": "G1.1_material_to_catalog_b_crosswalk"
+}

@@ -1,0 +1,28 @@
+annotation_id,target,path_bucket,annotator_1_response,annotator_2_response,text_in_versioned_artifact
+G02-ANN-00048,Activity,ALL,condition_not_activity,activity_present,False
+G02-ANN-00271,Activity,ALL,activity_present,condition_not_activity,False
+G02-ANN-00285,Activity,ALL,activity_present,condition_not_activity,False
+G02-ANN-00426,Cause,ALL,cause_present,no_cause_stated,False
+G02-ANN-00452,Cause,ALL,not_interpretable,no_cause_stated,False
+G02-ANN-00469,Cause,ALL,not_interpretable,no_cause_stated,False
+G02-ANN-00484,Cause,ALL,cause_present,no_cause_stated,False
+G02-ANN-00509,Cause,ALL,cause_present,no_cause_stated,False
+G02-ANN-00516,Cause,ALL,cause_present,no_cause_stated,False
+G02-ANN-00605,Damage,ALL,damage_present,action_not_damage,False
+G02-ANN-00609,Damage,ALL,action_not_damage,symptom_not_damage,False
+G02-ANN-00610,Damage,ALL,damage_present,symptom_not_damage,False
+G02-ANN-00620,Damage,ALL,symptom_not_damage,action_not_damage,False
+G02-ANN-00622,Damage,ALL,damage_present,action_not_damage,False
+G02-ANN-00627,Damage,ALL,not_interpretable,action_not_damage,False
+G02-ANN-00930,Object Part,ALL,component_identified,no_component,False
+G02-ANN-00935,Object Part,ALL,component_identified,no_component,False
+G02-ANN-00953,Object Part,ALL,system_only,no_component,False
+G02-ANN-00961,Object Part,ALL,system_only,no_component,False
+G02-ANN-01025,Object Part,ALL,component_identified,no_component,False
+G02-ANN-01035,Object Part,ALL,system_only,no_component,False
+G02-ANN-01339,Symptom,ALL,dispatch_motive,observed_condition,False
+G02-ANN-01350,Symptom,ALL,ambiguous,observed_condition,False
+G02-ANN-01395,Symptom,ALL,observed_condition,ambiguous,False
+G02-ANN-01397,Symptom,ALL,observed_condition,ambiguous,False
+G02-ANN-01402,Symptom,ALL,observed_condition,ambiguous,False
+G02-ANN-01411,Symptom,ALL,observed_condition,ambiguous,False

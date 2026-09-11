@@ -1,0 +1,52 @@
+{
+  "candidate_promotion_performed": false,
+  "created_at_utc": "2026-09-11T18:35:26.221785+00:00",
+  "denominator_change_performed": false,
+  "group_a_class_breakdown": [
+    {
+      "blind_profile_class": "undetermined",
+      "distinct_item_concepts": 71,
+      "item_rows": 968,
+      "orders_covered": 900,
+      "share_of_distinct_concepts": 60.169492
+    },
+    {
+      "blind_profile_class": "likely_component_no_code",
+      "distinct_item_concepts": 24,
+      "item_rows": 231,
+      "orders_covered": 155,
+      "share_of_distinct_concepts": 20.338983
+    },
+    {
+      "blind_profile_class": "generic_hardware",
+      "distinct_item_concepts": 12,
+      "item_rows": 71,
+      "orders_covered": 63,
+      "share_of_distinct_concepts": 10.169492
+    },
+    {
+      "blind_profile_class": "consumable_or_non_component",
+      "distinct_item_concepts": 11,
+      "item_rows": 172,
+      "orders_covered": 168,
+      "share_of_distinct_concepts": 9.322034
+    }
+  ],
+  "group_a_definition": "Item-bearing B1 orders with no auto_candidate_strong material concept.",
+  "group_a_distinct_unresolved_item_concepts": 118,
+  "group_a_orders": 1066,
+  "group_b_definition": "No-item B1 orders with non-empty combined text and zero high-band Object Part anchor.",
+  "group_b_empty_text_no_anchor": 2,
+  "group_b_high_band_anchor_comparator_orders": 3737,
+  "group_b_no_anchor_including_empty_text": 2933,
+  "group_b_orders_exact": 2931,
+  "task": "G1.1e_blind_residual_profile",
+  "tooling_note": "pandas over existing artefacts; classification is rule-based blind profiling, not candidate emission.",
+  "versioned_raw_text_emitted": false,
+  "visible_text_samples": {
+    "directory_mode": "700",
+    "file_mode": "600",
+    "group_a": "internal/g11e_group_a_blind_concept_sample_internal.csv",
+    "group_b": "internal/g11e_group_b_blind_order_sample_internal.csv"
+  }
+}

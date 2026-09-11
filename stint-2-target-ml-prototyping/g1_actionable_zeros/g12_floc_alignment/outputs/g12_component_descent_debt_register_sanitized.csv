@@ -1,0 +1,2 @@
+debt_id,scope,status,dependency,reachable_orders_via_consumption_strong_or_medium,service_order_universe,reachable_share_of_universe,handoff_phase,reason
+G12-DEBT-0001,FLOC leaf component descent,registered_debt_not_open_g1_blocker,G1.1 consumption material to Catalog B crosswalk,3027,10749,28.160759,G2_or_later,"component is inferable only where consumption item signal exists; this is downstream feature/label construction, not G1 alignment"

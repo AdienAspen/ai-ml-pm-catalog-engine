@@ -1,0 +1,13 @@
+target,path_bucket,anchor_source,distinct_high_band_concepts,target_path_concepts,share_of_target_path_concepts
+Activity,B1_RELATIONAL,sap_catalog,8,8,100.0
+Activity,B2_WORKBOOKS,sap_catalog,6,6,100.0
+Cause,B1_RELATIONAL,domain_vocabulary,3,26,11.538462
+Cause,B1_RELATIONAL,sap_catalog,23,26,88.461538
+Cause,B2_WORKBOOKS,domain_vocabulary,2,15,13.333333
+Cause,B2_WORKBOOKS,sap_catalog,13,15,86.666667
+Cause,PATH_A,sap_catalog,6,6,100.0
+Damage,B1_RELATIONAL,domain_vocabulary,7,26,26.923077
+Damage,B1_RELATIONAL,sap_catalog,19,26,73.076923
+Damage,B2_WORKBOOKS,domain_vocabulary,3,15,20.0
+Damage,B2_WORKBOOKS,sap_catalog,12,15,80.0
+Damage,PATH_A,sap_catalog,4,4,100.0

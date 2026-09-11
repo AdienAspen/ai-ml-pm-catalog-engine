@@ -1,0 +1,33 @@
+target,path_bucket,denominator_type,anchor_source,unique_units,share_of_path_units_pct,share_note,source_artifact
+Activity,B1_RELATIONAL_TEXTUAL,proxy_poc,sap_catalog,2846,100.0,non_exclusive_unit_membership; shares may sum above 100,b1_silver_labels_textual_residue_sanitized.csv
+Activity,B2_WORKBOOK_SNAPSHOTS,proxy_poc,sap_catalog,74,100.0,non_exclusive_unit_membership; shares may sum above 100,b25_grouped_reanchored_evidence_sanitized.csv
+Activity,PATH_A_PDF_EVENTS,proxy_poc,domain_vocabulary,56,16.52,non_exclusive_unit_membership; shares may sum above 100,f356_path_a_integrated_crosswalk_sanitized.csv
+Activity,PATH_A_PDF_EVENTS,proxy_poc,unknown,283,83.48,non_exclusive_unit_membership; shares may sum above 100,f356_path_a_integrated_crosswalk_sanitized.csv
+Activity Type / MAT,B1_RELATIONAL_STRUCTURED,contractual,structural_field,10749,100.0,non_exclusive_unit_membership; shares may sum above 100,b1_deterministic_harvest_evidence_sanitized.csv
+Activity Type / MAT,B1_RELATIONAL_STRUCTURED,proxy_poc,structural_field,10749,100.0,non_exclusive_unit_membership; shares may sum above 100,b1_deterministic_harvest_evidence_sanitized.csv
+Cause,B1_RELATIONAL_TEXTUAL,proxy_poc,domain_vocabulary,599,18.3,non_exclusive_unit_membership; shares may sum above 100,b1_silver_labels_textual_residue_sanitized.csv
+Cause,B1_RELATIONAL_TEXTUAL,proxy_poc,sap_catalog,3204,97.89,non_exclusive_unit_membership; shares may sum above 100,b1_silver_labels_textual_residue_sanitized.csv
+Cause,B2_WORKBOOK_SNAPSHOTS,proxy_poc,domain_vocabulary,12,21.05,non_exclusive_unit_membership; shares may sum above 100,b25_grouped_reanchored_evidence_sanitized.csv
+Cause,B2_WORKBOOK_SNAPSHOTS,proxy_poc,sap_catalog,48,84.21,non_exclusive_unit_membership; shares may sum above 100,b25_grouped_reanchored_evidence_sanitized.csv
+Cause,PATH_A_PDF_EVENTS,proxy_poc,domain_vocabulary,36,100.0,non_exclusive_unit_membership; shares may sum above 100,f356_path_a_integrated_crosswalk_sanitized.csv
+Damage,B1_RELATIONAL_TEXTUAL,proxy_poc,domain_vocabulary,1867,41.7,non_exclusive_unit_membership; shares may sum above 100,b1_silver_labels_textual_residue_sanitized.csv
+Damage,B1_RELATIONAL_TEXTUAL,proxy_poc,sap_catalog,3310,73.93,non_exclusive_unit_membership; shares may sum above 100,b1_silver_labels_textual_residue_sanitized.csv
+Damage,B1_RELATIONAL_TEXTUAL,proxy_poc,unknown,840,18.76,non_exclusive_unit_membership; shares may sum above 100,b1_silver_labels_textual_residue_sanitized.csv
+Damage,B2_WORKBOOK_SNAPSHOTS,proxy_poc,domain_vocabulary,27,24.55,non_exclusive_unit_membership; shares may sum above 100,b25_grouped_reanchored_evidence_sanitized.csv
+Damage,B2_WORKBOOK_SNAPSHOTS,proxy_poc,sap_catalog,30,27.27,non_exclusive_unit_membership; shares may sum above 100,b25_grouped_reanchored_evidence_sanitized.csv
+Damage,B2_WORKBOOK_SNAPSHOTS,proxy_poc,unknown,58,52.73,non_exclusive_unit_membership; shares may sum above 100,b25_grouped_reanchored_evidence_sanitized.csv
+Damage,PATH_A_PDF_EVENTS,proxy_poc,domain_vocabulary,50,43.1,non_exclusive_unit_membership; shares may sum above 100,f356_path_a_integrated_crosswalk_sanitized.csv
+Damage,PATH_A_PDF_EVENTS,proxy_poc,unknown,66,56.9,non_exclusive_unit_membership; shares may sum above 100,f356_path_a_integrated_crosswalk_sanitized.csv
+FLOC leaf,B1_RELATIONAL_STRUCTURED,contractual,structural_field,10749,100.0,non_exclusive_unit_membership; shares may sum above 100,b1_deterministic_harvest_evidence_sanitized.csv
+FLOC leaf,B1_RELATIONAL_STRUCTURED,proxy_poc,structural_field,10749,100.0,non_exclusive_unit_membership; shares may sum above 100,b1_deterministic_harvest_evidence_sanitized.csv
+Object Part,B1_RELATIONAL_STRUCTURED,contractual,structural_field,4079,100.0,non_exclusive_unit_membership; shares may sum above 100,b1_deterministic_harvest_evidence_sanitized.csv
+Object Part,B1_RELATIONAL_STRUCTURED,proxy_poc,structural_field,4079,100.0,non_exclusive_unit_membership; shares may sum above 100,b1_deterministic_harvest_evidence_sanitized.csv
+Object Part,B2_WORKBOOK_SNAPSHOTS,proxy_poc,sap_catalog,488,100.0,non_exclusive_unit_membership; shares may sum above 100,b25_grouped_reanchored_evidence_sanitized.csv
+Object Part,PATH_A_PDF_EVENTS,proxy_poc,domain_vocabulary,93,33.21,non_exclusive_unit_membership; shares may sum above 100,f356_path_a_integrated_crosswalk_sanitized.csv
+Object Part,PATH_A_PDF_EVENTS,proxy_poc,unknown,187,66.79,non_exclusive_unit_membership; shares may sum above 100,f356_path_a_integrated_crosswalk_sanitized.csv
+Symptom,B2_WORKBOOKS,proxy_poc,not_assessable_aggregate_only,,,aggregate_only_from_f6,t51b25_symptom_final_path_verdict_sanitized.csv
+Symptom,B2_WORKBOOK_SNAPSHOTS,proxy_poc,sap_catalog,365,100.0,non_exclusive_unit_membership; shares may sum above 100,b25_grouped_reanchored_evidence_sanitized.csv
+Symptom,LEXICAL_LAYER_V2_HIGH_BAND,proxy_poc,not_assessable_aggregate_only,,,aggregate_only_from_f6,f51c_symptom_lexicon_survival_summary_sanitized.json
+Symptom,PATH_A_CONCERN_TABLE,proxy_poc,not_assessable_aggregate_only,,,aggregate_only_from_f6,t51b25_symptom_final_path_verdict_sanitized.csv
+Symptom,PATH_A_NOTES,proxy_poc,not_assessable_aggregate_only,,,aggregate_only_from_f6,t51b25_symptom_final_path_verdict_sanitized.csv
+Symptom,RELATIONAL_REASON,proxy_poc,not_assessable_aggregate_only,,,aggregate_only_from_f6,t51b25_symptom_final_path_verdict_sanitized.csv

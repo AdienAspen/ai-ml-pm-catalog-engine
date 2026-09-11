@@ -1,0 +1,13 @@
+target,path_bucket,source_artifact,anchor_source_field_present,anchor_source_non_null_rows,anchor_source_field_status
+Activity,B1_RELATIONAL,b1_silver_labels_textual_residue_sanitized.csv,False,0,missing
+Cause,B1_RELATIONAL,b1_silver_labels_textual_residue_sanitized.csv,False,0,missing
+Damage,B1_RELATIONAL,b1_silver_labels_textual_residue_sanitized.csv,False,0,missing
+Activity,B2_WORKBOOKS,b25_grouped_reanchored_evidence_sanitized.csv,False,0,missing
+Cause,B2_WORKBOOKS,b25_grouped_reanchored_evidence_sanitized.csv,False,0,missing
+Damage,B2_WORKBOOKS,b25_grouped_reanchored_evidence_sanitized.csv,False,0,missing
+Activity,PATH_A,f356_path_a_integrated_crosswalk_sanitized.csv,False,0,missing
+Cause,PATH_A,f356_path_a_integrated_crosswalk_sanitized.csv,False,0,missing
+Damage,PATH_A,f356_path_a_integrated_crosswalk_sanitized.csv,False,0,missing
+Symptom,B1_RELATIONAL,t51b2x_reason_semantic_classification_normalized.csv,False,0,missing
+Symptom,PATH_A,t51b24b_semantic_other_paths.csv,False,0,missing
+Symptom,B2_WORKBOOKS,t51b24b_semantic_other_paths.csv,False,0,missing

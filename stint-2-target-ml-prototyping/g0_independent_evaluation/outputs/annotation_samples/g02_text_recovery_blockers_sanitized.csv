@@ -1,0 +1,6 @@
+target,path_bucket,missing_text_units,protocol_impact,note
+Activity,B2_WORKBOOK_SNAPSHOTS,26,excluded_from_visible_annotation_package_until_text_recovered,"Sampling unit exists, but visible PII-redacted text could not be reconstructed from available closed-environment artifacts."
+Cause,B2_WORKBOOK_SNAPSHOTS,18,excluded_from_visible_annotation_package_until_text_recovered,"Sampling unit exists, but visible PII-redacted text could not be reconstructed from available closed-environment artifacts."
+Damage,B2_WORKBOOK_SNAPSHOTS,9,excluded_from_visible_annotation_package_until_text_recovered,"Sampling unit exists, but visible PII-redacted text could not be reconstructed from available closed-environment artifacts."
+Object Part,B2_WORKBOOK_SNAPSHOTS,76,excluded_from_visible_annotation_package_until_text_recovered,"Sampling unit exists, but visible PII-redacted text could not be reconstructed from available closed-environment artifacts."
+Symptom,RELATIONAL_REASON,12,excluded_from_visible_annotation_package_until_text_recovered,"Sampling unit exists, but visible PII-redacted text could not be reconstructed from available closed-environment artifacts."

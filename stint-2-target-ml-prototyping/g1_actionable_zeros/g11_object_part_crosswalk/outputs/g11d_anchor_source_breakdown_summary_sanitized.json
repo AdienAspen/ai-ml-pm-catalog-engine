@@ -1,0 +1,31 @@
+{
+  "anchor_source_mapping": {
+    "DOMAIN_VOCABULARY": "domain_vocabulary",
+    "SAP_MAPPING": "sap_catalog",
+    "STRUCTURAL_FIELD": "structural_field",
+    "catalog_* namespace": "sap_catalog"
+  },
+  "anchored_orders": 3737,
+  "candidate_promotion_performed": false,
+  "concept_breakdown": [
+    {
+      "anchor_source": "sap_catalog",
+      "distinct_high_band_concepts_matched": 70,
+      "share_of_matched_concepts": 100.0
+    }
+  ],
+  "created_at_utc": "2026-09-11T18:26:07.583402+00:00",
+  "denominator_change_performed": false,
+  "distinct_high_band_concepts_matched": 70,
+  "no_item_orders_profiled": 6670,
+  "order_breakdown": [
+    {
+      "anchor_source_breakdown": "sap_catalog_only",
+      "orders": 3737,
+      "share_of_anchored_orders": 100.0
+    }
+  ],
+  "raw_text_emitted": false,
+  "scope": "B1 no-item orders with at least one Object Part high-band anchor",
+  "task": "G1.1d_anchor_source_breakdown"
+}

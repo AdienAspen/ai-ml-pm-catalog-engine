@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-09-10T23:15:45.051337+00:00",
+  "g2_must_use": "f6_g1_evidence_denominator_matrix_sanitized.csv",
+  "raw_operational_values_emitted": false,
+  "source_f6_closure": "stint-1-evidence-ground-truth/phase_6_denominators/outputs/f6_committee_closure_denominator_table_sanitized.csv",
+  "source_f6_matrix": "stint-1-evidence-ground-truth/phase_6_denominators/outputs/f6_evidence_denominator_matrix_sanitized.csv",
+  "stint1_f6_mutated": false,
+  "task": "F6_G1_denominator_update",
+  "updates": {
+    "FLOC leaf": {
+      "admitted_units": 0,
+      "reason": "component not reachable from service-order asset reference alone",
+      "status": "held"
+    },
+    "FLOC turbine|B1_RELATIONAL_STRUCTURED|proxy_poc": {
+      "granularity": "site_plus_turbine_asset_node",
+      "new_admitted_units": 10699,
+      "old_admitted_units": 0
+    },
+    "Object Part|B1_RELATIONAL_STRUCTURED|proxy_poc": {
+      "excluded_tiers": "medium;weak;no_candidate",
+      "new_admitted_units": 3027,
+      "old_admitted_units": 0,
+      "tier": "strong_only"
+    }
+  }
+}

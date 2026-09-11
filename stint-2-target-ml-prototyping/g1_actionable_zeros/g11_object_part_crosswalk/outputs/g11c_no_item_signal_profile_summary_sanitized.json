@@ -1,0 +1,23 @@
+{
+  "candidate_promotion_performed": false,
+  "combined_text_non_empty": 6668,
+  "combined_text_non_empty_percent": 99.970015,
+  "created_at_utc": "2026-09-11T18:13:58.758289+00:00",
+  "denominator_change_performed": false,
+  "descriptionExtended_non_empty": 6380,
+  "descriptionExtended_non_empty_percent": 95.652174,
+  "lexical_anchor_rule": "Object Part lexical_layer_v2 high band only; canonical concepts phrase-matched to descriptionExtended + reason for profiling counts only.",
+  "object_part_high_band_canonical_concepts_loaded": 145,
+  "orders_with_at_least_one_object_part_high_band_anchor": 3737,
+  "orders_with_at_least_one_object_part_high_band_anchor_percent": 56.026987,
+  "orders_with_item_signal": 4079,
+  "orders_without_item_signal": 6670,
+  "reason_non_empty": 6321,
+  "reason_non_empty_percent": 94.767616,
+  "sanitization": "Versioned outputs contain hashes, counts, metadata, and controlled vocabulary keys; no raw service-order text is emitted.",
+  "scope": "B1 orders without consumption item signal only",
+  "service_order_universe": 10749,
+  "task": "G1.1c_no_item_signal_profile",
+  "unique_object_part_high_band_concepts_matched": 70,
+  "unversioned_visible_text_emitted": false
+}

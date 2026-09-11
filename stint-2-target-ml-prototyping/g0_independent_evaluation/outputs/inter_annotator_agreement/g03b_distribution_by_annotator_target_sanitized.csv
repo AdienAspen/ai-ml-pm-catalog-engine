@@ -1,0 +1,33 @@
+annotator_id,annotator_label,target,class_label,count,percent,target_total,abstention_rate
+chapter_team_annotator_01,ANNOTATOR_1,Activity,activity_present,184,98.3957,187,0.0
+chapter_team_annotator_01,ANNOTATOR_1,Activity,condition_not_activity,3,1.6043,187,0.0
+chapter_team_annotator_01,ANNOTATOR_1,Cause,cause_present,28,14.9733,187,0.0
+chapter_team_annotator_01,ANNOTATOR_1,Cause,no_cause_stated,157,83.9572,187,0.0
+chapter_team_annotator_01,ANNOTATOR_1,Cause,not_interpretable,2,1.0695,187,0.0
+chapter_team_annotator_01,ANNOTATOR_1,Damage,abstain,10,5.3476,187,5.3476
+chapter_team_annotator_01,ANNOTATOR_1,Damage,action_not_damage,56,29.9465,187,5.3476
+chapter_team_annotator_01,ANNOTATOR_1,Damage,damage_present,47,25.1337,187,5.3476
+chapter_team_annotator_01,ANNOTATOR_1,Damage,not_interpretable,9,4.8128,187,5.3476
+chapter_team_annotator_01,ANNOTATOR_1,Damage,symptom_not_damage,65,34.7594,187,5.3476
+chapter_team_annotator_01,ANNOTATOR_1,Object Part,component_identified,115,61.4973,187,0.0
+chapter_team_annotator_01,ANNOTATOR_1,Object Part,no_component,47,25.1337,187,0.0
+chapter_team_annotator_01,ANNOTATOR_1,Object Part,system_only,25,13.369,187,0.0
+chapter_team_annotator_01,ANNOTATOR_1,Symptom,ambiguous,11,5.8824,187,0.0
+chapter_team_annotator_01,ANNOTATOR_1,Symptom,dispatch_motive,21,11.2299,187,0.0
+chapter_team_annotator_01,ANNOTATOR_1,Symptom,not_interpretable,10,5.3476,187,0.0
+chapter_team_annotator_01,ANNOTATOR_1,Symptom,observed_condition,145,77.5401,187,0.0
+chapter_team_annotator_02,ANNOTATOR_2,Activity,activity_present,181,96.2766,188,0.0
+chapter_team_annotator_02,ANNOTATOR_2,Activity,condition_not_activity,7,3.7234,188,0.0
+chapter_team_annotator_02,ANNOTATOR_2,Cause,cause_present,30,15.9574,188,0.0
+chapter_team_annotator_02,ANNOTATOR_2,Cause,no_cause_stated,158,84.0426,188,0.0
+chapter_team_annotator_02,ANNOTATOR_2,Damage,abstain,15,7.9787,188,7.9787
+chapter_team_annotator_02,ANNOTATOR_2,Damage,action_not_damage,49,26.0638,188,7.9787
+chapter_team_annotator_02,ANNOTATOR_2,Damage,damage_present,17,9.0426,188,7.9787
+chapter_team_annotator_02,ANNOTATOR_2,Damage,symptom_not_damage,107,56.9149,188,7.9787
+chapter_team_annotator_02,ANNOTATOR_2,Object Part,component_identified,93,49.4681,188,0.0
+chapter_team_annotator_02,ANNOTATOR_2,Object Part,no_component,88,46.8085,188,0.0
+chapter_team_annotator_02,ANNOTATOR_2,Object Part,system_only,7,3.7234,188,0.0
+chapter_team_annotator_02,ANNOTATOR_2,Symptom,ambiguous,24,12.766,188,0.0
+chapter_team_annotator_02,ANNOTATOR_2,Symptom,dispatch_motive,11,5.8511,188,0.0
+chapter_team_annotator_02,ANNOTATOR_2,Symptom,not_interpretable,7,3.7234,188,0.0
+chapter_team_annotator_02,ANNOTATOR_2,Symptom,observed_condition,146,77.6596,188,0.0

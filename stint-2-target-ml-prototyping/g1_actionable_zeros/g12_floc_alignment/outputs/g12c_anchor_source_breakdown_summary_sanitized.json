@@ -1,0 +1,27 @@
+{
+  "anchor_source_field_on_evidence_rows": "missing in inspected evidence artefacts; analytical source is derived from concept/vocabulary_owner where concept anchors exist, otherwise no_anchor_source_recorded.",
+  "candidate_promotion_performed": false,
+  "canonical_vocabulary_anchor_source_column_present": false,
+  "counting_only": true,
+  "created_at_utc": "2026-09-11T19:46:15.036457+00:00",
+  "denominator_change_performed": false,
+  "outputs": [
+    "g12c_anchor_source_unit_breakdown_sanitized.csv",
+    "g12c_anchor_source_unit_breakdown_wide_sanitized.csv",
+    "g12c_anchor_source_concept_breakdown_sanitized.csv",
+    "g12c_anchor_source_top10_concepts_sanitized.csv",
+    "g12c_anchor_source_field_population_sanitized.csv"
+  ],
+  "paths_normalized": [
+    "B1_RELATIONAL",
+    "PATH_A",
+    "B2_WORKBOOKS"
+  ],
+  "targets": [
+    "Symptom",
+    "Damage",
+    "Cause",
+    "Activity"
+  ],
+  "task": "G1.2c_anchor_source_breakdown_remaining_targets"
+}

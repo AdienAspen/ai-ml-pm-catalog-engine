@@ -1,0 +1,23 @@
+{
+  "admitted_targets": [
+    "Cause",
+    "Object Part",
+    "Symptom"
+  ],
+  "annotator_01_rows": 561,
+  "annotator_02_rows": 564,
+  "created_at_utc": "2026-09-10T22:03:52.416739+00:00",
+  "held_targets": [
+    "Activity",
+    "Damage"
+  ],
+  "label_generation_method": "blind_llm_annotation",
+  "overlap_agreement_rows": 225,
+  "protocol_version": "g01-v1",
+  "raw_text_in_versioned_outputs": false,
+  "registration_status": "frozen",
+  "sanitization_check": "PASS",
+  "supersession_rule": "Superseded only by explicit v2 registration.",
+  "task": "G0.4_evaluation_set_v1_registration",
+  "unique_training_exclusion_units": 900
+}

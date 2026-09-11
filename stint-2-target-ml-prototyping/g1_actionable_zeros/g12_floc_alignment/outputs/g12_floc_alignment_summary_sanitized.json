@@ -1,0 +1,44 @@
+{
+  "asset_node_match_rate": 99.53484,
+  "component_descent_debt": {
+    "dependency": "G1.1 consumption material to Catalog B crosswalk",
+    "handoff_phase": "G2_or_later",
+    "reachable_orders": 3027,
+    "reachable_share_of_universe": 28.160759,
+    "status": "registered_debt_not_open_g1_blocker"
+  },
+  "created_at_utc": "2026-09-10T22:53:24.790944+00:00",
+  "depth_ge_6_total_for_relevant_sites": 0,
+  "floc_leaf_proxy_status": "not_admitted_as_leaf_label",
+  "ih06_sites_relevant_to_relational_path": 5,
+  "internal_review_dir_mode": "700",
+  "internal_review_file_mode": "600",
+  "matched_asset_node_orders": 10699,
+  "raw_operational_values_emitted_in_versioned_outputs": false,
+  "reason": "service order asset identifiers reach IH06 turbine/asset nodes; leaf labels require component selector below asset node",
+  "registered_targets": {
+    "FLOC leaf": {
+      "admission_status": "HOLD",
+      "admitted_units": 0,
+      "reason": "component not reachable from service-order asset reference alone"
+    },
+    "FLOC turbine": {
+      "admission_status": "ADMIT",
+      "admitted_units": 10699,
+      "granularity": "site_plus_turbine_asset_node",
+      "match_rate": 99.53484
+    }
+  },
+  "service_order_records": 10749,
+  "site003_exception_audit": {
+    "dominant_asset_class": "Substation",
+    "dominant_asset_orders": 32,
+    "exception_orders": 33,
+    "path_a_concern_table_same_count": "coincidental_count_same_number_different_namespace",
+    "secondary_asset_class": "SCADA System",
+    "secondary_asset_orders": 1,
+    "verdict": "explained_non_turbine_assets_not_parser_failure"
+  },
+  "sites_in_relational_path": 5,
+  "task": "G1.2_floc_ih06_alignment"
+}

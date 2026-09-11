@@ -1,0 +1,26 @@
+{
+  "analysis_outputs_emitted": true,
+  "annotator_metadata": {
+    "chapter_team_annotator_01": {
+      "effort": "medium-effort",
+      "label": "ANNOTATOR_1",
+      "model": "Opus 5",
+      "response_dir": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-2-target-ml-prototyping/g0_independent_evaluation/internal/g02_annotation_responses/annotator_1",
+      "temperature_grading_setup": "not_available_in_gui"
+    },
+    "chapter_team_annotator_02": {
+      "effort": "medium-effort",
+      "label": "ANNOTATOR_2",
+      "model": "Gemini 3.6 Flash",
+      "response_dir": "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-2-target-ml-prototyping/g0_independent_evaluation/internal/g02_annotation_responses/annotator_2",
+      "temperature_grading_setup": "not_available_in_gui"
+    }
+  },
+  "blocking_rule": "If one response file fails structural validation, the full file is rejected and agreement is not computed.",
+  "created_at_utc": "2026-09-10T20:34:30.718094+00:00",
+  "files_expected": 10,
+  "files_failed": 0,
+  "files_passed": 10,
+  "structural_validation_status": "PASS",
+  "task": "G0.3_inter_annotator_agreement"
+}

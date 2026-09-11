@@ -1,0 +1,3 @@
+target,admission_status,admitted_units,match_rate,granularity,reason,provenance,downstream_status
+FLOC leaf,HOLD,0,,component_or_maintainable_item_leaf,component not reachable from service-order asset reference alone,not_admitted,component descent registered as G2_or_later debt
+FLOC turbine,ADMIT,10699,99.53484,site_plus_turbine_asset_node,deterministic site and turbine-token alignment to IH06 asset node,derived_from_rules,usable as declared turbine-granularity structural target

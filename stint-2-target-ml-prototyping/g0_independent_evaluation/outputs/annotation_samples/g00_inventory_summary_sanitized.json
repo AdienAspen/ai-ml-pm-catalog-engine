@@ -1,0 +1,18 @@
+{
+  "aggregate_only_rows": 5,
+  "critical_findings": {
+    "cause_path_a_protocol_ceiling": 36,
+    "object_part_admitted_proxy_units_by_path": {
+      "B2_WORKBOOK_SNAPSHOTS": 488,
+      "PATH_A_PDF_EVENTS": 280
+    },
+    "object_part_b1_candidate_units_requires_crosswalk": 4079,
+    "symptom_aggregate_only_admitted_units": 1999
+  },
+  "f6_matrix": "stint-1-evidence-ground-truth/phase_6_denominators/outputs/f6_evidence_denominator_matrix_sanitized.csv",
+  "raw_operational_values_emitted": false,
+  "row_level_rows": 18,
+  "source_commit": "stint1-denominator-closure-v0.7",
+  "target_path_rows": 23,
+  "task": "G0.0_STINT1_inventory_for_annotation_protocol"
+}

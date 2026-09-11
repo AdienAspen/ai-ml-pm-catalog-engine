@@ -1,0 +1,3 @@
+target,path,denominator_type,old_admitted_units,new_admitted_units,change_basis
+Object Part,B1_RELATIONAL_STRUCTURED,proxy_poc,0,3027,G1.1 strong material-to-Catalog-B crosswalk candidates only
+FLOC turbine,B1_RELATIONAL_STRUCTURED,proxy_poc,0,10699,G1.2 deterministic site+turbine-token alignment to IH06 asset node

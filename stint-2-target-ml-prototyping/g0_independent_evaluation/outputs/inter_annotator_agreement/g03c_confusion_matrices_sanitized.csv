@@ -1,0 +1,90 @@
+target,path_bucket,annotator_1_response,annotator_2_response,count
+Activity,ALL,activity_present,activity_present,72
+Activity,ALL,activity_present,condition_not_activity,2
+Activity,ALL,condition_not_activity,activity_present,1
+Activity,B1_RELATIONAL_TEXTUAL,activity_present,activity_present,52
+Activity,B1_RELATIONAL_TEXTUAL,condition_not_activity,activity_present,1
+Activity,B2_WORKBOOK_SNAPSHOTS,activity_present,activity_present,8
+Activity,PATH_A_PDF_EVENTS,activity_present,activity_present,12
+Activity,PATH_A_PDF_EVENTS,activity_present,condition_not_activity,2
+Cause,ALL,cause_present,cause_present,11
+Cause,ALL,cause_present,no_cause_stated,4
+Cause,ALL,no_cause_stated,no_cause_stated,58
+Cause,ALL,not_interpretable,no_cause_stated,2
+Cause,B1_RELATIONAL_TEXTUAL,cause_present,cause_present,9
+Cause,B1_RELATIONAL_TEXTUAL,cause_present,no_cause_stated,4
+Cause,B1_RELATIONAL_TEXTUAL,no_cause_stated,no_cause_stated,44
+Cause,B1_RELATIONAL_TEXTUAL,not_interpretable,no_cause_stated,2
+Cause,B2_WORKBOOK_SNAPSHOTS,cause_present,cause_present,2
+Cause,B2_WORKBOOK_SNAPSHOTS,no_cause_stated,no_cause_stated,8
+Cause,PATH_A_PDF_EVENTS,no_cause_stated,no_cause_stated,6
+Damage,ALL,abstain,abstain,4
+Damage,ALL,action_not_damage,action_not_damage,3
+Damage,ALL,action_not_damage,symptom_not_damage,20
+Damage,ALL,damage_present,abstain,1
+Damage,ALL,damage_present,action_not_damage,7
+Damage,ALL,damage_present,damage_present,5
+Damage,ALL,damage_present,symptom_not_damage,2
+Damage,ALL,not_interpretable,action_not_damage,3
+Damage,ALL,not_interpretable,symptom_not_damage,2
+Damage,ALL,symptom_not_damage,abstain,1
+Damage,ALL,symptom_not_damage,action_not_damage,5
+Damage,ALL,symptom_not_damage,symptom_not_damage,22
+Damage,B1_RELATIONAL_TEXTUAL,abstain,abstain,4
+Damage,B1_RELATIONAL_TEXTUAL,action_not_damage,action_not_damage,1
+Damage,B1_RELATIONAL_TEXTUAL,action_not_damage,symptom_not_damage,18
+Damage,B1_RELATIONAL_TEXTUAL,damage_present,abstain,1
+Damage,B1_RELATIONAL_TEXTUAL,damage_present,action_not_damage,7
+Damage,B1_RELATIONAL_TEXTUAL,damage_present,damage_present,5
+Damage,B1_RELATIONAL_TEXTUAL,damage_present,symptom_not_damage,1
+Damage,B1_RELATIONAL_TEXTUAL,not_interpretable,action_not_damage,3
+Damage,B1_RELATIONAL_TEXTUAL,not_interpretable,symptom_not_damage,1
+Damage,B1_RELATIONAL_TEXTUAL,symptom_not_damage,abstain,1
+Damage,B1_RELATIONAL_TEXTUAL,symptom_not_damage,action_not_damage,4
+Damage,B1_RELATIONAL_TEXTUAL,symptom_not_damage,symptom_not_damage,15
+Damage,B2_WORKBOOK_SNAPSHOTS,action_not_damage,action_not_damage,1
+Damage,B2_WORKBOOK_SNAPSHOTS,action_not_damage,symptom_not_damage,2
+Damage,B2_WORKBOOK_SNAPSHOTS,damage_present,symptom_not_damage,1
+Damage,B2_WORKBOOK_SNAPSHOTS,symptom_not_damage,symptom_not_damage,3
+Damage,PATH_A_PDF_EVENTS,action_not_damage,action_not_damage,1
+Damage,PATH_A_PDF_EVENTS,not_interpretable,symptom_not_damage,1
+Damage,PATH_A_PDF_EVENTS,symptom_not_damage,action_not_damage,1
+Damage,PATH_A_PDF_EVENTS,symptom_not_damage,symptom_not_damage,4
+Object Part,ALL,component_identified,component_identified,41
+Object Part,ALL,component_identified,no_component,4
+Object Part,ALL,no_component,no_component,18
+Object Part,ALL,system_only,component_identified,1
+Object Part,ALL,system_only,no_component,7
+Object Part,ALL,system_only,system_only,4
+Object Part,B2_WORKBOOK_SNAPSHOTS,component_identified,component_identified,13
+Object Part,B2_WORKBOOK_SNAPSHOTS,component_identified,no_component,3
+Object Part,B2_WORKBOOK_SNAPSHOTS,no_component,no_component,18
+Object Part,B2_WORKBOOK_SNAPSHOTS,system_only,no_component,3
+Object Part,B2_WORKBOOK_SNAPSHOTS,system_only,system_only,4
+Object Part,PATH_A_PDF_EVENTS,component_identified,component_identified,28
+Object Part,PATH_A_PDF_EVENTS,component_identified,no_component,1
+Object Part,PATH_A_PDF_EVENTS,system_only,component_identified,1
+Object Part,PATH_A_PDF_EVENTS,system_only,no_component,4
+Symptom,ALL,ambiguous,ambiguous,3
+Symptom,ALL,ambiguous,observed_condition,2
+Symptom,ALL,dispatch_motive,dispatch_motive,5
+Symptom,ALL,dispatch_motive,not_interpretable,1
+Symptom,ALL,dispatch_motive,observed_condition,2
+Symptom,ALL,not_interpretable,not_interpretable,4
+Symptom,ALL,observed_condition,ambiguous,7
+Symptom,ALL,observed_condition,observed_condition,51
+Symptom,B2_WORKBOOKS,ambiguous,ambiguous,1
+Symptom,B2_WORKBOOKS,observed_condition,observed_condition,15
+Symptom,PATH_A_CONCERN_TABLE,observed_condition,observed_condition,15
+Symptom,PATH_A_NOTES,ambiguous,observed_condition,1
+Symptom,PATH_A_NOTES,dispatch_motive,dispatch_motive,2
+Symptom,PATH_A_NOTES,dispatch_motive,observed_condition,1
+Symptom,PATH_A_NOTES,not_interpretable,not_interpretable,4
+Symptom,PATH_A_NOTES,observed_condition,observed_condition,2
+Symptom,RELATIONAL_REASON,ambiguous,ambiguous,2
+Symptom,RELATIONAL_REASON,ambiguous,observed_condition,1
+Symptom,RELATIONAL_REASON,dispatch_motive,dispatch_motive,3
+Symptom,RELATIONAL_REASON,dispatch_motive,not_interpretable,1
+Symptom,RELATIONAL_REASON,dispatch_motive,observed_condition,1
+Symptom,RELATIONAL_REASON,observed_condition,ambiguous,7
+Symptom,RELATIONAL_REASON,observed_condition,observed_condition,19

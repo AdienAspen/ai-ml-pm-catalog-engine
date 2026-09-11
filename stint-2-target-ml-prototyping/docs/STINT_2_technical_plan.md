@@ -99,17 +99,126 @@ Where two annotators are available, annotate the same subset independently and r
 
 **Deliverable:** `g03_inter_annotator_agreement.md`
 
-### G0.4 — Evaluation set registration
+# G0.4 — Evaluation Set v1 Registration
+
+**Instruction for the DevOps team · Estimated: 1 hour**
+
+---
+
+## Purpose
+
+Freeze what is already usable. Three targets closed with substantial agreement; two are held back pending protocol v2. Do not wait for v2 to freeze the clean ones.
+
+---
+
+## Admission by target
 
 ```
-evaluation_independence   independent
-label_generation_method   blind_human_annotation
-annotator_id              recorded
-excluded_mechanisms       rule_set_v1, semantic_prototype_matching_v1,
-                          paraphrase-multilingual-MiniLM-L12-v2
+ADMIT to evaluation_set_v1
+
+  Cause         κ 0.743
+  Object Part   κ 0.716    with declared annotator asymmetry
+  Symptom       κ 0.613
+
+HOLD — not admitted to v1
+
+  Damage        κ 0.196    boundary definitions insufficient
+                           awaiting g01-v2 · full re-annotation
+
+  Activity      κ −0.018   prevalence-dominated · question mis-specified
+                           awaiting separate MNGRP-level round
 ```
 
-**Deliverable:** `g04_evaluation_set_v1.csv` — frozen, never used for training.
+**Held targets are registered as held, not omitted.** A missing row is not the same as a declared exclusion.
+
+---
+
+## Required fields per record
+
+```
+sampling_unit_key
+source_unit_key
+target
+path
+response
+annotator_id                claude-opus-5 | gemini-3.6-flash
+annotator_effort            medium
+evaluation_independence     independent
+label_generation_method     blind_llm_annotation
+protocol_version            g01-v1
+excluded_mechanisms         rule_set_v1
+                            semantic_prototype_matching_v1
+                            paraphrase-multilingual-MiniLM-L12-v2
+annotation_date
+overlap_record              true | false
+```
+
+⚠️ **`label_generation_method` is `blind_llm_annotation`, not `blind_human_annotation`.** Both annotators are language models. Correct this if any artefact still carries the human value.
+
+---
+
+## Reporting structure — do not collapse
+
+**Keep annotator responses separate.** Do not merge, average, or resolve disagreements into a single label.
+
+```
+evaluation_set_v1_annotator_01.csv
+evaluation_set_v1_annotator_02.csv
+evaluation_set_v1_overlap_agreement.csv    where both annotated
+```
+
+**Rationale:** Object Part shows a systematic asymmetry — annotator 02 applies a more restrictive criterion. Merging hides it. Metrics will be reported against each annotator separately, and the difference between them is information.
+
+---
+
+## Training pool exclusion — verify programmatically
+
+```
+every sampling_unit_key in evaluation_set_v1
+  must be removed from the training pool
+  before any model is fitted
+```
+
+**Verify with an assertion, not by assumption.** Emit a count of excluded units per target and per path.
+
+---
+
+## Limitations file — mandatory
+
+Produce `evaluation_set_v1_limitations.md` stating, plainly:
+
+- **Annotators are LLMs, not human SMEs.** They judge information type, not domain correctness of SAP code assignment
+- **No temperature control was available** in either interface — exact reproducibility is not guaranteed
+- **B2 overlap is thin** — between 7 and 41 records depending on target. Agreement in that branch carries wide confidence intervals
+- **141 admitted units had no recoverable text** and are absent from the sample
+- **Object Part carries annotator asymmetry**, declared and unresolved in v1
+- **Damage and Activity are not in this set**, with reasons recorded
+
+**These are limits of the instrument, not defects to soften.**
+
+---
+
+## Sanitisation
+
+```
+versioned      hashes · counts · responses · metadata
+never          raw text · site names · asset identifiers · PII
+internal       visible-text packages remain 600, directory 700
+               covered by .gitignore
+```
+
+---
+
+## Closure criteria
+
+- Three targets admitted with full provenance
+- Two targets registered as held, with reason
+- Annotator files separate, never merged
+- Training exclusion verified with emitted counts
+- Limitations file complete
+- Sanitisation check clean
+
+**Deliverable:** `evaluation_set_v1` frozen · never used for training · superseded only by an explicit v2 registration.
 
 ---
 
@@ -169,6 +278,236 @@ blocker          no alignment between relational asset references
 **Deliverable:** `g12_floc_alignment_by_site.csv` + verdict on reachability
 
 ---
+# G2.0 — Zero-Shot Prototype Baseline
+
+**FSA BRIDGE / STINT_2 · Replaces the original G2 ordering**
+Estimated: 1–2 days
+
+---
+
+## Why this comes first
+
+The original plan ordered TF-IDF supervised baseline before semantic models. That ordering assumed labelled data existed. It does not.
+
+`G1.1d` and `G1.2c` established that the current proxy denominators are inflated by catalogue over-generation:
+
+```
+Activity      1,215 B1 · 100% sap_catalog · top concept anchors 52.7%
+Cause         1,203 of 1,250 B1 · sap_catalog
+Damage          815 of 1,263 B1 · sap_catalog · 312 domain · 136 both
+Object Part   3,737 · 100% sap_catalog · one concept anchors 738 orders
+Symptom       1,999 · no catalogue defect · semantic prototypes already
+```
+
+Catalogue entries are encoded descriptions, not technician language. Anchoring long free text against 13,826 catalogue entries produces matches by word accumulation, not by meaning.
+
+**Zero-shot prototype matching requires no labels and does not have this defect.** It is the correct baseline for an unlabelled corpus, and it is already implemented — `T5.1b2.X-normalized` used exactly this method and moved Symptom from 366 to 1,827 recovered rows through normalisation alone.
+
+---
+
+## Objective
+
+Re-derive candidate evidence for four targets using class prototypes instead of catalogue anchors, and measure how much real signal each target contains once catalogue over-generation is removed.
+
+**Out of scope:** training, denominator promotion, catalogue code assignment, contractual claims.
+
+---
+
+## Method
+
+Reuse the `T5.1b2.X-normalized` pipeline unchanged. Only the prototypes differ.
+
+```
+1. normalise text      mask tags · clean · split CamelCase
+                       strip alarm codes · expand abbreviations
+2. embed               paraphrase-multilingual-MiniLM-L12-v2
+3. embed prototypes    4–10 short phrases per class
+4. assign by proximity nearest prototype above threshold
+5. abstain below       abstention is a legitimate output
+```
+
+⚠️ **Normalisation is not optional.** In `T5.1b2.X` the same classifier recovered 366 rows unnormalised and 1,827 normalised — a 5× difference from that step alone.
+
+---
+
+## Prototypes per target
+
+Prototypes are short phrases in the register of the corpus, not catalogue descriptions. Keep them under 6 words. Do not use SAP code text.
+
+### Activity — source: ZEUS `maintenance measure`
+
+```
+replacement          replaced component · new part fitted
+repair               repaired · fixed · restored
+inspection           inspected · checked · visual check · borescope
+lubrication          greased · lubricated · refilled lubricant
+adjustment           adjusted · calibrated · reset setting
+cleaning             cleaned · washed · debris removed
+troubleshooting      troubleshoot · fault finding · diagnosed
+installation         installed · mounted · commissioned
+```
+
+### Cause — source: WMEP failure causes (9 published categories)
+
+```
+high_wind            high wind · storm · gust
+grid_failure         grid outage · grid failure · power loss
+lightning            lightning strike
+icing                ice build-up · icing
+control_malfunction  control system malfunction · software error
+component_wear       worn · wear · fatigue · degradation
+loosening            loose connection · bolts loosened
+external_damage      external impact · foreign object
+unknown_cause        cause not determined
+```
+
+⚠️ **Inherited rule, non-negotiable:** never infer cause from damage. A text stating damage without stating why is not `cause_present`. Encode this by requiring causal language in the match, not component or damage terms alone.
+
+### Damage — source: NREL GRD + per-subsystem vocabularies
+
+```
+spalling             spalling · flaking · surface break-up
+cracking             crack · fracture · fissure
+wear                 worn · abrasion · erosion
+corrosion            corroded · rust · oxidation
+leaking              leaking · leak from seal · fluid escaping
+pitting              pitting · micropitting · macropitting
+deformation          bent · deformed · plastic deformation
+contamination        contaminated · debris ingress · dirty oil
+overheating_damage   burnt · scorched · thermal damage
+breakage             broken · snapped · sheared
+```
+
+⚠️ **Damage is the physical process, not the observation.** `high temperature` is a symptom. `scorched winding` is damage. Prototypes must reflect that distinction — this is DELTA-0008.
+
+### Object Part — source: wind turbine taxonomy + blind sample findings
+
+⚠️ **This target has zero domain vocabulary today.** The blind sample of 20 orders in `G1.1e` found components in 15 of them that the current 145 catalogue concepts did not capture. Build prototypes from that evidence.
+
+```
+bearing              main bearing · gearbox bearing · generator bearing
+seal                 seal · o-ring · gasket
+filter               filter · air filter · oil filter
+valve                valve · pilot valve · solenoid valve
+sensor               sensor · encoder · thermocouple · PT100
+gear                 gear · gearbox · yaw ring · torque arm bushing
+blade                blade · pitch · trailing edge
+motor_pump           motor · pump · fan
+electrical           cabinet · breaker · contactor · converter stack
+battery_ups          battery · UPS · charger
+brake                brake · brake disc · brake pad
+hatch_cover          hatch · cover · deck hatch · bottom cover
+accumulator          accumulator · manifold · hydraulic accumulator
+```
+
+**Confirmed present in the corpus and absent from current vocabulary:**
+`yaw ring` · `torque arm bushing` · `pitch manifold accumulator` ·
+`hub safety pilot valve` · `deck hatches` · `lift guide arm` ·
+`smoke detector` · `M12 connector` · `MSC/LSC stack` · `PMG encoder`
+
+---
+
+## Scope
+
+Run on the **full B1 universe of 10,749 orders**, not only on currently admitted units.
+
+**Rationale:** `G1.1c/e` demonstrated that orders outside the admitted denominator contain real signal. Restricting to the admitted set would reproduce the same blind spot.
+
+Also run on Path A (362 events) and B2 (1,857 events), separately. Never pool.
+
+---
+
+## Threshold and calibration
+
+Apply the rule that has worked twice in this project:
+
+```
+select threshold maximising coverage subject to precision >= 0.80
+report the full precision-coverage curve, not only the selected point
+```
+
+Calibrate against `evaluation_set_v1` where the target is admitted — Cause, Object Part, Symptom. For Damage and Activity, report the curve without a selected threshold and flag that calibration awaits `g01-v2`.
+
+---
+
+## Required output per target and path
+
+```
+units_evaluated
+assigned_per_class
+abstained
+coverage_pct
+threshold_selected
+precision_on_covered        where eval set exists
+top_class_share             flag if any class exceeds 30%
+```
+
+⚠️ **`top_class_share` is a defect detector.** If one class absorbs more than 30% of assignments, the prototype for that class is too generic — the same failure mode as the catalogue concept that anchored 52.7% of Activity.
+
+---
+
+## Comparison against the catalogue-anchored baseline
+
+For each target, report side by side:
+
+```
+                        catalogue anchoring    zero-shot prototypes
+admitted units                      1,215                       ?
+distinct concepts matched              ...                       ?
+top concept share                    52.7%                       ?
+```
+
+**This contrast is the deliverable.** It quantifies how much of the current denominator was mechanism artefact rather than corpus signal.
+
+---
+
+## Provenance
+
+```
+evidence_type            expert_inference
+tier                     silver-medium maximum
+label_generation_method  zero_shot_prototype_matching_v1
+embedding_model          paraphrase-multilingual-MiniLM-L12-v2
+evaluation_independence  derived_from_rules
+anchor_source            prototype_domain_vocabulary
+```
+
+⚠️ **`anchor_source` must be written as a literal field on every evidence row.** `G1.2c` found it absent from all inspected artefacts and had to derive it from vocabulary ownership. That gap must not be reproduced.
+
+---
+
+## Constraints
+
+- No denominator change in this pass. Report only.
+- No promotion to `validated_mapping`.
+- No SAP code assignment — this pass assigns concept classes, not catalogue codes.
+- Sanitised versioned outputs. No raw text, no PII.
+- Symptom is not re-run. It already used this method and is reconciled at 1,999.
+
+---
+
+## Closure criteria
+
+- Four targets processed across three paths
+- Precision-coverage curve per target
+- `top_class_share` reported and flagged where above 30%
+- Side-by-side contrast against catalogue anchoring
+- `anchor_source` populated as a literal field
+- Nothing promoted
+
+---
+
+## What this decides
+
+Whether `G2.1` — supervised training — is warranted at all.
+
+If zero-shot achieves defensible coverage at precision ≥ 0.80, training a supervised classifier on the same evidence adds risk without adding information. **That would be a valid POC conclusion, not a shortfall.**
+
+
+
+
+
+
 
 ## Phase G2 — Baseline Models
 

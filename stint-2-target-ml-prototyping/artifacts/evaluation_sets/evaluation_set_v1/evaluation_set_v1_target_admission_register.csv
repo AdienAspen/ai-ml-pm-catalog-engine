@@ -1,0 +1,6 @@
+target,admission_status,cohen_kappa,reason_or_note
+Cause,ADMIT,0.743,
+Object Part,ADMIT,0.716,annotator asymmetry declared; responses remain separate
+Symptom,ADMIT,0.613,
+Damage,HOLD,0.196,boundary definitions insufficient; awaiting g01-v2 full re-annotation
+Activity,HOLD,-0.018,prevalence-dominated; question mis-specified; awaiting separate MNGRP-level round

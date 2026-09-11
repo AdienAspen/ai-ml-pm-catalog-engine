@@ -1,0 +1,11 @@
+crosswalk_status,blind_profile_class,distinct_item_concepts,orders_covered
+auto_candidate_medium,undetermined,3,6
+auto_candidate_medium,likely_component_no_code,1,8
+auto_candidate_weak,undetermined,23,525
+auto_candidate_weak,likely_component_no_code,6,52
+auto_candidate_weak,consumable_or_non_component,4,143
+auto_candidate_weak,generic_hardware,4,17
+no_catalog_b_candidate,undetermined,45,369
+no_catalog_b_candidate,likely_component_no_code,17,95
+no_catalog_b_candidate,generic_hardware,8,46
+no_catalog_b_candidate,consumable_or_non_component,7,25

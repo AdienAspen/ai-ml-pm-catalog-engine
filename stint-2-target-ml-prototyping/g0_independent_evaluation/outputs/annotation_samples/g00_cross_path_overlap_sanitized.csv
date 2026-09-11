@@ -1,0 +1,13 @@
+target,left_path_bucket,right_path_bucket,left_id_namespace,right_id_namespace,exact_key_overlap_assessable,left_units,right_units,overlap_units,note
+Activity,B1_RELATIONAL_TEXTUAL,B2_WORKBOOK_SNAPSHOTS,B1_PHYSICAL_RECORD,B2_REFINED_EVENT,False,1215,74,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
+Activity,B1_RELATIONAL_TEXTUAL,PATH_A_PDF_EVENTS,B1_PHYSICAL_RECORD,PATH_A_ESTIMATED_EVENT,False,1215,339,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
+Activity,B2_WORKBOOK_SNAPSHOTS,PATH_A_PDF_EVENTS,B2_REFINED_EVENT,PATH_A_ESTIMATED_EVENT,False,74,339,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
+Cause,B1_RELATIONAL_TEXTUAL,B2_WORKBOOK_SNAPSHOTS,B1_PHYSICAL_RECORD,B2_REFINED_EVENT,False,1250,57,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
+Cause,B1_RELATIONAL_TEXTUAL,PATH_A_PDF_EVENTS,B1_PHYSICAL_RECORD,PATH_A_ESTIMATED_EVENT,False,1250,36,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
+Cause,B2_WORKBOOK_SNAPSHOTS,PATH_A_PDF_EVENTS,B2_REFINED_EVENT,PATH_A_ESTIMATED_EVENT,False,57,36,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
+Damage,B1_RELATIONAL_TEXTUAL,B2_WORKBOOK_SNAPSHOTS,B1_PHYSICAL_RECORD,B2_REFINED_EVENT,False,1263,110,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
+Damage,B1_RELATIONAL_TEXTUAL,PATH_A_PDF_EVENTS,B1_PHYSICAL_RECORD,PATH_A_ESTIMATED_EVENT,False,1263,116,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
+Damage,B2_WORKBOOK_SNAPSHOTS,PATH_A_PDF_EVENTS,B2_REFINED_EVENT,PATH_A_ESTIMATED_EVENT,False,110,116,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
+Object Part,B1_RELATIONAL_STRUCTURED,B2_WORKBOOK_SNAPSHOTS,B1_PHYSICAL_RECORD,B2_REFINED_EVENT,False,0,488,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
+Object Part,B1_RELATIONAL_STRUCTURED,PATH_A_PDF_EVENTS,B1_PHYSICAL_RECORD,PATH_A_ESTIMATED_EVENT,False,0,280,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
+Object Part,B2_WORKBOOK_SNAPSHOTS,PATH_A_PDF_EVENTS,B2_REFINED_EVENT,PATH_A_ESTIMATED_EVENT,False,488,280,,Exact overlap is not assessable because STINT 1 uses different event/record namespaces across these paths.
