@@ -1,0 +1,4 @@
+pattern,path_bucket,rows,unique_source_units,raw_operational_values_emitted
+literal_object_part_colon,B1_RELATIONAL,6,6,False
+object_part_assignment_line,B1_RELATIONAL,6,6,False
+nacelle_main_generator_bearing,B1_RELATIONAL,22,22,False

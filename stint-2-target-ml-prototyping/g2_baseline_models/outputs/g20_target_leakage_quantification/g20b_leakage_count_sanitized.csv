@@ -1,0 +1,6 @@
+path_bucket,target_label_found,canonical_target,label_variant,score_band,rows_with_leakage,rows_above_threshold,rows_with_g2_target,path_corpus_rows,pct_of_path_corpus,raw_operational_values_emitted
+B1_RELATIONAL,Cause,Cause,Cause,0.20-0.25,2,0,2,10749,0.018606,False
+B1_RELATIONAL,Cause,Cause,Cause,0.25-0.30,1,0,1,10749,0.009303,False
+B1_RELATIONAL,Cause,Cause,Cause,0.30-0.35,6,0,6,10749,0.055819,False
+B1_RELATIONAL,Object Part,Object Part,Object Part,0.38-0.40,3,0,3,10749,0.02791,False
+B1_RELATIONAL,Object Part,Object Part,Object Part,0.55-0.60,1,0,1,10749,0.009303,False

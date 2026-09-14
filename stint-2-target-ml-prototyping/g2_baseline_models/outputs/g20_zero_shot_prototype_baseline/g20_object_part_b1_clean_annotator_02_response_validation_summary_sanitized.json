@@ -1,0 +1,16 @@
+{
+  "abstention_rate_pct": 0.0,
+  "all_blocking_checks_pass": false,
+  "file_mode": "0o664",
+  "package_file": "g0_independent_evaluation/internal/g20_object_part_b1_annotation_packages_clean_r2/g20_object_part_b1_clean_package_chapter_team_annotator_02.jsonl",
+  "package_rows": 187,
+  "raw_operational_values_emitted": false,
+  "response_distribution": {
+    "component_identified": 128,
+    "no_component": 1,
+    "not_interpretable": 1,
+    "system_only": 26
+  },
+  "response_file": "g0_independent_evaluation/internal/g20_object_part_b1_annotation_responses_clean_r2/annotator_2/g20_object_part_b1_clean_response_chapter_team_annotator_02.csv",
+  "response_rows": 156
+}

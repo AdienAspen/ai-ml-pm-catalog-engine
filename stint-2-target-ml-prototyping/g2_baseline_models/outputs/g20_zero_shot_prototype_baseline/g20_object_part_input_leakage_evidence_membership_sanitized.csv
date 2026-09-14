@@ -1,0 +1,4 @@
+path_bucket,_merge,rows,raw_operational_values_emitted
+B1_RELATIONAL,left_only,0,False
+B1_RELATIONAL,right_only,0,False
+B1_RELATIONAL,both,100,False

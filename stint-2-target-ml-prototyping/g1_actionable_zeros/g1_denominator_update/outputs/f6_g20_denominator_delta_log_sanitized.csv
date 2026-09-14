@@ -1,0 +1,5 @@
+target,path,denominator_type,old_admitted_units,new_admitted_units,change_basis
+Object Part,B1_RELATIONAL_TEXTUAL,proxy_poc,3027,6764,G20 Object Part B1 diagnostic threshold 0.30 over corpus-informed prototype scores; leakage-gap rows excluded; not final held-out claim
+Activity,B1_RELATIONAL_TEXTUAL/PATH_A_PDF_EVENTS/B2_WORKBOOK_SNAPSHOTS,proxy_poc,unchanged,unchanged,Status caveat added: possible catalogue-derived inflation; review required before ML scoping
+Cause,B1_RELATIONAL_TEXTUAL/PATH_A_PDF_EVENTS/B2_WORKBOOK_SNAPSHOTS,proxy_poc,unchanged,unchanged,Status caveat added: possible catalogue-derived inflation; review required before ML scoping
+Damage,B1_RELATIONAL_TEXTUAL/PATH_A_PDF_EVENTS/B2_WORKBOOK_SNAPSHOTS,proxy_poc,unchanged,unchanged,Status caveat added: possible catalogue-derived inflation; review required before ML scoping

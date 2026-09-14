@@ -1,0 +1,19 @@
+{
+  "all_blocking_checks_pass": true,
+  "directory_mode": "0o700",
+  "file_mode": "0o600",
+  "protocol_version_metadata_corrected": true,
+  "protocol_version_original_values": [
+    "g01-v1"
+  ],
+  "protocol_version_stored_value": "G2.0-object-part-b1-calibration-v1",
+  "raw_operational_values_emitted": false,
+  "response_distribution": {
+    "component_identified": 172,
+    "no_component": 12,
+    "system_only": 4
+  },
+  "response_file": "g0_independent_evaluation/internal/g20_object_part_b1_annotation_responses/annotator_1/g20_response_chapter_team_annotator_01_object_part_b1_completed.csv",
+  "rows": 188,
+  "template_file": "g0_independent_evaluation/internal/g20_object_part_b1_annotation_packages/g20_response_template_chapter_team_annotator_01_object_part_b1.csv"
+}

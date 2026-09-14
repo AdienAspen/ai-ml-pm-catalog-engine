@@ -1,0 +1,17 @@
+target_label,canonical_target,variant,regex,raw_operational_values_emitted
+Object Part,Object Part,Object Part,\bObject\s+Part\s*:\s*[^\r\n;|]+,False
+Object Part,Object Part,ObjectPart,\bObjectPart\s*:\s*[^\r\n;|]+,False
+Object Part,Object Part,Object_Part,\bObject_Part\s*:\s*[^\r\n;|]+,False
+Damage,Damage,Damage,\bDamage\s*:\s*[^\r\n;|]+,False
+Damage,Damage,Schadensbild,\bSchadensbild\s*:\s*[^\r\n;|]+,False
+Cause,Cause,Cause,\bCause\s*:\s*[^\r\n;|]+,False
+Cause,Cause,Ursache,\bUrsache\s*:\s*[^\r\n;|]+,False
+Activity,Activity,Activity,\bActivity\s*:\s*[^\r\n;|]+,False
+Activity,Activity,Maßnahme,\bMa(?:ß|ss)nahme\s*:\s*[^\r\n;|]+,False
+Symptom,Symptom,Symptom,\bSymptom\s*:\s*[^\r\n;|]+,False
+Functional Location,FLOC,Functional Location,\bFunctional\s+Location\s*:\s*[^\r\n;|]+,False
+Functional Location,FLOC,FLOC,\bFLOC\s*:\s*[^\r\n;|]+,False
+Functional Location,FLOC,TPLNR,\bTPLNR\s*:\s*[^\r\n;|]+,False
+Activity Type,MAT,Activity Type,\bActivity\s+Type\s*:\s*[^\r\n;|]+,False
+Activity Type,MAT,MAT,\bMAT\s*:\s*[^\r\n;|]+,False
+Activity Type,MAT,ILART,\bILART\s*:\s*[^\r\n;|]+,False

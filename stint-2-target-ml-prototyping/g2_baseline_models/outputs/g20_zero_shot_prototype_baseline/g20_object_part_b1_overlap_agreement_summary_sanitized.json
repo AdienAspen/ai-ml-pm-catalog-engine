@@ -1,0 +1,36 @@
+{
+  "annotator_01_distribution": {
+    "component_identified": 70,
+    "no_component": 4,
+    "system_only": 1
+  },
+  "annotator_02_distribution": {
+    "component_identified": 67,
+    "no_component": 5,
+    "system_only": 3
+  },
+  "cohen_kappa": 0.671053,
+  "disagreement_rows": 4,
+  "internal_visible_disagreement_file": "g0_independent_evaluation/internal/g20_object_part_b1_overlap_review/g20_object_part_b1_overlap_disagreements_visible_internal.csv",
+  "internal_visible_file_mode": "0o600",
+  "overlap_comparable_rows": 75,
+  "overlap_declared_ids": 75,
+  "package_version": "clean_r2",
+  "path_bucket": "B1_RELATIONAL",
+  "prevalence_warning": "Both annotators heavily favor component_identified; kappa must be read with prevalence caveat.",
+  "r2_0188": {
+    "agreement": false,
+    "annotation_id": "G20-B1-OBJ-R2-0188",
+    "annotator_01_response": "",
+    "annotator_02_response": "",
+    "in_declared_overlap": false,
+    "present_in_annotator_01": true,
+    "present_in_annotator_02": false,
+    "qualitative_interest": false,
+    "raw_operational_values_emitted": false
+  },
+  "raw_agreement": 0.946667,
+  "raw_operational_values_emitted": false,
+  "raw_text_versioned": false,
+  "target": "Object Part"
+}

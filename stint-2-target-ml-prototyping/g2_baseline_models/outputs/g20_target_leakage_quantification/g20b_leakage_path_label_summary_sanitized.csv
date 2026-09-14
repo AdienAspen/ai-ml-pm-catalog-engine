@@ -1,0 +1,3 @@
+path_bucket,target_label_found,canonical_target,rows_with_leakage,rows_above_threshold,path_corpus_rows,pct_of_path_corpus,raw_operational_values_emitted
+B1_RELATIONAL,Cause,Cause,9,0,10749,0.083729,False
+B1_RELATIONAL,Object Part,Object Part,4,0,10749,0.037213,False

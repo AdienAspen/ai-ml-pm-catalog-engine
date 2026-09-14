@@ -1,0 +1,13 @@
+target,path_bucket,units_evaluated,assigned_units,abstained,coverage_pct,threshold_selected,top_class,top_class_count,top_class_share,top_class_gt_30pct
+Activity,B1_RELATIONAL,10749,0,10749,0.0,,,0,0.0,False
+Activity,B2_WORKBOOKS,1857,0,1857,0.0,,,0,0.0,False
+Activity,PATH_A,362,0,362,0.0,,,0,0.0,False
+Cause,B1_RELATIONAL,10749,0,10749,0.0,,,0,0.0,False
+Cause,B2_WORKBOOKS,1857,0,1857,0.0,,,0,0.0,False
+Cause,PATH_A,362,0,362,0.0,,,0,0.0,False
+Damage,B1_RELATIONAL,10749,0,10749,0.0,,,0,0.0,False
+Damage,B2_WORKBOOKS,1857,0,1857,0.0,,,0,0.0,False
+Damage,PATH_A,362,0,362,0.0,,,0,0.0,False
+Object Part,B1_RELATIONAL,10749,0,10749,0.0,,,0,0.0,False
+Object Part,B2_WORKBOOKS,1857,0,1857,0.0,,,0,0.0,False
+Object Part,PATH_A,362,181,181,50.0,0.38,battery_ups,32,17.679558,False

@@ -1,0 +1,29 @@
+{
+  "abstention_rate_pct": 0.531915,
+  "all_blocking_checks_pass": true,
+  "blank_responses": 0,
+  "duplicate_annotation_ids": 0,
+  "extra_columns": [],
+  "file_mode": "0o600",
+  "ids_in_package_order_subset": true,
+  "invalid_vocabulary": 0,
+  "longest_same_response_run": 31,
+  "manual_no_script_attestation_present": false,
+  "missing_annotation_ids": 0,
+  "original_columns": [
+    "annotation_id",
+    "response"
+  ],
+  "outside_package_annotation_ids": 0,
+  "package_rows": 188,
+  "procedure_indicator_flags": [],
+  "raw_operational_values_emitted": false,
+  "response_distribution": {
+    "abstain": 1,
+    "component_identified": 171,
+    "no_component": 12,
+    "system_only": 4
+  },
+  "response_rows": 188,
+  "status": "ACCEPTED_PRELIMINARY"
+}

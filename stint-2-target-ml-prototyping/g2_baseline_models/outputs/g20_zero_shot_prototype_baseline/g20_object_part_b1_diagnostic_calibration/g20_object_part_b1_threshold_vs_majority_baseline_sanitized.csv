@@ -1,0 +1,3 @@
+target,path_bucket,calibration_subset,prototype_threshold,prototype_precision_on_covered,prototype_coverage_pct,prototype_correct_rows,prototype_covered_rows,majority_class,majority_accuracy,majority_precision_if_component_positive,majority_coverage_pct,evaluation_role,eligible_for_final_heldout,production_claim_allowed,raw_operational_values_emitted
+Object Part,B1_RELATIONAL,calibration_60,0.3,0.94686,90.393013,196,207,component_identified,0.917031,0.917031,100.0,diagnostic_calibration,False,False,False
+Object Part,B1_RELATIONAL,heldout_40,0.3,0.977099,90.344828,128,131,component_identified,0.903448,0.903448,100.0,diagnostic_calibration,False,False,False

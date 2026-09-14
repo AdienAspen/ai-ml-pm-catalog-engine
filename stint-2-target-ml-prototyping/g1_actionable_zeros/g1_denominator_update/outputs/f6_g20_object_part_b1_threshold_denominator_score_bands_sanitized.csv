@@ -1,0 +1,9 @@
+target,path_bucket,score_band,rows,rows_excluding_leakage_gap,rows_assigned_at_threshold_0_30,raw_operational_values_emitted
+Object Part,B1_RELATIONAL,lt_030,3975,3972,0,False
+Object Part,B1_RELATIONAL,030_038,3468,3465,3465,False
+Object Part,B1_RELATIONAL,038_044,1592,1586,1586,False
+Object Part,B1_RELATIONAL,044_050,1050,1050,1050,False
+Object Part,B1_RELATIONAL,050_060,623,622,622,False
+Object Part,B1_RELATIONAL,060_070,40,40,40,False
+Object Part,B1_RELATIONAL,070_080,1,1,1,False
+Object Part,B1_RELATIONAL,gte_080,0,0,0,False

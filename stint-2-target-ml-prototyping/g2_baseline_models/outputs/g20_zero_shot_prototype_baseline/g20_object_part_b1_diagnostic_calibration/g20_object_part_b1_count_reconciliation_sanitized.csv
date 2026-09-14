@@ -1,0 +1,2 @@
+annotation_rows_total,abstain_rows,leakage_gap_rows,rows_both_abstain_and_leakage_gap,effective_rows_before_leakage_exclusion,effective_rows_after_leakage_exclusion,identity,raw_operational_values_emitted
+375,1,1,1,374,374,"375 - abstain(1) = 374; leakage row is the same abstain row, so subtracting both independently would double-count; union exclusion remains 374 effective annotation rows.",False

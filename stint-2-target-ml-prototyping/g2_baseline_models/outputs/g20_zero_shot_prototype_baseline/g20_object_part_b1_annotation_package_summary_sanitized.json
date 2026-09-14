@@ -1,0 +1,28 @@
+{
+  "annotator_01_rows": 188,
+  "annotator_02_rows": 187,
+  "candidate_promotion_performed": false,
+  "created_for": "G2.0 Object Part B1 calibration gap",
+  "denominator_change_performed": false,
+  "directory_mode": "0o700",
+  "eligible_for_final_heldout": false,
+  "evaluation_independence": "independent",
+  "evaluation_role": "diagnostic_calibration",
+  "excluded_g11e_units_found_in_frame": 0,
+  "model_scores_hidden_from_annotator": true,
+  "overlap_pct_of_union": 25.0,
+  "overlap_rows": 75,
+  "protocol_version": "G2.0-object-part-b1-calibration-v1",
+  "raw_text_versioned": false,
+  "sampling_design": "score_band_stratified",
+  "scope_note": "One package with four declared fields: independent annotation, diagnostic calibration role, score-band stratified sampling, not eligible for final held-out evaluation.",
+  "threshold_candidates_reported": [
+    0.45,
+    0.5,
+    0.55,
+    0.6
+  ],
+  "union_sample_rows": 300,
+  "visible_files_mode": "600",
+  "visible_internal_dir": "g0_independent_evaluation/internal/g20_object_part_b1_annotation_packages"
+}

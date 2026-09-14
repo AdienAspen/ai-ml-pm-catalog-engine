@@ -1,0 +1,12 @@
+{
+  "duplicate_annotation_ids": 0,
+  "file_mode": "0o600",
+  "missing_annotation_ids": 32,
+  "outside_package_annotation_ids": 1,
+  "package_rows": 187,
+  "raw_operational_values_emitted": false,
+  "reason": "blocking structural validation failed; do not patch",
+  "required_action": "request a complete replacement CSV with exactly annotation_id,response for all package rows",
+  "response_rows": 156,
+  "status": "REJECTED"
+}

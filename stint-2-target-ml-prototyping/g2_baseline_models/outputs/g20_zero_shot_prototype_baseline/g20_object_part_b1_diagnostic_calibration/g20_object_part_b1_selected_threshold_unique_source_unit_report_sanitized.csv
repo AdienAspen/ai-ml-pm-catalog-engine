@@ -1,0 +1,3 @@
+target,path_bucket,calibration_subset,threshold,unique_source_units,positive_fraction_units,covered_unique_units,correct_fraction_units,precision_on_covered_unique_units,positive_recall_unique_units,coverage_unique_pct,unit_metric,evaluation_role,eligible_for_final_heldout,raw_operational_values_emitted,threshold_selected_from
+Object Part,B1_RELATIONAL,calibration_60,0.3,179,165.0,161,154.0,0.956522,0.933333,89.944134,source_unit_key_fractional_overlap,diagnostic_calibration,False,False,calibration_60
+Object Part,B1_RELATIONAL,heldout_40,0.3,120,107.5,108,105.0,0.972222,0.976744,90.0,source_unit_key_fractional_overlap,diagnostic_calibration,False,False,calibration_60

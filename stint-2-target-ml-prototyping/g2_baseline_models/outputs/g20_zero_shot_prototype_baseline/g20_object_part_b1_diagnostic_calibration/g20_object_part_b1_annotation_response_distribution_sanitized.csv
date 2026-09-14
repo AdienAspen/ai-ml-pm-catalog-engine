@@ -1,0 +1,14 @@
+calibration_subset,annotator_id,response,rows,pct_within_annotator_subset,raw_operational_values_emitted
+calibration_60,chapter_team_annotator_01,abstain,1,0.869565,False
+calibration_60,chapter_team_annotator_01,component_identified,105,91.304348,False
+calibration_60,chapter_team_annotator_01,no_component,8,6.956522,False
+calibration_60,chapter_team_annotator_01,system_only,1,0.869565,False
+calibration_60,chapter_team_annotator_02,component_identified,105,91.304348,False
+calibration_60,chapter_team_annotator_02,no_component,5,4.347826,False
+calibration_60,chapter_team_annotator_02,system_only,5,4.347826,False
+heldout_40,chapter_team_annotator_01,component_identified,66,90.410959,False
+heldout_40,chapter_team_annotator_01,no_component,4,5.479452,False
+heldout_40,chapter_team_annotator_01,system_only,3,4.109589,False
+heldout_40,chapter_team_annotator_02,component_identified,65,90.277778,False
+heldout_40,chapter_team_annotator_02,no_component,6,8.333333,False
+heldout_40,chapter_team_annotator_02,system_only,1,1.388889,False

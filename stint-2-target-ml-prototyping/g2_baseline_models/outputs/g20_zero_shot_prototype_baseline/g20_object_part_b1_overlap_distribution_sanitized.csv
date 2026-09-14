@@ -1,0 +1,11 @@
+annotator,response,count,pct,raw_operational_values_emitted
+annotator_01,component_identified,70,93.333333,False
+annotator_01,system_only,1,1.333333,False
+annotator_01,no_component,4,5.333333,False
+annotator_01,not_interpretable,0,0.0,False
+annotator_01,abstain,0,0.0,False
+annotator_02,component_identified,67,89.333333,False
+annotator_02,system_only,3,4.0,False
+annotator_02,no_component,5,6.666667,False
+annotator_02,not_interpretable,0,0.0,False
+annotator_02,abstain,0,0.0,False

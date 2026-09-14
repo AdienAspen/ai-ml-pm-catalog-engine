@@ -1,0 +1,4 @@
+target,path_bucket,selection_subset,recommended_by_rule_threshold,recommended_by_rule_precision,recommended_by_rule_coverage_pct,evaluation_rows,status,final_cut_decision,raw_operational_values_emitted
+Cause,B1_RELATIONAL,calibration_60,0.44,0.7,11.764706,170,no_threshold_reaches_precision_0_80,committee_decision_pending,False
+Cause,PATH_A,calibration_60,0.3,0.0,96.875,32,no_threshold_reaches_precision_0_80,committee_decision_pending,False
+Object Part,PATH_A,calibration_60,0.38,0.818182,57.894737,38,precision_0_80_reachable,committee_decision_pending,False

@@ -1,0 +1,14 @@
+source_unit_key,unit_key,path_bucket,text_hash,target_label_found,canonical_target,label_variant,pattern_regex,raw_operational_values_emitted
+PHY-326b1862dec3c79f,PHY-326b1862dec3c79f,B1_RELATIONAL,TEXT-b9a39c1c0a4d1ee6,Cause,Cause,Cause,\bCause\s*:\s*[^\r\n;|]+,False
+PHY-92bec67ebed0bdb9,PHY-92bec67ebed0bdb9,B1_RELATIONAL,TEXT-44ce46ff773394dd,Cause,Cause,Cause,\bCause\s*:\s*[^\r\n;|]+,False
+PHY-56333b83b62d5139,PHY-56333b83b62d5139,B1_RELATIONAL,TEXT-ac19918d20323dfb,Cause,Cause,Cause,\bCause\s*:\s*[^\r\n;|]+,False
+PHY-82e184f00ac08aa1,PHY-82e184f00ac08aa1,B1_RELATIONAL,TEXT-ec872c226571c35f,Cause,Cause,Cause,\bCause\s*:\s*[^\r\n;|]+,False
+PHY-35ce75daa0506766,PHY-35ce75daa0506766,B1_RELATIONAL,TEXT-d2a71ac892ef3944,Cause,Cause,Cause,\bCause\s*:\s*[^\r\n;|]+,False
+PHY-e80d7be7c0904fec,PHY-e80d7be7c0904fec,B1_RELATIONAL,TEXT-4f4db5d23ffb2cca,Cause,Cause,Cause,\bCause\s*:\s*[^\r\n;|]+,False
+PHY-c0725260f39c9f3c,PHY-c0725260f39c9f3c,B1_RELATIONAL,TEXT-8333dfa48a08467e,Cause,Cause,Cause,\bCause\s*:\s*[^\r\n;|]+,False
+PHY-69847bed3e1c0b48,PHY-69847bed3e1c0b48,B1_RELATIONAL,TEXT-89079f0aeb0ed8b8,Cause,Cause,Cause,\bCause\s*:\s*[^\r\n;|]+,False
+PHY-9bc4f7f83b69f3a8,PHY-9bc4f7f83b69f3a8,B1_RELATIONAL,TEXT-0c4ab744e4c10ed1,Cause,Cause,Cause,\bCause\s*:\s*[^\r\n;|]+,False
+PHY-16e93f93db0c779a,PHY-16e93f93db0c779a,B1_RELATIONAL,TEXT-f07077d02b2166ee,Object Part,Object Part,Object Part,\bObject\s+Part\s*:\s*[^\r\n;|]+,False
+PHY-b2439b9a6d58cda4,PHY-b2439b9a6d58cda4,B1_RELATIONAL,TEXT-91fcb68d7a8bdbcf,Object Part,Object Part,Object Part,\bObject\s+Part\s*:\s*[^\r\n;|]+,False
+PHY-b920649b28ddd0e7,PHY-b920649b28ddd0e7,B1_RELATIONAL,TEXT-06284c404db51238,Object Part,Object Part,Object Part,\bObject\s+Part\s*:\s*[^\r\n;|]+,False
+PHY-b47ec05dedb28ca3,PHY-b47ec05dedb28ca3,B1_RELATIONAL,TEXT-b36ad9437e637b00,Object Part,Object Part,Object Part,\bObject\s+Part\s*:\s*[^\r\n;|]+,False

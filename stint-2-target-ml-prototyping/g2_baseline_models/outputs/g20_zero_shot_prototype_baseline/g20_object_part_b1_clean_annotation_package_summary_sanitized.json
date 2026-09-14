@@ -1,0 +1,28 @@
+{
+  "annotator_rows": {
+    "chapter_team_annotator_01": 188,
+    "chapter_team_annotator_02": 187
+  },
+  "leakage_decision": "mask_in_input_not_exclude",
+  "leakage_masked_union_rows": 2,
+  "overlap_pct_of_union": 25.0,
+  "overlap_rows": 75,
+  "package_format": "jsonl",
+  "raw_text_versioned": false,
+  "regeneration_reason": "prior package rejected for malformed CSV and visible metadata leakage",
+  "round_trip_validated": true,
+  "scope_fields": {
+    "eligible_for_final_heldout": false,
+    "evaluation_independence": "independent",
+    "evaluation_role": "diagnostic_calibration",
+    "protocol_version": "g01-v1",
+    "sampling_design": "score_band_stratified"
+  },
+  "true_annotator_01_count": 188,
+  "true_annotator_02_count": 187,
+  "union_rows": 300,
+  "visible_columns_exact": [
+    "annotation_id",
+    "text"
+  ]
+}

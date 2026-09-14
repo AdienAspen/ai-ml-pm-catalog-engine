@@ -1,0 +1,25 @@
+target,path_bucket,calibration_subset,threshold_candidate,evaluation_rows,covered_rows,correct_rows,precision_on_covered,coverage_pct,threshold_status,raw_operational_values_emitted
+Cause,B1_RELATIONAL,calibration_60,0.45,170,6,0,0.0,3.529412,committee_decision_pending,False
+Cause,B1_RELATIONAL,calibration_60,0.5,170,3,0,0.0,1.764706,committee_decision_pending,False
+Cause,B1_RELATIONAL,calibration_60,0.55,170,1,0,0.0,0.588235,committee_decision_pending,False
+Cause,B1_RELATIONAL,calibration_60,0.6,170,0,0,0.0,0.0,committee_decision_pending,False
+Cause,B1_RELATIONAL,heldout_40,0.45,114,5,1,0.2,4.385965,committee_decision_pending,False
+Cause,B1_RELATIONAL,heldout_40,0.5,114,2,1,0.5,1.754386,committee_decision_pending,False
+Cause,B1_RELATIONAL,heldout_40,0.55,114,1,1,1.0,0.877193,committee_decision_pending,False
+Cause,B1_RELATIONAL,heldout_40,0.6,114,0,0,0.0,0.0,committee_decision_pending,False
+Cause,PATH_A,calibration_60,0.45,32,16,0,0.0,50.0,committee_decision_pending,False
+Cause,PATH_A,calibration_60,0.5,32,3,0,0.0,9.375,committee_decision_pending,False
+Cause,PATH_A,calibration_60,0.55,32,1,0,0.0,3.125,committee_decision_pending,False
+Cause,PATH_A,calibration_60,0.6,32,1,0,0.0,3.125,committee_decision_pending,False
+Cause,PATH_A,heldout_40,0.45,10,4,0,0.0,40.0,committee_decision_pending,False
+Cause,PATH_A,heldout_40,0.5,10,1,0,0.0,10.0,committee_decision_pending,False
+Cause,PATH_A,heldout_40,0.55,10,0,0,0.0,0.0,committee_decision_pending,False
+Cause,PATH_A,heldout_40,0.6,10,0,0,0.0,0.0,committee_decision_pending,False
+Object Part,PATH_A,calibration_60,0.45,38,13,10,0.769231,34.210526,committee_decision_pending,False
+Object Part,PATH_A,calibration_60,0.5,38,8,8,1.0,21.052632,committee_decision_pending,False
+Object Part,PATH_A,calibration_60,0.55,38,6,6,1.0,15.789474,committee_decision_pending,False
+Object Part,PATH_A,calibration_60,0.6,38,1,1,1.0,2.631579,committee_decision_pending,False
+Object Part,PATH_A,heldout_40,0.45,26,10,10,1.0,38.461538,committee_decision_pending,False
+Object Part,PATH_A,heldout_40,0.5,26,10,10,1.0,38.461538,committee_decision_pending,False
+Object Part,PATH_A,heldout_40,0.55,26,6,6,1.0,23.076923,committee_decision_pending,False
+Object Part,PATH_A,heldout_40,0.6,26,1,1,1.0,3.846154,committee_decision_pending,False

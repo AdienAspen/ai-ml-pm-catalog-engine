@@ -1,0 +1,6 @@
+check,status,observed,expected,raw_operational_values_emitted
+declared_overlap_count,PASS,75,75,False
+overlap_ids_present_in_annotator_01,PASS,75,75,False
+overlap_ids_present_in_annotator_02,PASS,75,75,False
+comparable_overlap_rows,PASS,75,75,False
+r2_0188_in_overlap,FAIL,False,True,False

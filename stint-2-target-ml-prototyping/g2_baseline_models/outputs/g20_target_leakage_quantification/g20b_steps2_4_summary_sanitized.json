@@ -1,0 +1,23 @@
+{
+  "task": "G2.0b Steps 2-4 leakage materiality and masking",
+  "step_2_materiality_decision_performed": true,
+  "decision": "not_material_for_G2_0",
+  "rule_branch": "0 leaked rows above threshold",
+  "rows_with_leakage": 13,
+  "regex_hit_rows": 13,
+  "rows_above_threshold_total": 0,
+  "evaluation_set_v1_leaked_rows": 0,
+  "annotation_package_leaked_manifest_rows": 1,
+  "step_3_deterministic_evidence_extracted": true,
+  "deterministic_evidence_rows": 13,
+  "deterministic_evidence_promotion_status": "not_promoted_pending_sample_validation",
+  "step_4_masking_manifest_written": true,
+  "masked_unique_source_units": 13,
+  "internal_text_outputs_written": true,
+  "internal_permissions_required": "directory 700, files 600",
+  "g2_0_rerun_required": false,
+  "recalibration_performed": false,
+  "candidate_promotion_performed": false,
+  "denominator_change_performed": false,
+  "raw_operational_values_emitted_in_versioned_outputs": false
+}

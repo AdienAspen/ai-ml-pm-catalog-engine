@@ -1,0 +1,2 @@
+annotation_id,annotator_id,source_unit_key,text_hash,overlap_record,leakage_mask_applied
+G20-B1-OBJ-R2-0188,chapter_team_annotator_01,PHY-b2439b9a6d58cda4,TEXT-91fcb68d7a8bdbcf,False,True

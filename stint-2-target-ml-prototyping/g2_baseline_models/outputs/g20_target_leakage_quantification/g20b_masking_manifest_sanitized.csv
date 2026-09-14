@@ -1,0 +1,14 @@
+source_unit_key,unit_key,path_bucket,original_text_hash,masked_text_hash,canonical_targets_masked,label_variants_masked,mask_tokens_applied,segments_masked,masking_status,raw_text_emitted,raw_operational_values_emitted
+PHY-326b1862dec3c79f,PHY-326b1862dec3c79f,B1_RELATIONAL,TEXT-b9a39c1c0a4d1ee6,TEXT-7902e5c1052a7a8c,Cause,Cause,[MASKED_CAUSE_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-92bec67ebed0bdb9,PHY-92bec67ebed0bdb9,B1_RELATIONAL,TEXT-44ce46ff773394dd,TEXT-3a10b2f869a4df1f,Cause,Cause,[MASKED_CAUSE_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-56333b83b62d5139,PHY-56333b83b62d5139,B1_RELATIONAL,TEXT-ac19918d20323dfb,TEXT-99f8c73fba2d9778,Cause,Cause,[MASKED_CAUSE_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-82e184f00ac08aa1,PHY-82e184f00ac08aa1,B1_RELATIONAL,TEXT-ec872c226571c35f,TEXT-0005a0922087b948,Cause,Cause,[MASKED_CAUSE_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-35ce75daa0506766,PHY-35ce75daa0506766,B1_RELATIONAL,TEXT-d2a71ac892ef3944,TEXT-2e5b2bf3c0d55aa6,Cause,Cause,[MASKED_CAUSE_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-e80d7be7c0904fec,PHY-e80d7be7c0904fec,B1_RELATIONAL,TEXT-4f4db5d23ffb2cca,TEXT-b67e0a84c6f113af,Cause,Cause,[MASKED_CAUSE_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-c0725260f39c9f3c,PHY-c0725260f39c9f3c,B1_RELATIONAL,TEXT-8333dfa48a08467e,TEXT-db75f1f834ae58df,Cause,Cause,[MASKED_CAUSE_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-69847bed3e1c0b48,PHY-69847bed3e1c0b48,B1_RELATIONAL,TEXT-89079f0aeb0ed8b8,TEXT-ddecc2aabeebbc67,Cause,Cause,[MASKED_CAUSE_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-9bc4f7f83b69f3a8,PHY-9bc4f7f83b69f3a8,B1_RELATIONAL,TEXT-0c4ab744e4c10ed1,TEXT-cc8355c72a739765,Cause,Cause,[MASKED_CAUSE_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-16e93f93db0c779a,PHY-16e93f93db0c779a,B1_RELATIONAL,TEXT-f07077d02b2166ee,TEXT-b15cddc951502c6c,Object Part,Object Part,[MASKED_OBJECT_PART_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-b2439b9a6d58cda4,PHY-b2439b9a6d58cda4,B1_RELATIONAL,TEXT-91fcb68d7a8bdbcf,TEXT-acfc1ec5c38acc9a,Object Part,Object Part,[MASKED_OBJECT_PART_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-b920649b28ddd0e7,PHY-b920649b28ddd0e7,B1_RELATIONAL,TEXT-06284c404db51238,TEXT-d17dbf1dfb68d098,Object Part,Object Part,[MASKED_OBJECT_PART_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False
+PHY-b47ec05dedb28ca3,PHY-b47ec05dedb28ca3,B1_RELATIONAL,TEXT-b36ad9437e637b00,TEXT-a5db97e7c74ddbff,Object Part,Object Part,[MASKED_OBJECT_PART_ASSIGNMENT],1,applied_in_internal_masked_rows,False,False

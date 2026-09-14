@@ -1,0 +1,3 @@
+target,path_bucket,calibration_subset,baseline,majority_class,evaluation_rows,positive_rows,negative_rows,correct_rows,accuracy,precision_if_component_positive,coverage_pct,evaluation_role,eligible_for_final_heldout,raw_operational_values_emitted
+Object Part,B1_RELATIONAL,calibration_60,majority_class,component_identified,229,210,19,210,0.917031,0.917031,100.0,diagnostic_calibration,False,False
+Object Part,B1_RELATIONAL,heldout_40,majority_class,component_identified,145,131,14,131,0.903448,0.903448,100.0,diagnostic_calibration,False,False

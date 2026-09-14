@@ -1,0 +1,26 @@
+{
+  "task": "F6_G20_post_catalog_post_G1_denominator_update",
+  "object_part_b1": {
+    "threshold": 0.3,
+    "previous_g1_admitted_units": 3027,
+    "candidate_universe_units": 10749,
+    "admitted_units_at_threshold_excluding_leakage_gap": 6764,
+    "assigned_units_including_unmasked_leakage_reference_only": 6774,
+    "leakage_gap_excluded_units": 13,
+    "threshold_selection_source": "calibration_60_only",
+    "evaluation_role": "diagnostic_calibration",
+    "eligible_for_final_heldout": false,
+    "production_claim_allowed": false
+  },
+  "majority_baseline_reported": true,
+  "activity_cause_damage": "counts unchanged; status caveat added for possible catalogue-derived inflation",
+  "stint1_f6_mutated": false,
+  "raw_operational_values_emitted": false,
+  "outputs": [
+    "f6_g20_object_part_b1_threshold_denominator_update_sanitized.csv",
+    "f6_g20_object_part_b1_threshold_denominator_score_bands_sanitized.csv",
+    "f6_g20_evidence_denominator_matrix_sanitized.csv",
+    "f6_g20_committee_closure_denominator_table_sanitized.csv",
+    "f6_g20_denominator_delta_log_sanitized.csv"
+  ]
+}

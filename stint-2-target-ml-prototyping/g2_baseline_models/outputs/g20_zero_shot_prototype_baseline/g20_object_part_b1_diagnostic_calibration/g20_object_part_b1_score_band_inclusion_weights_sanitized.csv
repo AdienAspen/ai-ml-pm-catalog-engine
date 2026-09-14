@@ -1,0 +1,13 @@
+calibration_subset,score_stratum,sample_unique_units,universe_units,inclusion_weight,raw_operational_values_emitted
+calibration_60,030_045,42,5199,123.78571428571429,False
+calibration_60,045_050,33,902,27.333333333333332,False
+calibration_60,050_055,33,422,12.787878787878787,False
+calibration_60,055_060,29,200,6.896551724137931,False
+calibration_60,gte_060,24,41,1.7083333333333333,False
+calibration_60,lt_030,18,3972,220.66666666666666,False
+heldout_40,030_045,28,5199,185.67857142857142,False
+heldout_40,045_050,22,902,41.0,False
+heldout_40,050_055,22,422,19.181818181818183,False
+heldout_40,055_060,20,200,10.0,False
+heldout_40,gte_060,16,41,2.5625,False
+heldout_40,lt_030,12,3972,331.0,False

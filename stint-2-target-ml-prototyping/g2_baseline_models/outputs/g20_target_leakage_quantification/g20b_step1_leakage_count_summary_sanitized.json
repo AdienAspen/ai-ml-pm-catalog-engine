@@ -1,0 +1,21 @@
+{
+  "annotation_package_leaked_manifest_rows": 1,
+  "annotation_package_leaked_unique_source_units": 1,
+  "candidate_promotion_performed": false,
+  "denominator_change_performed": false,
+  "evaluation_set_v1_leaked_rows": 0,
+  "evaluation_set_v1_leaked_unique_source_units": 0,
+  "paths_scanned": {
+    "B1_RELATIONAL": 10749,
+    "B2_WORKBOOKS": 1857,
+    "PATH_A": 362
+  },
+  "raw_operational_values_emitted": false,
+  "regex_hit_rows": 13,
+  "rerun_performed": false,
+  "rows_above_threshold_total": 0,
+  "step_2_materiality_decision_performed": false,
+  "task": "G2.0b Step 1 leakage count",
+  "total_corpus_rows": 12968,
+  "unique_rows_with_any_leakage": 13
+}

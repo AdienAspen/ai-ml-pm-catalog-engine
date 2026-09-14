@@ -1,0 +1,11 @@
+target,path_bucket,predicted_class,assigned_units,assigned_class_share_pct,raw_operational_values_emitted
+Object Part,PATH_A,battery_ups,32,17.679558,False
+Object Part,PATH_A,blade,29,16.022099,False
+Object Part,PATH_A,brake,28,15.469613,False
+Object Part,PATH_A,bearing,27,14.917127,False
+Object Part,PATH_A,gear,24,13.259669,False
+Object Part,PATH_A,motor_pump,19,10.497238,False
+Object Part,PATH_A,electrical,12,6.629834,False
+Object Part,PATH_A,sensor,6,3.314917,False
+Object Part,PATH_A,seal,3,1.657459,False
+Object Part,PATH_A,accumulator,1,0.552486,False

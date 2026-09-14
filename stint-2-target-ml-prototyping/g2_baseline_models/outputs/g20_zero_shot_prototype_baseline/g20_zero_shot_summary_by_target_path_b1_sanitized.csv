@@ -1,0 +1,5 @@
+target,path_bucket,units_evaluated,assigned_units,abstained,coverage_pct,threshold_selected,top_class,top_class_count,top_class_share,top_class_gt_30pct
+Activity,B1_RELATIONAL,10749,0,10749,0.0,,,0,0,False
+Cause,B1_RELATIONAL,10749,0,10749,0.0,,,0,0,False
+Damage,B1_RELATIONAL,10749,0,10749,0.0,,,0,0,False
+Object Part,B1_RELATIONAL,10749,0,10749,0.0,,,0,0,False

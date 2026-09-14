@@ -1,0 +1,145 @@
+target,path_bucket,score_band,units,raw_operational_values_emitted
+Activity,B1_RELATIONAL,<=0.20,653,False
+Activity,B1_RELATIONAL,0.20-0.25,990,False
+Activity,B1_RELATIONAL,0.25-0.30,2467,False
+Activity,B1_RELATIONAL,0.30-0.35,3170,False
+Activity,B1_RELATIONAL,0.35-0.38,1357,False
+Activity,B1_RELATIONAL,0.38-0.40,590,False
+Activity,B1_RELATIONAL,0.40-0.45,917,False
+Activity,B1_RELATIONAL,0.45-0.50,414,False
+Activity,B1_RELATIONAL,0.50-0.60,166,False
+Activity,B1_RELATIONAL,0.60-0.70,25,False
+Activity,B1_RELATIONAL,0.70-0.80,0,False
+Activity,B1_RELATIONAL,>0.80,0,False
+Activity,B2_WORKBOOKS,<=0.20,24,False
+Activity,B2_WORKBOOKS,0.20-0.25,97,False
+Activity,B2_WORKBOOKS,0.25-0.30,93,False
+Activity,B2_WORKBOOKS,0.30-0.35,262,False
+Activity,B2_WORKBOOKS,0.35-0.38,149,False
+Activity,B2_WORKBOOKS,0.38-0.40,32,False
+Activity,B2_WORKBOOKS,0.40-0.45,383,False
+Activity,B2_WORKBOOKS,0.45-0.50,271,False
+Activity,B2_WORKBOOKS,0.50-0.60,414,False
+Activity,B2_WORKBOOKS,0.60-0.70,118,False
+Activity,B2_WORKBOOKS,0.70-0.80,2,False
+Activity,B2_WORKBOOKS,>0.80,12,False
+Activity,PATH_A,<=0.20,12,False
+Activity,PATH_A,0.20-0.25,36,False
+Activity,PATH_A,0.25-0.30,43,False
+Activity,PATH_A,0.30-0.35,88,False
+Activity,PATH_A,0.35-0.38,40,False
+Activity,PATH_A,0.38-0.40,20,False
+Activity,PATH_A,0.40-0.45,63,False
+Activity,PATH_A,0.45-0.50,47,False
+Activity,PATH_A,0.50-0.60,13,False
+Activity,PATH_A,0.60-0.70,0,False
+Activity,PATH_A,0.70-0.80,0,False
+Activity,PATH_A,>0.80,0,False
+Cause,B1_RELATIONAL,<=0.20,1610,False
+Cause,B1_RELATIONAL,0.20-0.25,2792,False
+Cause,B1_RELATIONAL,0.25-0.30,2937,False
+Cause,B1_RELATIONAL,0.30-0.35,1731,False
+Cause,B1_RELATIONAL,0.35-0.38,686,False
+Cause,B1_RELATIONAL,0.38-0.40,361,False
+Cause,B1_RELATIONAL,0.40-0.45,466,False
+Cause,B1_RELATIONAL,0.45-0.50,115,False
+Cause,B1_RELATIONAL,0.50-0.60,45,False
+Cause,B1_RELATIONAL,0.60-0.70,5,False
+Cause,B1_RELATIONAL,0.70-0.80,1,False
+Cause,B1_RELATIONAL,>0.80,0,False
+Cause,B2_WORKBOOKS,<=0.20,43,False
+Cause,B2_WORKBOOKS,0.20-0.25,34,False
+Cause,B2_WORKBOOKS,0.25-0.30,362,False
+Cause,B2_WORKBOOKS,0.30-0.35,383,False
+Cause,B2_WORKBOOKS,0.35-0.38,95,False
+Cause,B2_WORKBOOKS,0.38-0.40,33,False
+Cause,B2_WORKBOOKS,0.40-0.45,588,False
+Cause,B2_WORKBOOKS,0.45-0.50,45,False
+Cause,B2_WORKBOOKS,0.50-0.60,266,False
+Cause,B2_WORKBOOKS,0.60-0.70,4,False
+Cause,B2_WORKBOOKS,0.70-0.80,3,False
+Cause,B2_WORKBOOKS,>0.80,1,False
+Cause,PATH_A,<=0.20,2,False
+Cause,PATH_A,0.20-0.25,10,False
+Cause,PATH_A,0.25-0.30,62,False
+Cause,PATH_A,0.30-0.35,90,False
+Cause,PATH_A,0.35-0.38,58,False
+Cause,PATH_A,0.38-0.40,40,False
+Cause,PATH_A,0.40-0.45,46,False
+Cause,PATH_A,0.45-0.50,41,False
+Cause,PATH_A,0.50-0.60,12,False
+Cause,PATH_A,0.60-0.70,1,False
+Cause,PATH_A,0.70-0.80,0,False
+Cause,PATH_A,>0.80,0,False
+Damage,B1_RELATIONAL,<=0.20,3555,False
+Damage,B1_RELATIONAL,0.20-0.25,3350,False
+Damage,B1_RELATIONAL,0.25-0.30,2179,False
+Damage,B1_RELATIONAL,0.30-0.35,908,False
+Damage,B1_RELATIONAL,0.35-0.38,305,False
+Damage,B1_RELATIONAL,0.38-0.40,139,False
+Damage,B1_RELATIONAL,0.40-0.45,177,False
+Damage,B1_RELATIONAL,0.45-0.50,92,False
+Damage,B1_RELATIONAL,0.50-0.60,43,False
+Damage,B1_RELATIONAL,0.60-0.70,1,False
+Damage,B1_RELATIONAL,0.70-0.80,0,False
+Damage,B1_RELATIONAL,>0.80,0,False
+Damage,B2_WORKBOOKS,<=0.20,44,False
+Damage,B2_WORKBOOKS,0.20-0.25,101,False
+Damage,B2_WORKBOOKS,0.25-0.30,460,False
+Damage,B2_WORKBOOKS,0.30-0.35,243,False
+Damage,B2_WORKBOOKS,0.35-0.38,106,False
+Damage,B2_WORKBOOKS,0.38-0.40,120,False
+Damage,B2_WORKBOOKS,0.40-0.45,243,False
+Damage,B2_WORKBOOKS,0.45-0.50,304,False
+Damage,B2_WORKBOOKS,0.50-0.60,214,False
+Damage,B2_WORKBOOKS,0.60-0.70,16,False
+Damage,B2_WORKBOOKS,0.70-0.80,2,False
+Damage,B2_WORKBOOKS,>0.80,4,False
+Damage,PATH_A,<=0.20,19,False
+Damage,PATH_A,0.20-0.25,74,False
+Damage,PATH_A,0.25-0.30,128,False
+Damage,PATH_A,0.30-0.35,85,False
+Damage,PATH_A,0.35-0.38,33,False
+Damage,PATH_A,0.38-0.40,10,False
+Damage,PATH_A,0.40-0.45,13,False
+Damage,PATH_A,0.45-0.50,0,False
+Damage,PATH_A,0.50-0.60,0,False
+Damage,PATH_A,0.60-0.70,0,False
+Damage,PATH_A,0.70-0.80,0,False
+Damage,PATH_A,>0.80,0,False
+Object Part,B1_RELATIONAL,<=0.20,1355,False
+Object Part,B1_RELATIONAL,0.20-0.25,908,False
+Object Part,B1_RELATIONAL,0.25-0.30,1712,False
+Object Part,B1_RELATIONAL,0.30-0.35,2374,False
+Object Part,B1_RELATIONAL,0.35-0.38,1094,False
+Object Part,B1_RELATIONAL,0.38-0.40,716,False
+Object Part,B1_RELATIONAL,0.40-0.45,1024,False
+Object Part,B1_RELATIONAL,0.45-0.50,902,False
+Object Part,B1_RELATIONAL,0.50-0.60,623,False
+Object Part,B1_RELATIONAL,0.60-0.70,40,False
+Object Part,B1_RELATIONAL,0.70-0.80,1,False
+Object Part,B1_RELATIONAL,>0.80,0,False
+Object Part,B2_WORKBOOKS,<=0.20,4,False
+Object Part,B2_WORKBOOKS,0.20-0.25,15,False
+Object Part,B2_WORKBOOKS,0.25-0.30,75,False
+Object Part,B2_WORKBOOKS,0.30-0.35,75,False
+Object Part,B2_WORKBOOKS,0.35-0.38,201,False
+Object Part,B2_WORKBOOKS,0.38-0.40,28,False
+Object Part,B2_WORKBOOKS,0.40-0.45,209,False
+Object Part,B2_WORKBOOKS,0.45-0.50,424,False
+Object Part,B2_WORKBOOKS,0.50-0.60,579,False
+Object Part,B2_WORKBOOKS,0.60-0.70,94,False
+Object Part,B2_WORKBOOKS,0.70-0.80,134,False
+Object Part,B2_WORKBOOKS,>0.80,19,False
+Object Part,PATH_A,<=0.20,2,False
+Object Part,PATH_A,0.20-0.25,5,False
+Object Part,PATH_A,0.25-0.30,33,False
+Object Part,PATH_A,0.30-0.35,79,False
+Object Part,PATH_A,0.35-0.38,62,False
+Object Part,PATH_A,0.38-0.40,34,False
+Object Part,PATH_A,0.40-0.45,63,False
+Object Part,PATH_A,0.45-0.50,37,False
+Object Part,PATH_A,0.50-0.60,38,False
+Object Part,PATH_A,0.60-0.70,6,False
+Object Part,PATH_A,0.70-0.80,2,False
+Object Part,PATH_A,>0.80,1,False

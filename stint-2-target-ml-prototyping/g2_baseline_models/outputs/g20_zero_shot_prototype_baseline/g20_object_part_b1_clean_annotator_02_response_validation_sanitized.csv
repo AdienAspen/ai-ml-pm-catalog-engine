@@ -1,0 +1,8 @@
+check,status,observed,expected,raw_operational_values_emitted
+required_columns_present,PASS,,"annotation_id,response",False
+row_count_matches_package,FAIL,156,187,False
+annotation_id_missing_from_response,FAIL,32,0,False
+annotation_id_outside_package,FAIL,1,0,False
+duplicate_annotation_ids,PASS,0,0,False
+blank_responses,PASS,0,0,False
+invalid_vocabulary,PASS,0,0,False

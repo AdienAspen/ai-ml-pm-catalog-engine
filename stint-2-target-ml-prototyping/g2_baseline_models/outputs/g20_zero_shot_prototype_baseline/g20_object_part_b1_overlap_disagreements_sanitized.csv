@@ -1,0 +1,5 @@
+annotation_id,annotator_01_response,annotator_02_response,agreement
+G20-B1-OBJ-R2-0001,component_identified,no_component,False
+G20-B1-OBJ-R2-0037,component_identified,system_only,False
+G20-B1-OBJ-R2-0039,component_identified,no_component,False
+G20-B1-OBJ-R2-0040,no_component,system_only,False

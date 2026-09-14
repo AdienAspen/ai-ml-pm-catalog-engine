@@ -1,0 +1,5 @@
+target,path_bucket,calibration_subset,metric_level,majority_class,units,positive_fraction_units,majority_accuracy_or_precision,coverage_pct,evaluation_role,eligible_for_final_heldout,raw_operational_values_emitted
+Object Part,B1_RELATIONAL,calibration_60,unique_source_unit_unweighted,component_identified,179.0,165.0,0.921788,100.0,diagnostic_calibration,False,False
+Object Part,B1_RELATIONAL,calibration_60,unique_source_unit_weighted_to_score_band_universe,component_identified,10736.0,8600.946522,0.801131,100.0,diagnostic_calibration,False,False
+Object Part,B1_RELATIONAL,heldout_40,unique_source_unit_unweighted,component_identified,120.0,107.5,0.895833,100.0,diagnostic_calibration,False,False
+Object Part,B1_RELATIONAL,heldout_40,unique_source_unit_weighted_to_score_band_universe,component_identified,10736.0,7200.961039,0.67073,100.0,diagnostic_calibration,False,False

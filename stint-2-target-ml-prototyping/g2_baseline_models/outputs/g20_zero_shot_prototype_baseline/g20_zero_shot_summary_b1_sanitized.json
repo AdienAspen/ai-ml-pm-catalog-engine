@@ -1,0 +1,27 @@
+{
+  "calibration_rule": "select max coverage subject to precision >= 0.80 on calibration_60; report final on heldout_40",
+  "candidate_promotion_performed": false,
+  "created_at_utc": "2026-09-12T16:28:01.647814+00:00",
+  "denominator_change_performed": false,
+  "label_generation_method": "zero_shot_prototype_matching_v1",
+  "model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "paths_run": [
+    "B1_RELATIONAL"
+  ],
+  "raw_text_emitted": false,
+  "symptom_rerun": false,
+  "targets_run": [
+    "Activity",
+    "Cause",
+    "Damage",
+    "Object Part"
+  ],
+  "task": "G2.0_zero_shot_prototype_baseline",
+  "thresholds": {
+    "Activity|B1_RELATIONAL": null,
+    "Cause|B1_RELATIONAL": null,
+    "Damage|B1_RELATIONAL": null,
+    "Object Part|B1_RELATIONAL": null
+  },
+  "units_loaded": 10749
+}

@@ -1,0 +1,13 @@
+target,path_bucket,catalogue_anchor_units,catalogue_top_concept_share_pct,zero_shot_assigned_units,zero_shot_coverage_pct,zero_shot_threshold_selected,zero_shot_top_class,zero_shot_top_class_share_pct,zero_shot_top_class_gt_30pct,comparison_note,raw_operational_values_emitted
+Activity,B1_RELATIONAL,1215,52.7,0,0.0,,,0.0,False,sap_catalog catalogue-anchor baseline from G1.2c,False
+Activity,B2_WORKBOOKS,,,0,0.0,,,0.0,False,no catalogue baseline declared for this path in G2.0,False
+Activity,PATH_A,,,0,0.0,,,0.0,False,no catalogue baseline declared for this path in G2.0,False
+Cause,B1_RELATIONAL,1203,,0,0.0,,,0.0,False,sap_catalog catalogue-anchor baseline from G1.2c,False
+Cause,B2_WORKBOOKS,,,0,0.0,,,0.0,False,no catalogue baseline declared for this path in G2.0,False
+Cause,PATH_A,,,0,0.0,,,0.0,False,no catalogue baseline declared for this path in G2.0,False
+Damage,B1_RELATIONAL,1263,,0,0.0,,,0.0,False,815 sap_catalog + 312 domain + 136 both from G1.2c,False
+Damage,B2_WORKBOOKS,,,0,0.0,,,0.0,False,no catalogue baseline declared for this path in G2.0,False
+Damage,PATH_A,,,0,0.0,,,0.0,False,no catalogue baseline declared for this path in G2.0,False
+Object Part,B1_RELATIONAL,3737,19.748461,0,0.0,,,0.0,False,high-band Object Part anchors from G1.1d; top concept 738/3737,False
+Object Part,B2_WORKBOOKS,,,0,0.0,,,0.0,False,no catalogue baseline declared for this path in G2.0,False
+Object Part,PATH_A,,,181,50.0,0.38,battery_ups,17.679558,False,no catalogue baseline declared for this path in G2.0,False

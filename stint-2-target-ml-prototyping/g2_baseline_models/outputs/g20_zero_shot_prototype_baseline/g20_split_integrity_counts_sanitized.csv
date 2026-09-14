@@ -1,0 +1,11 @@
+target,path_bucket,calibration_subset,rows
+Cause,B1_RELATIONAL,calibration_60,170
+Cause,B1_RELATIONAL,heldout_40,114
+Cause,B2_WORKBOOKS,calibration_60,25
+Cause,B2_WORKBOOKS,heldout_40,24
+Cause,PATH_A,calibration_60,32
+Cause,PATH_A,heldout_40,10
+Object Part,B2_WORKBOOKS,calibration_60,129
+Object Part,B2_WORKBOOKS,heldout_40,91
+Object Part,PATH_A,calibration_60,90
+Object Part,PATH_A,heldout_40,65

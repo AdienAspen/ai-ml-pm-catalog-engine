@@ -1,0 +1,2 @@
+target,path_bucket,calibration_subset,threshold,evaluation_rows,positive_rows,covered_rows,correct_rows,false_positive_rows,precision_on_covered,positive_recall_on_covered,coverage_pct,evaluation_role,eligible_for_final_heldout,raw_operational_values_emitted,threshold_selected_from
+Object Part,B1_RELATIONAL,heldout_40,0.3,145,131,131,128,3,0.977099,0.977099,90.344828,diagnostic_calibration,False,False,calibration_60
