@@ -1,0 +1,7 @@
+universe,path_bucket,units,evaluation_set_v1_excluded,additional_heldout_excluded,candidate_construction_allowed,statistics_only,normalisation_pipeline,raw_operational_values_emitted
+descriptive_full_corpus,B1_RELATIONAL,10749,0,0,False,True,semantic_normalisation_v2,False
+model_eligible_construction_corpus,B1_RELATIONAL,9263,1376,110,True,False,semantic_normalisation_v2,False
+descriptive_full_corpus,PATH_A,362,0,0,False,True,semantic_normalisation_v2,False
+model_eligible_construction_corpus,PATH_A,159,203,0,True,False,semantic_normalisation_v2,False
+descriptive_full_corpus,B2_WORKBOOKS,1857,0,0,False,True,semantic_normalisation_v2,False
+model_eligible_construction_corpus,B2_WORKBOOKS,1478,379,0,True,False,semantic_normalisation_v2,False

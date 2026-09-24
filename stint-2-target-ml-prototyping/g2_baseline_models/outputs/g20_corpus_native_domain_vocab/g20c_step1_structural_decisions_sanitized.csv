@@ -1,0 +1,5 @@
+decision_id,decision,status,raw_operational_values_emitted
+G20C-STRUCT-01,extract_then_semantically_group_then_map,enforced,False
+G20C-STRUCT-02,semantic_grouping_not_string_grouping,deferred_to_step3,False
+G20C-STRUCT-03,g20_prototypes_must_not_seed_vocabulary,enforced_not_used,False
+G20C-STRUCT-04,top_concept_share_detector_retained,deferred_to_step5,False

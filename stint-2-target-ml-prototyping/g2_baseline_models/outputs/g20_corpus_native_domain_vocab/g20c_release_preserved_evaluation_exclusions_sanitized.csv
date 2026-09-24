@@ -1,0 +1,3 @@
+unit_key_hash,target,path_bucket,reviewed_concept_ids,reviewed_concept_exposure,eligible_for_future_evaluation,exclusion_basis,raw_operational_values_emitted
+UNIT-2aa161ffdddd,Activity,PATH_A,G20C-CONCEPT-654a7fc2fa7bdb,False,False,historical_instrument_exposure_not_revoked_by_sanitization,False
+UNIT-2aa161ffdddd,Object Part,PATH_A,G20C-CONCEPT-654a7fc2fa7bdb,False,False,historical_instrument_exposure_not_revoked_by_sanitization,False

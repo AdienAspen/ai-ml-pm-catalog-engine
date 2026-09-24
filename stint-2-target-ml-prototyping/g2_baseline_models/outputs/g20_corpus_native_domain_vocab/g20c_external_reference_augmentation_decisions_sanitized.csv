@@ -1,0 +1,7 @@
+review_term,decision,reason,evaluation_set_modified,evaluation_text_used,eligible_for_frequency_filter
+bearing failure,admitted_reference_augmentation,Frozen external reference support verified; kept outside the corpus-native pool.,False,False,False
+main bearing failure,held,No exact frozen F1c2 term. Main-bearing scope and bearing-failure evidence exist separately; composition was not promoted automatically.,False,False,False
+crack,admitted_reference_augmentation,Frozen external reference support verified; kept outside the corpus-native pool.,False,False,False
+cracking,admitted_reference_augmentation,Frozen external reference support verified; kept outside the corpus-native pool.,False,False,False
+casting,held,No frozen F1c2/NREL/subsystem reference term was found.,False,False,False
+hub casting,held,No frozen F1c2/NREL/subsystem reference term was found.,False,False,False

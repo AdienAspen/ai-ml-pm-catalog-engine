@@ -1,0 +1,13 @@
+universe,target,path_bucket,units_with_domain_anchor_before,units_with_domain_anchor_after,units_with_domain_anchor_delta,sap_catalog_only_before,sap_catalog_only_after,sap_catalog_only_delta,no_anchor_before,no_anchor_after,no_anchor_delta,domain_vocabulary_top_concept_share_before,domain_vocabulary_top_concept_share_after,domain_vocabulary_top_concept_share_delta,units_touching_reviewed_concepts_before,units_touching_reviewed_concepts_after,units_touching_reviewed_concepts_delta,raw_operational_values_emitted
+descriptive_full_corpus,Activity,B1_RELATIONAL,7606,7606,0,3,3,0,3140,3140,0,0.3727320536418617,0.3727320536418617,0.0,9189,9189,0,False
+descriptive_full_corpus,Activity,B2_WORKBOOKS,213,213,0,0,0,0,1644,1644,0,0.2065727699530516,0.2065727699530516,0.0,286,286,0,False
+descriptive_full_corpus,Activity,PATH_A,321,321,0,0,0,0,41,41,0,0.6043613707165109,0.6043613707165109,0.0,317,316,-1,False
+descriptive_full_corpus,Object Part,B1_RELATIONAL,7668,7668,0,891,891,0,2190,2190,0,0.2033124673969744,0.2033124673969744,0.0,9189,9189,0,False
+descriptive_full_corpus,Object Part,B2_WORKBOOKS,353,353,0,152,152,0,1352,1352,0,0.3172804532577903,0.3172804532577903,0.0,286,286,0,False
+descriptive_full_corpus,Object Part,PATH_A,289,289,0,16,16,0,57,57,0,0.4636678200692041,0.4636678200692041,0.0,317,316,-1,False
+model_eligible_construction_corpus,Activity,B1_RELATIONAL,6680,6680,0,3,3,0,2580,2580,0,0.4134730538922155,0.4134730538922155,0.0,8027,8027,0,False
+model_eligible_construction_corpus,Activity,B2_WORKBOOKS,182,182,0,0,0,0,1296,1296,0,0.2362637362637362,0.2362637362637362,0.0,210,210,0,False
+model_eligible_construction_corpus,Activity,PATH_A,142,142,0,0,0,0,17,17,0,0.6126760563380281,0.6126760563380281,0.0,143,142,-1,False
+model_eligible_construction_corpus,Object Part,B1_RELATIONAL,6459,6459,0,790,790,0,2014,2014,0,0.2297569283170769,0.2297569283170769,0.0,8027,8027,0,False
+model_eligible_construction_corpus,Object Part,B2_WORKBOOKS,224,224,0,138,138,0,1116,1116,0,0.4464285714285714,0.4464285714285714,0.0,210,210,0,False
+model_eligible_construction_corpus,Object Part,PATH_A,104,104,0,11,11,0,44,44,0,0.4326923076923077,0.4326923076923077,0.0,143,142,-1,False

@@ -1,0 +1,13 @@
+artifact,path_bucket,before,after,delta,raw_operational_values_emitted
+g20c_candidate_terms_sanitized.csv,B1_RELATIONAL,75633,75615,-18,False
+g20c_candidate_terms_sanitized.csv,B2_WORKBOOKS,1752,1752,0,False
+g20c_candidate_terms_sanitized.csv,PATH_A,1984,1963,-21,False
+g20c_filtered_terms_sanitized.csv,B1_RELATIONAL,22371,22371,0,False
+g20c_filtered_terms_sanitized.csv,B2_WORKBOOKS,684,684,0,False
+g20c_filtered_terms_sanitized.csv,PATH_A,1786,1770,-16,False
+g20c_concept_members_sanitized.csv,B1_RELATIONAL,22010,22010,0,False
+g20c_concept_members_sanitized.csv,B2_WORKBOOKS,668,668,0,False
+g20c_concept_members_sanitized.csv,PATH_A,1743,1727,-16,False
+g20c_concept_members_step3b_sanitized.csv,B1_RELATIONAL,22010,22010,0,False
+g20c_concept_members_step3b_sanitized.csv,B2_WORKBOOKS,668,668,0,False
+g20c_concept_members_step3b_sanitized.csv,PATH_A,1743,1727,-16,False

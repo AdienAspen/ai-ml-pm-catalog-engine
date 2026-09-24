@@ -1,0 +1,21 @@
+{
+  "input_terms": 24825,
+  "selected_k": 256,
+  "concepts": 256,
+  "grouped_member_rows": 24405,
+  "unresolved_member_rows": 420,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "grouping_method": "minibatch_kmeans_on_normalized_semantic_embeddings_v1",
+  "target_assignment": "post_grouping_reference_anchors_plus_declared_action_and_component_lexicons_v1",
+  "evaluation_text_used": false,
+  "g20_prototype_reused": false,
+  "operational_entity_token_hits": 0,
+  "all_target_path_surface_concentration_gates_pass": true,
+  "any_unit_mention_weight_warning_over_30pct": true,
+  "release_sanitization_policy": "restricted_lexical_substring_exclusion_v1",
+  "removed_member_rows": 16,
+  "original_fit_input_terms": 24841,
+  "cluster_refitted": false,
+  "centroid_similarity_scope": "original_fit_centroids_retained",
+  "target_assignment_scope": "original_assignments_retained_step3b_revalidated"
+}

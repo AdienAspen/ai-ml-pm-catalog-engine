@@ -1,0 +1,17 @@
+path_bucket,stage_order,filter_stage,terms_entering_stage,terms_removed_at_stage,terms_surviving_stage,survival_pct_of_input,frequency_floor,target_assignment
+B1_RELATIONAL,0,input,75615,0,75615,100.0,3,deferred_to_step3_semantic_grouping
+B1_RELATIONAL,1,path_frequency_floor,75615,50689,24926,32.964359,3,deferred_to_step3_semantic_grouping
+B1_RELATIONAL,2,generic_only_removal,24926,495,24431,32.309727,3,deferred_to_step3_semantic_grouping
+B1_RELATIONAL,3,fragment_removal,24431,2060,22371,29.5854,3,deferred_to_step3_semantic_grouping
+B2_WORKBOOKS,0,input,1752,0,1752,100.0,2,deferred_to_step3_semantic_grouping
+B2_WORKBOOKS,1,path_frequency_floor,1752,1011,741,42.294521,2,deferred_to_step3_semantic_grouping
+B2_WORKBOOKS,2,generic_only_removal,741,41,700,39.954338,2,deferred_to_step3_semantic_grouping
+B2_WORKBOOKS,3,fragment_removal,700,16,684,39.041096,2,deferred_to_step3_semantic_grouping
+PATH_A,0,input,1963,0,1963,100.0,1,deferred_to_step3_semantic_grouping
+PATH_A,1,path_frequency_floor,1963,0,1963,100.0,1,deferred_to_step3_semantic_grouping
+PATH_A,2,generic_only_removal,1963,59,1904,96.994396,1,deferred_to_step3_semantic_grouping
+PATH_A,3,fragment_removal,1904,134,1770,90.16811,1,deferred_to_step3_semantic_grouping
+ALL,0,input,79330,0,79330,100.0,path_specific,deferred_to_step3_semantic_grouping
+ALL,1,path_frequency_floor,79330,51700,27630,34.829195,path_specific,deferred_to_step3_semantic_grouping
+ALL,2,generic_only_removal,27630,595,27035,34.079163,path_specific,deferred_to_step3_semantic_grouping
+ALL,3,fragment_removal,27035,2210,24825,31.293332,path_specific,deferred_to_step3_semantic_grouping

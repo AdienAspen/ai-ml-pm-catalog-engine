@@ -1,0 +1,29 @@
+{
+  "clusters_regrouped": false,
+  "thresholds_lowered": false,
+  "activity_score_threshold": 0.4,
+  "object_part_score_threshold": 0.4,
+  "target_margin": 0.05,
+  "new_anchor_construction_method": "derived_from_corpus_inspection",
+  "diagnostic_sample_concepts_excluded": 10,
+  "step3b_qa_concepts_excluded": 3,
+  "reviewed_concepts_excluded_from_future_evaluation": 13,
+  "concept_assignments_changed": 6,
+  "assigned_concepts_before": 61,
+  "assigned_concepts_after": 67,
+  "before_counts": {
+    "unassigned": 191,
+    "Object Part": 40,
+    "Activity": 21,
+    "ambiguous": 4
+  },
+  "after_counts": {
+    "unassigned": 185,
+    "Object Part": 43,
+    "Activity": 24,
+    "ambiguous": 4
+  },
+  "max_surface_concentration_before": 0.236181,
+  "max_surface_concentration_after": 0.233831,
+  "all_surface_concentration_gates_pass": true
+}

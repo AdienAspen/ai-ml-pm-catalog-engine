@@ -1,0 +1,7 @@
+path_bucket,target,max_surface_variant_share_before,max_unit_mention_weight_share_before,surface_concentration_gate_pass_before,unit_mention_weight_over_30pct_warning_before,max_surface_variant_share_after,max_unit_mention_weight_share_after,surface_concentration_gate_pass_after,unit_mention_weight_over_30pct_warning_after
+B1_RELATIONAL,Activity,0.207259,0.344367,True,True,0.184996,0.323566,True,True
+B1_RELATIONAL,Object Part,0.072153,0.15547,True,False,0.066788,0.144126,True,False
+B2_WORKBOOKS,Activity,0.15,0.236769,True,False,0.141176,0.224868,True,False
+B2_WORKBOOKS,Object Part,0.223529,0.488479,True,True,0.184466,0.415686,True,True
+PATH_A,Activity,0.236181,0.36413,True,True,0.233831,0.363144,True,True
+PATH_A,Object Part,0.183267,0.290541,True,False,0.167883,0.251756,True,False

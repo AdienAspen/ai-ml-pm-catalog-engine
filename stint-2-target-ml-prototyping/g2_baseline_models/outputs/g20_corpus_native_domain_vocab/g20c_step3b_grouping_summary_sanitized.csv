@@ -1,0 +1,13 @@
+path_bucket,target,concepts,member_rows,max_surface_variant_share,max_unit_mention_weight_share,surface_concentration_gate_applies,surface_concentration_gate_pass,unit_mention_weight_over_30pct_warning
+B1_RELATIONAL,Activity,24,2346,0.184996,0.323566,True,True,True
+B1_RELATIONAL,Object Part,43,3833,0.066788,0.144126,True,True,False
+B1_RELATIONAL,ambiguous,4,201,0.487562,0.412279,False,True,True
+B1_RELATIONAL,unassigned,185,15630,0.027767,0.047823,False,True,False
+B2_WORKBOOKS,Activity,17,85,0.141176,0.224868,True,True,False
+B2_WORKBOOKS,Object Part,22,103,0.184466,0.415686,True,True,True
+B2_WORKBOOKS,ambiguous,2,9,0.888889,0.913043,False,True,True
+B2_WORKBOOKS,unassigned,84,471,0.063694,0.119035,False,True,False
+PATH_A,Activity,16,201,0.233831,0.363144,True,True,True
+PATH_A,Object Part,20,274,0.167883,0.251756,True,True,False
+PATH_A,ambiguous,3,19,0.736842,0.859649,False,True,True
+PATH_A,unassigned,118,1233,0.072182,0.080995,False,True,False

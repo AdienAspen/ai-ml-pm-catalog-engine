@@ -1,0 +1,4 @@
+reference_entry_id,reference_term,reference_target,step3_status,included_in_clustering,included_in_target_assignment,included_in_concentration,evaluation_text_used
+G20C-REF-7c514ef6419a,bearing failure,Damage,retained_separate_out_of_scope_target,False,False,False,False
+G20C-REF-94f94c9c97bf,crack,Damage,retained_separate_out_of_scope_target,False,False,False,False
+G20C-REF-31fd3a1a7419,cracking,Damage,retained_separate_out_of_scope_target,False,False,False,False

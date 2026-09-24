@@ -1,0 +1,13 @@
+path_bucket,target,concepts,member_rows,max_surface_variant_share,max_unit_mention_weight_share,surface_concentration_gate_applies,surface_concentration_gate_pass,unit_mention_weight_over_30pct_warning,release_sanitization_policy
+B1_RELATIONAL,Activity,21,2094,0.207259,0.344367,True,True,True,restricted_lexical_substring_exclusion_v1
+B1_RELATIONAL,Object Part,40,3548,0.072153,0.15547,True,True,False,restricted_lexical_substring_exclusion_v1
+B1_RELATIONAL,ambiguous,4,201,0.487562,0.412279,False,True,True,restricted_lexical_substring_exclusion_v1
+B1_RELATIONAL,unassigned,191,16167,0.026845,0.046576,False,True,False,restricted_lexical_substring_exclusion_v1
+B2_WORKBOOKS,Activity,15,80,0.15,0.236769,True,True,False,restricted_lexical_substring_exclusion_v1
+B2_WORKBOOKS,Object Part,20,85,0.223529,0.488479,True,True,True,restricted_lexical_substring_exclusion_v1
+B2_WORKBOOKS,ambiguous,2,9,0.888889,0.913043,False,True,True,restricted_lexical_substring_exclusion_v1
+B2_WORKBOOKS,unassigned,88,494,0.060729,0.114845,False,True,False,restricted_lexical_substring_exclusion_v1
+PATH_A,Activity,15,199,0.236181,0.36413,True,True,True,restricted_lexical_substring_exclusion_v1
+PATH_A,Object Part,18,251,0.183267,0.290541,True,True,False,restricted_lexical_substring_exclusion_v1
+PATH_A,ambiguous,3,19,0.736842,0.859649,False,True,True,restricted_lexical_substring_exclusion_v1
+PATH_A,unassigned,121,1258,0.070747,0.078906,False,True,False,restricted_lexical_substring_exclusion_v1

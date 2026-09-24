@@ -1,0 +1,7 @@
+rule_id,rule_type,path_bucket,value,scope,rationale
+frequency_floor_b1_relational,path_specific_frequency_floor,B1_RELATIONAL,3,corpus_native_candidates_only,remove sparse terms before semantic grouping
+frequency_floor_b2_workbooks,path_specific_frequency_floor,B2_WORKBOOKS,2,corpus_native_candidates_only,remove sparse terms before semantic grouping
+frequency_floor_path_a,path_specific_frequency_floor,PATH_A,1,corpus_native_candidates_only,retain all because eligible frequency is not a prevalence estimate
+generic_only_term,generic_stopword_removal,ALL,all tokens generic,corpus_native_candidates_only,retain mixed phrases when any non-generic token is present
+fragment_or_invalid_length,shape_filter,ALL,1-3 alphabetic tokens; no one-character fragments,corpus_native_candidates_only,remove fragments without assigning Activity or Object Part
+external_reference_separation,governance_guard,ALL,not frequency filtered or merged,external_reference_layer,external evidence can support Step 3 coverage only

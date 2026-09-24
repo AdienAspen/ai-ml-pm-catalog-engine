@@ -1,0 +1,6 @@
+target,concepts_before,concepts_after,delta
+Activity,21,24,3
+Object Part,40,43,3
+ambiguous,4,4,0
+unassigned,191,185,-6
+assigned_total,61,67,6

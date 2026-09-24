@@ -1,0 +1,4 @@
+path_bucket,top_terms_checked,terms_retained,median_unit_count_retention_pct,minimum_unit_count_retention_pct,fully_lost_terms,retained_below_50pct_terms,terms_retained_pct,diagnostic_scope,candidate_construction_from_full_corpus,raw_operational_values_emitted
+B1_RELATIONAL,100,100,95.14293599999999,48.63459,0,1,100.0,top_terms_from_descriptive_full_corpus,False,False
+B2_WORKBOOKS,100,89,92.857143,0.0,11,11,89.0,top_terms_from_descriptive_full_corpus,False,False
+PATH_A,100,100,43.610547499999996,2.857143,0,74,100.0,top_terms_from_descriptive_full_corpus,False,False

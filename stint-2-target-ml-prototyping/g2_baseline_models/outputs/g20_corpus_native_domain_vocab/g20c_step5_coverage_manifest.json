@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-09-23T16:17:29.530361+00:00",
+  "step": "G2.0c Step 5",
+  "status": "completed_with_concentration_flags",
+  "domain_concepts": 67,
+  "unassigned_and_ambiguous_concepts_not_used": 189,
+  "domain_matcher": "exact_contiguous_1_to_3_token_surface_variants_frozen_step3b",
+  "catalogue_matcher": "exact_contiguous_canonical_phrases_from_frozen_lexical_v2_high_sap_owned",
+  "matching_scope": "shared_frozen_lexicon_across_paths_separate_unit_counts_per_path",
+  "segment_policy": "no_phrase_matches_across_original_source_segment_boundaries",
+  "catalogue_mapping_step4_used_as_detector": false,
+  "normalisation_pipeline": "semantic_normalisation_v2",
+  "catalogue_anchor_source": "derived_from_frozen_owner_source_namespace_not_original_field",
+  "top_concept_share_denominator": "distinct_units_with_at_least_one_anchor_from_same_source_target_path_universe",
+  "gate_rule": "flag_strictly_above_0.30_no_retuning",
+  "concentration_flags": [
+    {
+      "target": "Activity",
+      "path_bucket": "B1_RELATIONAL",
+      "share": 0.3727320536418617
+    },
+    {
+      "target": "Activity",
+      "path_bucket": "PATH_A",
+      "share": 0.6043613707165109
+    },
+    {
+      "target": "Object Part",
+      "path_bucket": "B2_WORKBOOKS",
+      "share": 0.31728045325779036
+    },
+    {
+      "target": "Object Part",
+      "path_bucket": "PATH_A",
+      "share": 0.46366782006920415
+    }
+  ],
+  "measurement": "descriptive_lexical_coverage_not_accuracy_or_admission",
+  "reviewed_concepts_excluded_from_future_evaluation": [
+    "G20C-CONCEPT-16bb7eeda16fb3",
+    "G20C-CONCEPT-171ae89bfd2d21",
+    "G20C-CONCEPT-3581c591dd5afd",
+    "G20C-CONCEPT-5ca42a7492f5d9",
+    "G20C-CONCEPT-654a7fc2fa7bdb",
+    "G20C-CONCEPT-821112095836c0",
+    "G20C-CONCEPT-be432a726fd716",
+    "G20C-CONCEPT-bfd6f5fca3d412",
+    "G20C-CONCEPT-c6d168b839ef9d",
+    "G20C-CONCEPT-d6f2c241a892d6",
+    "G20C-CONCEPT-e244a9a21a16df",
+    "G20C-CONCEPT-ea9bd115865cbc",
+    "G20C-CONCEPT-f1679004e1686e"
+  ],
+  "masks_verified": 13,
+  "construction_membership_verified": 10900,
+  "frozen_member_frequencies_verified": 24405,
+  "labels_read": false,
+  "training_run": false,
+  "denominator_changed": false,
+  "heldout_statistics_used_to_retune": false,
+  "reference_or_upstream_files_changed": false,
+  "historical_activity_correction": {
+    "mixed_path_top": 858,
+    "mixed_path_denominator": 1628,
+    "b1_top": 832,
+    "b1_denominator": 1215
+  },
+  "outputs": {
+    "g20c_coverage_contrast_sanitized.csv": "abe117135afab52871953c5163504fa7e6b72f8ac7b5791d833507b7b32034b1",
+    "g20c_step5_concept_coverage_sanitized.csv": "e4ceaf1078ebaf4dc1eb9a414db5741116f76361dc201e358d7d15c90551cc6a",
+    "g20c_step5_unit_coverage_sanitized.csv": "f49ada3e67023d8ff1960f8ea1de4e38e82c0e8d21cc587874bde738b926bf8d",
+    "g20c_step5_unit_concept_hits_sanitized.csv": "0667b8f8c0fe3911209354893308af11adf71d4b1055cee294f7679b2f444cdb",
+    "g20c_step5_anchor_registry_sanitized.csv": "55e8532d6362ecec781f9fcacae8ed5cb79efa548c1963d9226e77737c7c2397",
+    "g20c_step5_member_frequency_audit_sanitized.csv": "2a608c87793a0458bbf6ef416db2d7bd51247812337617c976d76bb7cd1f639d",
+    "g20c_step5_historical_contrast_sanitized.csv": "10cf52a5d2bbad48cbee8f6b6bef6479d2807b4fb0bdea64c45815b54c109bfb",
+    "g20c_step5_no_item_subset_sanitized.csv": "ef615694e48082e49a9428dac7a9a13d29fd5c6a2f35933e8441bfaa1537eb8c",
+    "g20c_step5_no_item_concepts_sanitized.csv": "f9d0449a762895ded192faef3399f7a17c7784f6e98f1808893cc99b4aab7c41",
+    "g20c_step5_input_hashes_sanitized.csv": "e345f3489d28c967645299b07bfa817b9a02a13fcb6551008c375d9c7db52b12"
+  },
+  "limitations": [
+    "Exact phrase coverage is not semantic validation of every cluster member.",
+    "Historical semantic Activity detector differs from this exact phrase comparator.",
+    "Object Part historical 3737 has denominator 6670, not 10749.",
+    "Excluded texts enter full-corpus statistics only; no vocabulary changes.",
+    "Unseen surface variants can be missed, especially B2 and Path A.",
+    "Future heldout additions require rechecking construction exclusions before reuse."
+  ]
+}
