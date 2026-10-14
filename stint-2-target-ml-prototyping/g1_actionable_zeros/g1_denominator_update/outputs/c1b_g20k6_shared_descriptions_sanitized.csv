@@ -1,0 +1,11 @@
+target,metric_id,numerator,denominator,figure_percent,order_weighted_population,distinct_component_profiles,evidence_level
+Symptom,partition_share_component_description,8032,84354,9.52,3217,17,"diagnostic, derived"
+Symptom,partition_share_pmmuww_description,8032,19302,41.61,3217,17,"diagnostic, derived"
+Object Part,partition_share_component_description,0,33194,0.00,3217,17,"diagnostic, derived"
+Object Part,partition_share_pmmuww_description,0,3217,0.00,3217,17,"diagnostic, derived"
+Damage,partition_share_component_description,58380,120556,48.43,3217,17,"diagnostic, derived"
+Damage,partition_share_pmmuww_description,58380,283096,20.62,3217,17,"diagnostic, derived"
+Cause,partition_share_component_description,18302,126442,14.47,3217,17,"diagnostic, derived"
+Cause,partition_share_pmmuww_description,18302,41821,43.76,3217,17,"diagnostic, derived"
+Activity,partition_share_component_description,4292,18860,22.76,3217,17,"diagnostic, derived"
+Activity,partition_share_pmmuww_description,4292,16085,26.68,3217,17,"diagnostic, derived"

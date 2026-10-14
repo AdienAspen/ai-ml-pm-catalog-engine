@@ -1,0 +1,10 @@
+target,cohort,metric_id,numerator,denominator,figure_percent,evidence_level
+Object Part,prior_implied_node,agreement_chosen_code,11,248,4.44,"diagnostic, derived"
+Object Part,prior_implied_node,agreement_identical_description,65,248,26.21,"diagnostic, derived"
+Object Part,prior_implied_node,agreement_equal_score,66,248,26.61,"diagnostic, derived"
+Object Part,prior_implied_none,agreement_chosen_code,43,872,4.93,"diagnostic, derived"
+Object Part,prior_implied_none,agreement_identical_description,73,872,8.37,"diagnostic, derived"
+Object Part,prior_implied_none,agreement_equal_score,77,872,8.83,"diagnostic, derived"
+Object Part,all_comparable,agreement_chosen_code,54,1120,4.82,"diagnostic, derived"
+Object Part,all_comparable,agreement_identical_description,138,1120,12.32,"diagnostic, derived"
+Object Part,all_comparable,agreement_equal_score,143,1120,12.77,"diagnostic, derived"
