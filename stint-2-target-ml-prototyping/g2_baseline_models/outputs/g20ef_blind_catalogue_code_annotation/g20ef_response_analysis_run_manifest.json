@@ -1,0 +1,95 @@
+{
+  "ac1_formula_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5965565/",
+  "ac1_method": "nominal_unweighted_fixed_complete_controlled_vocabulary",
+  "activity_frame_units": 1234,
+  "annotation_process_compliance": "cannot_be_proven_from_csv_alone",
+  "annotator_models": "actual_round_model_identity_not_verified_from_csv",
+  "eligible_for_final_heldout": false,
+  "evaluation_set_type": "blind_llm_annotation_g01-v2_non_final",
+  "inputs_sha256": {
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/activity/annotator_01/g20ef_activity_g01-v2_annotator_01.jsonl": "70b1297df28ae22e6ef872a4a060d0602b643e6d8626d474b9edad6180b33af6",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/activity/annotator_01/g20ef_activity_g01-v2_annotator_01_catalogue_codes.csv": "3032d38ad78f4dc03f07dfe30834a2f88dc43e3bf2ebd55e828d0adc08893084",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/activity/annotator_02/g20ef_activity_g01-v2_annotator_02.jsonl": "64fc00b49ac9344c241398f34088f40436479a2d9468696eab4f768cafd86deb",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/activity/annotator_02/g20ef_activity_g01-v2_annotator_02_catalogue_codes.csv": "3032d38ad78f4dc03f07dfe30834a2f88dc43e3bf2ebd55e828d0adc08893084",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/damage/annotator_01/g20ef_damage_g01-v2_annotator_01.jsonl": "ef86864bbea0361cb7c30913274b0387a733bb6d6d109d6e51cee34870fe6231",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/damage/annotator_01/g20ef_damage_g01-v2_annotator_01_catalogue_codes.csv": "3e6547265c0162befd61b7f4efb5cad525502e40ed6af8d118335c627df72b83",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/damage/annotator_02/g20ef_damage_g01-v2_annotator_02.jsonl": "8deb85871914f9717c42574a5f31fa303d0ec8011729bc80e4b2d7f18c9dc00b",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/damage/annotator_02/g20ef_damage_g01-v2_annotator_02_catalogue_codes.csv": "3e6547265c0162befd61b7f4efb5cad525502e40ed6af8d118335c627df72b83",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/protocol/g01-v2_protocol.md": "bc51b3e6fdbc0ae5803db119677b44fff24c7b04a81410323d7be707de378412",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/activity/annotator_01/g20ef_activity_g01-v2_annotator_01_response_received.csv": "fa253963c2ef90313e51450477f1250bb02a2f830b8927b4cec412ea3911f31c",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/activity/annotator_02/g20ef_activity_g01-v2_annotator_02_response_received.csv": "20d893de4a1d8b0e882ee9cc1d6476a02a33e888027e7c8ac21941a961ffa048",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/damage/annotator_01/g20ef_damage_g01-v2_annotator_01_response_received.csv": "3943b44b393662c92d8ad77e11e738bcbde2d1ec0b7e935e4a6299129aedf475",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/damage/annotator_02/g20ef_damage_g01-v2_annotator_02_response_received.csv": "3ec0bcabb653ca12265e06b3a0d0e90c4febb5ecac67afb8211678df164e4cad",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_sample_manifest_sanitized.csv": "5bcc1fcc71d251b94d1ca6eb1f4e3e67aabd45cef5904db3dde2b4fca3e823f2"
+  },
+  "metrics": [
+    {
+      "ac1_category_count": 9,
+      "ac1_chance_agreement": 0.048100000000000004,
+      "cohen_kappa": 0.0863787375415284,
+      "disagreements": 33,
+      "eligible_for_final_heldout": false,
+      "evaluation_set_type": "blind_llm_annotation_g01-v2_non_final",
+      "gwet_ac1": 0.5377665721189201,
+      "kappa_chance_agreement": 0.5184,
+      "level": "response",
+      "matching": 42,
+      "n": 75,
+      "path": "B1_RELATIONAL",
+      "raw_agreement": 0.56,
+      "status": "valid",
+      "target": "activity",
+      "threshold": "not_applicable_annotation_agreement"
+    },
+    {
+      "ac1_category_count": "",
+      "ac1_chance_agreement": "",
+      "cohen_kappa": "",
+      "disagreements": "",
+      "eligible_for_final_heldout": false,
+      "evaluation_set_type": "blind_llm_annotation_g01-v2_non_final",
+      "gwet_ac1": "",
+      "kappa_chance_agreement": "",
+      "level": "group",
+      "matching": "",
+      "n": "",
+      "path": "B1_RELATIONAL",
+      "raw_agreement": "",
+      "status": "blocked_invalid_batch",
+      "target": "damage",
+      "threshold": "not_applicable_annotation_agreement"
+    },
+    {
+      "ac1_category_count": "",
+      "ac1_chance_agreement": "",
+      "cohen_kappa": "",
+      "disagreements": "",
+      "eligible_for_final_heldout": false,
+      "evaluation_set_type": "blind_llm_annotation_g01-v2_non_final",
+      "gwet_ac1": "",
+      "kappa_chance_agreement": "",
+      "level": "group_code",
+      "matching": "",
+      "n": "",
+      "path": "B1_RELATIONAL",
+      "raw_agreement": "",
+      "status": "blocked_invalid_batch",
+      "target": "damage",
+      "threshold": "not_applicable_annotation_agreement"
+    }
+  ],
+  "originals_unchanged": true,
+  "overlap_integrity": {
+    "activity": {
+      "matches_sample_manifest": true,
+      "shared_ids_present": 75
+    },
+    "damage": {
+      "matches_sample_manifest": true,
+      "shared_ids_present": 75
+    }
+  },
+  "path": "B1_RELATIONAL",
+  "registered_at_utc": "2026-09-28T20:20:02.370220+00:00",
+  "threshold": "not_applicable_annotation_agreement"
+}

@@ -1,0 +1,39 @@
+{
+  "catalogue_sha256": "e2889cce53d16a78ba0ab3ed6e71aa74eb9a901b8f181ead847c86e9d4c74bcd",
+  "damage_response_encoding": "level_1_exit_group_with_blank_code; selected_group_with_code_abstain",
+  "eligible_for_final_heldout": false,
+  "evaluation_independence": "independent",
+  "evaluation_role": "evaluation",
+  "heldout_reason": "source corpus participated in prior instrument construction; final eligibility not established",
+  "label_generation_method": "blind_llm_annotation",
+  "protocol_sha256": "bc51b3e6fdbc0ae5803db119677b44fff24c7b04a81410323d7be707de378412",
+  "sampling_design": "simple_random_with_declared_exclusions",
+  "seed": "STINT2-G20EF-g01-v2-simple-random-20260926",
+  "targets": {
+    "activity": {
+      "annotator_01_rows": 187,
+      "annotator_02_rows": 188,
+      "exclusions": {
+        "empty_text": 2,
+        "frozen_construction_exclusion": 1486,
+        "g20c_reviewed_concept_exposure": 8027
+      },
+      "frame_units": 1234,
+      "overlap": 75,
+      "total_responses_expected": 375,
+      "unique_sampled": 300
+    },
+    "damage": {
+      "annotator_01_rows": 187,
+      "annotator_02_rows": 188,
+      "exclusions": {
+        "empty_text": 2,
+        "frozen_construction_exclusion": 1486
+      },
+      "frame_units": 9261,
+      "overlap": 75,
+      "total_responses_expected": 375,
+      "unique_sampled": 300
+    }
+  }
+}

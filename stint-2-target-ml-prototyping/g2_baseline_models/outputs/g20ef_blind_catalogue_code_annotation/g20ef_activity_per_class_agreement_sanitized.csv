@@ -1,0 +1,10 @@
+path,evaluation_set_type,threshold,eligible_for_final_heldout,n,category,annotator_01_count,annotator_02_count,both_same_class,specific_agreement,status
+B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False,75,BYPS,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False,75,PROG,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False,75,REMD,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False,75,SETT,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False,75,TEST,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False,75,abstain,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False,75,multiple,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False,75,no_applicable_code,36,3,3,0.15384615384615385,observed
+B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False,75,none_applicable,39,72,39,0.7027027027027027,observed

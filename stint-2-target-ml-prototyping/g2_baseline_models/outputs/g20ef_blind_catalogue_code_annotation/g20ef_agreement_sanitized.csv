@@ -1,0 +1,4 @@
+target,level,status,n,matching,disagreements,raw_agreement,cohen_kappa,gwet_ac1,ac1_category_count,kappa_chance_agreement,ac1_chance_agreement,path,evaluation_set_type,threshold,eligible_for_final_heldout
+activity,response,valid,75,42,33,0.56,0.0863787375415284,0.5377665721189201,9,0.5184,0.048100000000000004,B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False
+damage,group,blocked_invalid_batch,,,,,,,,,,B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False
+damage,group_code,blocked_invalid_batch,,,,,,,,,,B1_RELATIONAL,blind_llm_annotation_g01-v2_non_final,not_applicable_annotation_agreement,False

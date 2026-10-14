@@ -1,0 +1,397 @@
+{
+  "damage02_last_field_provenance": "explicit_user_correction_message",
+  "damage_serialization_repairs": {
+    "annotator_01": 141,
+    "annotator_02": 1
+  },
+  "inputs_sha256": {
+    "docs/PLAN-G2.0e\u2014G2.0ef-Closing the Annotation Round.md": "65b17c92b98841a3970b59ad2b74247226fab9f51255bf718c3a5198f20573f5",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/activity/annotator_01/g20ef_activity_g01-v2_annotator_01.jsonl": "70b1297df28ae22e6ef872a4a060d0602b643e6d8626d474b9edad6180b33af6",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/activity/annotator_01/g20ef_activity_g01-v2_annotator_01_catalogue_codes.csv": "3032d38ad78f4dc03f07dfe30834a2f88dc43e3bf2ebd55e828d0adc08893084",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/activity/annotator_02/g20ef_activity_g01-v2_annotator_02.jsonl": "64fc00b49ac9344c241398f34088f40436479a2d9468696eab4f768cafd86deb",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/activity/annotator_02/g20ef_activity_g01-v2_annotator_02_catalogue_codes.csv": "3032d38ad78f4dc03f07dfe30834a2f88dc43e3bf2ebd55e828d0adc08893084",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/damage/annotator_01/g20ef_damage_g01-v2_annotator_01.jsonl": "ef86864bbea0361cb7c30913274b0387a733bb6d6d109d6e51cee34870fe6231",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/damage/annotator_01/g20ef_damage_g01-v2_annotator_01_catalogue_codes.csv": "3e6547265c0162befd61b7f4efb5cad525502e40ed6af8d118335c627df72b83",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/damage/annotator_02/g20ef_damage_g01-v2_annotator_02.jsonl": "8deb85871914f9717c42574a5f31fa303d0ec8011729bc80e4b2d7f18c9dc00b",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/packages/damage/annotator_02/g20ef_damage_g01-v2_annotator_02_catalogue_codes.csv": "3e6547265c0162befd61b7f4efb5cad525502e40ed6af8d118335c627df72b83",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/protocol/g01-v2.1_protocol.md": "d58b30da38357b0ce2f35625c392320c6e1d06885130a71011be54bd4541a724",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/activity/annotator_01/g20e_activity_responses_v21_annotator_01.csv": "987b7de6241c01a7188566d0319bc7826b18a01a9702f4c6e53bc331f09673ec",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/activity/annotator_01/g20ef_activity_g01-v2_annotator_01_response_received.csv": "fa253963c2ef90313e51450477f1250bb02a2f830b8927b4cec412ea3911f31c",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/activity/annotator_02/g20e_activity_responses_v21_annotator_02.csv": "070f58bc75e904eb520663fe7835e886117cd98013ccb54d345c46700b91576c",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/activity/annotator_02/g20ef_activity_g01-v2_annotator_02_response_received.csv": "20d893de4a1d8b0e882ee9cc1d6476a02a33e888027e7c8ac21941a961ffa048",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/damage/annotator_01/g20ef_damage_g01-v2_annotator_01_response_received.csv": "3943b44b393662c92d8ad77e11e738bcbde2d1ec0b7e935e4a6299129aedf475",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/damage/annotator_01/g20f_damage_responses_annotator_01_reformatted.csv": "b5c63c1aa6949888c7d8153cd2cdc7edc8836f67bed1625fd977a4758aaf69db",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/damage/annotator_02/g20ef_damage_g01-v2_annotator_02_response_received.csv": "3ec0bcabb653ca12265e06b3a0d0e90c4febb5ecac67afb8211678df164e4cad",
+    "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/damage/annotator_02/g20f_damage_responses_annotator_02_reformatted.csv": "b8e1c67a361f3b73cf04b20bb26bde2e4b9e1cabb97e33fa0c7d0f522d69f82d",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_activity_confusion_matrix_sanitized.csv": "0c16ad1afbe7fc2fd009588213b58845aee49e36beecbe62e1a2f3fef2579910",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_activity_overlap_responses_sanitized.csv": "53ee182d3940ffdda1b7ee0d8bb68cdcae1b1d95dd1e6dbba55371fb37f77cb3",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_activity_per_class_agreement_sanitized.csv": "0fcaa626fbc6171e32ee982d7368dfec2231dfc841fd7ceefb13e43556c57386",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_agreement_sanitized.csv": "fd3df9b7aa6705c280fea4912a2fcda33bb5dbacc10a7d44df7184aad77f21e7",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_class_distribution_sanitized.csv": "b872785579d3d7fb3854dd81b40f78bf9366640e8604856821fb2d7fbfe94e1a",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_response_analysis_memo.md": "9c2453138abdafefe9caf187f13b5af626b21358cb684a93d6a2df09c26dae48",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_response_analysis_run_manifest.json": "1f3862bddf5b92954b3aacccbe90322337b7b0a751bd3dcb86e08853455b5991",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_response_receipt_register_sanitized.csv": "4f8ac8865d4f67adf4d1eadb09dd32de6e46e3e3eaacc0fae142a821d839bebb",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_response_validation_defects_sanitized.csv": "be323669fd0efd9ca440efcf53edc87400b88723c9f2699fea3ebf038af90a49",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_sample_manifest_sanitized.csv": "5bcc1fcc71d251b94d1ca6eb1f4e3e67aabd45cef5904db3dde2b4fca3e823f2",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_sampling_memo.md": "41f47002bcf24b883238c1c84bcd4530115a81737f3be86b77a8a7c9aa3a5eec",
+    "g2_baseline_models/outputs/g20ef_blind_catalogue_code_annotation/g20ef_sampling_summary_sanitized.json": "c0bed51eb477719a4e11691a662bc886db4caccd4e825f271a881cc657ab831c"
+  },
+  "normalization": "none_on_responses",
+  "originals_unchanged": true,
+  "outcomes": {
+    "activity": {
+      "conditional": {
+        "both_assigned": 0,
+        "both_assigned_matching_group_code": 0,
+        "conditional_code_agreement": "",
+        "conditional_n": 0,
+        "eligible_for_final_heldout": false,
+        "evaluation_independence": "independent",
+        "evaluation_set_type": "blind_llm_annotation_g01-v2.1_diagnostic_non_final",
+        "interpretation": "selected_subset_agreement_not_accuracy_or_coverage",
+        "label_generation_method": "blind_llm_annotation",
+        "level": "code_assignment_conditioning",
+        "n": 75,
+        "neither_assigned": 75,
+        "only_annotator_01_assigned": 0,
+        "only_annotator_02_assigned": 0,
+        "path": "B1_RELATIONAL",
+        "protocol_version": "g01-v2.1",
+        "target": "activity",
+        "threshold": "not_applicable_annotation_agreement",
+        "wilson95_high": "",
+        "wilson95_low": ""
+      },
+      "metrics": [
+        {
+          "ac1_category_count": 9,
+          "ac1_chance_agreement": 0.061955555555555555,
+          "cohen_kappa": 0.8927038626609441,
+          "disagreements": 4,
+          "eligible_for_final_heldout": false,
+          "evaluation_independence": "independent",
+          "evaluation_set_type": "blind_llm_annotation_g01-v2.1_diagnostic_non_final",
+          "gwet_ac1": 0.9431441296313844,
+          "kappa_chance_agreement": 0.5029333333333333,
+          "label_generation_method": "blind_llm_annotation",
+          "level": "response",
+          "matching": 71,
+          "n": 75,
+          "path": "B1_RELATIONAL",
+          "protocol_version": "g01-v2.1",
+          "raw_agreement": 0.9466666666666667,
+          "status": "valid",
+          "target": "activity",
+          "threshold": "not_applicable_annotation_agreement"
+        }
+      ],
+      "nonzero_matrix": {
+        "response": [
+          {
+            "annotator_01_response": "no_applicable_code",
+            "annotator_02_response": "no_applicable_code",
+            "count": 39
+          },
+          {
+            "annotator_01_response": "no_applicable_code",
+            "annotator_02_response": "none_applicable",
+            "count": 4
+          },
+          {
+            "annotator_01_response": "none_applicable",
+            "annotator_02_response": "none_applicable",
+            "count": 32
+          }
+        ]
+      },
+      "original_metrics_recomputed": {
+        "ac1_category_count": 9,
+        "ac1_chance_agreement": 0.048100000000000004,
+        "cohen_kappa": 0.0863787375415284,
+        "disagreements": 33,
+        "gwet_ac1": 0.5377665721189201,
+        "kappa_chance_agreement": 0.5184,
+        "matching": 42,
+        "n": 75,
+        "raw_agreement": 0.56
+      }
+    },
+    "damage": {
+      "conditional": {
+        "both_assigned": 7,
+        "both_assigned_matching_group_code": 7,
+        "conditional_code_agreement": 1.0,
+        "conditional_n": 7,
+        "eligible_for_final_heldout": false,
+        "evaluation_independence": "independent",
+        "evaluation_set_type": "blind_llm_annotation_g01-v2_diagnostic_non_final",
+        "interpretation": "selected_subset_agreement_not_accuracy_or_coverage",
+        "label_generation_method": "blind_llm_annotation",
+        "level": "code_assignment_conditioning",
+        "n": 75,
+        "neither_assigned": 60,
+        "only_annotator_01_assigned": 8,
+        "only_annotator_02_assigned": 0,
+        "path": "B1_RELATIONAL",
+        "protocol_version": "g01-v2",
+        "target": "damage",
+        "threshold": "not_applicable_annotation_agreement",
+        "wilson95_high": 1.0,
+        "wilson95_low": 0.6456695649333126
+      },
+      "metrics": [
+        {
+          "ac1_category_count": 12,
+          "ac1_chance_agreement": 0.024185858585858585,
+          "cohen_kappa": 0.604221635883905,
+          "disagreements": 8,
+          "eligible_for_final_heldout": false,
+          "evaluation_independence": "independent",
+          "evaluation_set_type": "blind_llm_annotation_g01-v2_diagnostic_non_final",
+          "gwet_ac1": 0.8906895666503805,
+          "kappa_chance_agreement": 0.7304888888888889,
+          "label_generation_method": "blind_llm_annotation",
+          "level": "group",
+          "matching": 67,
+          "n": 75,
+          "path": "B1_RELATIONAL",
+          "protocol_version": "g01-v2",
+          "raw_agreement": 0.8933333333333333,
+          "status": "valid",
+          "target": "damage",
+          "threshold": "not_applicable_annotation_agreement"
+        },
+        {
+          "ac1_category_count": 106,
+          "ac1_chance_agreement": 0.0025642328042328037,
+          "cohen_kappa": 0.6088657105606258,
+          "disagreements": 8,
+          "eligible_for_final_heldout": false,
+          "evaluation_independence": "independent",
+          "evaluation_set_type": "blind_llm_annotation_g01-v2_diagnostic_non_final",
+          "gwet_ac1": 0.8930591120002105,
+          "kappa_chance_agreement": 0.7272888888888889,
+          "label_generation_method": "blind_llm_annotation",
+          "level": "group_code",
+          "matching": 67,
+          "n": 75,
+          "path": "B1_RELATIONAL",
+          "protocol_version": "g01-v2",
+          "raw_agreement": 0.8933333333333333,
+          "status": "valid",
+          "target": "damage",
+          "threshold": "not_applicable_annotation_agreement"
+        }
+      ],
+      "nonzero_matrix": {
+        "group": [
+          {
+            "annotator_01_response": "ELE",
+            "annotator_02_response": "none_applicable",
+            "count": 2
+          },
+          {
+            "annotator_01_response": "EXT",
+            "annotator_02_response": "EXT",
+            "count": 3
+          },
+          {
+            "annotator_01_response": "INS",
+            "annotator_02_response": "none_applicable",
+            "count": 1
+          },
+          {
+            "annotator_01_response": "MEC",
+            "annotator_02_response": "MEC",
+            "count": 4
+          },
+          {
+            "annotator_01_response": "MEC",
+            "annotator_02_response": "none_applicable",
+            "count": 1
+          },
+          {
+            "annotator_01_response": "MIC",
+            "annotator_02_response": "none_applicable",
+            "count": 2
+          },
+          {
+            "annotator_01_response": "PRC",
+            "annotator_02_response": "none_applicable",
+            "count": 2
+          },
+          {
+            "annotator_01_response": "none_applicable",
+            "annotator_02_response": "none_applicable",
+            "count": 60
+          }
+        ],
+        "group_code": [
+          {
+            "annotator_01_response": "ELE|EFGN",
+            "annotator_02_response": "none_applicable",
+            "count": 2
+          },
+          {
+            "annotator_01_response": "EXT|EIBP",
+            "annotator_02_response": "EXT|EIBP",
+            "count": 1
+          },
+          {
+            "annotator_01_response": "EXT|EICP",
+            "annotator_02_response": "EXT|EICP",
+            "count": 2
+          },
+          {
+            "annotator_01_response": "INS|IFCF",
+            "annotator_02_response": "none_applicable",
+            "count": 1
+          },
+          {
+            "annotator_01_response": "MEC|BRKN",
+            "annotator_02_response": "none_applicable",
+            "count": 1
+          },
+          {
+            "annotator_01_response": "MEC|MFLC",
+            "annotator_02_response": "MEC|MFLC",
+            "count": 2
+          },
+          {
+            "annotator_01_response": "MEC|MFLK",
+            "annotator_02_response": "MEC|MFLK",
+            "count": 1
+          },
+          {
+            "annotator_01_response": "MEC|MFLO",
+            "annotator_02_response": "MEC|MFLO",
+            "count": 1
+          },
+          {
+            "annotator_01_response": "MIC|MIII",
+            "annotator_02_response": "none_applicable",
+            "count": 2
+          },
+          {
+            "annotator_01_response": "PRC|PRED",
+            "annotator_02_response": "none_applicable",
+            "count": 2
+          },
+          {
+            "annotator_01_response": "none_applicable",
+            "annotator_02_response": "none_applicable",
+            "count": 60
+          }
+        ]
+      }
+    }
+  },
+  "output_sha256": {
+    "g20e_activity_agreement_v21_sanitized.csv": "ad8458f484e38aaeee88d1abf7335337746e73f71b0fbd0bb6403a4b5e8f1819",
+    "g20e_activity_v21_overlap_responses_sanitized.csv": "badfa783a29b3d82682829f521903533e2fa3a378f829f94d63786928d2b4592",
+    "g20e_activity_v21_response_changes_sanitized.csv": "cd403fa1444d6a4a2e24308fea5e309d2c56e74c3207b98195b9c92a337c4c42",
+    "g20e_activity_v21_response_confusion_matrix_sanitized.csv": "e156167b37e49b56d23c3bf86207d684249539726b40fe9df510eb8567e66e49",
+    "g20e_activity_v21_response_per_class_agreement_sanitized.csv": "e719ccea7ecd98d454a2af6e523be7817c69b5a3c432d856fd48917c27fe6c57",
+    "g20ef_closing_class_distribution_sanitized.csv": "ea1c496a0c98f72b57f517b15fa86f3c3fa14010c0b0b7e330b9eb8fa1ac2d75",
+    "g20ef_closing_conditional_code_agreement_sanitized.csv": "fc25a0a771921faaa29ad2e9b19f7a1cbff796218a6284c3c72191e96c7e8d91",
+    "g20ef_closing_response_receipt_register_sanitized.csv": "ea4dccbecd46cd3fe4e22107091ac258cf5972722967d5c697301e3c7f921489",
+    "g20ef_round_comparison_memo.md": "17224ecfb42571d9f270e2fc09798c3222d04167a33e62da70232c0a2e198690",
+    "g20f_damage_agreement_sanitized.csv": "5da3bd48246e19cf7b9a2f1ba1f0825f30427f5eb1e8b492eb3a6530681492db",
+    "g20f_damage_both_assigned_confusion_matrix_sanitized.csv": "61f8764c2fb58f163078c5839656598868652d479ed6d8fbac6b6b00cb168133",
+    "g20f_damage_both_assigned_per_class_agreement_sanitized.csv": "5e1ac4a9d8c5d21e783c764aa51c7c9228ffdf863c40d223c5348b589f464ed6",
+    "g20f_damage_format_repair_audit_sanitized.csv": "50e25be1f0aa5beac3c646dad7e47e0369e43e267f62054a89256378cba0aecf",
+    "g20f_damage_group_code_confusion_matrix_sanitized.csv": "686027a79d992d363bb3f195a169d707bbaefc3c32f1d8e60ca6e8556bf198c6",
+    "g20f_damage_group_code_per_class_agreement_sanitized.csv": "7bbeb86a9be2d0111088e09ec729cdc36e8aa39c31f6a6c757ab583872342231",
+    "g20f_damage_group_confusion_matrix_sanitized.csv": "5a71737451a6a049a4d163f320e3c50ce866e41804150a9cb450e63bcfa2c6c4",
+    "g20f_damage_group_per_class_agreement_sanitized.csv": "e6af0826b0400b4255caf0bfdd018f8d7ed67131325db3f9ebaefc093fcbb5c9",
+    "g20f_damage_overlap_responses_sanitized.csv": "340a77a5205e1edaad8fa6f394096e05a1c1752c0bb1eb69d38b28563d32e2cd"
+  },
+  "overlap_integrity": {
+    "activity": 75,
+    "damage": 75
+  },
+  "protocol_snapshot_timing": "archived_after_receipt_approved_rule_preceded_annotation_per_chat",
+  "registered_at_utc": "2026-09-28T21:24:53.150987+00:00",
+  "registrations": [
+    {
+      "action": "reannotation",
+      "annotation_date": "not_supplied",
+      "annotator_id": "annotator_01",
+      "duplicates": 0,
+      "expected_rows": 187,
+      "extra_ids": 0,
+      "file": "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/activity/annotator_01/g20e_activity_responses_v21_annotator_01.csv",
+      "judgements_unchanged": "not_applicable_reannotation",
+      "malformed_rows": 0,
+      "missing_ids": 0,
+      "original_sha256": "fa253963c2ef90313e51450477f1250bb02a2f830b8927b4cec412ea3911f31c",
+      "protocol_version": "g01-v2.1",
+      "received_via": "user_supplied_chat_csv",
+      "response_process_compliance": "cannot_be_verified_from_csv_alone",
+      "rows": 187,
+      "sha256": "987b7de6241c01a7188566d0319bc7826b18a01a9702f4c6e53bc331f09673ec",
+      "target": "activity",
+      "validation_status": "valid"
+    },
+    {
+      "action": "reannotation",
+      "annotation_date": "not_supplied",
+      "annotator_id": "annotator_02",
+      "duplicates": 0,
+      "expected_rows": 188,
+      "extra_ids": 0,
+      "file": "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/activity/annotator_02/g20e_activity_responses_v21_annotator_02.csv",
+      "judgements_unchanged": "not_applicable_reannotation",
+      "malformed_rows": 0,
+      "missing_ids": 0,
+      "original_sha256": "20d893de4a1d8b0e882ee9cc1d6476a02a33e888027e7c8ac21941a961ffa048",
+      "protocol_version": "g01-v2.1",
+      "received_via": "user_supplied_chat_csv",
+      "response_process_compliance": "cannot_be_verified_from_csv_alone",
+      "rows": 188,
+      "sha256": "070f58bc75e904eb520663fe7835e886117cd98013ccb54d345c46700b91576c",
+      "target": "activity",
+      "validation_status": "valid"
+    },
+    {
+      "action": "format_redelivery",
+      "annotation_date": "not_supplied",
+      "annotator_id": "annotator_01",
+      "duplicates": 0,
+      "expected_rows": 187,
+      "extra_ids": 0,
+      "file": "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/damage/annotator_01/g20f_damage_responses_annotator_01_reformatted.csv",
+      "judgements_unchanged": true,
+      "malformed_rows": 0,
+      "missing_ids": 0,
+      "original_sha256": "3943b44b393662c92d8ad77e11e738bcbde2d1ec0b7e935e4a6299129aedf475",
+      "protocol_version": "g01-v2",
+      "received_via": "user_supplied_chat_csv",
+      "response_process_compliance": "cannot_be_verified_from_csv_alone",
+      "rows": 187,
+      "sha256": "b5c63c1aa6949888c7d8153cd2cdc7edc8836f67bed1625fd977a4758aaf69db",
+      "target": "damage",
+      "validation_status": "valid"
+    },
+    {
+      "action": "format_redelivery",
+      "annotation_date": "not_supplied",
+      "annotator_id": "annotator_02",
+      "duplicates": 0,
+      "expected_rows": 188,
+      "extra_ids": 0,
+      "file": "g2_baseline_models/internal/g20e_g20f_blind_catalogue_code_annotation/responses/damage/annotator_02/g20f_damage_responses_annotator_02_reformatted.csv",
+      "judgements_unchanged": true,
+      "malformed_rows": 0,
+      "missing_ids": 0,
+      "original_sha256": "3ec0bcabb653ca12265e06b3a0d0e90c4febb5ecac67afb8211678df164e4cad",
+      "protocol_version": "g01-v2",
+      "received_via": "user_supplied_chat_csv",
+      "response_process_compliance": "cannot_be_verified_from_csv_alone",
+      "rows": 188,
+      "sha256": "b8e1c67a361f3b73cf04b20bb26bde2e4b9e1cabb97e33fa0c7d0f522d69f82d",
+      "target": "damage",
+      "validation_status": "valid"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+path,threshold,eligible_for_final_heldout,evaluation_independence,label_generation_method,target,protocol_version,evaluation_set_type,level,n,category,annotator_01_count,annotator_02_count,both_same_class,specific_agreement,status
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,ELE,2,0,0,0.0,observed
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,EXT,3,3,3,1.0,observed
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,FCH,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,FHY,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,INS,1,0,0,0.0,observed
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,MAT,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,MEC,5,4,4,0.8888888888888888,observed
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,MIC,2,0,0,0.0,observed
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,PRC,2,0,0,0.0,observed
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,abstain,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,ambiguous_multi_process,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,damage,g01-v2,blind_llm_annotation_g01-v2_diagnostic_non_final,group,75,none_applicable,60,68,60,0.9375,observed

@@ -1,0 +1,60 @@
+{
+  "status": "registered_diagnostic_non_final",
+  "admitted_targets": [
+    "Activity",
+    "Damage"
+  ],
+  "protocol_by_target": {
+    "Activity": "g01-v2.1",
+    "Damage": "g01-v2"
+  },
+  "evaluation_independence": "independent",
+  "label_generation_method": "blind_llm_annotation",
+  "evaluation_role": "diagnostic",
+  "eligible_for_final_heldout": false,
+  "sampled_units_per_target": 300,
+  "overlap_units_per_target": 75,
+  "responses_per_target": 375,
+  "response_receipts": [
+    {
+      "target": "activity",
+      "annotator_id": "annotator_01",
+      "rows": 187,
+      "sha256": "987b7de6241c01a7188566d0319bc7826b18a01a9702f4c6e53bc331f09673ec"
+    },
+    {
+      "target": "activity",
+      "annotator_id": "annotator_02",
+      "rows": 188,
+      "sha256": "070f58bc75e904eb520663fe7835e886117cd98013ccb54d345c46700b91576c"
+    },
+    {
+      "target": "damage",
+      "annotator_id": "annotator_01",
+      "rows": 187,
+      "sha256": "b5c63c1aa6949888c7d8153cd2cdc7edc8836f67bed1625fd977a4758aaf69db"
+    },
+    {
+      "target": "damage",
+      "annotator_id": "annotator_02",
+      "rows": 188,
+      "sha256": "b8e1c67a361f3b73cf04b20bb26bde2e4b9e1cabb97e33fa0c7d0f522d69f82d"
+    }
+  ],
+  "v1_exclusion_keys": 900,
+  "v2_exclusion_keys": 600,
+  "v1_v2_key_overlap": 0,
+  "v1_v2_exclusion_union": 1500,
+  "training_assertion": true,
+  "agreement_register_rows": 3,
+  "model_identity": {
+    "annotator_01": "Claude Opus 5",
+    "annotator_02": "GPT 5.6"
+  },
+  "model_identity_source": "lead_user_attestation_not_csv",
+  "annotator_effort": {
+    "annotator_01": "medium",
+    "annotator_02": "not_supplied"
+  },
+  "annotation_date": "not_supplied"
+}

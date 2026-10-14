@@ -1,0 +1,10 @@
+path,threshold,eligible_for_final_heldout,evaluation_independence,label_generation_method,target,protocol_version,evaluation_set_type,level,n,category,annotator_01_count,annotator_02_count,both_same_class,specific_agreement,status
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,activity,g01-v2.1,blind_llm_annotation_g01-v2.1_diagnostic_non_final,response,75,BYPS,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,activity,g01-v2.1,blind_llm_annotation_g01-v2.1_diagnostic_non_final,response,75,PROG,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,activity,g01-v2.1,blind_llm_annotation_g01-v2.1_diagnostic_non_final,response,75,REMD,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,activity,g01-v2.1,blind_llm_annotation_g01-v2.1_diagnostic_non_final,response,75,SETT,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,activity,g01-v2.1,blind_llm_annotation_g01-v2.1_diagnostic_non_final,response,75,TEST,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,activity,g01-v2.1,blind_llm_annotation_g01-v2.1_diagnostic_non_final,response,75,abstain,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,activity,g01-v2.1,blind_llm_annotation_g01-v2.1_diagnostic_non_final,response,75,multiple,0,0,0,,unobserved_not_estimable
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,activity,g01-v2.1,blind_llm_annotation_g01-v2.1_diagnostic_non_final,response,75,no_applicable_code,43,39,39,0.9512195121951219,observed
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,activity,g01-v2.1,blind_llm_annotation_g01-v2.1_diagnostic_non_final,response,75,none_applicable,32,36,32,0.9411764705882353,observed

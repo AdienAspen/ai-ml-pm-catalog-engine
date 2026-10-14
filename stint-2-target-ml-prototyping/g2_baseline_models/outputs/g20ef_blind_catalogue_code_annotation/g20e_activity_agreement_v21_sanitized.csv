@@ -1,0 +1,2 @@
+path,threshold,eligible_for_final_heldout,evaluation_independence,label_generation_method,target,protocol_version,evaluation_set_type,level,n,status,matching,disagreements,raw_agreement,cohen_kappa,gwet_ac1,ac1_category_count,kappa_chance_agreement,ac1_chance_agreement
+B1_RELATIONAL,not_applicable_annotation_agreement,False,independent,blind_llm_annotation,activity,g01-v2.1,blind_llm_annotation_g01-v2.1_diagnostic_non_final,response,75,valid,71,4,0.9466666666666667,0.8927038626609441,0.9431441296313844,9,0.5029333333333333,0.061955555555555555
