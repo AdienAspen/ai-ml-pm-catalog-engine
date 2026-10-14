@@ -1,0 +1,9 @@
+level,category,count,denominator,sum_valid,comparison_type
+node,same_node,11,770,True,agreement_not_precision
+node,same_rbnr_other_node,0,770,True,agreement_not_precision
+node,same_subsystem,82,770,True,agreement_not_precision
+node,different_subsystem,0,770,True,agreement_not_precision
+node,no_implied_node,677,770,True,agreement_not_precision
+profile,same_rbnr,0,419,True,agreement_not_precision
+profile,different_rbnr,155,419,True,agreement_not_precision
+profile,no_implied_node,264,419,True,agreement_not_precision

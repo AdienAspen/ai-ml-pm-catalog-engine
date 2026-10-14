@@ -1,0 +1,50 @@
+{
+  "completed_at_utc": "2026-09-30T20:08:14.950355+00:00",
+  "freeze_sha256": "d8f6477570f41bddcc6495e27d9c59c5cc7342eaf4536c17e6be4d5731a79607",
+  "outputs_sha256": {
+    "g20k_expansion_affected_orders_sanitized.csv": "8079e0c038d7b41ae694687efa16fd3a24585beeafbe7864d4aeeb511a22d8cd",
+    "g20k_expansion_registry_sanitized.csv": "df2aac794cefa3daf557f4e7d93561f510ec9b151355a2b749e2d4dde02051fb",
+    "g20k_freeze_manifest.json": "d8f6477570f41bddcc6495e27d9c59c5cc7342eaf4536c17e6be4d5731a79607",
+    "g20k_memo.md": "cd3f85f823d189c6b9507f28c69e79c83d8b82b53b9e60d3d62692b8c1e1b4fb"
+  },
+  "summary": {
+    "baseline_resolved": 3934,
+    "baseline_unresolved": 6815,
+    "combined": {
+      "resolved": 3935,
+      "status": "identical_to_k2_because_k1_is_noop_for_this_pipeline",
+      "unresolved": 6814
+    },
+    "denominator_changed": false,
+    "k1_segmentation_only": {
+      "resolved": 3934,
+      "status": "not_applicable_to_frozen_detector_not_an_executed_window_rerun",
+      "unresolved": 6815
+    },
+    "k1_window_audit": {
+      "by_existing_profile_status": {
+        "abstained": 46,
+        "ambiguous": 422,
+        "resolved_node": 127,
+        "resolved_node_ambiguous": 107
+      },
+      "long_already_profile_resolved": 234,
+      "long_model_eligible_orders": 702,
+      "long_still_unresolved": 468,
+      "reason": "G20i order text enters via exact untruncated phrase matching; only short concept labels and IH06 descriptions are embedded",
+      "segmentation_candidate_order_count": 0
+    },
+    "k2_affected_unresolved_orders": 459,
+    "k2_new_resolved_by_status": {
+      "resolved_node_ambiguous": 1
+    },
+    "k2_vocabulary_only": {
+      "resolved": 3935,
+      "unresolved": 6814
+    },
+    "minimum_margin": 0.05,
+    "promotion": false,
+    "quality_or_precision_measured": false,
+    "threshold": 0.6
+  }
+}

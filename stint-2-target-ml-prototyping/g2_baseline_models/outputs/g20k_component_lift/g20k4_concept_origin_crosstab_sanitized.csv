@@ -1,0 +1,11 @@
+structural_category,concept_origin,orders
+ancestor_chain,single_concept_tie,104
+ancestor_chain,multi_concept_tie,0
+siblings,single_concept_tie,757
+siblings,multi_concept_tie,37
+shared_subtree,single_concept_tie,425
+shared_subtree,multi_concept_tie,915
+cross_subsystem,single_concept_tie,0
+cross_subsystem,multi_concept_tie,0
+path_incomplete,single_concept_tie,0
+path_incomplete,multi_concept_tie,0

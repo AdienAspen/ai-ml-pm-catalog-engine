@@ -1,0 +1,25 @@
+{
+  "completed_at_utc": "2026-10-05T20:15:47.119447+00:00",
+  "denominator_changed": false,
+  "no_order_text_read": true,
+  "no_replay_or_scoring": true,
+  "output_sha256": {
+    "g20k6_crosswalk_membership_sanitized.csv": "cf16ef21a9a97dddf4918c8baa20b5991366a1bd88784c0ec1f615ce9303964d",
+    "g20k6_memo.md": "e278390afffe0d19edc5ae224b1b3297356e6d811e69c209b4b68fb4304ef02e",
+    "g20k6_semantic_overlap_sanitized.csv": "9674b22bd118f5a7ade23c2057ac63a5998e6f3bb5a3b4e318857255037c37d3"
+  },
+  "private_detail_sha256": "a5958707fb084cf6b1945cf2584fc4b1c955d46460fdac2970a2be84513571c4",
+  "private_directory_mode": "0o700",
+  "private_file_mode": "0o600",
+  "promotion": false,
+  "scope": "B1_diagnostic_only",
+  "source_sha256": {
+    "data/interim/extracted_source/package_001_37cac7fe/Data/References/Wind Catalog Group and Codes Final v4.xlsx": "e2889cce53d16a78ba0ab3ed6e71aa74eb9a901b8f181ead847c86e9d4c74bcd",
+    "stint-2-target-ml-prototyping/docs/PLAN-G2.0k.6\u2014semantic-disjunct-crosswalk-membership.md": "bf5c5e0a90611446d63982600ce68cd150a8cb467b88314ca1cd47ce0d8094a0",
+    "stint-2-target-ml-prototyping/g1_actionable_zeros/g11_object_part_crosswalk/outputs/g11_item_signal_rows_sanitized.csv": "b31b7d87d2e077773fa4acf79cb8d4e23baff2da9e2c796d4cd258d6115fb644",
+    "stint-2-target-ml-prototyping/g1_actionable_zeros/g11_object_part_crosswalk/outputs/g11_material_to_catalog_b_crosswalk_sanitized.csv": "38011887c02586b98c8af7a8f668a1e63a9b8871963ceee6f926c383563d03d7",
+    "stint-2-target-ml-prototyping/g2_baseline_models/internal/g20k_component_lift/g20k5_codeset_detail.csv": "9aa7cd963cfbab8a529b7bb5fe05b267fc4aa75bd08a377e1ef8568340fda222",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20k_component_lift/g20k5_codeset_comparison_sanitized.csv": "394d4276624cafe872bd4c7790a9819228f3db53a6341181a459d217aeacb413",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20k_component_lift/g20k5_run_manifest.json": "4f3ee9e8abd3b244f4909e7f28a2b00208393c6f8239d6c183fb8b09afbbda3c"
+  }
+}

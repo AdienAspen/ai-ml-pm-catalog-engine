@@ -1,0 +1,13 @@
+target,relation,orders
+Symptom,narrower,0
+Symptom,equal,572
+Symptom,wider,1391
+Symptom,not_comparable_no_turbine_profile,238
+Cause,narrower,358
+Cause,equal,572
+Cause,wider,1033
+Cause,not_comparable_no_turbine_profile,238
+Object Part,narrower,0
+Object Part,equal,572
+Object Part,wider,1391
+Object Part,not_comparable_no_turbine_profile,238

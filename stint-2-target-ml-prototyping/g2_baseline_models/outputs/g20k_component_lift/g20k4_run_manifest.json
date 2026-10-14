@@ -1,0 +1,48 @@
+{
+  "completed_at_utc": "2026-09-30T21:25:55.680693+00:00",
+  "concept_origin_counts": {
+    "multi_concept_tie": 952,
+    "single_concept_tie": 1286
+  },
+  "denominator_changed": false,
+  "freeze_sha256": "9b84e472181cf16b55c3e8c782919c9a405e8d74c07b63b558c59ecab90d9cf0",
+  "full_tie_set_homogeneous_rbnr": 0,
+  "lca_direct_valid_rbnr_orders": 2201,
+  "original_scores_reproduced": 6938,
+  "output_sha256": {
+    "g20k4_answer_space_comparison_sanitized.csv": "57777b3c82a557a77dbde823849c6af93fd8242588f3521f7842834050459d23",
+    "g20k4_answer_space_sanitized.csv": "eb81502854df9da156e612a3b3f9b986737f8d77f6b63e1bfa3c4f648997ff46",
+    "g20k4_answer_space_summary_sanitized.csv": "71ec106faa719bc31969cf77d94261db97019ede452678e55b0f8540664703c4",
+    "g20k4_concept_origin_crosstab_sanitized.csv": "6837920a048b7154c73f9b33634409100121182b9def6abce3af30233aaa3b79",
+    "g20k4_freeze_manifest.json": "9b84e472181cf16b55c3e8c782919c9a405e8d74c07b63b558c59ecab90d9cf0",
+    "g20k4_memo.md": "e791c4aff06240687d4de192b7e80ae3bbec554c7e5e3986eda96d977789e06d",
+    "g20k4_tie_order_diagnostic_sanitized.csv": "bfc0be9454e52dcb6f568c6805e4816c8b50a2a6a4f9d92cbcf48dd93efe8519",
+    "g20k4_tie_profile_crosstab_sanitized.csv": "b4c944abb49abe0f784698b96ca2e2781e043e46e56795a9f872f5a2bf661c39",
+    "g20k4_tie_size_distribution_sanitized.csv": "fde8559d33f9a2ec99f950b7310eec5aef18d3b1922b29374b4c179a41126265",
+    "g20k4_tie_structure_summary_sanitized.csv": "500d23b020a1460ebc212a364c597c1fa7256b96e7a970701427df695f7f6d9b"
+  },
+  "private_directory_mode": "0o700",
+  "private_sample_mode": "0o600",
+  "private_sample_sha256": "4f2169102cfb587300daf6e0a5f4f893bb0d3fc52b8f198998fcb81af9fb6aa0",
+  "promotion": false,
+  "replay_counts": {
+    "concept_ambiguous_node": 2238,
+    "concept_no_node": 1224,
+    "no_component_concept": 3296,
+    "no_profiled_component_candidate": 6,
+    "no_turbine_node": 50,
+    "resolved": 3935
+  },
+  "structure_counts": {
+    "ancestor_chain": 104,
+    "shared_subtree": 1340,
+    "siblings": 794
+  },
+  "tie_size_counts": {
+    "2": 1329,
+    "3": 503,
+    "4-5": 111,
+    ">5": 295
+  },
+  "top_two_same_rbnr": 136
+}

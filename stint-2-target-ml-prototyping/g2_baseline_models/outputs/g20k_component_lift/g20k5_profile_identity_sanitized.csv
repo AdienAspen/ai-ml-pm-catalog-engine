@@ -1,0 +1,4 @@
+category,orders,resolved_total,sum_valid
+turbine_profile_missing,668,3935,True
+same_rbnr,50,3935,True
+different_rbnr,3217,3935,True

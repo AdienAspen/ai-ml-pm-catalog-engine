@@ -1,0 +1,6 @@
+record_type,category,count,denominator,pairs_point_to_different_nodes,sum_valid
+availability,no_turbine_subtree,2,3013,121,True
+availability,implied_single_node,99,3013,121,True
+availability,implied_multi_node_one_rbnr,987,3013,121,True
+availability,implied_multi_rbnr,121,3013,121,True
+availability,implied_none,1804,3013,121,True

@@ -1,0 +1,13 @@
+target,measure,orders_total,orders_with_value,orders_not_comparable,min,p25,median,p75,max,code_count_unit
+Symptom,turbine_enabled_group_code_pairs,2201,1963,238,6,6.0,6.0,6.0,6,group_code_pairs_not_verified_classification
+Symptom,lca_enabled_group_code_pairs,2201,2201,0,6,6.0,30.0,30.0,58,group_code_pairs_not_verified_classification
+Symptom,tie_node_min_enabled_group_code_pairs,2201,2201,0,2,3.0,13.0,31.0,45,group_code_pairs_not_verified_classification
+Symptom,tie_node_max_enabled_group_code_pairs,2201,2201,0,4,14.0,27.0,37.0,66,group_code_pairs_not_verified_classification
+Cause,turbine_enabled_group_code_pairs,2201,1963,238,13,13.0,13.0,13.0,13,group_code_pairs_not_verified_classification
+Cause,lca_enabled_group_code_pairs,2201,2201,0,10,13.0,52.0,59.0,96,group_code_pairs_not_verified_classification
+Cause,tie_node_min_enabled_group_code_pairs,2201,2201,0,3,6.0,16.0,41.0,69,group_code_pairs_not_verified_classification
+Cause,tie_node_max_enabled_group_code_pairs,2201,2201,0,12,17.0,39.0,52.0,108,group_code_pairs_not_verified_classification
+Object Part,turbine_enabled_group_code_pairs,2201,1963,238,1,1.0,1.0,1.0,1,group_code_pairs_not_verified_classification
+Object Part,lca_enabled_group_code_pairs,2201,2201,0,1,1.0,11.0,14.0,40,group_code_pairs_not_verified_classification
+Object Part,tie_node_min_enabled_group_code_pairs,2201,2201,0,1,1.0,3.0,6.0,14,group_code_pairs_not_verified_classification
+Object Part,tie_node_max_enabled_group_code_pairs,2201,2201,0,2,5.0,14.0,16.0,25,group_code_pairs_not_verified_classification

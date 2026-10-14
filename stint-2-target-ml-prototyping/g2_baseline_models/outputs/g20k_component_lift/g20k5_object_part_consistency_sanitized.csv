@@ -1,0 +1,7 @@
+category,order_code_pairs,resolved_orders_with_strong_crosswalk
+both,0,1189
+component_only,0,1189
+turbine_only,0,1189
+neither,1116,1189
+component_only_turbine_not_comparable,11,1189
+component_absent_turbine_not_comparable,186,1189

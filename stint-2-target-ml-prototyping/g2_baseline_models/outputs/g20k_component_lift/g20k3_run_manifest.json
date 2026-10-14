@@ -1,0 +1,52 @@
+{
+  "completed_at_utc": "2026-09-30T20:45:33.587086+00:00",
+  "freeze_sha256": "4b66e127781fe2ba34fa3fbcb0d87294e7d7328c7cc6fadfa774c2e9b7b79891",
+  "output_sha256": {
+    "g20k3_ambiguous_rbnr_sanitized.csv": "bc28d1461ee0aa51b850218898b9998b8360e95cd835287eb05d611d4ce83cf0",
+    "g20k3_freeze_manifest.json": "4b66e127781fe2ba34fa3fbcb0d87294e7d7328c7cc6fadfa774c2e9b7b79891",
+    "g20k3_memo.md": "6831cee889b4a9f72f0011d3785ce3d7cc01e42d68dfbfe735af14020ee74ea8",
+    "g20k3_near_miss_summary_sanitized.csv": "0a0301a5a5c5eba253acab2469abc1ed8e11c7518ba97d628f5ef62a67773f27",
+    "g20k3_near_miss_top20_concepts_sanitized.csv": "d064ad1f21977e24d2e3e2f535b75c3a281abd3929dbc8cfc16a0088a3d5a14b",
+    "g20k3_order_stage_sanitized.csv": "ee02e818c049cf5100b6da5946ac62410e79d6c37c11256a2f4ba9cc6c9de531",
+    "g20k3_partition_summary_sanitized.csv": "02ee88d0dd4fb7483b46a2eefb015d3f834bbf67170bb0f73a076697ebf3e439",
+    "g20k3_token_limit_scope_sanitized.csv": "34710c447a5c5001b77c9ccda10e2ae2f60106442a37c2de25720ef59d56b6ae"
+  },
+  "private_directory_mode": "0o700",
+  "private_sample_mode": "0o600",
+  "private_sample_sha256": "d675f895f47978f7a5229e37fb7e373340aafa4c7945828bc2f33f985380236a",
+  "summary": {
+    "ambiguous_rbnr": {
+      "different_top_two": 2102,
+      "same_top_two": 136
+    },
+    "category_counts": {
+      "concept_ambiguous_node": 2238,
+      "concept_no_node": 1224,
+      "no_component_concept": 3296,
+      "no_profiled_component_candidate": 6,
+      "no_turbine_node": 50,
+      "resolved": 3935
+    },
+    "denominator_changed": false,
+    "margin": 0.05,
+    "multi_concept": {
+      "all_orders": 4165,
+      "unresolved_orders": 1858
+    },
+    "near_miss_bands": {
+      "0.40-0.50": 576,
+      "0.50-0.55": 477,
+      "0.55-0.60": 129,
+      "below_0.40": 42
+    },
+    "original_scores_replayed": 6938,
+    "promotion": false,
+    "threshold": 0.6,
+    "touched_cross_tab": {
+      "concept_ambiguous_node": 404,
+      "concept_no_node": 54,
+      "resolved": 1
+    },
+    "unprofiled_best_above_threshold": 0
+  }
+}

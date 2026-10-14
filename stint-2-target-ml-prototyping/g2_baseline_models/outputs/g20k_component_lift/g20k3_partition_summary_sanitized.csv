@@ -1,0 +1,7 @@
+category,orders,g20k2_touched_orders,all_b1_orders,partition_sum_valid,path_bucket
+resolved,3935,1,10749,True,B1_RELATIONAL
+no_turbine_node,50,0,10749,True,B1_RELATIONAL
+no_component_concept,3296,0,10749,True,B1_RELATIONAL
+no_profiled_component_candidate,6,0,10749,True,B1_RELATIONAL
+concept_no_node,1224,54,10749,True,B1_RELATIONAL
+concept_ambiguous_node,2238,404,10749,True,B1_RELATIONAL

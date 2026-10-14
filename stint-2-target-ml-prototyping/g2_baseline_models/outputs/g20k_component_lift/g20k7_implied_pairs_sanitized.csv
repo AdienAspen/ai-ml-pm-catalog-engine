@@ -1,0 +1,10 @@
+record_type,category,count,denominator,sum_valid
+availability,no_turbine_subtree,13,5778,True
+availability,implied_single_node,177,5778,True
+availability,implied_multi_node_one_rbnr,1282,5778,True
+availability,implied_multi_rbnr,0,5778,True
+availability,implied_none,4306,5778,True
+enabling_set_size,1,5778,5778,True
+enabling_set_size,2-5,0,5778,True
+enabling_set_size,6-20,0,5778,True
+enabling_set_size,>20,0,5778,True

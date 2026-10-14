@@ -1,0 +1,31 @@
+target,category,orders,different_rbnr_comparable_orders,sum_valid
+Symptom,component_empty,0,3217,True
+Symptom,same_set,0,3217,True
+Symptom,narrower,0,3217,True
+Symptom,wider,0,3217,True
+Symptom,overlapping,0,3217,True
+Symptom,disjoint,3217,3217,True
+Object Part,component_empty,0,3217,True
+Object Part,same_set,0,3217,True
+Object Part,narrower,0,3217,True
+Object Part,wider,0,3217,True
+Object Part,overlapping,0,3217,True
+Object Part,disjoint,3217,3217,True
+Damage,component_empty,0,3217,True
+Damage,same_set,58,3217,True
+Damage,narrower,0,3217,True
+Damage,wider,0,3217,True
+Damage,overlapping,0,3217,True
+Damage,disjoint,3159,3217,True
+Cause,component_empty,0,3217,True
+Cause,same_set,0,3217,True
+Cause,narrower,0,3217,True
+Cause,wider,0,3217,True
+Cause,overlapping,0,3217,True
+Cause,disjoint,3217,3217,True
+Activity,component_empty,0,3217,True
+Activity,same_set,0,3217,True
+Activity,narrower,0,3217,True
+Activity,wider,0,3217,True
+Activity,overlapping,0,3217,True
+Activity,disjoint,3217,3217,True

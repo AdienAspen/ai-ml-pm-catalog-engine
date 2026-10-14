@@ -1,0 +1,5 @@
+step,embedded_input,affected_by_128_token_order_text_limit,source_script,source_sha256,code_inspection
+G2.0c,candidate_term n-grams and external anchor_text,no,g2_baseline_models/scripts/g20c_step3_semantic_grouping.py,6c15ea5a76c9d06672f3242b51bec9f0724480fefc6e3bc809bc687ec9ef3c24,model.encode(term_texts); model.encode(semantic_sources.anchor_text)
+G2.0d2,normalised full source segments and frozen prototype_text,yes,g2_baseline_models/scripts/g20d2_semantic_reference_coverage.py,573bf2f4e560c2720bc43e73b5811756720b8d5bcf0318e838278e16785701d4,model.encode(unique_texts); model.encode(prototype_text)
+G2.0i,final concept canonical labels and IH06 node descriptions,no,g2_baseline_models/scripts/g20i_component_resolution.py,b6bdd4568abc5a73585272cb2facb849f82eb333d62d2abdf92a64fe2451d4b1,model.encode(concept_labels); model.encode(description_list)
+G2.0j,normalised full source segments and catalogue/reference prototypes,yes,g2_baseline_models/scripts/g20j_catalogue_code_coverage.py,8063bf6750a961be654b0ad87fcdc07696de30d25bf376080b6cda7096afef40,model.encode(texts); model.encode(descriptions)

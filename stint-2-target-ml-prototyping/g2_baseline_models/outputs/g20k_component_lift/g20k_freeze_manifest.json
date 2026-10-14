@@ -1,0 +1,107 @@
+{
+  "coverage_observed": false,
+  "frozen_at_utc": "2026-09-30T20:07:38.123574+00:00",
+  "g11e_order_exclusion_hashes": [
+    "ORDER-01ab7e5004afda14",
+    "ORDER-0ab6988603d2d409",
+    "ORDER-180a3ae9e8c0df3f",
+    "ORDER-1c015a4e0e9ed757",
+    "ORDER-268347c5608ef67d",
+    "ORDER-3af337e40d4a1b93",
+    "ORDER-3af8a503e85e1dc3",
+    "ORDER-67c9ca71ed14d13e",
+    "ORDER-74edbc7b5de44069",
+    "ORDER-8d997c3bb70d0246",
+    "ORDER-8f3423c94a9728d3",
+    "ORDER-90c97407af843649",
+    "ORDER-95657ef9f531d91b",
+    "ORDER-9cfd1240a591a4a7",
+    "ORDER-bb811803d3393158",
+    "ORDER-c36093134fcf429c",
+    "ORDER-c75d08c2c52fbe11",
+    "ORDER-d85383d99a8498db",
+    "ORDER-ff07759cfcf13c55",
+    "ORDER-ff131491c197f026"
+  ],
+  "independent_evaluation_claim": false,
+  "k1_status": "not_applicable_original_G20i_uses_untruncated_exact_phrase_hits_not_order_embeddings",
+  "k2_construction_method": "derived_from_corpus_inspection",
+  "k2_detector": "exact_contiguous_normalised_phrase_per_masked_source_segment",
+  "k2_source": "g11e_blind_sample",
+  "labels_read": false,
+  "minimum_margin": 0.05,
+  "model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "new_concepts": "one_supplemental_phrase_concept_per_listed_term_no_reclustering",
+  "profile_consensus_rule": "all_nodes_strictly_within_margin_share_RBNR",
+  "prototype_source": "G1.1e_only_never_G2.0_prototypes",
+  "scope": "B1_RELATIONAL_full_10749; expansion_only_on_6815_unresolved_profiles",
+  "source_sha256": {
+    "data/interim/extracted_source/package_001_37cac7fe/Data/References/IH06 FSA Sites PRD.XLSX": "9bd6f60712e50e3361999db09608dc739f256e69ff9c515177d458be3bbef926",
+    "data/interim/extracted_source/package_001_37cac7fe/Data/References/IH08 FSA Sites PRD.XLSX": "b2094dfc7a180255fd10d44345c61cb3e34e3bf48f551e9bd1d9522a5400b103",
+    "data/interim/extracted_source/package_001_37cac7fe/Data/References/Wind Catalog Group and Codes Final v4.xlsx": "e2889cce53d16a78ba0ab3ed6e71aa74eb9a901b8f181ead847c86e9d4c74bcd",
+    "data/interim/extracted_source/package_001_37cac7fe/Data/Vestas/api_service_v1_service-orders.json": "ea2da2cb2d405c07d7cbf804e722e10acb9b5c984d5307384a31742434163758",
+    "stint-2-target-ml-prototyping/docs/PLAN-G2.0k\u2014Lifting Component Resolution.md": "3071e277661002ca1c08e53b6019a23ff5a35faec81f434ceefbdd9251a977fe",
+    "stint-2-target-ml-prototyping/g1_actionable_zeros/g11_object_part_crosswalk/internal/g11e_group_b_blind_order_sample_internal.csv": "9635c0e971a48cecc45c2bc317f747f6333f2444f066a781c0afb27475dbd1fd",
+    "stint-2-target-ml-prototyping/g1_actionable_zeros/g12_floc_alignment/internal/g12_floc_alignment_internal_review.csv": "1d44b5303a3b7d683552235c44bb25315026af823f88e7b66e8723ed6bf5ded9",
+    "stint-2-target-ml-prototyping/g1_actionable_zeros/g12_floc_alignment/outputs/g12_floc_alignment_order_level_sanitized.csv": "b71f0918de94804706e0b1715b46d2f9ec42e3aa32bd3da7dd409879b9110e7a",
+    "stint-2-target-ml-prototyping/g2_baseline_models/internal/g20j_catalogue_code_coverage/g20j_prepared_corpus_internal.json": "9560e21ba5a207e404e4550860f1c8d4028019779b970e3a45928423519c4cc7",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20_corpus_native_domain_vocab/g20c_domain_vocabulary_sanitized.csv": "7aabf558b12c5072a67d9d403ed1904a9883520938bf3a122532bb7f11c4dca9",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20_corpus_native_domain_vocab/g20c_step5_coverage_manifest.json": "07bc8765079286c6ce43d603bdffef5af625fbcc5a54ed0925e492ce7075916b",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20_corpus_native_domain_vocab/g20c_step5_unit_concept_hits_sanitized.csv": "0667b8f8c0fe3911209354893308af11adf71d4b1055cee294f7679b2f444cdb",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20i_component_resolution/g20i_order_resolution_sanitized.csv": "23088178256a767ee868e1275b48ca007a7926942e82bf5aa2a6ceec3d11131f",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20i_profile_consensus/g20i_profile_consensus_by_order_sanitized.csv": "9f4bfb6c63ea23a3969631308274519ff2024174f621f29f133cf40082fa6747",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20c_neutral_ngram_extraction.py": "e5c37a7569997793cdcd6b59ce5ea148a0b26a6bf6bba79955a0b0d624e0c040",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20i_component_resolution.py": "b6bdd4568abc5a73585272cb2facb849f82eb333d62d2abdf92a64fe2451d4b1"
+  },
+  "terms": [
+    {
+      "concept_id": "G20KTERM-b8e998ac7d6b91a0",
+      "phrase": "yaw ring"
+    },
+    {
+      "concept_id": "G20KTERM-c0831f34660144f9",
+      "phrase": "torque arm bushing"
+    },
+    {
+      "concept_id": "G20KTERM-58e1ae876601d039",
+      "phrase": "pitch manifold accumulator"
+    },
+    {
+      "concept_id": "G20KTERM-ec6c2d1402606877",
+      "phrase": "hub safety pilot valve"
+    },
+    {
+      "concept_id": "G20KTERM-e4e49c90180b6036",
+      "phrase": "deck hatches"
+    },
+    {
+      "concept_id": "G20KTERM-2d27b29591a39054",
+      "phrase": "lift guide arm"
+    },
+    {
+      "concept_id": "G20KTERM-8097b799394d9fff",
+      "phrase": "bottom cover"
+    },
+    {
+      "concept_id": "G20KTERM-1b789e20f3e362f4",
+      "phrase": "generator bearing de non de"
+    },
+    {
+      "concept_id": "G20KTERM-ca1e03c2c51c42cd",
+      "phrase": "smoke detector"
+    },
+    {
+      "concept_id": "G20KTERM-0efd44852d34d035",
+      "phrase": "m connector"
+    },
+    {
+      "concept_id": "G20KTERM-55adf17849c6f23e",
+      "phrase": "msc lsc stack"
+    },
+    {
+      "concept_id": "G20KTERM-f77831bc8d0d6115",
+      "phrase": "pmg encoder"
+    }
+  ],
+  "threshold": 0.6
+}

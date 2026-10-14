@@ -1,0 +1,29 @@
+{
+  "completed_at_utc": "2026-09-30T21:55:07.591449+00:00",
+  "denominator_changed": false,
+  "different_rbnr_comparable": 3217,
+  "freeze_sha256": "8db6c33892a80b49977f68b354e7244de289ff8ec4b674b8d3228116e1e0112a",
+  "identity_counts": {
+    "different_rbnr": 3217,
+    "same_rbnr": 50,
+    "turbine_profile_missing": 668
+  },
+  "output_sha256": {
+    "g20k5_added_removed_distribution_sanitized.csv": "e43293dbb6d09b5da5c1f045a574a498060c4aaeda63aa79a718e6a5293884fe",
+    "g20k5_codeset_comparison_sanitized.csv": "394d4276624cafe872bd4c7790a9819228f3db53a6341181a459d217aeacb413",
+    "g20k5_codeset_order_counts_sanitized.csv": "85d087447c11e66dd8ad21e2eb9771c8c50838b11d3931be38bde6ee98827c39",
+    "g20k5_freeze_manifest.json": "8db6c33892a80b49977f68b354e7244de289ff8ec4b674b8d3228116e1e0112a",
+    "g20k5_lca_carryover_sanitized.csv": "f2f9674dd6b03aca36ba3e1877ce5690b21ade833dc9df67692c9808ebdd85aa",
+    "g20k5_memo.md": "25eef40e3761f9603b76f42b7ce7c69595e90dabde1442161237f74cc85ce3ec",
+    "g20k5_missing_turbine_profile_sanitized.csv": "845bc39f63e33ae86165afd884c033335f5d18465acb7d14b54e123a44cd3e44",
+    "g20k5_object_part_consistency_by_order_sanitized.csv": "434fd6c5e2a392f587eea3c27c225d94ec4cf658c14db22b6ea275c9a395c1f6",
+    "g20k5_object_part_consistency_orders_summary_sanitized.csv": "c24c2b0fe01d0df2b4cd73c1d2c26ff2b64e06bd908d48e12d8b34cbcc7bd4f3",
+    "g20k5_object_part_consistency_sanitized.csv": "ba7575fe606816c5655c3f3b580acfa1e0bf077f90cfdf1b09ba254eb380e648",
+    "g20k5_profile_identity_sanitized.csv": "1255b58d3cc06ac82fd47d9707b9f4add68e6326028573ea6f5f38e5622b4b64"
+  },
+  "private_detail_sha256": "9aa7cd963cfbab8a529b7bb5fe05b267fc4aa75bd08a377e1ef8568340fda222",
+  "private_directory_mode": "0o700",
+  "private_file_mode": "0o600",
+  "promotion": false,
+  "strong_overlap_orders": 1189
+}

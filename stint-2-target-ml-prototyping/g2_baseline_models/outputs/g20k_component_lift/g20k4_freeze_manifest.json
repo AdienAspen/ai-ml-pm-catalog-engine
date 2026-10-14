@@ -1,0 +1,26 @@
+{
+  "concept_origin_rule": "all_maximizers_within_1e-6; single_only_for_identical_singleton",
+  "frozen_at_utc": "2026-09-30T21:25:21.202090+00:00",
+  "labels_read": false,
+  "lca_profile_rule": "direct_valid_RBNR_only",
+  "margin": 0.05,
+  "model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "no_promotion": true,
+  "node_score": "max_cosine_over_all_detected_concepts",
+  "replay_gate": "all_6814_unresolved_categories_identical_before_analysis",
+  "results_seen": false,
+  "source_sha256": {
+    "stint-2-target-ml-prototyping/docs/G2.0i-resolution-chain-code-spec.md": "f3f92c23c6ea53d3de0b5c82ff6947886aa3c9c5a3bab68d842f3a116f71d4ac",
+    "stint-2-target-ml-prototyping/docs/PLAN-G2.0k.4\u2014Tie Structure Diagnostic.md": "a523edd0be07213f748f8ee3eaa26d293e23ae974711005addb3986876e1aa22",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20i_component_resolution/g20i_order_resolution_sanitized.csv": "23088178256a767ee868e1275b48ca007a7926942e82bf5aa2a6ceec3d11131f",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20k_component_lift/g20k3_order_stage_sanitized.csv": "ee02e818c049cf5100b6da5946ac62410e79d6c37c11256a2f4ba9cc6c9de531",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20k_component_lift/g20k3_run_manifest.json": "bf1f69af88de01f7047f139c37301e35ce8706d6565b391ff07fb397c287e01a",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20k_component_lift/g20k_expansion_affected_orders_sanitized.csv": "8079e0c038d7b41ae694687efa16fd3a24585beeafbe7864d4aeeb511a22d8cd",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20k_component_lift/g20k_freeze_manifest.json": "d8f6477570f41bddcc6495e27d9c59c5cc7342eaf4536c17e6be4d5731a79607",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20i_component_resolution.py": "b6bdd4568abc5a73585272cb2facb849f82eb333d62d2abdf92a64fe2451d4b1",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20k3_resolution_chain_partition.py": "91e2ade5013cc826719e94b05f78fba63c1ba28a97aa56ad5ac6bb5286131d54",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20k4_tie_structure_diagnostic.py": "8f5fed2f231a00d3fe7b868d7acf67bac93ea41b6d728fd99dda5224f79654b0"
+  },
+  "threshold": 0.6,
+  "tie_window": "best_minus_node_score_strictly_less_than_0.05"
+}

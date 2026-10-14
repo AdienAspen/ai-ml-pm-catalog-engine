@@ -1,0 +1,301 @@
+record_type,target,unit,view,profile_id,category,count,denominator,order_weight,shared_code_values,code_values_with_differing_descriptions,code_values_with_no_shared_description,sum_valid
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-2bef769c18441ecb,overlapping,1,17,42,3,0,0,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-2bef769c18441ecb,overlapping,1,17,42,3,0,0,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-906676d04ff68b56,overlapping,1,17,370,3,2,2,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-906676d04ff68b56,overlapping,1,17,370,3,2,2,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-a606e1aad504cd7f,overlapping,1,17,103,2,0,0,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-a606e1aad504cd7f,overlapping,1,17,103,2,0,0,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-c9e04be8aa2a83f6,overlapping,1,17,16,5,0,0,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-c9e04be8aa2a83f6,overlapping,1,17,16,5,0,0,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-d5aed769951d18f0,overlapping,1,17,120,2,0,0,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-d5aed769951d18f0,overlapping,1,17,120,2,0,0,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-a3aa489f61d567b2,overlapping,1,17,23,2,0,0,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-a3aa489f61d567b2,overlapping,1,17,23,2,0,0,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-50da67efe7cbc5fe,overlapping,1,17,42,5,0,0,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-50da67efe7cbc5fe,overlapping,1,17,42,5,0,0,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-0608669751a90ca3,overlapping,1,17,214,2,0,0,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-0608669751a90ca3,overlapping,1,17,214,2,0,0,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-87dd61f0c545c7b3,overlapping,1,17,210,5,2,2,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-87dd61f0c545c7b3,overlapping,1,17,210,5,2,2,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-e276217e7d9496cd,overlapping,1,17,696,4,1,1,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-e276217e7d9496cd,overlapping,1,17,696,4,1,1,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-d9ef4ea6911a29f8,disjoint,1,17,20,0,0,0,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-d9ef4ea6911a29f8,overlapping,1,17,20,0,0,0,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-9d433679011f236c,overlapping,1,17,44,2,1,1,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-9d433679011f236c,overlapping,1,17,44,2,1,1,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-f5be320e4e3a70d8,overlapping,1,17,275,3,1,1,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-f5be320e4e3a70d8,overlapping,1,17,275,3,1,1,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-c13e53b689a7c6d0,overlapping,1,17,571,3,1,1,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-c13e53b689a7c6d0,overlapping,1,17,571,3,1,1,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-d47554f1c5267351,overlapping,1,17,253,2,1,1,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-d47554f1c5267351,overlapping,1,17,253,2,1,1,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-a95d4137a05df410,overlapping,1,17,208,3,1,1,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-a95d4137a05df410,overlapping,1,17,208,3,1,1,True
+rbnr,Symptom,code_value,distinct_rbnr,RBNR-f7757e661ee94730,overlapping,1,17,10,2,0,0,True
+rbnr,Symptom,description,distinct_rbnr,RBNR-f7757e661ee94730,overlapping,1,17,10,2,0,0,True
+summary,Symptom,code_value,distinct_rbnr,,component_empty,0,17,,,,,True
+summary,Symptom,code_value,distinct_rbnr,,same_set,0,17,,,,,True
+summary,Symptom,code_value,distinct_rbnr,,narrower,0,17,,,,,True
+summary,Symptom,code_value,distinct_rbnr,,wider,0,17,,,,,True
+summary,Symptom,code_value,distinct_rbnr,,overlapping,16,17,,,,,True
+summary,Symptom,code_value,distinct_rbnr,,disjoint,1,17,,,,,True
+summary,Symptom,code_value,order_weighted,,component_empty,0,3217,,,,,True
+summary,Symptom,code_value,order_weighted,,same_set,0,3217,,,,,True
+summary,Symptom,code_value,order_weighted,,narrower,0,3217,,,,,True
+summary,Symptom,code_value,order_weighted,,wider,0,3217,,,,,True
+summary,Symptom,code_value,order_weighted,,overlapping,3197,3217,,,,,True
+summary,Symptom,code_value,order_weighted,,disjoint,20,3217,,,,,True
+summary,Symptom,description,distinct_rbnr,,component_empty,0,17,,,,,True
+summary,Symptom,description,distinct_rbnr,,same_set,0,17,,,,,True
+summary,Symptom,description,distinct_rbnr,,narrower,0,17,,,,,True
+summary,Symptom,description,distinct_rbnr,,wider,0,17,,,,,True
+summary,Symptom,description,distinct_rbnr,,overlapping,17,17,,,,,True
+summary,Symptom,description,distinct_rbnr,,disjoint,0,17,,,,,True
+summary,Symptom,description,order_weighted,,component_empty,0,3217,,,,,True
+summary,Symptom,description,order_weighted,,same_set,0,3217,,,,,True
+summary,Symptom,description,order_weighted,,narrower,0,3217,,,,,True
+summary,Symptom,description,order_weighted,,wider,0,3217,,,,,True
+summary,Symptom,description,order_weighted,,overlapping,3217,3217,,,,,True
+summary,Symptom,description,order_weighted,,disjoint,0,3217,,,,,True
+code_description_control,Symptom,code_value,distinct_rbnr,,shared_code_value_description_comparison,48,48,,48,10,10,True
+code_description_control,Symptom,code_value,order_weighted,,shared_code_value_description_comparison,10056,10056,,10056,3207,3207,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-2bef769c18441ecb,disjoint,1,17,42,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-2bef769c18441ecb,disjoint,1,17,42,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-906676d04ff68b56,disjoint,1,17,370,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-906676d04ff68b56,disjoint,1,17,370,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-a606e1aad504cd7f,disjoint,1,17,103,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-a606e1aad504cd7f,disjoint,1,17,103,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-c9e04be8aa2a83f6,disjoint,1,17,16,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-c9e04be8aa2a83f6,disjoint,1,17,16,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-d5aed769951d18f0,disjoint,1,17,120,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-d5aed769951d18f0,disjoint,1,17,120,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-a3aa489f61d567b2,disjoint,1,17,23,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-a3aa489f61d567b2,disjoint,1,17,23,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-50da67efe7cbc5fe,disjoint,1,17,42,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-50da67efe7cbc5fe,disjoint,1,17,42,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-0608669751a90ca3,disjoint,1,17,214,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-0608669751a90ca3,disjoint,1,17,214,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-87dd61f0c545c7b3,disjoint,1,17,210,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-87dd61f0c545c7b3,disjoint,1,17,210,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-e276217e7d9496cd,disjoint,1,17,696,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-e276217e7d9496cd,disjoint,1,17,696,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-d9ef4ea6911a29f8,disjoint,1,17,20,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-d9ef4ea6911a29f8,disjoint,1,17,20,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-9d433679011f236c,disjoint,1,17,44,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-9d433679011f236c,disjoint,1,17,44,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-f5be320e4e3a70d8,disjoint,1,17,275,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-f5be320e4e3a70d8,disjoint,1,17,275,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-c13e53b689a7c6d0,disjoint,1,17,571,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-c13e53b689a7c6d0,disjoint,1,17,571,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-d47554f1c5267351,disjoint,1,17,253,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-d47554f1c5267351,disjoint,1,17,253,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-a95d4137a05df410,disjoint,1,17,208,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-a95d4137a05df410,disjoint,1,17,208,0,0,0,True
+rbnr,Object Part,code_value,distinct_rbnr,RBNR-f7757e661ee94730,disjoint,1,17,10,0,0,0,True
+rbnr,Object Part,description,distinct_rbnr,RBNR-f7757e661ee94730,disjoint,1,17,10,0,0,0,True
+summary,Object Part,code_value,distinct_rbnr,,component_empty,0,17,,,,,True
+summary,Object Part,code_value,distinct_rbnr,,same_set,0,17,,,,,True
+summary,Object Part,code_value,distinct_rbnr,,narrower,0,17,,,,,True
+summary,Object Part,code_value,distinct_rbnr,,wider,0,17,,,,,True
+summary,Object Part,code_value,distinct_rbnr,,overlapping,0,17,,,,,True
+summary,Object Part,code_value,distinct_rbnr,,disjoint,17,17,,,,,True
+summary,Object Part,code_value,order_weighted,,component_empty,0,3217,,,,,True
+summary,Object Part,code_value,order_weighted,,same_set,0,3217,,,,,True
+summary,Object Part,code_value,order_weighted,,narrower,0,3217,,,,,True
+summary,Object Part,code_value,order_weighted,,wider,0,3217,,,,,True
+summary,Object Part,code_value,order_weighted,,overlapping,0,3217,,,,,True
+summary,Object Part,code_value,order_weighted,,disjoint,3217,3217,,,,,True
+summary,Object Part,description,distinct_rbnr,,component_empty,0,17,,,,,True
+summary,Object Part,description,distinct_rbnr,,same_set,0,17,,,,,True
+summary,Object Part,description,distinct_rbnr,,narrower,0,17,,,,,True
+summary,Object Part,description,distinct_rbnr,,wider,0,17,,,,,True
+summary,Object Part,description,distinct_rbnr,,overlapping,0,17,,,,,True
+summary,Object Part,description,distinct_rbnr,,disjoint,17,17,,,,,True
+summary,Object Part,description,order_weighted,,component_empty,0,3217,,,,,True
+summary,Object Part,description,order_weighted,,same_set,0,3217,,,,,True
+summary,Object Part,description,order_weighted,,narrower,0,3217,,,,,True
+summary,Object Part,description,order_weighted,,wider,0,3217,,,,,True
+summary,Object Part,description,order_weighted,,overlapping,0,3217,,,,,True
+summary,Object Part,description,order_weighted,,disjoint,3217,3217,,,,,True
+code_description_control,Object Part,code_value,distinct_rbnr,,shared_code_value_description_comparison,0,0,,0,0,0,True
+code_description_control,Object Part,code_value,order_weighted,,shared_code_value_description_comparison,0,0,,0,0,0,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-2bef769c18441ecb,overlapping,1,17,42,17,4,2,True
+rbnr,Damage,description,distinct_rbnr,RBNR-2bef769c18441ecb,overlapping,1,17,42,17,4,2,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-906676d04ff68b56,overlapping,1,17,370,2,0,0,True
+rbnr,Damage,description,distinct_rbnr,RBNR-906676d04ff68b56,overlapping,1,17,370,2,0,0,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-a606e1aad504cd7f,overlapping,1,17,103,16,4,2,True
+rbnr,Damage,description,distinct_rbnr,RBNR-a606e1aad504cd7f,overlapping,1,17,103,16,4,2,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-c9e04be8aa2a83f6,same_set,1,17,16,89,0,0,True
+rbnr,Damage,description,distinct_rbnr,RBNR-c9e04be8aa2a83f6,same_set,1,17,16,89,0,0,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-d5aed769951d18f0,overlapping,1,17,120,16,3,1,True
+rbnr,Damage,description,distinct_rbnr,RBNR-d5aed769951d18f0,overlapping,1,17,120,16,3,1,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-a3aa489f61d567b2,overlapping,1,17,23,14,6,6,True
+rbnr,Damage,description,distinct_rbnr,RBNR-a3aa489f61d567b2,overlapping,1,17,23,14,6,6,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-50da67efe7cbc5fe,same_set,1,17,42,89,0,0,True
+rbnr,Damage,description,distinct_rbnr,RBNR-50da67efe7cbc5fe,same_set,1,17,42,89,0,0,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-0608669751a90ca3,overlapping,1,17,214,20,8,6,True
+rbnr,Damage,description,distinct_rbnr,RBNR-0608669751a90ca3,overlapping,1,17,214,20,8,6,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-87dd61f0c545c7b3,overlapping,1,17,210,12,4,4,True
+rbnr,Damage,description,distinct_rbnr,RBNR-87dd61f0c545c7b3,overlapping,1,17,210,12,4,4,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-e276217e7d9496cd,overlapping,1,17,696,58,12,9,True
+rbnr,Damage,description,distinct_rbnr,RBNR-e276217e7d9496cd,overlapping,1,17,696,58,12,9,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-d9ef4ea6911a29f8,overlapping,1,17,20,7,2,0,True
+rbnr,Damage,description,distinct_rbnr,RBNR-d9ef4ea6911a29f8,overlapping,1,17,20,7,2,0,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-9d433679011f236c,overlapping,1,17,44,1,0,0,True
+rbnr,Damage,description,distinct_rbnr,RBNR-9d433679011f236c,overlapping,1,17,44,1,0,0,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-f5be320e4e3a70d8,overlapping,1,17,275,11,3,2,True
+rbnr,Damage,description,distinct_rbnr,RBNR-f5be320e4e3a70d8,overlapping,1,17,275,11,3,2,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-c13e53b689a7c6d0,overlapping,1,17,571,4,3,2,True
+rbnr,Damage,description,distinct_rbnr,RBNR-c13e53b689a7c6d0,overlapping,1,17,571,4,3,2,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-d47554f1c5267351,overlapping,1,17,253,5,2,2,True
+rbnr,Damage,description,distinct_rbnr,RBNR-d47554f1c5267351,overlapping,1,17,253,5,2,2,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-a95d4137a05df410,overlapping,1,17,208,12,6,6,True
+rbnr,Damage,description,distinct_rbnr,RBNR-a95d4137a05df410,overlapping,1,17,208,12,6,6,True
+rbnr,Damage,code_value,distinct_rbnr,RBNR-f7757e661ee94730,overlapping,1,17,10,12,5,4,True
+rbnr,Damage,description,distinct_rbnr,RBNR-f7757e661ee94730,overlapping,1,17,10,12,5,4,True
+summary,Damage,code_value,distinct_rbnr,,component_empty,0,17,,,,,True
+summary,Damage,code_value,distinct_rbnr,,same_set,2,17,,,,,True
+summary,Damage,code_value,distinct_rbnr,,narrower,0,17,,,,,True
+summary,Damage,code_value,distinct_rbnr,,wider,0,17,,,,,True
+summary,Damage,code_value,distinct_rbnr,,overlapping,15,17,,,,,True
+summary,Damage,code_value,distinct_rbnr,,disjoint,0,17,,,,,True
+summary,Damage,code_value,order_weighted,,component_empty,0,3217,,,,,True
+summary,Damage,code_value,order_weighted,,same_set,58,3217,,,,,True
+summary,Damage,code_value,order_weighted,,narrower,0,3217,,,,,True
+summary,Damage,code_value,order_weighted,,wider,0,3217,,,,,True
+summary,Damage,code_value,order_weighted,,overlapping,3159,3217,,,,,True
+summary,Damage,code_value,order_weighted,,disjoint,0,3217,,,,,True
+summary,Damage,description,distinct_rbnr,,component_empty,0,17,,,,,True
+summary,Damage,description,distinct_rbnr,,same_set,2,17,,,,,True
+summary,Damage,description,distinct_rbnr,,narrower,0,17,,,,,True
+summary,Damage,description,distinct_rbnr,,wider,0,17,,,,,True
+summary,Damage,description,distinct_rbnr,,overlapping,15,17,,,,,True
+summary,Damage,description,distinct_rbnr,,disjoint,0,17,,,,,True
+summary,Damage,description,order_weighted,,component_empty,0,3217,,,,,True
+summary,Damage,description,order_weighted,,same_set,58,3217,,,,,True
+summary,Damage,description,order_weighted,,narrower,0,3217,,,,,True
+summary,Damage,description,order_weighted,,wider,0,3217,,,,,True
+summary,Damage,description,order_weighted,,overlapping,3159,3217,,,,,True
+summary,Damage,description,order_weighted,,disjoint,0,3217,,,,,True
+code_description_control,Damage,code_value,distinct_rbnr,,shared_code_value_description_comparison,385,385,,385,62,46,True
+code_description_control,Damage,code_value,order_weighted,,shared_code_value_description_comparison,67048,67048,,67048,16364,12422,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-2bef769c18441ecb,overlapping,1,17,42,7,1,1,True
+rbnr,Cause,description,distinct_rbnr,RBNR-2bef769c18441ecb,overlapping,1,17,42,7,1,1,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-906676d04ff68b56,overlapping,1,17,370,1,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-906676d04ff68b56,overlapping,1,17,370,1,0,0,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-a606e1aad504cd7f,overlapping,1,17,103,7,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-a606e1aad504cd7f,overlapping,1,17,103,7,0,0,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-c9e04be8aa2a83f6,overlapping,1,17,16,11,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-c9e04be8aa2a83f6,overlapping,1,17,16,11,0,0,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-d5aed769951d18f0,overlapping,1,17,120,1,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-d5aed769951d18f0,overlapping,1,17,120,1,0,0,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-a3aa489f61d567b2,overlapping,1,17,23,6,1,1,True
+rbnr,Cause,description,distinct_rbnr,RBNR-a3aa489f61d567b2,overlapping,1,17,23,6,1,1,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-50da67efe7cbc5fe,overlapping,1,17,42,10,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-50da67efe7cbc5fe,overlapping,1,17,42,10,0,0,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-0608669751a90ca3,overlapping,1,17,214,7,2,2,True
+rbnr,Cause,description,distinct_rbnr,RBNR-0608669751a90ca3,overlapping,1,17,214,7,2,2,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-87dd61f0c545c7b3,overlapping,1,17,210,7,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-87dd61f0c545c7b3,overlapping,1,17,210,7,0,0,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-e276217e7d9496cd,wider,1,17,696,13,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-e276217e7d9496cd,wider,1,17,696,13,0,0,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-d9ef4ea6911a29f8,overlapping,1,17,20,2,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-d9ef4ea6911a29f8,overlapping,1,17,20,2,0,0,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-9d433679011f236c,overlapping,1,17,44,1,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-9d433679011f236c,overlapping,1,17,44,1,0,0,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-f5be320e4e3a70d8,overlapping,1,17,275,5,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-f5be320e4e3a70d8,overlapping,1,17,275,5,0,0,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-c13e53b689a7c6d0,overlapping,1,17,571,4,1,1,True
+rbnr,Cause,description,distinct_rbnr,RBNR-c13e53b689a7c6d0,overlapping,1,17,571,4,1,1,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-d47554f1c5267351,overlapping,1,17,253,2,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-d47554f1c5267351,overlapping,1,17,253,2,0,0,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-a95d4137a05df410,overlapping,1,17,208,5,1,1,True
+rbnr,Cause,description,distinct_rbnr,RBNR-a95d4137a05df410,overlapping,1,17,208,5,1,1,True
+rbnr,Cause,code_value,distinct_rbnr,RBNR-f7757e661ee94730,overlapping,1,17,10,3,0,0,True
+rbnr,Cause,description,distinct_rbnr,RBNR-f7757e661ee94730,overlapping,1,17,10,3,0,0,True
+summary,Cause,code_value,distinct_rbnr,,component_empty,0,17,,,,,True
+summary,Cause,code_value,distinct_rbnr,,same_set,0,17,,,,,True
+summary,Cause,code_value,distinct_rbnr,,narrower,0,17,,,,,True
+summary,Cause,code_value,distinct_rbnr,,wider,1,17,,,,,True
+summary,Cause,code_value,distinct_rbnr,,overlapping,16,17,,,,,True
+summary,Cause,code_value,distinct_rbnr,,disjoint,0,17,,,,,True
+summary,Cause,code_value,order_weighted,,component_empty,0,3217,,,,,True
+summary,Cause,code_value,order_weighted,,same_set,0,3217,,,,,True
+summary,Cause,code_value,order_weighted,,narrower,0,3217,,,,,True
+summary,Cause,code_value,order_weighted,,wider,696,3217,,,,,True
+summary,Cause,code_value,order_weighted,,overlapping,2521,3217,,,,,True
+summary,Cause,code_value,order_weighted,,disjoint,0,3217,,,,,True
+summary,Cause,description,distinct_rbnr,,component_empty,0,17,,,,,True
+summary,Cause,description,distinct_rbnr,,same_set,0,17,,,,,True
+summary,Cause,description,distinct_rbnr,,narrower,0,17,,,,,True
+summary,Cause,description,distinct_rbnr,,wider,1,17,,,,,True
+summary,Cause,description,distinct_rbnr,,overlapping,16,17,,,,,True
+summary,Cause,description,distinct_rbnr,,disjoint,0,17,,,,,True
+summary,Cause,description,order_weighted,,component_empty,0,3217,,,,,True
+summary,Cause,description,order_weighted,,same_set,0,3217,,,,,True
+summary,Cause,description,order_weighted,,narrower,0,3217,,,,,True
+summary,Cause,description,order_weighted,,wider,696,3217,,,,,True
+summary,Cause,description,order_weighted,,overlapping,2521,3217,,,,,True
+summary,Cause,description,order_weighted,,disjoint,0,3217,,,,,True
+code_description_control,Cause,code_value,distinct_rbnr,,shared_code_value_description_comparison,92,92,,92,6,6,True
+code_description_control,Cause,code_value,order_weighted,,shared_code_value_description_comparison,19574,19574,,19574,1272,1272,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-2bef769c18441ecb,disjoint,1,17,42,0,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-2bef769c18441ecb,disjoint,1,17,42,0,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-906676d04ff68b56,overlapping,1,17,370,1,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-906676d04ff68b56,overlapping,1,17,370,1,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-a606e1aad504cd7f,disjoint,1,17,103,0,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-a606e1aad504cd7f,disjoint,1,17,103,0,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-c9e04be8aa2a83f6,overlapping,1,17,16,1,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-c9e04be8aa2a83f6,overlapping,1,17,16,1,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-d5aed769951d18f0,overlapping,1,17,120,1,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-d5aed769951d18f0,overlapping,1,17,120,1,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-a3aa489f61d567b2,disjoint,1,17,23,0,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-a3aa489f61d567b2,disjoint,1,17,23,0,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-50da67efe7cbc5fe,overlapping,1,17,42,3,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-50da67efe7cbc5fe,overlapping,1,17,42,3,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-0608669751a90ca3,disjoint,1,17,214,0,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-0608669751a90ca3,disjoint,1,17,214,0,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-87dd61f0c545c7b3,overlapping,1,17,210,1,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-87dd61f0c545c7b3,overlapping,1,17,210,1,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-e276217e7d9496cd,overlapping,1,17,696,1,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-e276217e7d9496cd,overlapping,1,17,696,1,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-d9ef4ea6911a29f8,overlapping,1,17,20,1,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-d9ef4ea6911a29f8,overlapping,1,17,20,1,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-9d433679011f236c,overlapping,1,17,44,1,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-9d433679011f236c,overlapping,1,17,44,1,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-f5be320e4e3a70d8,disjoint,1,17,275,0,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-f5be320e4e3a70d8,disjoint,1,17,275,0,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-c13e53b689a7c6d0,overlapping,1,17,571,3,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-c13e53b689a7c6d0,overlapping,1,17,571,3,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-d47554f1c5267351,overlapping,1,17,253,3,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-d47554f1c5267351,overlapping,1,17,253,3,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-a95d4137a05df410,overlapping,1,17,208,1,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-a95d4137a05df410,overlapping,1,17,208,1,0,0,True
+rbnr,Activity,code_value,distinct_rbnr,RBNR-f7757e661ee94730,overlapping,1,17,10,1,0,0,True
+rbnr,Activity,description,distinct_rbnr,RBNR-f7757e661ee94730,overlapping,1,17,10,1,0,0,True
+summary,Activity,code_value,distinct_rbnr,,component_empty,0,17,,,,,True
+summary,Activity,code_value,distinct_rbnr,,same_set,0,17,,,,,True
+summary,Activity,code_value,distinct_rbnr,,narrower,0,17,,,,,True
+summary,Activity,code_value,distinct_rbnr,,wider,0,17,,,,,True
+summary,Activity,code_value,distinct_rbnr,,overlapping,12,17,,,,,True
+summary,Activity,code_value,distinct_rbnr,,disjoint,5,17,,,,,True
+summary,Activity,code_value,order_weighted,,component_empty,0,3217,,,,,True
+summary,Activity,code_value,order_weighted,,same_set,0,3217,,,,,True
+summary,Activity,code_value,order_weighted,,narrower,0,3217,,,,,True
+summary,Activity,code_value,order_weighted,,wider,0,3217,,,,,True
+summary,Activity,code_value,order_weighted,,overlapping,2560,3217,,,,,True
+summary,Activity,code_value,order_weighted,,disjoint,657,3217,,,,,True
+summary,Activity,description,distinct_rbnr,,component_empty,0,17,,,,,True
+summary,Activity,description,distinct_rbnr,,same_set,0,17,,,,,True
+summary,Activity,description,distinct_rbnr,,narrower,0,17,,,,,True
+summary,Activity,description,distinct_rbnr,,wider,0,17,,,,,True
+summary,Activity,description,distinct_rbnr,,overlapping,12,17,,,,,True
+summary,Activity,description,distinct_rbnr,,disjoint,5,17,,,,,True
+summary,Activity,description,order_weighted,,component_empty,0,3217,,,,,True
+summary,Activity,description,order_weighted,,same_set,0,3217,,,,,True
+summary,Activity,description,order_weighted,,narrower,0,3217,,,,,True
+summary,Activity,description,order_weighted,,wider,0,3217,,,,,True
+summary,Activity,description,order_weighted,,overlapping,2560,3217,,,,,True
+summary,Activity,description,order_weighted,,disjoint,657,3217,,,,,True
+code_description_control,Activity,code_value,distinct_rbnr,,shared_code_value_description_comparison,18,18,,18,0,0,True
+code_description_control,Activity,code_value,order_weighted,,shared_code_value_description_comparison,4292,4292,,4292,0,0,True

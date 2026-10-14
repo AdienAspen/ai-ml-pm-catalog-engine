@@ -1,0 +1,21 @@
+target,relation,orders,lca_direct_profiled_tie_sets
+Symptom,turbine_profile_missing,238,2201
+Symptom,same_rbnr,572,2201
+Symptom,different_rbnr_same_code_count,0,2201
+Symptom,different_rbnr_different_code_count,1391,2201
+Object Part,turbine_profile_missing,238,2201
+Object Part,same_rbnr,572,2201
+Object Part,different_rbnr_same_code_count,0,2201
+Object Part,different_rbnr_different_code_count,1391,2201
+Damage,turbine_profile_missing,238,2201
+Damage,same_rbnr,572,2201
+Damage,different_rbnr_same_code_count,973,2201
+Damage,different_rbnr_different_code_count,418,2201
+Cause,turbine_profile_missing,238,2201
+Cause,same_rbnr,572,2201
+Cause,different_rbnr_same_code_count,0,2201
+Cause,different_rbnr_different_code_count,1391,2201
+Activity,turbine_profile_missing,238,2201
+Activity,same_rbnr,572,2201
+Activity,different_rbnr_same_code_count,0,2201
+Activity,different_rbnr_different_code_count,1391,2201

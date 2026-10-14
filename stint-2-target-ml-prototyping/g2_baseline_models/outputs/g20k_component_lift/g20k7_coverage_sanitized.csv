@@ -1,0 +1,6 @@
+category,count,without_g20i_profile,potential_profile_determinable,sum_valid
+no_turbine_subtree,2,1824,False,True
+implied_single_node,29,1824,True,True
+implied_multi_node_one_rbnr,813,1824,True,True
+implied_multi_rbnr,117,1824,False,True
+implied_none,863,1824,False,True

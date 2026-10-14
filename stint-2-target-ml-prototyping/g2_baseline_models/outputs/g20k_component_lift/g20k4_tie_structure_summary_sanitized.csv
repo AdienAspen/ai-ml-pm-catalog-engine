@@ -1,0 +1,6 @@
+structural_category,orders,all_ties,sum_valid
+ancestor_chain,104,2238,True
+siblings,794,2238,True
+shared_subtree,1340,2238,True
+cross_subsystem,0,2238,True
+path_incomplete,0,2238,True

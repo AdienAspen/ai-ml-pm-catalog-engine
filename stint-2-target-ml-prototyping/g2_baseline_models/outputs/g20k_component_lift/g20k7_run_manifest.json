@@ -1,0 +1,33 @@
+{
+  "completed_at_utc": "2026-10-05T20:51:39.261573+00:00",
+  "denominator_changed": false,
+  "no_promotion": true,
+  "no_replay_or_scoring": true,
+  "no_text_fields_reread": true,
+  "output_sha256": {
+    "g20k7_coverage_sanitized.csv": "c47354f6628ffe8d6a373a297fd745d24953c1c5bfe41e4f9a794b8176ecef56",
+    "g20k7_g20i_agreement_sanitized.csv": "174b02a0049753471a85a8b70bbad855d4ca83006dea4d46d9f9a21fcee3fde6",
+    "g20k7_implied_orders_sanitized.csv": "0380e6fa08b26987154ab30f93486979903e11ab2c1e329876e2b41d31955f76",
+    "g20k7_implied_pairs_sanitized.csv": "62268d8a5f5b6699b2470fd2464c0835c1b66cca35154d6580f008479cee43e8",
+    "g20k7_memo.md": "bf52b9fcc1dda61b694c9299862e3b491375e53320b56b26d05b2668aa9cbf9d"
+  },
+  "private_directory_mode": "0o700",
+  "private_mode": "0o600",
+  "private_sha256": {
+    "g20k7_detail.csv": "8fc8c1d627539b723f2d251ac243369f7447c361b6604356d0b72e782ca5e1db",
+    "g20k7_enabling_sets_complete.csv": "c1d7cc6db743d2b6a83e26a12549879d8ec2f8675468edef6d3ef474b66a7f3f"
+  },
+  "scope": "B1_diagnostic_only",
+  "source_sha256": {
+    "data/interim/extracted_source/package_001_37cac7fe/Data/References/IH06 FSA Sites PRD.XLSX": "9bd6f60712e50e3361999db09608dc739f256e69ff9c515177d458be3bbef926",
+    "data/interim/extracted_source/package_001_37cac7fe/Data/References/Wind Catalog Group and Codes Final v4.xlsx": "e2889cce53d16a78ba0ab3ed6e71aa74eb9a901b8f181ead847c86e9d4c74bcd",
+    "stint-2-target-ml-prototyping/docs/PLAN-G2.0k.7\u2014crosswalk-Implied-component.md": "d8a09ef224f03836ebf32dc8fd5997e8d3c4073513f3363d6f59e070e4d8b1c7",
+    "stint-2-target-ml-prototyping/g1_actionable_zeros/g12_floc_alignment/internal/g12_floc_alignment_internal_review.csv": "1d44b5303a3b7d683552235c44bb25315026af823f88e7b66e8723ed6bf5ded9",
+    "stint-2-target-ml-prototyping/g1_actionable_zeros/g12_floc_alignment/outputs/g12_floc_alignment_order_level_sanitized.csv": "b71f0918de94804706e0b1715b46d2f9ec42e3aa32bd3da7dd409879b9110e7a",
+    "stint-2-target-ml-prototyping/g2_baseline_models/internal/g20k_component_lift/g20k6_detail.csv": "a5958707fb084cf6b1945cf2584fc4b1c955d46460fdac2970a2be84513571c4",
+    "stint-2-target-ml-prototyping/g2_baseline_models/internal/g20k_component_lift/g20k7_enabling_sets_complete.csv": "c1d7cc6db743d2b6a83e26a12549879d8ec2f8675468edef6d3ef474b66a7f3f",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20i_profile_consensus/g20i_profile_consensus_by_order_sanitized.csv": "9f4bfb6c63ea23a3969631308274519ff2024174f621f29f133cf40082fa6747",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20k_component_lift/g20k6_crosswalk_membership_sanitized.csv": "cf16ef21a9a97dddf4918c8baa20b5991366a1bd88784c0ec1f615ce9303964d",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20k_component_lift/g20k_expansion_affected_orders_sanitized.csv": "8079e0c038d7b41ae694687efa16fd3a24585beeafbe7864d4aeeb511a22d8cd"
+  }
+}

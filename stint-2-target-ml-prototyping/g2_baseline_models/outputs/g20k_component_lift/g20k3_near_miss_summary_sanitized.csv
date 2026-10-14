@@ -1,0 +1,5 @@
+score_band,orders,sampled_private_pairs,unprofiled_best_match_above_0_60_all_bands,IH06_component_class_availability
+0.55-0.60,129,8,0,not_comparable_Object_Type_not_verified_as_component_class
+0.50-0.55,477,8,,not_comparable_Object_Type_not_verified_as_component_class
+0.40-0.50,576,7,,not_comparable_Object_Type_not_verified_as_component_class
+below_0.40,42,7,,not_comparable_Object_Type_not_verified_as_component_class
