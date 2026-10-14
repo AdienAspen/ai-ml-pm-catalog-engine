@@ -1,0 +1,15 @@
+population,category,orders,denominator,mixed_category_orders
+full,no_turbine_subtree,2,3013,684
+full,original_code_available,1207,3013,684
+full,exact_equivalent,1401,3013,684
+full,restricted_strong,230,3013,684
+full,restricted_medium_weak,30,3013,684
+full,no_enabled_codes_under_subtree,0,3013,684
+full,enabled_codes_no_score,143,3013,684
+prior_implied_none,no_turbine_subtree,0,1804,79
+prior_implied_none,original_code_available,0,1804,79
+prior_implied_none,exact_equivalent,1401,1804,79
+prior_implied_none,restricted_strong,230,1804,79
+prior_implied_none,restricted_medium_weak,30,1804,79
+prior_implied_none,no_enabled_codes_under_subtree,0,1804,79
+prior_implied_none,enabled_codes_no_score,143,1804,79

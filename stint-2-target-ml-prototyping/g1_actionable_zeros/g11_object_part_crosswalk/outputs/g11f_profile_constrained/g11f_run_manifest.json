@@ -1,0 +1,30 @@
+{
+  "controls": {
+    "f4_membership": [
+      0,
+      11,
+      5767
+    ],
+    "f6_concepts": 708,
+    "original_code_available_orders": 1207,
+    "original_code_available_pairs": 1459
+  },
+  "input_sha256": {
+    "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/data/interim/extracted_source/package_001_37cac7fe/Data/References/IH06 FSA Sites PRD.XLSX": "9bd6f60712e50e3361999db09608dc739f256e69ff9c515177d458be3bbef926",
+    "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/data/interim/extracted_source/package_001_37cac7fe/Data/References/Wind Catalog Group and Codes Final v4.xlsx": "e2889cce53d16a78ba0ab3ed6e71aa74eb9a901b8f181ead847c86e9d4c74bcd",
+    "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-2-target-ml-prototyping/g1_actionable_zeros/g11_object_part_crosswalk/internal/g11_material_to_catalog_b_crosswalk_internal_review.csv": "ce2230d80a24a378351ac35f1b15eb014709ba5efa87760f5fea749e6abd5646",
+    "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-2-target-ml-prototyping/g1_actionable_zeros/g11_object_part_crosswalk/outputs/g11_item_signal_rows_sanitized.csv": "b31b7d87d2e077773fa4acf79cb8d4e23baff2da9e2c796d4cd258d6115fb644",
+    "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-2-target-ml-prototyping/g1_actionable_zeros/g11_object_part_crosswalk/outputs/g11_material_to_catalog_b_crosswalk_sanitized.csv": "38011887c02586b98c8af7a8f668a1e63a9b8871963ceee6f926c383563d03d7",
+    "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-2-target-ml-prototyping/g2_baseline_models/internal/g20k_component_lift/g20k7_detail.csv": "8fc8c1d627539b723f2d251ac243369f7447c361b6604356d0b72e782ca5e1db",
+    "/home/adien-i7-remote/workspace/fsa_bridge_ml_feasibility/stint-2-target-ml-prototyping/g2_baseline_models/internal/g20k_component_lift/g20k7_enabling_sets_complete.csv": "c1d7cc6db743d2b6a83e26a12549879d8ec2f8675468edef6d3ef474b66a7f3f"
+  },
+  "method": "g11_lexical_unchanged_profile_restricted_diagnostic",
+  "mixed_category_orders": 684,
+  "mixed_prior_implied_none_orders": 79,
+  "multi_concept_pairs": 1673,
+  "order_count": 3013,
+  "pair_count": 5778,
+  "prior_implied_none_orders": 1804,
+  "run_at_utc": "2026-10-09T00:18:16.843833+00:00",
+  "sample_pairs": 30
+}
