@@ -1,0 +1,8 @@
+{
+  "completed_at_utc": "2026-09-28T22:14:26.320646+00:00",
+  "denominator_changed": false,
+  "freeze_sha256": "65ea42c4ee11ec7f4976fd0187cf9ad9f0942c38d82aa1a233f125d5605ad7f3",
+  "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "no_training": true,
+  "score_file_sha256": "5529a913d6df97bbe81d4fc42068c1c2081e8ec5d9e1b4d14b781a6062126678"
+}

@@ -1,0 +1,23 @@
+{
+  "ambiguity_scope": "original_node_status_ambiguous_only",
+  "candidate_band": "all_nodes_with_top_score_minus_node_score_strictly_below_0.05",
+  "coverage_observed": false,
+  "eligible_for_independent_code_evaluation": false,
+  "evaluation_independence": "derived_from_rules",
+  "frozen_at_utc": "2026-09-26T17:50:44.462247+00:00",
+  "margin": 0.05,
+  "model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "node_decisions_modified": false,
+  "normalisation": "semantic_normalisation_v2",
+  "profile_rule": "emit_RBNR_only_if_every_node_in_band_has_same_valid_effective_RBNR",
+  "rule_status": "postrun_additive_diagnostic_not_original_frozen_instrument",
+  "source_sha256": {
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20i_component_resolution/g20i_freeze_manifest.json": "aedbba881c9eb3d98ae3192402cb98e5060223f83f5106269875718d36fe68d4",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20i_component_resolution/g20i_order_resolution_sanitized.csv": "23088178256a767ee868e1275b48ca007a7926942e82bf5aa2a6ceec3d11131f",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20i_component_resolution/g20i_profile_funnel_sanitized.csv": "c64aa4ceb78595c5a98e07b119e0b8ca59e4b9cf41db524afe8e05e2b8cde1ff",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20i_component_resolution/g20i_run_manifest.json": "42f87aa30aa8ef7a7facef05e6a2f4a41b4f810586513c1b618b5d17e56d428d",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20i_component_resolution.py": "b6bdd4568abc5a73585272cb2facb849f82eb333d62d2abdf92a64fe2451d4b1",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20i_profile_consensus.py": "723c3f82c1f91788b0966eb50e71874c010a717dd9dd7fff7ec8d28ba463935b"
+  },
+  "threshold": 0.6
+}

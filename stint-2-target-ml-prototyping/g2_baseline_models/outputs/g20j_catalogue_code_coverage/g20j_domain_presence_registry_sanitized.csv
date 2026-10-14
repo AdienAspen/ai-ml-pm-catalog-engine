@@ -1,0 +1,19 @@
+target,prototype_id,prototype_text,source,semantic_role,source_artifact
+Cause,CV-EXT-8c95ffe7e375,component wear or failure,WMEP_CAUSES,cause_presence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Cause,CV-EXT-9b70b5e77d14,grid failure,WMEP_CAUSES,cause_presence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Cause,CV-EXT-9ad99851c78b,high wind,WMEP_CAUSES,cause_presence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Cause,CV-EXT-b73a98eb2d12,icing,WMEP_CAUSES,cause_presence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Cause,CV-EXT-9fdb6ef46bbc,lightning,WMEP_CAUSES,cause_presence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Cause,CV-EXT-0de0fd3290e3,loosening of parts,WMEP_CAUSES,cause_presence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Cause,CV-EXT-c3be2f7e0dc9,malfunction of control systems,WMEP_CAUSES,cause_presence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Cause,CV-EXT-87294bb87f9a,other causes,WMEP_CAUSES,cause_presence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Cause,CV-EXT-c618b53b9d37,unknown causes,WMEP_CAUSES,cause_presence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Symptom,CV-EXT-f7f4c23e6144,causing follow up damage,WMEP_EFFECTS,operational_consequence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Symptom,CV-EXT-7f05b410b109,noise,WMEP_EFFECTS,operational_consequence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Symptom,CV-EXT-f337259a8d4d,other consequences,WMEP_EFFECTS,operational_consequence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Symptom,CV-EXT-d74f1ca6539c,overload,WMEP_EFFECTS,operational_consequence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Symptom,CV-EXT-2ec4f1988d38,overspeed,WMEP_EFFECTS,operational_consequence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Symptom,CV-EXT-4f882408045f,plant stoppage,WMEP_EFFECTS,operational_consequence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Symptom,CV-EXT-3e48274e9a45,reduced power,WMEP_EFFECTS,operational_consequence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Symptom,CV-EXT-f3feba553d02,vibration,WMEP_EFFECTS,operational_consequence_reference,stint-1-evidence-ground-truth/phase_1_lexical/outputs/canonical_vocabulary/external_failure_vocabulary_v1.csv
+Symptom,RL-NORMALISATION-0101,observable indication that something abnormal was detected,ZEUS_detection_symptom,frozen_container_definition_presence_test_not_lexicon,stint-1.1-reference-layer/reference_layer/semantic_normalisation/zeus_semantic_scaffold_v1.csv

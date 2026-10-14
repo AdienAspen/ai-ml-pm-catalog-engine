@@ -1,0 +1,61 @@
+{
+  "completed_at_utc": "2026-09-28T22:15:10.293607+00:00",
+  "freeze_sha256": "65ea42c4ee11ec7f4976fd0187cf9ad9f0942c38d82aa1a233f125d5605ad7f3",
+  "outputs_sha256": {
+    "g20j_assigned_per_code_sanitized.csv": "1cbd8894d0941f77851298c39ea281320f8277ad0524406634761a8ee0d9465e",
+    "g20j_catalogue_coverage_sanitized.csv": "001d90b3e2f9e0ce0c76490fe6ed2c481262086dbefa246b5934f35c0a0ae40e",
+    "g20j_catalogue_registry_sanitized.csv": "11776e365960458df7c39bc2709ab3245a2381a6671a05f5ff7caa0cc5f5144b",
+    "g20j_cause_run_manifest.json": "9104396fc68ab9359a07936fd10c7cc31a695f7df72de5c39256acbcf25f0408",
+    "g20j_cause_unit_scores_sanitized.csv": "5529a913d6df97bbe81d4fc42068c1c2081e8ec5d9e1b4d14b781a6062126678",
+    "g20j_domain_presence_registry_sanitized.csv": "2d28db8a163ae305b382284cc3cfe6411ba1afa32cacc8565adb092b25e56b2d",
+    "g20j_freeze_manifest.json": "65ea42c4ee11ec7f4976fd0187cf9ad9f0942c38d82aa1a233f125d5605ad7f3",
+    "g20j_memo.md": "d03196ff77ee5859057e7c2c691c7879adecdc350f16c727798a3a709af5627c",
+    "g20j_no_applicable_report_sanitized.csv": "1ca50f91cf07bfd746bb270c9014d2bdc3bc64585a8b9a69b74b070961542202",
+    "g20j_noncoverage_partition_sanitized.csv": "d7aa8a73b7ac0ecbfcf597b67316295748fb9fb191fb6f3f5b5ad3b657bc6b5a",
+    "g20j_prepare_manifest.json": "67ebaeca07cc997ff58f2f2d10116929afd41581207a6e3fc41d3e32509bef19",
+    "g20j_profile_applicability_sanitized.csv": "1d649c15c7774540b689be75661915103274603725080ebb4d9eb35aa925d463",
+    "g20j_residual_concepts_sanitized.csv": "b213cf55f3a082b7ec5a09f1da84aa369b7fdb7f28a2e730012f8ea2dc87af6e",
+    "g20j_residual_grouping_audit_sanitized.csv": "fdd589cf599c5ca7eb15a8c68b2561ffa4181e340f4afcd7038d4e52d7618759",
+    "g20j_residual_top20_sanitized.csv": "4c200a016e312db7222a73cdd49ca4ea6add6528d6bd9a92f664107acae396ae",
+    "g20j_symptom_run_manifest.json": "02ebe470ac3dc581bf767159b1bc7561acb07eabdfd1a6e059c4d6eff46fbd55",
+    "g20j_symptom_unit_scores_sanitized.csv": "8cf781855f4eaa23b30121c902b6d2cedd6afefc990d2257df8f3476de46fb67",
+    "g20j_universe_register_sanitized.csv": "b66ec6afb7020b84771fb6d76206d0f9db13690681dfe3c702d32c2b3155f51a",
+    "g20j_wmep_contrast_sanitized.csv": "8094f8c933efe47978038fac40c0cf3ae87977a8174c7c0366eb176537a21ef1"
+  },
+  "protected_sources_unchanged": true,
+  "settings": {
+    "catalogue_threshold": 0.5,
+    "description_input": "verbatim_no_normalization_paraphrase_or_typo_correction",
+    "model": "paraphrase-multilingual-MiniLM-L12-v2",
+    "no_catalogue_code_interpretation": "candidate_configuration_gap_or_detector_miss_not_confirmed_gap",
+    "no_denominator_change": true,
+    "no_promotion": true,
+    "normalization": "semantic_normalisation_v2",
+    "presence_cause": "WMEP_CAUSES_only_9_frozen_phrases",
+    "presence_symptom": "ZEUS_detection_symptom_frozen_definition_OR_WMEP_EFFECTS_reference",
+    "presence_threshold": 0.5,
+    "residual_frequency_floors": {
+      "B1_RELATIONAL": 3,
+      "B2_WORKBOOKS": 2,
+      "PATH_A": 1
+    },
+    "residual_grouping": "MiniBatchKMeans_normalized_embeddings_no_string_distance",
+    "residual_k_rule": "min(256,max(1,round(sqrt(distinct_retained_terms))))",
+    "residual_member_cosine_min": 0.5,
+    "residual_min_members": 2,
+    "residual_ngram_sizes": [
+      1,
+      2,
+      3
+    ],
+    "residual_random_state": 20260921,
+    "residual_reference_role": "diagnostic_only_not_added_to_training_or_reference_vocabulary",
+    "residual_target_assignment": "inherited_from_domain_presence_test_not_term_classification",
+    "scoring": "T5.1b2X_L2_cosine_max_over_independent_normalized_source_segments",
+    "threshold_basis": "historical_T5.1b2X_value_not_calibrated_for_new_catalogue",
+    "tie_policy": "stable_lexicographic_composite_key_report_all_max_tie_count",
+    "tie_tolerance": 1e-06,
+    "universe": "model_eligible_construction_corpus"
+  },
+  "status": "report_complete_B2_provisional_no_independent_accuracy_claim"
+}

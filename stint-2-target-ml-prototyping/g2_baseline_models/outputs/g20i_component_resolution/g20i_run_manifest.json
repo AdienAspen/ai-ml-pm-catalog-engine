@@ -1,0 +1,72 @@
+{
+  "completed_at_utc": "2026-09-26T17:00:59.074670+00:00",
+  "freeze_manifest_sha256": "aedbba881c9eb3d98ae3192402cb98e5060223f83f5106269875718d36fe68d4",
+  "outputs_sha256": {
+    "g20i_freeze_manifest.json": "aedbba881c9eb3d98ae3192402cb98e5060223f83f5106269875718d36fe68d4",
+    "g20i_inventory_by_turbine_depth_sanitized.csv": "044f69d14bf5af4e6cafe2e97803f7ed73818e151810e61641eed8b79ff8e8a5",
+    "g20i_memo.md": "dbb88af4d900edc177e6aebf018d6f996a5f7b5bb731e0c3f078d52b1c84d759",
+    "g20i_order_resolution_sanitized.csv": "23088178256a767ee868e1275b48ca007a7926942e82bf5aa2a6ceec3d11131f",
+    "g20i_profile_funnel_sanitized.csv": "c64aa4ceb78595c5a98e07b119e0b8ca59e4b9cf41db524afe8e05e2b8cde1ff"
+  },
+  "summary": {
+    "concept_reconciliation": {
+      "assigned_only_units": 7393,
+      "final_assigned_object_part_concepts": 40,
+      "historical_concepts_in_hits": 43,
+      "historical_units_with_any_domain_hit": 7668,
+      "unassigned_concepts_excluded": 3,
+      "units_removed_by_assignment_filter": 275
+    },
+    "denominator_changed": false,
+    "independent_structural_evidence": {},
+    "inventory_descendant_nodes": 52993,
+    "inventory_leaf_nodes": 41763,
+    "inventory_profiled_nodes": 52977,
+    "inventory_turbine_nodes": 274,
+    "no_accuracy_claim": true,
+    "per_site_status": {
+      "SITE-001": {
+        "abstained": 288,
+        "ambiguous": 332,
+        "resolved": 159
+      },
+      "SITE-003": {
+        "abstained": 638,
+        "ambiguous": 382,
+        "resolved": 561
+      },
+      "SITE-007": {
+        "abstained": 1131,
+        "ambiguous": 742,
+        "resolved": 426
+      },
+      "SITE-008": {
+        "abstained": 1752,
+        "ambiguous": 1539,
+        "resolved": 901
+      },
+      "SITE-009": {
+        "abstained": 768,
+        "ambiguous": 777,
+        "resolved": 353
+      }
+    },
+    "reason_counts": {
+      "below_frozen_threshold": 1213,
+      "no_assigned_object_part_concept": 3308,
+      "no_profiled_component_candidate": 6,
+      "no_structural_turbine_match": 50,
+      "semantic_candidate_only": 2400,
+      "top_two_node_margin_below_frozen_minimum": 3772
+    },
+    "resolved_leaf_status": {
+      "false": 1058,
+      "true": 1342
+    },
+    "status_counts": {
+      "abstained": 4577,
+      "ambiguous": 3772,
+      "resolved": 2400
+    }
+  }
+}

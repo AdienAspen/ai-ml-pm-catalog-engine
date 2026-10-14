@@ -1,0 +1,46 @@
+{
+  "catalog_profiles": 162,
+  "concept_reconciliation": {
+    "assigned_only_units": 7393,
+    "final_assigned_object_part_concepts": 40,
+    "historical_concepts_in_hits": 43,
+    "historical_units_with_any_domain_hit": 7668,
+    "unassigned_concepts_excluded": 3,
+    "units_removed_by_assignment_filter": 275
+  },
+  "distinct_catalog_group_code_pairs": 13638,
+  "frozen_at_utc": "2026-09-26T17:00:14.983182+00:00",
+  "profile_type_associations": 1392,
+  "scores_observed": false,
+  "settings": {
+    "answer_space_chain": "profile_to_type_to_allowed_group_to_distinct_group_code_pairs",
+    "candidate_scope": "strict_descendant_of_G1.2_site_and_turbine_node_with_valid_effective_RBNR",
+    "candidate_text": "IH06_description_normalized_same_pipeline",
+    "construction": "final_G2.0c_Object_Part_concepts_only; exclude_unassigned",
+    "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+    "evaluation_independence": "derived_from_rules",
+    "independent_code_evaluation_eligible": false,
+    "minimum_top_two_node_margin": 0.05,
+    "no_response_labels_read": true,
+    "normalisation": "semantic_normalisation_v2",
+    "prototype_text": "final_concept_canonical_label_only",
+    "scope": "B1_RELATIONAL_only_10749_orders",
+    "score": "max_L2_cosine_over_detected_concepts_per_node",
+    "states": "resolved|ambiguous|abstained",
+    "threshold": 0.6,
+    "threshold_selection": "pre_result_conservative_diagnostic_no_labels"
+  },
+  "source_sha256": {
+    "data/interim/extracted_source/package_001_37cac7fe/Data/References/IH06 FSA Sites PRD.XLSX": "9bd6f60712e50e3361999db09608dc739f256e69ff9c515177d458be3bbef926",
+    "data/interim/extracted_source/package_001_37cac7fe/Data/References/IH08 FSA Sites PRD.XLSX": "b2094dfc7a180255fd10d44345c61cb3e34e3bf48f551e9bd1d9522a5400b103",
+    "data/interim/extracted_source/package_001_37cac7fe/Data/References/Wind Catalog Group and Codes Final v4.xlsx": "e2889cce53d16a78ba0ab3ed6e71aa74eb9a901b8f181ead847c86e9d4c74bcd",
+    "data/interim/extracted_source/package_001_37cac7fe/Data/Vestas/api_service_v1_service-orders.json": "ea2da2cb2d405c07d7cbf804e722e10acb9b5c984d5307384a31742434163758",
+    "stint-2-target-ml-prototyping/g1_actionable_zeros/g12_floc_alignment/internal/g12_floc_alignment_internal_review.csv": "1d44b5303a3b7d683552235c44bb25315026af823f88e7b66e8723ed6bf5ded9",
+    "stint-2-target-ml-prototyping/g1_actionable_zeros/g12_floc_alignment/outputs/g12_floc_alignment_order_level_sanitized.csv": "b71f0918de94804706e0b1715b46d2f9ec42e3aa32bd3da7dd409879b9110e7a",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20_corpus_native_domain_vocab/g20c_domain_vocabulary_sanitized.csv": "7aabf558b12c5072a67d9d403ed1904a9883520938bf3a122532bb7f11c4dca9",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20_corpus_native_domain_vocab/g20c_step5_coverage_manifest.json": "07bc8765079286c6ce43d603bdffef5af625fbcc5a54ed0925e492ce7075916b",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20_corpus_native_domain_vocab/g20c_step5_unit_concept_hits_sanitized.csv": "0667b8f8c0fe3911209354893308af11adf71d4b1055cee294f7679b2f444cdb",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20c_neutral_ngram_extraction.py": "e5c37a7569997793cdcd6b59ce5ea148a0b26a6bf6bba79955a0b0d624e0c040",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20i_component_resolution.py": "b6bdd4568abc5a73585272cb2facb849f82eb333d62d2abdf92a64fe2451d4b1"
+  }
+}

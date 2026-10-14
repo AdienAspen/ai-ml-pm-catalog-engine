@@ -1,0 +1,7 @@
+path_bucket,eligibility,units,universe,exclusions_reported_separately
+B1_RELATIONAL,eligible,9263,model_eligible_construction_corpus,True
+B1_RELATIONAL,excluded,1486,model_eligible_construction_corpus,True
+B2_WORKBOOKS,eligible,1478,model_eligible_construction_corpus,True
+B2_WORKBOOKS,excluded,379,model_eligible_construction_corpus,True
+PATH_A,eligible,159,model_eligible_construction_corpus,True
+PATH_A,excluded,203,model_eligible_construction_corpus,True

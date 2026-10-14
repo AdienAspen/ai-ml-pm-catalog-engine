@@ -1,0 +1,50 @@
+{
+  "completed_at_utc": "2026-09-26T17:51:17.896014+00:00",
+  "freeze_manifest_sha256": "987e3cae54048030514157462e19c104d1c2a446497f39aec6d9862a12178a70",
+  "output_sha256": {
+    "g20i_profile_consensus_by_order_sanitized.csv": "9f4bfb6c63ea23a3969631308274519ff2024174f621f29f133cf40082fa6747",
+    "g20i_profile_consensus_freeze.json": "987e3cae54048030514157462e19c104d1c2a446497f39aec6d9862a12178a70",
+    "g20i_profile_consensus_funnel_sanitized.csv": "2947bb01b7df391ee3a7e824ed130924ce51d77b35719b33f84fce89aa338230",
+    "g20i_profile_consensus_memo.md": "33ef42dcb19bf8884d2c730a2dda9b9e0f42f89188342d7ee3372b1465429f1f"
+  },
+  "summary": {
+    "additional_ambiguous_node_profile_resolved": 1534,
+    "additional_by_site": {
+      "SITE-001": 127,
+      "SITE-003": 107,
+      "SITE-007": 349,
+      "SITE-008": 631,
+      "SITE-009": 320
+    },
+    "additional_by_top_node_depth": {
+      "3": 534,
+      "4": 471,
+      "5": 529
+    },
+    "additional_close_node_counts": {
+      "2": 301,
+      "3": 557,
+      "4": 371,
+      "6": 6,
+      "8": 298,
+      "10": 1
+    },
+    "denominator_changed": false,
+    "independent_structural_accuracy_measured": false,
+    "node_results_modified": false,
+    "original_node_status": {
+      "abstained": 4577,
+      "ambiguous": 3772,
+      "resolved": 2400
+    },
+    "original_profile_resolved": 2400,
+    "profile_status": {
+      "abstained": 4577,
+      "ambiguous": 2238,
+      "resolved_node": 2400,
+      "resolved_node_ambiguous": 1534
+    },
+    "semantic_scores_reproduced": 7385,
+    "total_profile_resolved_diagnostic": 3934
+  }
+}

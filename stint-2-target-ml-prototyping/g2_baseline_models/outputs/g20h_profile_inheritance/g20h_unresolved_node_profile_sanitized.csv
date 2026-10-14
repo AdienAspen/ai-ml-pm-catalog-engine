@@ -1,0 +1,17 @@
+node_hash,site_key,order_count,node_depth,status,edges_walked,node_description_has_turbine_marker,descendant_nodes,profiled_descendant_nodes,asset_characterization
+IH06NODE-702fcce5f5d5c5c8,SITE-003,124,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-83418814ab3a674a,SITE-003,100,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-22fa70e632b9b679,SITE-003,90,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-fc2ae4ff3f435c32,SITE-003,99,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-1f5bb4ef84f1f3f5,SITE-003,98,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-f0efd2de5609b31c,SITE-003,100,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-c6634494ca3e1563,SITE-003,85,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-800ed0537b00c888,SITE-003,94,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-aaef2bd5432cdde6,SITE-003,115,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-3b34f9965aa8c3df,SITE-003,63,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-d9f373caf4ed6759,SITE-003,99,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-fe10dcba5687e631,SITE-003,82,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-38819bf952c0beb3,SITE-003,80,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-74e0afa8bca3df08,SITE-003,96,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-117d35fb376f4509,SITE-003,92,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment
+IH06NODE-a98097bca21778ba,SITE-003,131,2,no_profile_no_filter,1,true,119,118,turbine_node_from_g12_alignment

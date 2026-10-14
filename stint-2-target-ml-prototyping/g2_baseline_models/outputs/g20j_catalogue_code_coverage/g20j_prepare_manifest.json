@@ -1,0 +1,12 @@
+{
+  "cache_sha256": {
+    "g20j_corpus_vectors.npz": "6cd9d801b284fbcdbd1e9051963bde460d028b095a326490ffb1a4b26508efbc",
+    "g20j_prepared_corpus_internal.json": "9560e21ba5a207e404e4550860f1c8d4028019779b970e3a45928423519c4cc7"
+  },
+  "eligible_units": 10900,
+  "freeze_sha256": "65ea42c4ee11ec7f4976fd0187cf9ad9f0942c38d82aa1a233f125d5605ad7f3",
+  "masked_full_corpus_units": 13,
+  "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "prepared_at_utc": "2026-09-28T22:13:25.283987+00:00",
+  "unique_normalized_segments": 6500
+}
