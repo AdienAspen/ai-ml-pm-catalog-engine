@@ -1,0 +1,30 @@
+{
+  "completed_at_utc": "2026-09-24T21:02:20.186355+00:00",
+  "freeze_sha256": "bc6e4140aaada5d4e209bdebe7012d237fe81560b2fccba6f668adb9a6caf6e2",
+  "script_sha256": "a82b9c60cdde091b8d7fe706fec2ffc1c307d98178aa09b156eb31bd03fd10f4",
+  "masked_units": 13,
+  "construction_membership_reconciled": 10900,
+  "protected_files_unchanged": 96,
+  "f6_source_count_rows_verified": 10,
+  "f6_unit_rows_reconciled": 4,
+  "f6_strata_delta_unavailable": 6,
+  "status": "coverage_complete_with_explicit_f6_unit_comparability_limits",
+  "outputs": {
+    "g20d_anchor_registry_sanitized.csv": "8254a1f8f5844eca6ddc251fd87971068eaf0f83a9b09568a59ff78c1e3246c3",
+    "g20d_concept_coverage_sanitized.csv": "6a5fa1a39a412dda5939fbc9713b99c274e6772432ad58630691077cea2449bc",
+    "g20d_domain_only_coverage_sanitized.csv": "fe9c3c3aec2dcc75ade3cd8610d6fce33549badb9e93272e9c84cc5fd4fa80bb",
+    "g20d_f6_contrast_sanitized.csv": "97dae47baf5ef7d0b4a1264608dc4b920c46ffb79e4ad32380d81854a730004a",
+    "g20d_f6_reconciliation_sanitized.csv": "8f713c5e8e6b7bbe25244e0164f0100408334985c86b486e99f798b75aa48778",
+    "g20d_f6_unit_membership_sanitized.csv": "e2392edb3425aa2dab0659ae90b3ee4359d448521c12f56603b12bc47cf749bd",
+    "g20d_reference_scope_coverage_sanitized.csv": "3b620cbd117735da5d1f4333bd8ff0119fcbb840e6aa447789e9b52447aceb69",
+    "g20d_unit_concept_hits_sanitized.csv": "33a02c47feafa97f8d3e75bc995e44c786884105fb17553ef3a6fe7c456cc7ac",
+    "g20d_unit_coverage_sanitized.csv": "8cb7303095aca17a0270f001ebd955588a448350e8d49ea8a815a8c40b9ca93b",
+    "g20d_universe_exclusions_sanitized.csv": "6a55fbcf4989417a6751e70560f5f6025071e4257383e0c479ebf60214766264",
+    "g20d_vocabulary_inventory_sanitized.csv": "fe9ef923747ac97764e6667c5e18ed8147ad9e890f358374b090977301845e6b",
+    "g20d_vocabulary_totals_sanitized.csv": "c3c8f2ed9de1b725a87060f4486de3d9fc4292011000e2dc8672e75a24a69a3a",
+    "g20d_zeus_source_disposition_sanitized.csv": "41a6b7975e6deef06a5fb67c6795bd8c433f96687c2291d46fa8abbf86975db9"
+  },
+  "labels_used_for_tuning": false,
+  "f6_updated": false,
+  "g20e_started": false
+}

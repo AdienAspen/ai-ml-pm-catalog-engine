@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-09-25T14:31:15.915908+00:00",
+  "original_freeze_sha256": "c183e7c5e0dd13cb4216d185dbdf5d3845d9b6cc9b5d5b435229e6792e801660",
+  "score_ledger_sha256": "07260a2875b2479fb69f6d6f2e5cd0818c4ae64c4c3fdb7cf14a6586e982ff73",
+  "lexical_hits_sha256": "33a02c47feafa97f8d3e75bc995e44c786884105fb17553ef3a6fe7c456cc7ac",
+  "curve_sha256": "96f06b70249606a9aef41eb619d68aeef17434508b828892afc212262944dbc8",
+  "prior_memo_sha256": "beb6b25722533239350b058c961a2861c1169b43659a48528390bf0e80c8d2f4",
+  "prior_run_manifest_sha256": "4ce856f10fd8e460d5b7eac34e6977b14e687caa2aa5619142025d896b1c8e46",
+  "corrected_memo_sha256": "3afa57d93454b46e35612f8536231e7b7667d13c70672ee073c3d2e0420f1db7",
+  "corrected_run_manifest_sha256": "514e891273a7bc84aba08cea0514d0293976376168de7ec0333f6fb59e96df46",
+  "audit_sha256": "f4b8e917a3b06e5c18766cdcba3d01ebe8c54ed130cd27be0ac94cac6a1daffa",
+  "script_sha256": "cc8dc741c736fe5bd380dc0fd76ff7e157f7f1f594e74ba811f825e0fe316af8",
+  "threshold_selected": false,
+  "source_scores_unchanged": true
+}

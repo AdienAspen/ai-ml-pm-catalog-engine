@@ -1,0 +1,35 @@
+{
+  "frozen_at_utc": "2026-09-25T14:27:04.702348+00:00",
+  "thresholds": [
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6
+  ],
+  "target": "Symptom",
+  "path": "B1_RELATIONAL",
+  "universe": "model_eligible_construction_corpus",
+  "model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "normalization": "semantic_normalisation_v2",
+  "scoring": "T5.1b2X_L2_cosine_max_prototype_per_source_segment",
+  "prototype_scope": "same_eight_frozen_WMEP_effects_as_G2.0d2",
+  "zeus_disposition": "category_definition_only_no_lexical_prototype",
+  "threshold_selected": false,
+  "evaluation_labels_used": false,
+  "source_sha256": {
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20d2_semantic_reference_coverage/g20d2_unit_scores_sanitized.csv": "58d96a59f55f86986b99ea7286005a1430c20769e3948a29f8cbf8c7ec5d55df",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20d2_semantic_reference_coverage/g20d2_prototype_registry_sanitized.csv": "8ff60a966a95f881eff5f4f30aa15cd456a1309f863c2c018d4a132202dfae9e",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20d2_semantic_reference_coverage/g20d2_freeze_manifest.json": "7ba56629518ce9f4074fc26b6dcbc64323d70cc0faa9ba41c0e39162531ca67d",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20d_catalogue_free_coverage/g20d_zeus_source_disposition_sanitized.csv": "41a6b7975e6deef06a5fb67c6795bd8c433f96687c2291d46fa8abbf86975db9",
+    "data/interim/extracted_source/package_001_37cac7fe/Data/Vestas/api_service_v1_service-orders.json": "ea2da2cb2d405c07d7cbf804e722e10acb9b5c984d5307384a31742434163758",
+    "stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20_target_leakage_quantification/g20b_leakage_regex_catalog_sanitized.csv": "51bbbb2408e8f9440f67e6c79419ed0b04fe1e641ae2527218a36fb70a441243",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20c_neutral_ngram_extraction.py": "e5c37a7569997793cdcd6b59ce5ea148a0b26a6bf6bba79955a0b0d624e0c040",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20d2_semantic_reference_coverage.py": "573bf2f4e560c2720bc43e73b5811756720b8d5bcf0318e838278e16785701d4",
+    "stint-2-target-ml-prototyping/g2_baseline_models/scripts/g20d3_symptom_threshold_review.py": "c04a09c408dd4eae0ec522ba9d1e814ad3a8c9dc7cd62464736785cb9ad4cf6d",
+    "stint-1-evidence-ground-truth/phase_5_symptom/scripts/t51b2x_reason_semantic_classification_normalized.py": "007fd237db3194d67677138ab2680c2596e76f2cd7d0b99292fa0e1c733a6766"
+  },
+  "coverage_observed": false
+}

@@ -1,0 +1,8 @@
+target,path_bucket,universe,threshold,intersection_units,same_concept_units,different_best_concept_units,same_concept_share,leading_mismatch_lexical_concept_key,leading_mismatch_semantic_concept_key,leading_mismatch_units,threshold_selected,evaluation_set_type,raw_operational_values_emitted
+Symptom,B1_RELATIONAL,model_eligible_construction_corpus,0.3,185,16,169,0.08648648648648649,CONCEPT-3b782428828d,CONCEPT-7505cf11061f,151,False,not_evaluation_diagnostic_threshold_sweep,False
+Symptom,B1_RELATIONAL,model_eligible_construction_corpus,0.35,18,11,7,0.6111111111111112,CONCEPT-59e1fd02f6c2,CONCEPT-9ada8e83c118,5,False,not_evaluation_diagnostic_threshold_sweep,False
+Symptom,B1_RELATIONAL,model_eligible_construction_corpus,0.4,8,7,1,0.875,CONCEPT-3b782428828d,CONCEPT-6ed892b0b9a8,1,False,not_evaluation_diagnostic_threshold_sweep,False
+Symptom,B1_RELATIONAL,model_eligible_construction_corpus,0.45,7,7,0,1.0,,,0,False,not_evaluation_diagnostic_threshold_sweep,False
+Symptom,B1_RELATIONAL,model_eligible_construction_corpus,0.5,4,4,0,1.0,,,0,False,not_evaluation_diagnostic_threshold_sweep,False
+Symptom,B1_RELATIONAL,model_eligible_construction_corpus,0.55,3,3,0,1.0,,,0,False,not_evaluation_diagnostic_threshold_sweep,False
+Symptom,B1_RELATIONAL,model_eligible_construction_corpus,0.6,2,2,0,1.0,,,0,False,not_evaluation_diagnostic_threshold_sweep,False

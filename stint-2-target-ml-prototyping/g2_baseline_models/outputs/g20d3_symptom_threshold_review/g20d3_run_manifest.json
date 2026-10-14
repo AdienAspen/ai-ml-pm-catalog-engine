@@ -1,0 +1,17 @@
+{
+  "completed_at_utc": "2026-09-25T14:28:23.489125+00:00",
+  "freeze_sha256": "c183e7c5e0dd13cb4216d185dbdf5d3845d9b6cc9b5d5b435229e6792e801660",
+  "target": "Symptom",
+  "path": "B1_RELATIONAL",
+  "universe": "model_eligible_construction_corpus",
+  "threshold_selected": false,
+  "evaluation_labels_used": false,
+  "status": "diagnostic_curve_only_no_threshold_selection",
+  "outputs": {
+    "g20d3_symptom_b1_best_scores_sanitized.csv": "07260a2875b2479fb69f6d6f2e5cd0818c4ae64c4c3fdb7cf14a6586e982ff73",
+    "g20d3_symptom_b1_concept_distribution_sanitized.csv": "511ebada9294f26acec8fb2a825b9276c9b12bdd7f43f1ffe61e5ebd90b42a8d",
+    "g20d3_symptom_b1_threshold_curve_sanitized.csv": "96f06b70249606a9aef41eb619d68aeef17434508b828892afc212262944dbc8",
+    "g20d3_overlap_concept_alignment_sanitized.csv": "f4b8e917a3b06e5c18766cdcba3d01ebe8c54ed130cd27be0ac94cac6a1daffa"
+  },
+  "concept_alignment_audit": "reported_separately_no_threshold_selected"
+}

@@ -1,0 +1,11 @@
+target,f6_path,declared_units,reconstructed_source_rows,comparable_unit_membership,historical_keys_in_step5,historical_keys_outside_step5,status,raw_operational_values_emitted
+Cause,B1_RELATIONAL_TEXTUAL,1250,1250,True,1250.0,0.0,same_units_descriptive_not_causal_detector_effect,False
+Cause,B2_WORKBOOK_SNAPSHOTS,57,57,False,0.0,57.0,blocked_historical_membership_outside_step5_universe,False
+Cause,PATH_A_PDF_EVENTS,36,36,True,36.0,0.0,same_units_descriptive_not_causal_detector_effect,False
+Damage,B1_RELATIONAL_TEXTUAL,1263,1263,True,1263.0,0.0,same_units_descriptive_not_causal_detector_effect,False
+Damage,B2_WORKBOOK_SNAPSHOTS,110,110,False,0.0,110.0,blocked_historical_membership_outside_step5_universe,False
+Damage,PATH_A_PDF_EVENTS,116,116,False,68.0,48.0,blocked_historical_membership_outside_step5_universe,False
+Symptom,B2_WORKBOOKS,62,62,False,,,blocked_legacy_text_row_vs_event_unit_no_numeric_delta,False
+Symptom,PATH_A_CONCERN_TABLE,68,68,False,,,blocked_legacy_text_row_vs_event_unit_no_numeric_delta,False
+Symptom,PATH_A_NOTES,42,42,False,,,blocked_legacy_text_row_vs_event_unit_no_numeric_delta,False
+Symptom,RELATIONAL_REASON,1827,1827,True,1827.0,0.0,same_units_descriptive_not_causal_detector_effect,False

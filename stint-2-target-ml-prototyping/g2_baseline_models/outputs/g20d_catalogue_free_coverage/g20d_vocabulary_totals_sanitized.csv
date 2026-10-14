@@ -1,0 +1,7 @@
+target,anchor_source,source_entries,concepts,lexical_forms,raw_operational_values_emitted
+Cause,domain_vocabulary,32,16,32,False
+Cause,sap_catalog,58,55,54,False
+Damage,domain_vocabulary,152,114,137,False
+Damage,sap_catalog,46,45,45,False
+Symptom,domain_vocabulary,16,8,16,False
+Symptom,sap_catalog,25,22,22,False

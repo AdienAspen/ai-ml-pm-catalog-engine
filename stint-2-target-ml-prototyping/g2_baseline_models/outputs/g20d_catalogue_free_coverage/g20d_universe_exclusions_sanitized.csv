@@ -1,0 +1,4 @@
+path_bucket,full_cleaned_units,model_eligible_units,evaluation_set_v1_excluded,additional_heldout_excluded,raw_operational_values_emitted
+B1_RELATIONAL,10749,9263,1376,110,False
+B2_WORKBOOKS,1857,1478,379,0,False
+PATH_A,362,159,203,0,False

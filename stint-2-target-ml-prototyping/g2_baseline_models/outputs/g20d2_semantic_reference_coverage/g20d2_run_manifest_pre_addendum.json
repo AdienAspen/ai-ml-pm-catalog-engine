@@ -1,0 +1,16 @@
+{
+  "completed_at_utc": "2026-09-24T21:26:07.229502+00:00",
+  "frozen_instrument_sha256": "7ba56629518ce9f4074fc26b6dcbc64323d70cc0faa9ba41c0e39162531ca67d",
+  "model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "threshold": 0.5,
+  "unit_target_rows": 38904,
+  "model_eligible_units": 10900,
+  "labels_used_for_calibration": false,
+  "status": "descriptive_complete_b2_provisional_no_accuracy_claim",
+  "outputs": {
+    "g20d2_assigned_concepts_sanitized.csv": "faa27a9046d7e8d9b0218c2dabb00e3c4346c70e9a77991b941ec412f6912279",
+    "g20d2_detector_comparison_sanitized.csv": "d5e41a7fd388cc607f6c84fc522dc914d6387b42234a8c4080a11fe3ef0900af",
+    "g20d2_prototype_registry_sanitized.csv": "8ff60a966a95f881eff5f4f30aa15cd456a1309f863c2c018d4a132202dfae9e",
+    "g20d2_unit_scores_sanitized.csv": "58d96a59f55f86986b99ea7286005a1430c20769e3948a29f8cbf8c7ec5d55df"
+  }
+}
