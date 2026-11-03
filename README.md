@@ -1,8 +1,12 @@
 # FSA BRIDGE - ML Feasibility for SAP S/4HANA PM Catalog Mapping
 
-This proof of concept examines when legacy wind-turbine maintenance records contain enough evidence to support mapping into SAP S/4HANA Plant Maintenance catalog codes.
+This industry-grade POC examines when legacy plant maintenance records contain enough evidence to support mapping into SAP S/4HANA Plant Maintenance catalog codes.
 
 The implementation and cited evidence are maintained on the [`stint-2-target-ml-prototyping` branch](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/tree/stint-2-target-ml-prototyping); `main` is the public overview. Artifact links below point to that branch.
+
+## Development stages
+
+The published branches preserve successive stages of the project ("stints") and show how the evidence and methods evolved. `feasibility-assessment` contains the initial prospection; `reference-layer-v1` adds the reference layer; `stint-1-evidence-ground-truth` reconstructs the evidence and denominators; and `stint-2-target-ml-prototyping` contains the target-specific diagnostics. `main` provides this overview.
 
 ## Scope and findings
 
@@ -13,7 +17,7 @@ The analysis separates direct fields, structural joins, text-derived candidates,
 | B1 finding | Persisted figure | Interpretation |
 |---|---:|---|
 | MAT direct field | 10,749 orders | The sole contractual denominator; not an ML prediction. [F6](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/g1_actionable_zeros/g1_denominator_update/outputs/f6_final_denominators_sanitized.csv) |
-| Turbine FLOC structural match | 10,699 of 10,749 orders | Turbine-level alignment; no FLOC leaf admission. [F6](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/g1_actionable_zeros/g1_denominator_update/outputs/f6_final_denominators_sanitized.csv) |
+| Asset-level FLOC structural match | 10,699 of 10,749 orders | Structural asset alignment; no component leaf admission. [F6](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/g1_actionable_zeros/g1_denominator_update/outputs/f6_final_denominators_sanitized.csv) |
 | Object Part / Activity corpus anchors | 7,668 / 7,606 orders | Descriptive full B1 corpus; concepts are not validated SAP codes. [G2.0c contrast](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20_corpus_native_domain_vocab/g20c_coverage_contrast_sanitized.csv) |
 | Damage / Cause / Symptom semantic signal | 3,078 / 289 / 104 orders | External-vocabulary detector on a different, 9,263-order model-eligible B1 universe; not comparable as prevalence to the preceding row. [G2.0d2 comparison](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20d2_semantic_reference_coverage/g20d2_detector_comparison_sanitized.csv) |
 | Component profile candidate | 3,935 orders | Text-assisted node or profile resolution, not a validated component FLOC or code assignment. [G2.0k.3 partition](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20k_component_lift/g20k3_partition_summary_sanitized.csv) |
@@ -33,7 +37,7 @@ Paths are never aggregated. Path A and B2 snapshot groupings are provisional; ep
 | Target | SAP destination or field | Resolution investigated |
 |---|---|---|
 | MAT / Activity Type | Direct structured field | Observed value |
-| FLOC | Functional location | Structural turbine join; component remains candidate-level |
+| FLOC | Functional location | Structural asset join; component remains candidate-level |
 | Symptom | Catalog S | Text signal and profile-scoped code space |
 | Object Part | Catalog B | Text concepts, material crosswalk, component/profile constraints |
 | Damage | Catalog C | Text signal and two-level group/code annotation |
@@ -49,14 +53,14 @@ source record -> normalized text / direct fields -> domain concept
               -> hierarchy node -> inherited catalog profile -> eligible group + code pair
 ```
 
-Not every target uses every stage: MAT is direct, turbine FLOC is structural, and text-derived candidates require additional checks.
+Not every target uses every stage: MAT is direct, asset-level FLOC is structural, and text-derived candidates require additional checks.
 
 | Stage | Implemented work | Main reference |
 |---|---|---|
 | Initial prospection | Numbered inventory, schema, source and safety scripts in `scripts/` | [STINT 0 plan](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/docs/stint_0_reconstruction_plan.md) |
 | STINT 1.1 | Frozen canonical constraints, source designations, normalization and SAP reference vocabulary | [Reference layer](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-1.1-reference-layer/README.md) |
 | STINT 1 | Path-specific evidence reconstruction and denominator matrix | [Evidence layer](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-1-evidence-ground-truth/README.md) |
-| STINT 2, G0/G1 | Blind evaluation registration, material crosswalk and turbine alignment | [STINT 2 overview](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/README.md) |
+| STINT 2, G0/G1 | Blind evaluation registration, material crosswalk and asset alignment | [STINT 2 overview](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/README.md) |
 | STINT 2, G2.0c-k | Corpus-native concepts, external-vocabulary detectors, catalog-code diagnostics, profile inheritance and component-link partitions | [Closure manifest](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/docs/stint2_closure_manifest.md) |
 
 G2.0c embeds filtered corpus terms with `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`, groups normalized vectors with `MiniBatchKMeans`, and maps concepts to target and catalog candidates in later, separate steps. The [Step 3 memo](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20_corpus_native_domain_vocab/g20c_step3_semantic_grouping_memo.md) records the historical fit; the [release reconciliation](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/g2_baseline_models/outputs/g20_corpus_native_domain_vocab/g20c_release_sanitization_memo.md) distinguishes later member pruning from reclustering. Dependency constraints are in [pyproject.toml](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/pyproject.toml) and pinned versions in [uv.lock](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/uv.lock).
@@ -108,6 +112,14 @@ The numbered root scripts, STINT 1 phases, and STINT 2 `g*` scripts are **not** 
 - Component-level registration needs an explicit operator decision and independent human review. Path A and B2 need data-engineering episode reconstruction before their estimated events can serve as completed histories.
 
 `G2` is not closed by this evidence register. The next modeling decision should use target-specific, path-specific evaluation and the declared registration level; it should not extrapolate these diagnostic figures into a contractual success rate.
+
+## Publications
+
+For a deeper account of the main engineering findings and contributions, see the forthcoming white paper and related publications. Links will appear here as they become available.
+
+- Medium — white paper; link pending.
+- Weights & Biases — related publication; link pending.
+- LinkedIn — project summary; link pending.
 
 ## License
 
