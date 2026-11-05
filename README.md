@@ -24,6 +24,13 @@ The analysis separates direct fields, structural joins, text-derived candidates,
 
 These rows have different evidence levels and universes; they must not be added or treated as a global success rate. The four operating layers are deterministic structure, ML-addressable signal, operator decision, and data preparation. [F6](https://github.com/AdienAspen/ai-ml-pm-catalog-engine/blob/stint-2-target-ml-prototyping/stint-2-target-ml-prototyping/g1_actionable_zeros/g1_denominator_update/outputs/f6_final_denominators_sanitized.csv) records the layer for each figure.
 
+## Signal Report Template
+
+A reusable decision instrument for feasibility studies that map free text into a controlled vocabulary.
+It scores each decision unit on five dimensions and assigns a verdict: Ready · Conditional · Not ready · Not assessable.
+
+→ [Template](templates/signal_report_template.md) · [Blank scorecard (CSV)](templates/signal_report_template.csv)
+
 ## Sources and targets
 
 | Path | Source | Counting unit | Availability |
